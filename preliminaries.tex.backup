@@ -9,17 +9,17 @@
 \degreefield{Computer Science}
 
 % Your name as it appears on official UCI records.
-\authorname{William Augustine Dunn}
+\authorname{Your name}
 
 % Use the full name of each committee member.
-\committeechair{Anthony A. James}
+\committeechair{Professor A}
 \othercommitteemembers
 {
-  Xiaohui Xie\\
-  Donald F. Senear
+  Professor B\\
+  Professor C
 }
 
-\degreeyear{2013}
+\degreeyear{2012}
 
 \copyrightdeclaration
 {
