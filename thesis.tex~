@@ -9,8 +9,8 @@
 % Notes: Add short title to figures, sections, via square brackets,
 % e.g. \section[short]{long}.
 %
-\documentclass[12pt,fleqn]{ucithesis}
-%\documentclass[12pt,fleqn]{report}
+%\documentclass[12pt,fleqn]{ucithesis}
+\documentclass[12pt,fleqn]{report}
 
 \usepackage{kpfonts}
 \usepackage[T1]{fontenc}

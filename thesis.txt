@@ -1,0 +1,406 @@
+
+
+
+
+
+
+
+
+
+
+
+[12pt,fleqn]ucithesis
+
+kpfonts
+[T1]fontenc
+
+
+
+
+amsmath
+amsthm
+array
+graphicx
+natbib
+relsize
+
+
+caption
+subcaption  
+multirow
+tabularx
+
+
+
+[plainpages=false,pdfborder=0 0 0]hyperref
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[utf8x]inputenc
+
+
+
+
+
+
+
+
+theoremTheorem[chapter]
+definitionDefinition[chapter]
+exampleExample[chapter]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+abbrv
+
+
+
+
+
+
+[figure]list=no
+[table]list=no
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix Title
+
+Supplementary material goes here. 
+
+Lorem Ipsum
+
+dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conclusions
+
+Purpose
+xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+ xxx
+
+
+
+
+
+
+Contributions to Literature Not Otherwise Mentioned
+
+Purpose
+xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+ xxx
+
+
+
+
+
+
+
+Analysis of Conservation of Midgut Transcriptional Response to Bloodfeeding in Four Vector Mosquitoes
+
+Purpose
+xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+ xxx
+
+
+
+
+
+
+
+Software Development to Support Analytical Approach
+
+Purpose
+Illustrate how lessons learned in previous chapter (as well as new lessons introduced here) are addressed through bespoke software solutions.
+
+ xxx
+
+
+
+
+
+
+
+Review of Literature Contributions and Development of Analytical Approach
+
+Purpose
+Review a selection of my contributions to the literature that have informed the approach use din this project throughout my tenure as a member of the lab
+
+ Comparative genomics allows the discovery of cis-regulatory elements in mosquitoes
+  
+   Use of comparative genomics to discover putative CREs from orthologous promoter regions in mosquitoes that were able to be corelated with bloodmeal associated transcription control
+  
+ RNA-seq analyses of blood-induced changes in gene expression in the mosquito vector species, Aedes aegypti
+  
+   relevance
+  
+
+ Strain Variation in the Transcriptome of the Dengue Fever Vector, Aedes aegypti
+   
+   relevance
+  
+ Comparative Transcriptome Analyses of Deltamethrin-Resistant and-Susceptible Anopheles gambiae Mosquitoes from Kenya by RNA-Seq
+   
+   relevance
+  
+ Complex Modulation of the Aedes aegypti Transcriptome in Response to Dengue Virus Infection
+   
+   relevance
+  
+
+
+
+
+
+
+
+Introduction
+
+Purpose
+Introduce core concepts relating to my project such as:
+
+ Importance of Dengue and Malaria
+ Transmission cycle dependant on Mosquitoes
+ Limited effectiveness (medical/finacial) of treatmeant of the diseases in rural poor human communities
+ Vector Control Strategies
+ How Transgenesis modifies the vector control landscape
+ Elements of Successful Transgenesic Vector Control
+ Introduction to control of transcription and imoprtance of CRE/CRMs
+
+
+
+
+
+
+
+
+
+
+
+  Title of the Thesis
+
+
+Doctor of Philosophy
+
+
+
+Biological Sciences
+
+
+William Augustine Dunn
+
+
+Anthony A. James
+
+
+  Xiaohui Xie
+  Donald F. Senear
+
+
+2013
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  (Optional dedication page)
+  
+  To ...
+
+
+
+
+  I would like to thank...
+  
+  (You must acknowledge grants and other funding assistance. 
+  
+  You may also acknowledge the contributions of professors and
+  friends.
+  
+  You also need to acknowledge any publishers of your previous
+  work who have given you permission to incorporate that work
+  into your dissertation. See Section 3.2 of the UCI Thesis and
+  Dissertation Manual.)
+
+
+
+
+[3]
+  1@p4.5inr
+    #1 & #2  
+    2@p.95#36pt 
+  
+
+[3]
+  1@lr
+    #1 & #2 
+    2@p.95
+    #3-6pt 
+  
+
+
+
+
+
+
+
+
+
+
+EDUCATION
+  
+  1@lr
+    Doctor of Philosophy in Computer Science & 2012 
+    6pt
+    University name & City, State 
+    Bachelor of Science in Computational Sciences & 2007 
+    6pt
+    Another university name & City, State 
+  
+
+12pt
+RESEARCH EXPERIENCE
+
+  1@lr
+    Graduate Research Assistant & 2007--2012 
+    6pt
+    University of California, Irvine & Irvine, California 
+  
+
+12pt
+TEACHING EXPERIENCE
+
+  1@lr
+    Teaching Assistant & 2009--2010 
+    6pt
+    University name & City, State 
+  
+
+
+
+REFEREED JOURNAL PUBLICATIONS
+
+  Ground-breaking article2012Journal name
+
+12pt
+REFEREED CONFERENCE PUBLICATIONS
+
+  Awesome paperJun 2011Conference name
+  Another awesome paperAug 2012Conference name
+
+12pt
+SOFTWARE
+
+  Magical toolhttp://your.url.here/
+  C++ algorithm that solves TSP in polynomial time.
+
+
+
+
+
+
+
+  The abstract of your contribution goes here.
+
+
+
+
+
+
+

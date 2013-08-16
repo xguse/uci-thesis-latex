@@ -1,7 +1,7 @@
-\chapter{Introduction}
+\chapter{Software Development to Support Analytical Approach}
 
 \section{Purpose}
-Introduce core concepts relating to my project such as:
+Illustrate how lessons learned in previous chapter (as well as new lessons introduced here)
 \begin{enumerate}
  \item Importance of Dengue and Malaria
  \item Transmission cycle dependant on Mosquitoes
@@ -11,9 +11,6 @@ Introduce core concepts relating to my project such as:
  \item Elements of Successful Transgenesic Vector Control
  \item Introduction to control of transcription and imoprtance of CRE/CRMs
 \end{enumerate}
-
-
-
 
 
 %%% Local Variables: ***

@@ -1,0 +1,30 @@
+\begin{tocenv}
+\tocitem \@locref{htoc1}{\begin{@norefs}\@print{Chapter&#XA0;1}\quad{}Introduction{}\end{@norefs}}
+\begin{tocenv}
+\tocitem \@locref{htoc2}{\begin{@norefs}\@print{1.1}\quad{}Purpose{}\end{@norefs}}
+\end{tocenv}
+\tocitem \@locref{htoc3}{\begin{@norefs}\@print{Chapter&#XA0;2}\quad{}Review of Literature Contributions and Development of Analytical Approach{}\end{@norefs}}
+\begin{tocenv}
+\tocitem \@locref{htoc4}{\begin{@norefs}\@print{2.1}\quad{}Purpose{}\end{@norefs}}
+\end{tocenv}
+\tocitem \@locref{htoc5}{\begin{@norefs}\@print{Chapter&#XA0;3}\quad{}Software Development to Support Analytical Approach{}\end{@norefs}}
+\begin{tocenv}
+\tocitem \@locref{htoc6}{\begin{@norefs}\@print{3.1}\quad{}Purpose{}\end{@norefs}}
+\end{tocenv}
+\tocitem \@locref{htoc7}{\begin{@norefs}\@print{Chapter&#XA0;4}\quad{}Analysis of Conservation of Midgut Transcriptional Response to Bloodfeeding in Four Vector Mosquitoes{}\end{@norefs}}
+\begin{tocenv}
+\tocitem \@locref{htoc8}{\begin{@norefs}\@print{4.1}\quad{}Purpose{}\end{@norefs}}
+\end{tocenv}
+\tocitem \@locref{htoc9}{\begin{@norefs}\@print{Chapter&#XA0;5}\quad{}Contributions to Literature Not Otherwise Mentioned{}\end{@norefs}}
+\begin{tocenv}
+\tocitem \@locref{htoc10}{\begin{@norefs}\@print{5.1}\quad{}Purpose{}\end{@norefs}}
+\end{tocenv}
+\tocitem \@locref{htoc11}{\begin{@norefs}\@print{Chapter&#XA0;6}\quad{}Conclusions{}\end{@norefs}}
+\begin{tocenv}
+\tocitem \@locref{htoc12}{\begin{@norefs}\@print{6.1}\quad{}Purpose{}\end{@norefs}}
+\end{tocenv}
+\tocitem \@locref{htoc13}{\begin{@norefs}\@print{Appendix&#XA0;A}\quad{}Appendix Title{}\end{@norefs}}
+\begin{tocenv}
+\tocitem \@locref{htoc14}{\begin{@norefs}\@print{A.1}\quad{}Lorem Ipsum{}\end{@norefs}}
+\end{tocenv}
+\end{tocenv}
