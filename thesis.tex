@@ -12,28 +12,129 @@
 \documentclass[12pt,fleqn]{ucithesis}
 %\documentclass[12pt,fleqn]{report}
 
-\usepackage{kpfonts}
-\usepackage[T1]{fontenc}
-
-
-
-% A few common packages
-\usepackage{amsmath}
+% 
+% % A few common packages
+% \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{array}
-\usepackage{graphicx}
-\usepackage{natbib}
 \usepackage{relsize}
+% 
 
-% Some other useful packages
-\usepackage{caption}
-\usepackage{subcaption}  % \begin{subfigure}...\end{subfigure} within figure
-\usepackage{multirow}
 \usepackage{tabularx}
+
+% My Packages:
+\usepackage{tikz}
+\usepackage{natbib}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{paralist}
+\usepackage{booktabs}
+\usepackage[bf]{caption}
+\usepackage{subcaption}  % \begin{subfigure}...\end{subfigure} within figure
+\usepackage{soul}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+
+
+\usepackage[nointegrals]{wasysym}
+
+
+
+
+
+% other libraries that I use
+\usepackage{amsmath,amssymb}
+\usepackage{colortbl}
+\usepackage{calc}
+\usepackage{color}
+\usepackage{fancybox}
+%\usepackage{subfigure}
+\usepackage{verbatim}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\usepackage{float,wrapfig}
+\usepackage{ifthen}
+
+\include{fonts}
+
+
+
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{setspace}
+
+
+\renewcommand{\lstlistlistingname}{List of Code}
+\renewcommand{\lstlistingname}{Code Listing}
+
+\definecolor{shade}{HTML}{D4D7FE}
+\definecolor{gray}{gray}{0.5}
+\definecolor{green}{rgb}{0,0.5,0}
+
+\lstnewenvironment{python}[1][]{
+\lstset{
+language=python,
+basicstyle=\ttfamily\small\setstretch{1},
+stringstyle=\color{red},
+tabsize=4,
+showstringspaces=false,
+alsoletter={1234567890},
+otherkeywords={\ , \}, \{},
+keywordstyle=\color{blue},
+emph={access,and,break,class,continue,def,del,elif,else,%
+except,exec,finally,for,from,global,if,import,in,is,%
+lambda,not,or,pass,print,raise,return,try,while},
+emphstyle=\color{black}\bfseries,
+emph={[2]True, False, None, self},
+emphstyle=[2]\color{green},
+emph={[3]from, import, as},
+emphstyle=[3]\color{blue},
+upquote=true,
+morecomment=[s]{"""}{"""},
+breaklines=true,
+commentstyle=\color{green}\slshape,
+emph={[4]1, 2, 3, 4, 5, 6, 7, 8, 9, 0},
+emphstyle=[4]\color{blue},
+literate=*{:}{{\textcolor{blue}:}}{1}%
+	{=}{{\textcolor{blue}=}}{1}%
+	{-}{{\textcolor{blue}-}}{1}%
+	{+}{{\textcolor{blue}+}}{1}%
+	{*}{{\textcolor{blue}*}}{1}%
+	{!}{{\textcolor{blue}!}}{1}%
+	{(}{{\textcolor{blue}(}}{1}%
+	{)}{{\textcolor{blue})}}{1}%
+	{[}{{\textcolor{blue}[}}{1}%
+	{]}{{\textcolor{blue}]}}{1}%
+	{<}{{\textcolor{blue}<}}{1}%
+	{>}{{\textcolor{blue}>}}{1}%
+	{\_}{}{0\discretionary{\_}{}{\_}},%
+framexleftmargin=1mm, framextopmargin=1mm, frame=shadowbox, rulesepcolor=\color{blue},#1
+}}{}
+
+
+\newfloat{floater}{thp}{floater}[chapter]
+\floatname{floater}{Floater}
+
+
+
+
+%%%%%%   END LOAD LIBRARIES   %%%%%%   
+
+
+\include{wad_defs}
+
 
 % plainpages=false fixes the "duplicate ignored" error with page counters
 % Set pdfborder to 0 0 0 to disable colored borders around PDF hyperlinks
-\usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
+\usepackage[plainpages=false,pdfborder={0 0 0},colorlinks]{hyperref}
+% \usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
+
+
+\usepackage[acronym]{glossaries}
+\makeglossaries
+
+\include{glossary_terms}
+\include{acronym_terms}
 
 % Uncomment the following two lines to use the algorithm package,
 % which provides an algorithm environment similar to figure and table
@@ -71,7 +172,7 @@
 % Very handy to speed up compilation if you're working on a certain
 % part of your thesis. It conserves page numbers, references, etc.
 % even for non-included files.
-%\includeonly{0_introduction.tex}
+\includeonly{0_introduction,appendix}
 
 \begin{document}
 
