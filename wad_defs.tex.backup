@@ -18,7 +18,18 @@
 \newcommand\chkBoxX{ {\CheckedBox} }
 
 
+%% Species definitions and abbrivs
+\newcommand{\Aea}{\textit{Aedes aegypti}}
+\newcommand{\Aa}{\textit{Ae. aegypti}}
 
+\newcommand{\Ang}{\textit{Anopheles gambiae}}
+\newcommand{\Ag}{\textit{An. gambiae}}
+
+\newcommand{\Ans}{\textit{Anopheles stephensi}}
+\newcommand{\As}{\textit{An. stephensi}}
+
+\newcommand{\Cxq}{\textit{Culex quinquefasciatus}}
+\newcommand{\Cq}{\textit{Cx. quinquefasciatus}}
 
 % miniSolns are little on-the-spot mixes rather than stock solutions
 % \newcommand\miniSoln[1]{%

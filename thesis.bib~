@@ -2935,11 +2935,7 @@ url = {http://www.ncbi.nlm.nih.gov/pubmed/1903400},
 volume = {266},
 year = {1991}
 }
-@article{Franz2006,
-author = {Franz, Alexander W E and Sanchez-vargas, Irma and Adelman, Zach N and Blair, Carol D and Beaty, Barry J and James, Anthony A and Olson, Ken E},
-title = {{Engineering RNA interference-based resistance to dengue virus type 2 in genetically modified Aedes aegypti}},
-year = {2006}
-}
+
 @article{Franz2006,
 abstract = {Mosquitoes (Aedes aegypti) were genetically modified to exhibit impaired vector competence for dengue type 2 viruses (DENV-2). We exploited the natural antiviral RNA interference (RNAi) pathway in the mosquito midgut by constructing an effector gene that expresses an inverted-repeat (IR) RNA derived from the premembrane protein coding region of the DENV-2 RNA genome. The A. aegypti carboxypeptidase A promoter was used to express the IR RNA in midgut epithelial cells after ingestion of a bloodmeal. The promoter and effector gene were inserted into the genome of a white-eye Puerto Rico Rexville D (Higgs' white eye) strain by using the nonautonomous mariner MosI transformation system. A transgenic family, Carb77, expressed IR RNA in the midgut after a bloodmeal. Carb77 mosquitoes ingesting an artificial bloodmeal containing DENV-2 exhibited marked reduction of viral envelope antigen in midguts and salivary glands after infection. DENV-2 titration of individual mosquitoes showed that most Carb77 mosquitoes poorly supported virus replication. Transmission in vitro of virus from the Carb77 line was significantly diminished when compared to control mosquitoes. The presence of DENV-2-derived siRNAs in RNA extracts from midguts of Carb77 and the loss of the resistance phenotype when the RNAi pathway was interrupted proved that DENV-2 resistance was caused by a RNAi response. Engineering of transgenic A. aegypti that show a high level of resistance against DENV-2 provides a powerful tool for developing population replacement strategies to control transmission of dengue viruses.},
 author = {Franz, Alexander W E and Sanchez-Vargas, Irma and Adelman, Zach N and Blair, Carol D and Beaty, Barry J and James, Anthony A and Olson, Ken E},

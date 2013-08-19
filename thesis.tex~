@@ -133,8 +133,9 @@ framexleftmargin=1mm, framextopmargin=1mm, frame=shadowbox, rulesepcolor=\color{
 \usepackage[acronym]{glossaries}
 \makeglossaries
 
-\include{glossary_terms}
-\include{acronym_terms}
+\input{glossary_terms}
+\input{acronym_terms}
+\input{species_defs}
 
 % Uncomment the following two lines to use the algorithm package,
 % which provides an algorithm environment similar to figure and table
@@ -172,7 +173,7 @@ framexleftmargin=1mm, framextopmargin=1mm, frame=shadowbox, rulesepcolor=\color{
 % Very handy to speed up compilation if you're working on a certain
 % part of your thesis. It conserves page numbers, references, etc.
 % even for non-included files.
-\includeonly{0_introduction}
+\includeonly{0_introduction,appendix}
 
 \begin{document}
 
