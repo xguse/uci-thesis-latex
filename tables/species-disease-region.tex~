@@ -6,5 +6,6 @@ x & x & x\\
 x & x & x
 \end{tabular}
 \end{center}
-\caption{species-disease-region: information}\label{tab:species-disease-region}
+\caption{species-disease-region: information}
+\label{tab:species-disease-region}
 \end{table} 

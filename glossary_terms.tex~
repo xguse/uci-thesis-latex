@@ -1,4 +1,8 @@
 
+\newglossaryentry{germline}{name={germline},
+description={the cells responsible for eventually forming the sperm or egg cells in a mature sexual organism}}
+
+
 \newglossaryentry{phic31}{name={\phic},sort={phic31},
 description={a site-specific bacteriophage recombinase that performs precise, unidirectional recombination between two sites called attB and attP}}
 

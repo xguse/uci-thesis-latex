@@ -17,82 +17,76 @@ Introduce core concepts relating to my project such as:
 
 \section{Dengue fever and malaria are mosquito borne diseases}
 
-There are many mosquito borne diseases that afflict the world's population; \alert{however, the James Lab focuses on two of the major ones: dengue fever and malaria}.
-The causative agents of these two diseases are a suite of four species of RNA viruses (Dengue Virus 1-4) and a suite of five species of protist from the genus \textit{Plasmodium}, respectively.
-However, in any \textbf{single} geographic location they are generally transmitted by a single species of mosquito \alert{CITEME}. 
+There are many mosquito borne diseases that afflict the world's population.
+Dengue fever and malaria are two important such diseases resulting in major health and productivity deficits in many developing nations worldwide \CITEME.
+The causative agents of these two diseases are a suite of four species of RNA viruses (Dengue Virus 1-4) and a group of five species of protist from the genus \textit{Plasmodium}, respectively (\Plf, \Pv, \Po, \Pm, and \Pk).
+However, in any \textbf{single} geographic location each disease is primarily transmitted by a single species of mosquito \CITEME (Table \ref{tab:species-disease-region}). 
 
-\alert{TABLE HERE}
+\input{tables/species-disease-region}
 
 The fact that both of these diseases are caused by multiple pathogen species complicates efforts to prevent human disease: particularly when addressed from the perspective of providing therapeutic or prophylactic care directly to human patients.
+
+\alert{MORE HERE ABOUT WHY THIS COMPLICATES THINGS}
 
 \section{The transmission cycles of dengue fever and malaria require mosquitoes}
 
 Another very important aspect of both of these diseases is that people do not become infected through interaction with other people, and mosquitoes do not become infected through interaction with other mosquitoes.
 The transmission cycles transmission of both diseases require that the pathogen be passed from human to mosquito or from mosquito to human.
-This pattern has important consequences that we can exploit to prevent the transmission cycle from producing as many infected individuals.
+This pattern has important consequences that can be exploited to reduce the number of people who will become infected with dengue fever or malaria.
 
 \subsection{Transmission cycle}
 
+\textbf{In Brief:}
 \begin{enumerate}
-\item a female mosquito bites infected person
-\item the pathogen is taken into mosquito midgut with bloodmeal
-\item the pathogen must escape the midgut and gain access to the mosquito's circulatory system (the animal is now \textbf{infected})
-\item the pathogen must gain access to the mosquito's salivary glands (the animal is now \textbf{infectious})
-\item the infectious female mosquito bites an uninfected human and pathogens in her saliva are introduced to the person's body
+\item A female mosquito bites an infected person.
+\item The pathogen is taken into the mosquito's midgut along with bloodmeal.
+\item The pathogen must escape the midgut and gain access to the mosquito's circulatory system (the animal is now \textbf{infected}).
+\item The pathogen must gain access to the mosquito's salivary glands (the animal is now \textbf{infectious}).
+\item The infectious female mosquito bites an uninfected human and the pathogens in her saliva are introduced to the person's body as she feeds.
 \end{enumerate}
-While the specifics of how viruses and protists live and reproduce in mosquitoes and humans are quite different, the transmission cycles of dengue and malaria are very similar in their major events.
-The transmission of either pathogen from one infected human to another can both be summarized into five fundamental events.
+
+While the specifics of how viruses and protists live and reproduce in mosquitoes and humans are quite different, the transmission cycles of dengue and malaria are very similar in their critical events.
+The transmission cycle of either pathogen type can be encapsulated into five fundamental events.
 First, a female mosquito feeds on an infected human's blood taking up the pathogen as well.
-The bloodmeal is digested in the mosquito's midgut, \alert{and as you might expect, the midgut is the first stop for the pathogen too.}
-Escape of the midgut is the first critical step for the survival of the pathogen inside the mosquito.
+The bloodmeal is digested in the mosquito's midgut, and escape from the midgut is the first crucial step for the survival of the pathogen inside the mosquito.
 If it is trapped in the midgut, it will eventually be passed as waste after the bloodmeal is digested.
-If it manages to escape to the \gls{hemolymph}, the pathogen must gain access to the mosquito's salivary glands if it is to infect another human.
-If this step is unsuccessful, then the mosquito, while itself \textbf{infected}, is not \textbf{infectious} to other humans.
+If it manages to escape to the \gls{hemolymph}, the pathogen must survive long enough to gain access to the mosquito's salivary glands.
+If it is unable to infiltrate the salivary glands, then the mosquito, while itself \textbf{infected}, is not \textbf{infectious} to other humans.
 For this, the pathogen must be injected into the bloodstream of the next human along with the contents of the mosquito's saliva.
 
 \section{Public health: \emph{multiple targets}}
 
-\synopsis{
-\begin{itemize}
-\item The specifics of the transmission cycle of these diseases provides multiple targets for public health interventions
-\item focus on the human
-\item focus on the vector
-\end{itemize}
-}
-
-Because the arrow of transmission always\footnote{While some mosquito
+Because the arrows of transmission essentially\footnote{While some mosquito
   to non-human vertebrate transmission may occur, it is not thought to
   be sufficient to maintain the pathogen if the mosquito:human loop is
-  broken.} points from mosquito to human or from human to mosquito, if either of those arrows are broken, the cycle will collapse and the area would eventually be cleared of the pathogen provided the intervention is maintained.
-This model suggests that there are two primary targets for public health interventions aiming to reduce the \gls{incidence}
+  broken.}
+points from mosquito to human or from human to mosquito, the cycle will collapse and a local area would eventually be cleared of the pathogen if either of those arrows are broken, provided that the intervention is maintained.
+This model suggests two primary targets for public health interventions aiming to reduce the \gls{incidence}
 (followed by \gls{prevalence}) of infection in a population.
 
 \begin{enumerate}
-\item
-  prevent mosquitoes from infecting humans
-\item
-  prevent humans from infecting mosquitoes
+\item Prevent mosquitoes from infecting humans.
+\item Prevent humans from infecting mosquitoes.
 \end{enumerate}
 
-However, many of the interventions can not be clearly divided into addressing purely the human or vector side of the cycle.
-For example, any efforts to reduce the number of bites that humans receive from mosquitoes affects both the probabilities of the vector \emph{and} the human becoming infected.
-This is one reason that vector control rather than purely human-based interventions are almost always part of prevention strategies.
-For the purposes of this document, I will define human-based interventions to be those that are directly administered to the human's body.
+However, many interventions can not be clearly divided into addressing purely the human or vector side of the cycle.
+For example, efforts to reduce the number of bites that humans receive from mosquitoes affects both the probabilities of the vector \emph{and} the human becoming infected.
+This is one reason that vector control is almost always part of prevention strategies \CITEME.
+For the purposes of this document, I will define human-based interventions to be those that are directly administered to a human body.
 Essentially: medical interventions.
 
-It should be noted that in this respect, the long term goals of public health are more focused on prevention than the treatment of acute cases.
+In this respect, the long term goals of public health are more focused on prevention than the treatment of acute cases.
+Of course sick people need to be treated. Additionally, identifying and curing people who are infected also prevents mosquitoes from acquiring the pathogen as well.
+However, in the long term prevention is preferred.
 
-Of course sick people need to be treated, and finding and clearing people who are infected is a part of preventing mosquitoes from acquiring the pathogen from people.
-However, in the long game it is much more effective to prevent the infection.
-These efforts are what we will focus on.
 
 \subsection{Addressing the human side of the cycle}
 
-Because of the definition of human-based interventions that I am using, there are relatively few effective options in this category for malaria and dengue fever.
+Because of the definition of human-based interventions above, there are relatively few effective options in this category for malaria and dengue fever.
 Normally, this section would include vaccines and swift, effective patient identification and treatment to clear the infection.
-\alert{For reasons that will be discussed in a later post, these interventions simply do not exist on the market or in a cost-effective form applicable to the isolated and impoverished areas that are most affected.}
+However, at this time these types of interventions simply do not exist on the market or in a cost-effective form applicable to the isolated and impoverished areas that are most affected \CITEME.
 
-\subsection{Non-transgenic options for addressing the vector side of the cycle}
+\subsection[Addressing the vector side of the cycle (conventionally)]{Non-transgenic options for addressing the vector side of the cycle}
 
 Medical options are scarce generally in the regions of the world where these diseases are most common.
 The alternative is to focus attention toward controlling access of the vector populations to human contact.
@@ -111,74 +105,70 @@ Negative population growth results from the inability of each generation to full
 Perhaps most famously, \gls{SIT} was used successfully to eradicate the screwworm from the southern United States in the 1950s \cite{Bushland1955}.
 
 
-\subsection{Transgenic techniques provide a new strategy for controlling disease transmission by the vectors}
+\subsection[Transgenesis provides new vector control strategy]{Transgenic techniques provide a new strategy for controlling disease transmission}
 
-Most conventional vector control strategies involve what might be termed \textbf{vector population reduction}.
-As we get into what transgenics can do for vector control, we will see that in addition to population reduction we have a new strategy available which has quite exciting implications to the sustainability of the vector control aspect of public health interventions for dengue and malaria.
-This could be called \textbf{vector population conversion}.
+Most conventional vector control strategies involve what might be termed vector \gls{population-reduction}.
+In addition to population reduction, transgenic techniques provide a novel vector control strategy that has considerable implications to the sustainability of the vector control aspect of public health interventions for dengue and malaria.
+In contrast to population reduction, this novel strategy could be conceptualized as vector \gls{population-conversion}.
+It's goal is not to reduce or eliminate contact between humans and vectors but to drive a transmission-refractory trait through the vector population that renders the vector unable to become infectious at all, converting it into a non-vector.
 
 \section{Elements of a successful transgenic vector control product}
 \dummytext
 
-\subsection{Introducing Inheritable Transgenes into the Mosquito Genome}
+\subsection{Introducing heritable transgenes into mosquito genomes}
 
-Before one can employ transgenic methods for vector control, one must of course have the ability to make transgenic vectors.
-For mosquitoes, this is quite a bit more labor intensive than for other fly species like \emph{Drosophila melanogaster}.
-However, it has been accomplished, and protocols to reliably introduce transgenes into many mosquito species now exist.
-Unfortunately, the relative difficulty is still high, and it takes roughly 2-3 months before a stable line is established.
-So while this step can be filed under ``accomplished'', work is constantly being done to improve its ease and efficiency.
+Before one can employ transgenic methods for vector control, one must have the capacity to make transgenic vectors.
+For mosquitoes, this is more labor intensive than for other fly species like \Dmel.
+However, it has been accomplished, and protocols to reliably introduce transgenes into many mosquito species now exist \CITEME.
+Unfortunately, the relative difficulty is high.
+It takes roughly 2-3 months to establish a stable line.
+Thus many experimental approaches that are straightforward or even routine in \Dm or other species remain impractical for mosquitoes.
 
-The method of gene insertion into the genome generally relies on re-purposing the activities of small, ``parasitic'', mobile DNA elements called \glspl{transposon} or \glspl{transposable-element}.
-These elements have the ability to cut themselves out of one part of the DNA and re-insert themselves into another.
-We can engineer them in the lab to carry our genes instead of the genes that they usually contain.
-This allows our genes to be inserted into the genome instead of the contents of the original transposon.
+The method of introducing a \gls{transgene} into a mosquito genome generally relies on re-purposing the activities of \glspl{transposon} (\glspl{transposable-element}).
+These nucleotide elements have the ability to cut themselves out of one part of the DNA and re-insert themselves into another.
+It is possible to engineer them to insert selected transgenes into the mosquito genome instead of the genes that they usually contain.
 
-Until recently, most if not all transposons used inserted the genes into more-or-less random regions, and in single, double or \textbf{multiple} copies and/or locations \cite{Adelman2004}, \cite{Sethuraman2007}.
-This makes characterizing the effects of the effector genes complicated.
-However, with the successful implementation of the \href{http://en.wikipedia.org/wiki/Site-specific\_recombinase\_technology\#PhiC31\_Integrase}{phic31 site specific integration system} in \emph{Aedes aegypti} and \emph{Anopheles stephensi} \cite{Thorpe1998}, \cite{Nimmo2006}, \cite{Isaacs2012}, we can now reliably target specific, known regions of the genome for transgene integration of a single copy.
 
-The ``heritable'' part is achieved through which cells take up the transgene.
-Only certain types of cells have the ability to project their genetic code into the next generation.
-In order to have a transgene be heritable by the following generations we must make sure that at least egg cells).
+Until recently, most if not all transposons used for transgenesis in mosquitoes inserted the transgenes into more-or-less random locations.
+The number of locations and number of copies at any \textbf{single} genomic location was unpredictable \cite{Adelman2004,Sethuraman2007}.
+This makes characterization of the effects of a transgene complicated.
+However, with the successful implementation of the \gls{phic31} site specific integration system in \Aa and \As \cite{Thorpe1998,Nimmo2006,Isaacs2012}, we can now reliably target specific, pre-characterized regions of these genomes for transgene integration of a single copy.
 
-A peculiarity about fly development is that as the embryo is developing the cells that will become the germ line always position themselves at one end (or pole) of the embryo.
-They earned the moniker ``pole cells''.
-This makes targeting these cells for the transgene feasible.
-When the solution containing the transgene construct is injected into the embryos, it is done where the pole cells are.
-This means that the first set of mosquitoes that might be fully transgenic is not the set that you injected but the first generation of offspring that your injected mosquitoes produce.
+Heritability is achieved through specifically targeting the \gls{germline} cells of mosquito embryos for transgenesis.
+In flies like mosquitoes, the cells that will become the germline always position themselves at one end (or pole) of the embryo.
+The transgenesis cocktail containing the transgene construct is injected into the embryos where the pole cells are located.
+This means that the first generation of mosquitoes that may contain the transgene in every cell of their body is \textbf{not} the injected generation but the progeny of the injected mosquitoes.
 
 \subsection{Effector Genes}
 
-With the ability to integrate transgene constructs into the vectors' genomes, we need constructs that carry genes that will effect the response that we desire in the vector.
-Two broad strategies are commonly applied when designing an anti-transmission phenotype.
+In addition to the ability to integrate transgene constructs into the vectors' genomes, it is necessary to design constructs that contain transgenes that will effect a useful response in the vector.
+Two broad strategies are commonly applied when designing an anti-transmission phenotype: \gls{population-reduction} and \gls{population-conversion}.
 
-\subsubsection{Vector Population Reduction:}
+\subsubsection{Vector population reduction:}
 
-The goal of vector population reduction is the same as the conventional vector control modalities.
-\emph{Reduce the size of the vector population to decrease the probability of infectious interactions between vectors and humans.}
+The goal of vector population reduction is the same as conventional vector control modalities.
+\emph{Reduce the local population of a disease vector with the goal of reducing the probability that an infectious individual will have an opportunity to participate in a transmission event.}
 
-\textbf{Conventional tactics} include removal of breeding sites through draining of swamps, removal of items that store water (tires, buckets, etc) where larvae develop from populated areas, and of course, chemical insecticidal campaigns.
-Another, more recent tactic is sterile insect technique.
 
-A \textbf{transgenic tactic} for the population reduction strategy is illustrated by Oxitec's \emph{Aedes aegypti} strain OX3604C developed with support from the Bill and Melinda Gates Foundation's Grand Challenges for Global Health Initiative.
-OX3604C, represents a female-specific \gls{RIDL} approach which uses a poison transgene that kills any female adult expressing the transgene unless the female is provided the ``antidote'' through its water supply \cite{WisedeValdez2011,Bargielowski2012,Facchinelli2013}.
+A \textbf{transgenic tactic} for the population reduction strategy is illustrated by Oxitec's \Aa strain OX3604C developed with support from the Bill and Melinda Gates Foundation's Grand Challenges for Global Health Initiative.
+Strain OX3604C represents a female-specific \gls{RIDL} approach which uses a poison transgene that kills any female adult expressing the transgene unless the female is provided an ``antidote'' through its water supply \cite{WisedeValdez2011,Bargielowski2012,Facchinelli2013}.
 
 Releasing enough of these mosquitoes will affect the local mosquito species population in a way that is analogous to \gls{SIT}.
 
-\subsubsection{Vector Population Replacement (Conversion):}
+\subsubsection{Vector population conversion:}
 
-Vector population conversion is a novel strategy for vector control that only exists within the context of genetically altering the vectors.
-This strategy actually promises to be the most long-lasting vector-focused intervention; because unlike \textbf{all} vector population reduction tactics, there is a theoretical point in a conversion intervention (the anti-transmission trait works and is present in local populations at near 100\%) when the human interaction can be ceased but the intervention continues to function.
+Vector population conversion is a novel strategy for vector control that primarily exists within the context of genetically altered vectors (\CITEME wolbacia).
+It promises to be the most long-lasting vector-focused intervention.
+Unlike \textbf{all} vector population reduction tactics, there is a practical point in a conversion intervention (the anti-transmission trait works and is present in local populations at near 100\%) when the human management of the intervention can be ceased, yet it continues to function.
 For population reduction to approach this result, the vector species must not simply be eliminated from the local area, but approach elimination on a continental scale, or more realistically achieve global eradication.
 
-The reason is that these mosquitoes (especially \emph{Aedes aegypti}) can and do travel long distances, as eggs or larvae, in the backs of trucks (between villages) or in the pools of water collected in super-tankers (transcontinentally).
+The reason is that these mosquitoes (especially \Aa) can and do travel long distances, as eggs or larvae, in the backs of trucks (between villages) or in the pools of water collected in super-tankers (transcontinentally).
 So a local village is only free of the vectors until more migrate into the area.
 But in a conversion scenario, those migrants mate with the local vector population, and their offspring are assimilated into transmission-deficient mosquitoes.
 The protection of the local village can be preserved \emph{even if some surrounding villages fail to maintain control of their mosquitoes}.
 
-An example of a \textbf{transgenic tactic} for population conversion of \emph{Aedes aegypti} into a transmission-deficient phenotype involves an effector gene that codes for double stranded portion of the target dengue virus as RNA \cite{Franz2006}, \cite{Mathur2010}.
-Because most animal cells have a system that detects and degrades double stranded RNA
-\footnote{Double stranded RNA generally signals that a virus is active in the cell.}
+An example of a \textbf{transgenic tactic} for population conversion of \Aa into a transmission-deficient phenotype involves an effector gene that produces a double stranded RNA molecule that contains a portion of the dengue virus genome \cite{Franz2006,Mathur2010}.
+Because most animal cells have a system that detects and degrades double stranded RNA\footnote{Double stranded RNA generally signals that a virus is active in the cell.}
 in a sequence specific manner, this primes the mosquito cells' antiviral response to specifically attack the dengue virus if the effector gene is expressed in the cell before it gets infected.
 
 \subsection{Controlling When and Where the Effector Genes are Expressed}
@@ -239,5 +229,12 @@ Efforts to discover or design this \gls{gene-drive} system are an on going and a
 \item causative agents are RNA viruses and Plasmodium protists, respectively
 \item people don't give people these two diseases
 \item mosquitoes generally don't give mosquitoes these diseases
+\end{itemize}
+}
+\synopsis{
+\begin{itemize}
+\item The specifics of the transmission cycle of these diseases provides multiple targets for public health interventions
+\item focus on the human
+\item focus on the vector
 \end{itemize}
 }
