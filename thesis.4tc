@@ -1,1 +1,75 @@
 \expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{\centering \Large TABLE OF CONTENTS}}{4}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-2}{}{LIST OF FIGURES}}{v}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-3}{\centering \Large LIST OF FIGURES}}{6}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-4}{}{LIST OF TABLES}}{vii}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-3000}{QQ2-1-5}{\centering \Large LIST OF TABLES}}{8}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-6}{}{ACKNOWLEDGMENTS}}{ix}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-7}{}{CURRICULUM VITAE}}{xi}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-8}{}{ABSTRACT OF THE DISSERTATION}}{xiv}\relax 
+\doTocEntry\tocchapter{1}{\csname a:TocLink\endcsname{1}{x1-40001}{QQ2-1-9}{Introduction}}{3}\relax 
+\doTocEntry\tocsection{1.1}{\csname a:TocLink\endcsname{1}{x1-50001.1}{QQ2-1-10}{Dengue fever and malaria are mosquito borne diseases}}{3}\relax 
+\doTocEntry\toclot{1.1}{\csname a:TocLink\endcsname{1}{x1-5001r1}{}{\ignorespaces Primary geographic vectors of dengue fever and malaria}}{table}\relax 
+\doTocEntry\tocsection{1.2}{\csname a:TocLink\endcsname{1}{x1-60001.2}{QQ2-1-12}{Hematophagy (bloodfeeding) is an essential part of mosquito-borne disease}}{6}\relax 
+\doTocEntry\tocsubsection{1.2.1}{\csname a:TocLink\endcsname{1}{x1-70001.2.1}{QQ2-1-13}{Transmission cycle}}{6}\relax 
+\doTocEntry\toclof{1.1}{\csname a:TocLink\endcsname{1}{x1-7006r1}{}{\ignorespaces Cross section of a female mosquito}}{figure}\relax 
+\doTocEntry\tocsection{1.3}{\csname a:TocLink\endcsname{1}{x1-80001.3}{QQ2-1-15}{Public health: \emph  {multiple targets}}}{10}\relax 
+\doTocEntry\tocsubsection{1.3.1}{\csname a:TocLink\endcsname{1}{x1-90001.3.1}{QQ2-1-16}{Addressing the human side of the cycle}}{11}\relax 
+\doTocEntry\tocsubsection{1.3.2}{\csname a:TocLink\endcsname{1}{x1-100001.3.2}{QQ2-1-17}{Addressing the vector side of the cycle (conventionally)}}{12}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-110001.3.2}{QQ2-1-18}{Sterile insect technique}}{12}\relax 
+\doTocEntry\tocsubsection{1.3.3}{\csname a:TocLink\endcsname{1}{x1-120001.3.3}{QQ2-1-19}{Transgenesis provides new vector control strategy}}{13}\relax 
+\doTocEntry\tocsection{1.4}{\csname a:TocLink\endcsname{1}{x1-130001.4}{QQ2-1-20}{Elements of a successful transgenic vector control product}}{13}\relax 
+\doTocEntry\tocsubsection{1.4.1}{\csname a:TocLink\endcsname{1}{x1-140001.4.1}{QQ2-1-21}{Introducing heritable transgenes into mosquito genomes}}{14}\relax 
+\doTocEntry\tocsubsection{1.4.2}{\csname a:TocLink\endcsname{1}{x1-150001.4.2}{QQ2-1-22}{Effector genes}}{15}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-160001.4.2}{QQ2-1-23}{Vector population reduction:}}{15}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{x1-170001.4.2}{QQ2-1-24}{Vector population conversion:}}{16}\relax 
+\doTocEntry\tocsubsection{1.4.3}{\csname a:TocLink\endcsname{1}{x1-180001.4.3}{QQ2-1-25}{Controlling when and where the effector genes are expressed}}{17}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-18000\protect \begingroup \def \MessageBreak {
+(caption)                }\let \immediate\write \@unused {
+Package caption Warning: efore \caption on input line 8.
+See the caption package documentation for explanation.
+}\endgroup \edef fig:cre-crm-intro-b{??}\gdef \begingroup \def \MessageBreak {
+               }\let \immediate\write \@unused {
+LaTeX Warning: There were undefined references.
+}\endgroup {\begingroup \def \MessageBreak {
+               }\let \immediate\write \@unused {
+LaTeX Warning: There were undefined references.
+}\endgroup }\unhbox \voidb@x \hbox {\a:mbox {\protect \edef T1{T1}\let \enc@update \relax \edef futs{futs}\edef m{m}\edef n{n}\xdef \T1/futs/m/n/12 {\T1/futs/m/n/12 }\T1/futs/m/n/12 \size@update \enc@update \ignorespaces \relax \relax \edef m{bx}\xdef \T1/futs/m/n/12 {\T1/futs/m/n/12 }\T1/futs/m/n/12 \size@update \enc@update ??}\b:mbox }\begingroup \def \MessageBreak {
+               }\let \immediate\write \@unused {
+LaTeX Warning: Reference `??' on page 20 undefined on input line 8.
+}\endgroup \let }{}{\ignorespaces \textsf  {CREs make up CRMs}\relax }}{subfigure}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-18000\protect \begingroup \def \MessageBreak {
+(caption)                }\let \immediate\write \@unused {
+Package caption Warning: efore \caption on input line 14.
+See the caption package documentation for explanation.
+}\endgroup \edef fig:cre-crm-intro-b{??}\gdef \begingroup \def \MessageBreak {
+               }\let \immediate\write \@unused {
+LaTeX Warning: There were undefined references.
+}\endgroup {\begingroup \def \MessageBreak {
+               }\let \immediate\write \@unused {
+LaTeX Warning: There were undefined references.
+}\endgroup }\unhbox \voidb@x \hbox {\a:mbox {\protect \edef T1{T1}\let \enc@update \relax \edef futs{futs}\edef m{m}\edef n{n}\xdef \T1/cmss/m/n/10.95 {\T1/futs/m/n/12 }\T1/cmss/m/n/10.95 \size@update \enc@update \ignorespaces \relax \relax \edef m{bx}\xdef \T1/cmss/m/n/10.95 {\T1/futs/m/n/12 }\T1/cmss/m/n/10.95 \size@update \enc@update ??}\b:mbox }\begingroup \def \MessageBreak {
+               }\let \immediate\write \@unused {
+LaTeX Warning: Reference `??' on page 20 undefined on input line 14.
+}\endgroup \let }{}{\ignorespaces \textsf  {One model of transcriptional regulation} \leavevmode {\color  {magenta}CITEME}\relax }}{subfigure}\relax 
+\doTocEntry\toclof{1.2}{\csname a:TocLink\endcsname{1}{x1-18001r2}{}{\ignorespaces Elements of transcriptional regulation}}{figure}\relax 
+\doTocEntry\tocsubsection{1.4.4}{\csname a:TocLink\endcsname{1}{x1-190001.4.4}{QQ2-1-29}{Achieving swift, dramatic, and clinically meaningful effects on the native vector population}}{22}\relax 
+\doTocEntry\tocsection{1.5}{\csname a:TocLink\endcsname{1}{x1-200001.5}{QQ2-1-30}{Conservation of bloodmeal-regulated transcription}}{24}\relax 
+\doTocEntry\tocsubsection{1.5.1}{\csname a:TocLink\endcsname{1}{x1-210001.5.1}{QQ2-1-31}{Evolutionary relationship between mosquitoes and hematophagy}}{24}\relax 
+\doTocEntry\tocsubsection{1.5.2}{\csname a:TocLink\endcsname{1}{x1-220001.5.2}{QQ2-1-32}{Implications for design of transgenic vector control systems?}}{25}\relax 
+\doTocEntry\tocchapter{2}{\csname a:TocLink\endcsname{1}{x1-230002}{QQ2-1-33}{Review of Literature Contributions and Development of Analytical Approach}}{28}\relax 
+\doTocEntry\tocsection{2.1}{\csname a:TocLink\endcsname{1}{x1-240002.1}{QQ2-1-34}{Purpose}}{28}\relax 
+\doTocEntry\tocchapter{3}{\csname a:TocLink\endcsname{1}{x1-250003}{QQ2-1-35}{Software Development to Support Analytical Approach}}{32}\relax 
+\doTocEntry\tocsection{3.1}{\csname a:TocLink\endcsname{1}{x1-260003.1}{QQ2-1-36}{Purpose}}{32}\relax 
+\doTocEntry\tocchapter{4}{\csname a:TocLink\endcsname{1}{x1-270004}{QQ2-1-37}{Analysis of Conservation of Midgut Transcriptional Response to Bloodfeeding in Four Vector Mosquitoes}}{35}\relax 
+\doTocEntry\tocsection{4.1}{\csname a:TocLink\endcsname{1}{x1-280004.1}{QQ2-1-38}{Background}}{35}\relax 
+\doTocEntry\tocchapter{5}{\csname a:TocLink\endcsname{1}{x1-290005}{QQ2-1-39}{Contributions to Literature Not Otherwise Mentioned}}{38}\relax 
+\doTocEntry\tocsection{5.1}{\csname a:TocLink\endcsname{1}{x1-300005.1}{QQ2-1-40}{Purpose}}{38}\relax 
+\doTocEntry\tocchapter{6}{\csname a:TocLink\endcsname{1}{x1-310006}{QQ2-1-41}{Conclusions}}{41}\relax 
+\doTocEntry\tocsection{6.1}{\csname a:TocLink\endcsname{1}{x1-320006.1}{QQ2-1-42}{Purpose}}{41}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-43}{}{Bibliography}}{43}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-330006.1}{QQ2-1-44}{Bibliography}}{44}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-340006.1}{QQ2-1-45}{Glossary}}{48}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-350006.1}{QQ2-1-46}{Acronyms}}{51}\relax 
+\doTocEntry\tocappendix{A}{\csname a:TocLink\endcsname{1}{x1-36000A}{QQ2-1-47}{Methods}}{52}\relax 
+\doTocEntry\tocappendix{B}{\csname a:TocLink\endcsname{1}{x1-37000B}{QQ2-1-48}{Code}}{53}\relax 

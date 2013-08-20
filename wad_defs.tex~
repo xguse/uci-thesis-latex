@@ -122,6 +122,9 @@
 % format a bold sans serif
 \newcommand\bsf[1]{\textbf{\textsf{#1}}}
 
+% format a sans serif
+\newcommand\nsf[1]{\textsf{#1}}
+
 % Alert text Style
 \newcommand\alert[1]{\textcolor{magenta}{#1}}
 
@@ -138,4 +141,4 @@
 
 % BLIND TEXT DEFINITIONS
 \usepackage{lipsum}
-\newcommand{\dummytext}{\alert{\lipsum[10]}}
+\newcommand{\dummytext[1]}{\alert{\lipsum[#1]}}

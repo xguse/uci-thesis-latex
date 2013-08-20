@@ -23,7 +23,7 @@
 % \renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
 % \usepackage[T1]{fontenc}
 
-\usepackage{fourier}
+%\usepackage{fourier}
 %\usepackage{mathptmx}
 %\usepackage{tgschola}
 %\usepackage{bookman}
@@ -34,6 +34,6 @@
 %\usepackage{palatino}
 %\usepackage{times}
 %\usepackage[math]{anttor}
-% \usepackage[garamond]{mathdesign}
+\usepackage[garamond]{mathdesign}
 
 %\usepackage[scaled]{beramono}

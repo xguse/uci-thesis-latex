@@ -1,32 +1,34 @@
 \chapter{Introduction}
 
-\section{Purpose}
+% \section{Purpose}
+% 
+% Introduce core concepts relating to my project such as:
 
-Introduce core concepts relating to my project such as:
+% \begin{enumerate}
+% \item \chkBoxX Importance of Dengue and Malaria
+% \item \chkBoxX Transmission cycle dependent on Mosquitoes
+% \item \chkBox Limited effectiveness (medical/finacial) of treatment of the diseases in rural poor human communities
+% \item \chkBoxX Vector Control Strategies
+% \item \chkBoxX How Transgenesis modifies the vector control landscape
+% \item \chkBox Elements of Successful Transgenesic Vector Control
+% \item \chkBoxX Introduction to control of transcription and imoprtance of \glspl{CRE}/\glspl{CRM}
+% \end{enumerate}
 
-\begin{enumerate}
-\item \chkBox Importance of Dengue and Malaria
-\item \chkBoxX Transmission cycle dependent on Mosquitoes
-\item \chkBox Limited effectiveness (medical/finacial) of treatment of the diseases in rural poor human communities
-\item \chkBoxX Vector Control Strategies
-\item \chkBoxX How Transgenesis modifies the vector control landscape
-\item \chkBox Elements of Successful Transgenesic Vector Control
-\item \chkBoxX Introduction to control of transcription and imoprtance of \glspl{CRE}/\glspl{CRM}
-\end{enumerate}
+\section{Hematophagy (bloodfeeding) is an essential part of  }
 
 
 \section{Dengue fever and malaria are mosquito borne diseases}
 
 There are many mosquito borne diseases that afflict the world's population.
 Dengue fever and malaria are two important such diseases resulting in major health and productivity deficits in many developing nations worldwide \CITEME.
-The causative agents of these two diseases are a suite of four species of RNA viruses (Dengue Virus 1-4) and a group of five species of protist from the genus \textit{Plasmodium}, respectively (\Plf, \Pv, \Po, \Pm, and \Pk).
+The causative agents of these two diseases are a suite of four species of RNA viruses (Dengue Virus 1-4) and a group of five species of protist from the genus \textit{Plasmodium} (\Plf, \Pv, \Po, \Pm, and \Pk).
 However, in any \textbf{single} geographic location each disease is primarily transmitted by a single species of mosquito \CITEME (Table \ref{tab:species-disease-region}). 
 
 \input{tables/species-disease-region}
 
 The fact that both of these diseases are caused by multiple pathogen species complicates efforts to prevent human disease: particularly when addressed from the perspective of providing therapeutic or prophylactic care directly to human patients.
 
-\alert{MORE HERE ABOUT WHY THIS COMPLICATES THINGS}
+\alert{TONY: MORE HERE ABOUT WHY THIS COMPLICATES THINGS?}
 
 \section{The transmission cycles of dengue fever and malaria require mosquitoes}
 
@@ -45,9 +47,11 @@ This pattern has important consequences that can be exploited to reduce the numb
 \item The infectious female mosquito bites an uninfected human and the pathogens in her saliva are introduced to the person's body as she feeds.
 \end{enumerate}
 
+\input{figures/mosq-xsection}
+
 While the specifics of how viruses and protists live and reproduce in mosquitoes and humans are quite different, the transmission cycles of dengue and malaria are very similar in their critical events.
 The transmission cycle of either pathogen type can be encapsulated into five fundamental events.
-First, a female mosquito feeds on an infected human's blood taking up the pathogen as well.
+First, a female mosquito feeds on an infected human's blood taking up the pathogen as well (Figure \ref{fig:mosq-xsection}).
 The bloodmeal is digested in the mosquito's midgut, and escape from the midgut is the first crucial step for the survival of the pathogen inside the mosquito.
 If it is trapped in the midgut, it will eventually be passed as waste after the bloodmeal is digested.
 If it manages to escape to the \gls{hemolymph}, the pathogen must survive long enough to gain access to the mosquito's salivary glands.
@@ -59,7 +63,7 @@ For this, the pathogen must be injected into the bloodstream of the next human a
 Because the arrows of transmission essentially\footnote{While some mosquito
   to non-human vertebrate transmission may occur, it is not thought to
   be sufficient to maintain the pathogen if the mosquito:human loop is
-  broken.}
+  broken (\CITEME).}
 points from mosquito to human or from human to mosquito, the cycle will collapse and a local area would eventually be cleared of the pathogen if either of those arrows are broken, provided that the intervention is maintained.
 This model suggests two primary targets for public health interventions aiming to reduce the \gls{incidence}
 (followed by \gls{prevalence}) of infection in a population.
@@ -95,7 +99,7 @@ One fairly recently developed approach that has shown great promise is \gls{SIT}
 
 
 
-\subsubsection{Sterile Insect Technique}
+\subsubsection{Sterile insect technique}
 \gls{SIT} exploits a peculiar aspect of some insects' reproductive behavior. 
 In many insects, the first mating event provides the only genetic material that the female will use to fertilize her eggs for the rest of her life \CITEME.
 Subsequent mating events contribute little to no genetic material to the females progeny, \textbf{even if the first event involves a sterile male}.
@@ -113,7 +117,15 @@ In contrast to population reduction, this novel strategy could be conceptualized
 It's goal is not to reduce or eliminate contact between humans and vectors but to drive a transmission-refractory trait through the vector population that renders the vector unable to become infectious at all, converting it into a non-vector.
 
 \section{Elements of a successful transgenic vector control product}
-\dummytext
+
+\begin{enumerate}
+  \item the ability to introduce transgenes into the vector genome in a heritable way
+  \item the discovery or construction of effector genes
+  \item the ability to control when and where the effector genes are expressed
+  \item the ability of your transgenic vectors to have swift, dramatic, and clinically meaningful effects on the native vector population (gene drive)
+\end{enumerate}
+
+
 
 \subsection{Introducing heritable transgenes into mosquito genomes}
 
@@ -132,14 +144,14 @@ It is possible to engineer them to insert selected transgenes into the mosquito 
 Until recently, most if not all transposons used for transgenesis in mosquitoes inserted the transgenes into more-or-less random locations.
 The number of locations and number of copies at any \textbf{single} genomic location was unpredictable \cite{Adelman2004,Sethuraman2007}.
 This makes characterization of the effects of a transgene complicated.
-However, with the successful implementation of the \gls{phic31} site specific integration system in \Aa and \As \cite{Thorpe1998,Nimmo2006,Isaacs2012}, we can now reliably target specific, pre-characterized regions of these genomes for transgene integration of a single copy.
+However, with the successful implementation of the \gls{phic31} site-specific integration system in \Aa\ and \As\ \cite{Thorpe1998,Nimmo2006,Isaacs2012}, we can now reliably target specific, pre-characterized regions of these genomes for transgene integration of a single copy.
 
 Heritability is achieved through specifically targeting the \gls{germline} cells of mosquito embryos for transgenesis.
 In flies like mosquitoes, the cells that will become the germline always position themselves at one end (or pole) of the embryo.
 The transgenesis cocktail containing the transgene construct is injected into the embryos where the pole cells are located.
 This means that the first generation of mosquitoes that may contain the transgene in every cell of their body is \textbf{not} the injected generation but the progeny of the injected mosquitoes.
 
-\subsection{Effector Genes}
+\subsection{Effector genes}
 
 In addition to the ability to integrate transgene constructs into the vectors' genomes, it is necessary to design constructs that contain transgenes that will effect a useful response in the vector.
 Two broad strategies are commonly applied when designing an anti-transmission phenotype: \gls{population-reduction} and \gls{population-conversion}.
@@ -167,30 +179,29 @@ So a local village is only free of the vectors until more migrate into the area.
 But in a conversion scenario, those migrants mate with the local vector population, and their offspring are assimilated into transmission-deficient mosquitoes.
 The protection of the local village can be preserved \emph{even if some surrounding villages fail to maintain control of their mosquitoes}.
 
-An example of a \textbf{transgenic tactic} for population conversion of \Aa into a transmission-deficient phenotype involves an effector gene that produces a double stranded RNA molecule that contains a portion of the dengue virus genome \cite{Franz2006,Mathur2010}.
+An example of a \textbf{transgenic tactic} for population conversion of \Aa\ into a transmission-deficient phenotype involves an effector gene that produces a double stranded RNA molecule that contains a portion of the dengue virus genome \cite{Franz2006,Mathur2010}.
 Because most animal cells have a system that detects and degrades double stranded RNA\footnote{Double stranded RNA generally signals that a virus is active in the cell.}
 in a sequence specific manner, this primes the mosquito cells' antiviral response to specifically attack the dengue virus if the effector gene is expressed in the cell before it gets infected.
 
-\subsection{Controlling When and Where the Effector Genes are Expressed}
+\subsection{Controlling when and where the effector genes are expressed}
 
-Even armed with an effector gene that clears 100\% of the pathogen 100\% of the time, you will not be successful in limiting transmission if it is not turned on in the right time and place.
-If your effector gene works best when the pathogen is in the midgut, but your gene is only expressed in the antennae, you have wasted your time.
+Even with an effector gene that clears 100\% of the pathogen 100\% of the time, the intervention will not be successful in limiting transmission if the transgene is not turned on at the right time and place.
+If the transgene is most effective when the pathogen is in the midgut, it is not useful if the gene is only expressed in the antennae.
 
-The region of DNA directly before the sequence of the gene is \emph{usually} the most influential determinant of the pattern of expression and is referred to as the promoter.
-It determines when the gene will be turned on (let's say directly following the ingestion of a bloodmeal), and in which tissue type (let's say the midgut).
-The way that this is accomplished is due to the binding of special proteins called transcription factors that recognize specific DNA sequences.
-Once bound to the promoter they recruit the special machinery needed for the gene to be turned on.
+The region of DNA directly before the sequence of the gene is a major determinant of the pattern of expression and is referred to as the promoter.
+It influences when the gene will be turned on (e.g., directly following the ingestion of a bloodmeal), and in which tissue type (e.g., the midgut).
+Promoters influence the transcription of genes through the binding of special proteins called transcription factors that recognize specific DNA sequences called \glspl{CRE}.
+\glspl{CRE} are sometimes organized into modules that represent groups of binding sites for a specific combination of transcription factors.
+These modules are \glspl{CRM} \CITEME (Figure \ref{fig:cre-crm-intro-a}).
+Once a set of transcription factors are bound to the promoter they recruit the special machinery needed for the gene to be turned on or silenced depending on the context of the cellular environment (Figure \ref{fig:cre-crm-intro-b}).
 
-If we wanted to control a transgene in a specific way (turned on after a bloodmeal in the midgut), one way to go about it would be to identify genes in the mosquito that already have a similar expression pattern to the ideal that you want.
-Then we could copy the promoter from that gene and paste it in front of our transgene
-\footnote{The story is \textbf{of course} more complicated than this, and the replication of the
-    original expression pattern may not always be perfect with this simplified method; however,
-    it is suitably explanatory for our purposes at the moment.}.
-Because we will have replicated the specific \glspl{TFBS} that control the original gene, our transgene should inherit a very similar expression pattern.
+\input{figures/cre-crm-intro}
+
+A typical strategy to obtain regulatory sequences suited to drive a transgene following the expression characteristics used as an example above (expressed directly following ,a bloodmeal, in the midgut) would be to identify genes in the mosquito that already have a similar expression pattern to the ideal.
+The promoter from that gene would then be copied and inserted in front of our transgene in the final integration construct.
 
 This is a very common process used to engineer the expression patterns of real transgenes in mosquitoes.
-In \cite{Moreira2000}, the promoter sequences of a gene called carboxypeptidase (normally expressed in the midgut after a meal to help digest it) from \emph{Aedes aegypti} and \emph{Anopheles gambiae} were pasted in front of a transgene that causes the cells that express the gene to light up.
-This type of transgene is called a \gls{reporter gene} because it allows the researchers to visualize the activity of the promoter used to drive its expression.
+In \cite{Moreira2000}, the promoter sequences of a gene called carboxypeptidase (normally expressed in the midgut after a meal) from \Aa\ and \Ag\ were inserted in front of a reporter gene.
 
 From the abstract of \cite{Moreira2000}:
 
@@ -205,36 +216,48 @@ Expression of the reporter gene was gut-specific and reached
 peak levels at about 24 h post-blood ingestion.
 \end{quote}
 
-\subsection{Achieving Swift, Dramatic, and Clinically Meaningful Effects on the Native Vector Population}
+\subsection{Achieving swift, dramatic, and clinically meaningful effects on the native vector population}
 
-In many ways, this is the most difficult part of the puzzle.
+In many ways, this is the most difficult part of the system.
 In order for the transgene to have its self-sustaining properties as well as achieve effective anti-transmission results, it must spread through the native mosquito population to the point that the percent of individuals possessing the gene approaches 100\%.
 
-Optimistically assuming that the transgene carries a negligible fitness cost
+Making the optimistic assumption that the transgene carries a negligible fitness cost
 \footnote{By fitness cost/advantage here, I mean that the transgene
     causes the mosquitoes that inherit it to be either less or more
     successful at producing offspring, respectively.},
 or even a slight fitness advantage, achieving near 100\% conversion could take decades.
 Funding terms for efforts like this in poor nations can be closer to 5 years or less.
-To enable the population conversion strategies to work, we must come up with genetic ``tricks'' that cause the gene to spread through a mosquito population \textbf{much} faster than could happen naturally.
-Efforts to discover or design this \gls{gene-drive} system are an on going and active area in this field.
+To enable the population conversion strategies to work, genetic ``tricks'' must be exploited that cause the gene to spread through a mosquito population \textbf{much} faster than could happen naturally.
+Efforts to discover or design these \gls{gene-drive} systems are an on going and active area in this field.
+
+An example of such a method is the Medea system successfully engineered in \Dm\ (\CITEME).
+
+\textbf{In Brief:}
+\begin{enumerate}
+ \item The construct consists of a \textbf{death gene} under control of a maternal effect promoter and a \textbf{rescue gene} under control of an early embryonic promoter.
+ \item The \textbf{death gene} is produced by the mother and deposited into 100\% of her developing embryos: \textit{even those that did not inherit the transgene due to mating with a wild type male.}
+ \item However, since the \textbf{rescue gene} is produced by only those embryos that inherited the transgene construct, only those embryos will survive.
+ \item The female has on average half as many progeny survive as usual if she mated with a wild type male, but 100\% of those that survive inherit the transgene.
+ \item Over time this results in the fixation or near fixation of the transgene in the population.
+\end{enumerate}
 
 
 
 
 
-\briefConclude{
-\begin{itemize}
-\item there are many but we focus on Dengue Fever and Malaria
-\item causative agents are RNA viruses and Plasmodium protists, respectively
-\item people don't give people these two diseases
-\item mosquitoes generally don't give mosquitoes these diseases
-\end{itemize}
-}
-\synopsis{
-\begin{itemize}
-\item The specifics of the transmission cycle of these diseases provides multiple targets for public health interventions
-\item focus on the human
-\item focus on the vector
-\end{itemize}
-}
+
+% \briefConclude{
+% \begin{itemize}
+% \item there are many but we focus on Dengue Fever and Malaria
+% \item causative agents are RNA viruses and Plasmodium protists, respectively
+% \item people don't give people these two diseases
+% \item mosquitoes generally don't give mosquitoes these diseases
+% \end{itemize}
+% }
+% \synopsis{
+% \begin{itemize}
+% \item The specifics of the transmission cycle of these diseases provides multiple targets for public health interventions
+% \item focus on the human
+% \item focus on the vector
+% \end{itemize}
+% }

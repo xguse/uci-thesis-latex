@@ -10,7 +10,7 @@
 % e.g. \section[short]{long}.
 %
 \documentclass[12pt,fleqn]{ucithesis}
-%\documentclass[12pt,fleqn]{report}
+% \documentclass[12pt,fleqn]{report}
 
 % 
 % % A few common packages
@@ -121,7 +121,7 @@ framexleftmargin=1mm, framextopmargin=1mm, frame=shadowbox, rulesepcolor=\color{
 %%%%%%   END LOAD LIBRARIES   %%%%%%   
 
 
-\include{wad_defs}
+\input{wad_defs}
 
 
 % plainpages=false fixes the "duplicate ignored" error with page counters
@@ -173,7 +173,7 @@ framexleftmargin=1mm, framextopmargin=1mm, frame=shadowbox, rulesepcolor=\color{
 % Very handy to speed up compilation if you're working on a certain
 % part of your thesis. It conserves page numbers, references, etc.
 % even for non-included files.
-\includeonly{0_introduction,appendix}
+%\includeonly{0_introduction,appendix}
 
 \begin{document}
 

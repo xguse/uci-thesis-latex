@@ -1,17 +1,46 @@
 \@addtocsec{htoc}{1}{-1}{\@print{Chapter&#XA0;1}\quad{}Introduction{}}
-\@addtocsec{htoc}{2}{0}{\@print{1.1}\quad{}Purpose{}}
-\@addtocsec{htoc}{3}{-1}{\@print{Chapter&#XA0;2}\quad{}Review of Literature Contributions and Development of Analytical Approach{}}
-\@addtocsec{htoc}{4}{0}{\@print{2.1}\quad{}Purpose{}}
-\@addtocsec{htoc}{5}{-1}{\@print{Chapter&#XA0;3}\quad{}Software Development to Support Analytical Approach{}}
-\@addtocsec{htoc}{6}{0}{\@print{3.1}\quad{}Purpose{}}
-\@addtocsec{htoc}{7}{-1}{\@print{Chapter&#XA0;4}\quad{}Analysis of Conservation of Midgut Transcriptional Response to Bloodfeeding in Four Vector Mosquitoes{}}
-\@addtocsec{htoc}{8}{0}{\@print{4.1}\quad{}Purpose{}}
-\@addtocsec{htoc}{9}{-1}{\@print{Chapter&#XA0;5}\quad{}Contributions to Literature Not Otherwise Mentioned{}}
-\@addtocsec{htoc}{10}{0}{\@print{5.1}\quad{}Purpose{}}
-\@addtocsec{htoc}{11}{-1}{\@print{Chapter&#XA0;6}\quad{}Conclusions{}}
-\@addtocsec{htoc}{12}{0}{\@print{6.1}\quad{}Purpose{}}
+\@addtocsec{htoc}{2}{0}{\@print{1.1}\quad{}Dengue fever and malaria are mosquito borne diseases{}}
+\newlabel{tab:species-disease-region}{{1.1}{X}}
+\@addtocsec{htoc}{3}{0}{\@print{1.2}\quad{}Hematophagy (bloodfeeding) is an essential part of mosquito-borne disease{}}
+\@addtocsec{htoc}{4}{1}{\@print{1.2.1}\quad{}Transmission cycle{}}
+\newlabel{fig:mosq-xsection}{{1.1}{X}}
+\@addtocsec{htoc}{5}{0}{\@print{1.3}\quad{}Public health: \emph{multiple targets}{}}
+\@addtocsec{htoc}{6}{1}{\@print{1.3.1}\quad{}Addressing the human side of the cycle{}}
+\@addtocsec{htoc}{7}{1}{\@print{1.3.2}\quad{}Addressing the vector side of the cycle (conventionally)}
+\citation{Bushland1955}
+\@addtocsec{htoc}{8}{1}{\@print{1.3.3}\quad{}Transgenesis provides new vector control strategy}
+\@addtocsec{htoc}{9}{0}{\@print{1.4}\quad{}Elements of a successful transgenic vector control product{}}
+\@addtocsec{htoc}{10}{1}{\@print{1.4.1}\quad{}Introducing heritable transgenes into mosquito genomes{}}
+\citation{Adelman2004}
+\citation{Sethuraman2007}
+\citation{Thorpe1998}
+\citation{Nimmo2006}
+\citation{Isaacs2012}
+\@addtocsec{htoc}{11}{1}{\@print{1.4.2}\quad{}Effector genes{}}
+\citation{WisedeValdez2011}
+\citation{Bargielowski2012}
+\citation{Facchinelli2013}
+\citation{Franz2006}
+\citation{Mathur2010}
+\@addtocsec{htoc}{12}{1}{\@print{1.4.3}\quad{}Controlling when and where the effector genes are expressed{}}
+\newlabel{fig:cre-crm-intro-a}{{1.2}{X}}
+\newlabel{fig:cre-crm-intro-b}{{1.3}{X}}
+\newlabel{fig:cre-crm-intro}{{1.4}{X}}
+\citation{Moreira2000}
+\citation{Moreira2000}
+\@addtocsec{htoc}{13}{1}{\@print{1.4.4}\quad{}Achieving swift, dramatic, and clinically meaningful effects on the native vector population{}}
+\@addtocsec{htoc}{14}{0}{\@print{1.5}\quad{}Conservation of bloodmeal-regulated transcription{}}
+\@addtocsec{htoc}{15}{1}{\@print{1.5.1}\quad{}Evolutionary relationship between mosquitoes and hematophagy{}}
+\@addtocsec{htoc}{16}{1}{\@print{1.5.2}\quad{}Implications for design of transgenic vector control systems?{}}
+\@addtocsec{htoc}{17}{-1}{\@print{Chapter&#XA0;2}\quad{}Review of Literature Contributions and Development of Analytical Approach{}}
+\@addtocsec{htoc}{18}{0}{\@print{2.1}\quad{}Purpose{}}
+\@addtocsec{htoc}{19}{-1}{\@print{Chapter&#XA0;3}\quad{}Software Development to Support Analytical Approach{}}
+\@addtocsec{htoc}{20}{0}{\@print{3.1}\quad{}Purpose{}}
+\@addtocsec{htoc}{21}{-1}{\@print{Chapter&#XA0;4}\quad{}Analysis of Conservation of Midgut Transcriptional Response to Bloodfeeding in Four Vector Mosquitoes{}}
+\@addtocsec{htoc}{22}{0}{\@print{4.1}\quad{}Background{}}
+\@addtocsec{htoc}{23}{-1}{\@print{Chapter&#XA0;5}\quad{}Contributions to Literature Not Otherwise Mentioned{}}
+\@addtocsec{htoc}{24}{0}{\@print{5.1}\quad{}Purpose{}}
+\@addtocsec{htoc}{25}{-1}{\@print{Chapter&#XA0;6}\quad{}Conclusions{}}
+\@addtocsec{htoc}{26}{0}{\@print{6.1}\quad{}Purpose{}}
 \bibstyle{abbrv}
 \bibdata{thesis}
-\@addtocsec{htoc}{13}{-1}{\@print{Appendix&#XA0;A}\quad{}Appendix Title{}}
-\@addtocsec{htoc}{14}{0}{\@print{A.1}\quad{}Lorem Ipsum{}}
-\newlabel{fig:quote}{{A.1}{X}}

@@ -1,0 +1,11 @@
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{lll}
+Species & disease & region\\
+x & x & x\\
+x & x & x
+\end{tabular}
+\end{center}
+\caption{species-disease-region: information}
+\label{tab:species-disease-region}
+\end{table} 

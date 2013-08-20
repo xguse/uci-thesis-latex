@@ -1,11 +1,24 @@
-\begin{table}
-\begin{center}
+
+\begin{table}[h]
+\centering \sffamily
 \begin{tabular}{lll}
-Species & disease & region\\
-x & x & x\\
-x & x & x
+\toprule
+\textbf{Disease} & \textbf{Region} & \textbf{Mosquito Vector}\\ \midrule
+Dengue Viruses & Wolrdwide & \Aea\\
+\multirow{2}{*}{Human Malaria} & Africa & \Ang\\
+ & Asia & \Ans\\\bottomrule
 \end{tabular}
-\end{center}
-\caption{species-disease-region: information}
-\label{tab:species-disease-region}
+
+\caption{Primary geographic vectors of dengue fever and malaria}
 \end{table} 
+
+
+% +------------------+------------+-----------------------+
+% | Disease          | Region     | Mosquito Vector       |
+% +==================+============+=======================+
+% | Dengue Viruses   | Worldwide  | *Aedes aeygypti*      |
+% +------------------+------------+-----------------------+
+% |                  | Africa     | *Anopheles gambiae*   |
+% | Human Malaria    +------------+-----------------------+
+% |                  | Asia       | *Anopheles stephensi* |
+% +------------------+------------+-----------------------+

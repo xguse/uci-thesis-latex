@@ -1,0 +1,163 @@
+\newif\ifimagen\imagentrue
+\documentclass[12pt,fleqn]{report}
+\usepackage{amsthm}
+\usepackage{array}
+\usepackage{relsize}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{natbib}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{paralist}
+\usepackage{booktabs}
+\usepackage[bf]{caption}
+\usepackage{subcaption}
+\usepackage{soul}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage[nointegrals]{wasysym}
+\usepackage{amsmath,amssymb}
+\usepackage{colortbl}
+\usepackage{calc}
+\usepackage{color}
+\usepackage{fancybox}
+\usepackage{verbatim}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}\usepackage{float,wrapfig}
+\usepackage{ifthen}
+\usepackage{fourier}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{setspace}
+\definecolor{shade}{HTML}{D4D7FE}\definecolor{gray}{gray}{0.5}\definecolor{green}{rgb}{0,0.5,0}\definecolor{grey}{RGB}{152,152,152}\definecolor{brick}{RGB}{160,0,0}\newcommand{\phic}{$\phi$C31}
+\newcommand{\mul}{$\mu$l}
+\newcommand{\ug}{$\mu$g}
+\newcommand{\uM}{$\mu$M}
+\newcommand{\degree}{\ensuremath{^\circ}}
+\newcommand{\C}{\degree C}
+\newcommand\water{H$_2$O}
+\newcommand\chlf{CHCl$_3$}
+\newcommand\chkBox{ {\Square} }
+\newcommand\chkBoxX{ {\CheckedBox} }
+\newcommand\synopsis[1]{%
+        %\bigskip
+        \begin{center}%
+                \fbox{
+					\begin{minipage}[c]{.95\linewidth}
+					\vskip1ex \hskip1ex \textbf{Synopsis: \\} \textcolor{black}{#1}
+					\end{minipage}
+				}%
+        \end{center}%
+        %\bigskip%
+}
+\newcommand\topicBox[2]{%
+        %\bigskip
+        \begin{center}%
+                \fbox{
+					\begin{minipage}[c]{.95\linewidth}
+					\vskip1ex \hskip1ex \textbf{#1 \\} \textcolor{black}{#2}
+					\end{minipage}
+				}%
+        \end{center}%
+        %\bigskip%
+}
+\newcommand\bioCheat[1]{%
+        %\bigskip
+        \begin{center}\sffamily% 
+                \ovalbox{\parbox[l]{5in}{\textbf{Bio-cheats:} \textcolor{green}{#1}}}%
+        \end{center}%
+        %\bigskip%
+}
+\newcommand\bioTip[1]{%
+        %\bigskip
+        \begin{center}\sffamily%
+                \ovalbox{\parbox[l]{5in}{\textbf{BioTip:} \textcolor{green}{#1}}}%
+        \end{center}%
+        %\bigskip%
+}
+\newcommand\valuableLesson[1]{%
+	%\bigskip
+	\begin{center}\sffamily%
+		\ovalbox{\parbox[l]{5in}{\textbf{Valuable Lesson:} \textcolor{blue}{#1}}}%
+	\end{center}%
+	%\bigskip%
+}
+\newcommand\gotcha[1]{%
+	%\bigskip
+	\begin{center}\sffamily%
+		\ovalbox{\parbox[l]{5in}{\textbf{Gotchas:} \textcolor{red}{#1}}}%
+	\end{center}%
+	%\bigskip%
+}
+\newcommand\briefConclude[1]{\paragraph{Brief Conclusions:} #1}
+\newcommand\briefUpdate[2]{%
+	%\bigskip
+	\begin{center}%
+	\begin{tikzpicture}
+ 		\node [fill=shade,rounded corners=7pt]
+		{ \parbox[l]{6in}{\bsf{Brief Update \emph{#1}:} \textcolor{magenta}{\bsf{#2}}} };
+	\end{tikzpicture}
+	\end{center}%
+	%\bigskip%
+}
+\newcommand\toDo[1]{\paragraph{\textcolor{green}{To Do!!!}}\textcolor{red}{#1}}
+\newcommand\fName[1]{\texttt{\textcolor{green}{#1}}}
+\newcommand\cmd[1]{\texttt{\textcolor{brick}{#1}}}
+\newcommand\bsf[1]{\textbf{\textsf{#1}}}
+\newcommand\nsf[1]{\textsf{#1}}
+\newcommand\alert[1]{\textcolor{magenta}{#1}}
+\newcommand\rArw{$\Rightarrow$}
+\newcommand\etal{\textit{et al.}}
+\newcommand{\pb}{\vskip2.5ex}
+\newcommand{\CITEME}{\alert{CITEME}}
+\usepackage{lipsum}
+\newcommand{\dummytext[1]}{\alert{\lipsum[#1]}}
+\usepackage[plainpages=false,pdfborder={0 0 0},colorlinks]{hyperref}
+\usepackage[acronym]{glossaries}
+\newcommand{\Aea}{\textit{Aedes aegypti}}
+\newcommand{\Aa}{\textit{Ae. aegypti}}
+\newcommand{\Ang}{\textit{Anopheles gambiae}}
+\newcommand{\Ag}{\textit{An. gambiae}}
+\newcommand{\Ans}{\textit{Anopheles stephensi}}
+\newcommand{\As}{\textit{An. stephensi}}
+\newcommand{\Cxq}{\textit{Culex quinquefasciatus}}
+\newcommand{\Cq}{\textit{Cx. quinquefasciatus}}
+\newcommand{\Plf}{\textit{Plasmodium falciparum}}
+\newcommand{\Pf}{\textit{P. falciparum}}
+\newcommand{\Plv}{\textit{Plasmodium vivax}}
+\newcommand{\Pv}{\textit{P. vivax}}
+\newcommand{\Plo}{\textit{Plasmodium ovale}}
+\newcommand{\Po}{\textit{P. ovale}}
+\newcommand{\Plm}{\textit{Plasmodium malariae}}
+\newcommand{\Pm}{\textit{P. malariae}}
+\newcommand{\Plk}{\textit{Plasmodium knowlesi}}
+\newcommand{\Pk}{\textit{P. knowlesi}}
+\newcommand{\Dmel}{\textit{Drosophila melanogaster}}
+\newcommand{\Dm}{\textit{D. melanogaster}}
+\usepackage[utf8x]{inputenc}
+\newtheorem{theorem}{{\sc Theorem}}[chapter]
+\newtheorem{definition}{{\sc Definition}}[chapter]
+\newtheorem{example}{{\sc Example}}[chapter]
+
+\pagestyle{empty}
+\thispagestyle{empty}
+\begin{document}
+\newcommand{\mypubentry}[3]{
+  \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}p{4.5in}r}
+    \textbf{#1} & \textbf{#2} \\ 
+    \multicolumn{2}{@{\extracolsep{\fill}}p{.95\textwidth}}{#3}\vspace{6pt} \\
+  \end{tabular*}
+}
+\newcommand{\mysoftentry}[3]{
+  \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{#1} & \url{#2} \\
+    \multicolumn{2}{@{\extracolsep{\fill}}p{.95\textwidth}}
+    {\emph{#3}}\vspace{-6pt} \\
+  \end{tabular*}
+}
+\includegraphics[width=.6\linewidth]{figures/figs/mosqXsection.pdf}
+\clearpage% page: 0
+\includegraphics[width=0.9\linewidth]{figures/figs/CREvCRM.pdf}
+\clearpage% page: 1
+\includegraphics[width=0.9\linewidth]{figures/figs/elementsOfTxReg.pdf}
+\clearpage% page: 2

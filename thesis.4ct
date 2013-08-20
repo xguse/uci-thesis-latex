@@ -1,0 +1,5 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{\centering \Large TABLE OF CONTENTS}}{4}\relax 
+\doTocEntry\tocchapter{}{\csname a:TocLink\endcsname{1}{Q1-1-2}{}{LIST OF FIGURES}}{vi}\relax 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-3}{\centering \Large LIST OF FIGURES}}{7}\relax 
+\par 
