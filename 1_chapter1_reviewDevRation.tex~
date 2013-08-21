@@ -26,21 +26,11 @@ Review a selection of my contributions to the literature that have informed the 
   \end{itemize}
 \end{enumerate}
 
-\section{Sieglaff et al}
+\section{Comparative genomics allows the discovery of cis-regulatory elements in mosquitoes}
 
-The search for mosquito CREs is complicated by several
-features of the species and their corresponding genomes.
-In addition to relatively long divergence times (Fig. 1), An. gambiae, Ae. aegypti and Cx. quinquefasciatus have noticeably distinct genome sizes [278, 1310, and 575 million base-pairs in length, respectively (http://www.vectorbase.org)] caused in part by variations in amounts of repetitive elements, especially near the 5' and 3' end untranslated regions of genes (3).
-The long divergence times and variability make difficult CRE discovery and analyses that require regional sequence alignments.
-An algorithm, motif discovery using orthologous sequences (MDOS) was developed that does not require anchoring of orthologous sequences (10).
-MDOS assigns a conservation z-score, which is a statistical measure of how often a specific, short-DNA sequence (7–9 nucleotides in our study) is conserved in the putative control DNA of orthologous genes.
-We apply it here to one-to-one orthologous genes to discover putative CREs conserved among all 3 mosquito species.
-We also present evidence of conservation of CREs associated with blood meal-regulated genes among mosquito species of the Culicinae and Anophelinae subfamilies.
+See Figure \ref{fig:sieglaff2009_full}
 
-Anautogeny, the requirement for a blood meal to promote egg development, is conserved in the clades represented by An. gambiae (Anophelinae) and Ae. aegypti/Cx. quinquefasciatus (Culicinae) over divergence times estimated to be 145 to 200 Mya (11).
-Hematophagy in mosquitoes stimulates a series of events characterized by the induction and repression of specific genes (12–14).
-The temporal-, tissue-, and sex-specific expression of groups of these genes is hypothesized to be under some form of coordinate regulation (15). Furthermore, it is proposed that this coordinate regulation is achieved by the presence of common CREs in control DNA in analogy to what is observed for hormone-, heat shock-, or immune-modulated genes in insects (16–18).
-Our findings support the conclusion that the shared life history of hematophagy in mosquitoes is a selective force in the conservation of CREs.
+\input{figures/sieglaff2009_full}
 
 %%% Local Variables: ***
 %%% mode: latex ***

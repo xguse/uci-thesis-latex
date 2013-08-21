@@ -1,6 +1,6 @@
 
 \begin{figure}[h]
-\centering
+\centering \sffamily
 \includegraphics[width=.6\linewidth]{figures/figs/mosqXsection.pdf}
-\caption{Cross section of a female mosquito with tissues important to the transmission cycle highlighted. \\  \CITEME}\label{fig:mosq-xsection}
+\caption[Cross section of a female mosquito]{\textbf{Cross section of a female mosquito with tissues important to the transmission cycle highlighted.} \\  \CITEME}\label{fig:mosq-xsection}
 \end{figure}

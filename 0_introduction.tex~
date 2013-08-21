@@ -66,7 +66,7 @@ Because the arrows of transmission essentially\footnote{While some mosquito
   broken (\CITEME).}
 points from mosquito to human or from human to mosquito, the cycle will collapse and a local area would eventually be cleared of the pathogen if either of those arrows are broken, provided that the intervention is maintained.
 This model suggests two primary targets for public health interventions aiming to reduce the \gls{incidence}
-(followed by \gls{prevalence}) of infection in a population.
+(followed by \gls{prevalence}) of infection in a population:
 
 \begin{enumerate}
 \item Prevent mosquitoes from infecting humans.
@@ -147,9 +147,11 @@ This makes characterization of the effects of a transgene complicated.
 However, with the successful implementation of the \gls{phic31} site-specific integration system in \Aa\ and \As\ \cite{Thorpe1998,Nimmo2006,Isaacs2012}, we can now reliably target specific, pre-characterized regions of these genomes for transgene integration of a single copy.
 
 Heritability is achieved through specifically targeting the \gls{germline} cells of mosquito embryos for transgenesis.
-In flies like mosquitoes, the cells that will become the germline always position themselves at one end (or pole) of the embryo.
+In flies like mosquitoes, the cells that will become the germline always position themselves at one end (or pole) of the embryo (Figure \ref{fig:pole-cells}).
 The transgenesis cocktail containing the transgene construct is injected into the embryos where the pole cells are located.
 This means that the first generation of mosquitoes that may contain the transgene in every cell of their body is \textbf{not} the injected generation but the progeny of the injected mosquitoes.
+
+\input{figures/pole-cells}
 
 \subsection{Effector genes}
 
@@ -245,7 +247,7 @@ An example of such a method is the Medea system successfully engineered in \Dm\ 
 \section{Conservation of bloodmeal-regulated transcription}
 \dummytext[3]
 
-\subsection{Evolutionary relationships between mosquitoes and hematophagy}
+\subsection{Evolutionary relationship between mosquitoes and hematophagy}
 \dummytext[3]
 
 \subsection{Implications for design of transgenic vector control systems?}

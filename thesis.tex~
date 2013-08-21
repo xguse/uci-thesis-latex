@@ -157,7 +157,7 @@
 % "References should be formatted in style most common in discipline",
 % abbrv is only a suggestion.
 \bibliographystyle{abbrv}
-\bibliography{/home/gus/Dropbox/MendeleyBibTeX/thesis.bib}
+\bibliography{/home/gus/Dropbox/MendeleyBibTeX/thesis}
 
 % The Thesis Manual says not to include appendix figures and tables in
 % the List of Figures and Tables, respectively, so these commands from

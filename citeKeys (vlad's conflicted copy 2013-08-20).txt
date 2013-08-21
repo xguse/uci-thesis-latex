@@ -1,0 +1,22 @@
+Comparative genomics allows the discovery of cis-regulatory elements in mosquitoes
+44
+45
+46
+11
+12-14
+15
+16-18
+3
+10
+
+
+
+
+
+RNA-seq analyses of blood-induced changes in gene expression in the mosquito vector species, Aedes aegypti
+
+Strain Variation in the Transcriptome of the Dengue Fever Vector, Aedes aegypti
+
+Comparative Transcriptome Analyses of Deltamethrin-Resistant and-Susceptible Anopheles gambiae Mosquitoes from Kenya by RNA-Seq
+
+Complex Modulation of the Aedes aegypti Transcriptome in Response to Dengue Virus Infection

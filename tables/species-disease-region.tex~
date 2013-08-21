@@ -9,7 +9,7 @@ Dengue Viruses & Wolrdwide & \Aea\\
  & Asia & \Ans\\\bottomrule
 \end{tabular}
 
-\caption{Primary geographic vectors of dengue fever and malaria}
+\caption{Primary geographic vectors of dengue fever and malaria}\label{tab:species-disease-region}
 \end{table} 
 
 
