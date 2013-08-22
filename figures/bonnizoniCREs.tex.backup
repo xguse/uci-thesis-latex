@@ -1,0 +1,8 @@
+
+\begin{figure}[hp]
+
+\includegraphics[width=.9\textwidth]{figures/figs/bonnizoniCREs.pdf}
+
+\caption[Examples of amendments to the \Aa\ annotation supported by HMMSplicer results]{\sf \textbf{Motif map of putative CREs discovered by SCOPE using transcripts detected significantly only in blood fed female \Aa:} Locations of representative SCOPE-derived CRE motifs in the 2000 bp upstream of the annotated translational start site in the 40 transcripts detected significantly only in B. Transcript names on the left are ordered from most (top) to least (bottom) abundant.}
+\label{fig:bonnizoniCREs}
+\end{figure}

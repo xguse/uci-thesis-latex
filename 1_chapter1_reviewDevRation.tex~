@@ -28,9 +28,41 @@ Review a selection of my contributions to the literature that have informed the 
 
 \section{Comparative genomics allows the discovery of cis-regulatory elements in mosquitoes}
 
-See Figure \ref{fig:sieglaff2009_full}
+
+Figure \ref{fig:mosqPhyloTree}
+
+
+Figure \ref{fig:sieglaff2009_full}
+
 
 \input{figures/sieglaff2009_full}
+\input{figures/mosqPhyloTree}
+
+
+\section{RNA-seq analyses of blood-induced changes in gene expression in the mosquito vector species, Aedes aegypti}
+
+Figure \ref{fig:aedesHMMsplice}
+
+
+Figure \ref{fig:bonnizoniCREs}
+
+\input{figures/aedesHMMsplice}
+\input{figures/bonnizoniCREs}
+
+\section{Strain Variation in the Transcriptome of the Dengue Fever Vector, Aedes aegypti}
+
+Figure \ref{fig:aa-diff-paralogs}
+\input{figures/aa-diff-paralogs}
+
+
+
+% \section{Complex modulation of the Aedes aegypti transcriptome in response to dengue virus infection}
+
+% Figure \ref{fig:bonizzoni2012complex-cre}
+% \input{figures/bonizzoni2012complex-cre}
+
+
+\section{\texorpdfstring{like\textsubscript{this}}{like this}}
 
 %%% Local Variables: ***
 %%% mode: latex ***

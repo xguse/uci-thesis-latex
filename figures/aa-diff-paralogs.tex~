@@ -1,0 +1,10 @@
+
+\begin{figure}[hp]
+
+\includegraphics[width=.9\textwidth]{figures/figs/aa-diff-paralogs.png}
+
+\caption[Fatty acid biosynthesis and elongation in mitochondria]{\sf \textbf{Fatty acid biosynthesis and elongation in mitochondria:} Proteins corresponding to transcripts accumulated in a strain-specific manner are circled in a color corresponding to the strain and condition defined in the legend (panels A and B).
+
+Excerpted from \cite{bonizzoni2012strain}}
+\label{fig:aa-diff-paralogs}
+\end{figure}

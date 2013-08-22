@@ -1,0 +1,70 @@
+\chapter{Development of Analytical Approach}
+
+\section{Purpose}
+Review a selection of my contributions to the literature that have informed the approach used in this project throughout my tenure as a member of the lab
+\begin{enumerate}
+ \item Comparative genomics allows the discovery of cis-regulatory elements in mosquitoes
+  \begin{itemize}
+   \item Use of comparative genomics to discover putative CREs from orthologous promoter regions in mosquitoes that were able to be corelated with bloodmeal associated transcription control
+  \end{itemize}
+ \item RNA-seq analyses of blood-induced changes in gene expression in the mosquito vector species, Aedes aegypti
+  \begin{itemize}
+   \item relevance
+  \end{itemize}
+
+ \item Strain Variation in the Transcriptome of the Dengue Fever Vector, Aedes aegypti
+   \begin{itemize}
+   \item relevance
+  \end{itemize}
+ \item Comparative Transcriptome Analyses of Deltamethrin-Resistant and-Susceptible Anopheles gambiae Mosquitoes from Kenya by RNA-Seq
+   \begin{itemize}
+   \item relevance
+  \end{itemize}
+ \item Complex Modulation of the Aedes aegypti Transcriptome in Response to Dengue Virus Infection
+   \begin{itemize}
+   \item relevance
+  \end{itemize}
+\end{enumerate}
+
+\section{Comparative genomics allows the discovery of cis-regulatory elements in mosquitoes}
+
+
+Figure \ref{fig:mosqPhyloTree}
+
+
+Figure \ref{fig:sieglaff2009_full}
+
+
+\input{figures/sieglaff2009_full}
+\input{figures/mosqPhyloTree}
+
+
+\section{RNA-seq analyses of blood-induced changes in gene expression in the mosquito vector species, Aedes aegypti}
+
+Figure \ref{fig:aedesHMMsplice}
+
+
+Figure \ref{fig:bonnizoniCREs}
+
+\input{figures/aedesHMMsplice}
+\input{figures/bonnizoniCREs}
+
+\section{Strain Variation in the Transcriptome of the Dengue Fever Vector, Aedes aegypti}
+
+Figure \ref{fig:aa-diff-paralogs}
+\input{figures/aa-diff-paralogs}
+
+
+
+\section{Strain Variation in the Transcriptome of the Dengue Fever Vector, Aedes aegypti}
+
+Figure \ref{fig:aa-diff-paralogs}
+\input{figures/aa-diff-paralogs}
+
+
+
+
+%%% Local Variables: ***
+%%% mode: latex ***
+%%% TeX-master: "thesis.tex" ***
+%%% End: ***
