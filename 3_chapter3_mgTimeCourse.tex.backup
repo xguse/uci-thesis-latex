@@ -1,0 +1,28 @@
+\chapter{Analysis of Conservation of Midgut Transcriptional Response to Bloodfeeding in Four Vector Mosquitoes}
+\todo[inline]{replace CITEME tags in Analysis of Conservation of Midgut Transcriptional Response to Bloodfeeding in Four Vector Mosquitoes}
+
+\todo[inline]{write all the figures}
+
+\todo[inline]{MEGA: you need to write most of this chapter}
+
+\section{Background}
+\begin{enumerate}
+ \item Biological importance of bloodmeal to mosquito
+ \item Biological importance of bloodmeal to transmission cyc
+\end{enumerate}
+
+
+\input{figures/pairwise-ptci-figs}
+Figure \ref{fig:pairwise-ptci-hists}
+
+\input{figures/mean-ptci-figs}
+Figure \ref{fig:mean-ptci-hists}
+
+
+\input{figures/ecr_and_insects_25_clusters}
+Figure \ref{fig:25-clusters}
+
+%%% Local Variables: ***
+%%% mode: latex ***
+%%% TeX-master: "thesis.tex" ***
+%%% End: ***

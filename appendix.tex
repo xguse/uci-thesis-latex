@@ -12,6 +12,175 @@
 
 \chapter{Methods}
 
+\section{Comparative genomics allows the discovery of \textit{cis}-regulatory elements in mosquitoes}
+% CITEME 3  Nene2007
+% CITEME 13 Marinotti2005
+% CITEME 14 Marinotti2006
+% CITEME 50 Vilella2009
+% CITEME 51 Richardson2006
+% CITEME 52 Mahony2007stamp
+% CITEME 53 Mahony2007dna
+% CITEME 54 Benjamini1995
+% CITEME 55 Saeed2003
+
+\subsection{Sequence Datasets}
+Orthologous gene pairs among \Cxq\ (genebuild CpiJ1.2), \Aea\ (genebuild AaegL1.1), \Ang\ (genebuild AgamP3.4), and \Dmel\ (genebuild BDGP4.3) were determined using the Ensemble Compara pipeline \cite{Vilella2009}.
+This pipeline is based on maximum likelihood phylogenetic gene trees built from the gene transcripts and representing the evolutionary history of gene families.
+Duplication or speciation events are differentiated by comparing the gene trees to the species tree.
+This method is analogous to the reciprocal best-hit approach in the simple case of unique orthologous genes (one-to-one orthologues).
+The resulting lists of genes are available from Vectorbase at \url{http://www.vectorbase.org/Other/ComparativeAnalyses}.
+All mosquito gene coordinates were obtained from VectorBase and \Dm\ data were from Ensembl API (\Aa: Ensembl 49 genebuild AaeL1.1; \Ag: Ensembl 49, genebuild Agam3.4; \Cq: VectorBase, genebuild CpiJ1.2; \Dm: Ensemble 49, genebuild BDGP4.3).
+Repeat-masked \Cq\ sequences were obtained from VectorBase and all other genome sequences were retrieved premasked using the Ensembl perl API.
+The one-to-one mosquito orthologous datasets were evaluated further before using in the MDOS analyses.
+The pronounced intron elongation in 5′- and 3′-end UTRs resulting from the insertion of repetitive elements within these regions \cite{Nene2007} and the presence of coding sequence incorrectly included in annotated UTRs were mitigated by only using sequences found within fragments 2 kb in length at the 5′-end of the annotated gene boundaries.
+Overlaps of these DNA sequences with adjacent genes were determined through use of fjoin \cite{Richardson2006} and the sequences truncated accordingly.
+Only sequences with a final size ≥ 10 base (bp) were analyzed.
+Pairwise comparisons were conducted with MDOS limits set for the discovery of 7-, 8-, and 9-mers.
+
+\subsection{Discovery of Evolutionarily Conserved Putative CREs Among Mosquitoes}
+Motifs receiving a conservation z-score ≥3 in all 3 mosquito pairwise comparisons were combined into a nonredundant list.
+To discover motifs with greater exclusivity within the 3 mosquitoes, the conservation z-scores for each motif in 2-kb 5′-end flanking regions of shared \Dm\ orthologues also were determined.
+A reciprocal analysis was conducted in which 8-mers conserved in 5′-end flanking regions of one-to-one orthologs of \Dm\ and each mosquito species also were determined (conservation z-score ≥3), followed by conservation z-scores determination of these motifs in the other 2 mosquito species.
+This analysis addresses the effect of the order of motif discovery, and whether the discovery process was biased by first discovering conserved motifs in mosquitoes followed by assessment in \Dm\ or vice versa.
+The discovered motifs were grouped by a “Familial Binding Profile” construction through use of the STAMP program \cite{Mahony2007stamp,Mahony2007dna}, using default settings (Metric = PCC, Alignment = SWU, Gap-open = 1,000, Gap-extend = 1,000, nonoverlap-align Multiple Alignment = IR, Tree = UPGMA).
+Putative identifications of the discovered motifs were determined using STAMP through comparisons to mosquito TFBS reported in the literature, with acceptable matches defined as those with E-values $<$ 1\e{-5} and no more than 1 mismatched nucleotide.
+
+\subsection{Clustering of Temporal- and Spatially Regulated \Ag}
+Preexisting microarray data \cite{Marinotti2005,Marinotti2006} were used to identify groups of genes with specific temporal- or spatial-mRNA accumulation profiles.
+Alignments of probe sequences to the \Ag genome (Ensembl 49) were provided by Nathan Johnson (Ensembl group, EBI).
+Probe-sets aligning to multiple genes or with ≥2 probes with more than 1 mismatch were not included.
+One-way ANOVA was performed to identify probe-sets (genes) with significant changes in expression with a conservative false discovery rate of 0.001 \cite{Benjamini1995}, followed by k-means clustering with Euclidean distance separation using open-source software (MeV MultiExperiment Viewer v4.1.01, TM4 \cite{Saeed2003}).
+The probe sets showing significant dynamic expression patterns following a blood meal were clustered into distinct TC groups.
+To further refine the expression gene/cluster assignments, probe-sets that align to the same gene were required to have a Pearson's Correlation Coefficient ≥0.9; otherwise, the respective gene was removed from further analysis.
+Expression values from 4 samples (whole-body females, midguts, fat body, and ovaries, all processed at 24 hPBM) were analyzed by one-way ANOVA.
+Probe-sets (genes) from each sample displaying ≥ 3-fold enrichment over the remaining samples as well as having a p-value ≤ 0.05 (Tukey honest significant difference) were considered to be enriched within the respective sample.
+
+\subsection{Determination of Association of Mosquito Motifs Within Expression Clusters}
+The 5′-end flanking sequences of genes within each \Ag\ expression cluster were scanned for the occurrence of the mosquito motifs, and their enrichment scored using the hypergeometric distribution.
+The number of genes containing a particular motif in their 5′-end flanking sequences is designated $K$, and those occurring within a specific expression cluster, $k$.
+If the total number of 5′-end sequences analyzed is $N$, and the number of genes in that particular cluster is represented as $n$, all sequences without the motif (“negative set”) would be $N - K$ and those within the sample $n - k$.
+The probability of observing by chance at least $k$ matches within the cluster $n$ can be calculated through the equation:
+
+\input{equations/cumulative-hypergeometric}
+
+Distributions of p-values obtained from mosquito-motif associations with expression clusters were compared with those derived from alternative sequences.
+To generate alternative sequences, mosquito motifs were shuffled following 2 different procedures: the first used a translation key (A = G; G = T; T = C; C = A) to substitute the nucleotides at each position; the second produced random permutations by shuffling the order of motif constituents, maintaining the nucleotide composition.
+
+
+\section{RNA-seq analyses of blood-induced changes in gene expression in the mosquito vector species, \Aea}
+% [*\CITEME 27] \cite{Ribeiro-AegyXcel}
+% [*\CITEME 33] \cite{Lawson2009}
+% [*\CITEME 56] \cite{Carlson2007}
+% [*\CITEME 59] \cite{Dimon2010}
+% [*\CITEME 65] \cite{MACDONALD1963}
+% [*\CITEME 66] \cite{Nene2007}
+% [*\CITEME 67] website
+% [*\CITEME 68] website
+% [*\CITEME 69] \cite{Langmead2009}
+% [*\CITEME 70] \cite{Quinlan2010}
+% [*\CITEME 71] \cite{Wang2010}
+% [*\CITEME 72] \cite{Benjamini1995}
+% [*\CITEME 73] \cite{Schmittgen2008}
+
+\subsection{Mosquito strains and rearing}
+
+The \Aa\ Liverpool strain (LTV) used in this study originated from West Africa where it was selected for susceptibility to the filarial worm parasite, Brugia malayi \cite{MACDONALD1963}, and has been maintained at the Liverpool School of Tropical Medicine since 1936. DNA from mosquitoes of this strain, derived after twelve consecutive generation of single-pair inbreeding, was used to generate the currently available \Aa\ genome sequence \cite{Nene2007}. Mosquitoes were maintained at 28°C, 70-80\% relative humidity, with 12-12 h light-dark photoperiod at Colorado State University (Fort Collins, Colorado). Larvae were fed on a finely-ground fish food (Tetramin, Tetra Werke, Germany). Males and females were kept together in a cage with unlimited access to water and sugar (raisin) until blood feeding. Mosquitoes aged 3-5 days after eclosion were allowed to feed on immobilized mice. The study was carried out in strict accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health. Female mosquitoes were flash-frozen in dry ice and promptly stored (-80°C) five hours after blood feeding and shipped to the University of California, Irvine for RNA extraction.
+
+\subsection{RNA extraction and Illumina library preparation}
+
+Total RNA was extracted with TRIZOL (Invitrogen) from pools of three females (3-5 days old) either exclusively kept on a sugar diet (S) or five hours after blood feeding (B). After checking for the quality of RNA with an Agilent 2100 bioanalyzer, two samples of S and B were pooled to reach the 20 micrograms necessary for the preparation of two single-read Illumina libraries. Illumina libraries were prepared and run for 40 cycles by the Expression Analysis Core at the UC Davis Genome Center. Libraries were run at a concentration of 4-5 pM.
+
+\subsection{Processing of Illumina sequencing data}
+
+Sequencing data were retrieved from the UC Davis Genome Center through r-sync. Sequencing data have been deposited at the Short Read Archive (NCBI) under accession number GSE24872. Data from the two technical replicates were combined to gain sequencing depth after having verified the technical reproducibility of the two libraries generated for each condition (B and S). Bowtie \cite{Langmead2009} was used to align the Illumina reads against the \Aa\ genome (version AaegL1) \cite{Lawson2009}, allowing a maximum of two mismatches and with the -m option, which returns only reads with a single best match in the genome. Reads mapping to ribosomal RNA genes were filtered out from the Bowtie output using a custom Python script. The percentage of covered transcriptome was determined using BEDTools \cite{Quinlan2010}. Differential expression between conditions was assessed by the likelihood ratio test as implemented in the program DEGseq \cite{Wang2010}, after accounting for the different total gene counts of each library, at a p value of 0.001 and with a false discovery rate (FDR) of 0.1\% \cite{Benjamini1995}. Transcript description was based on the \Aa\ protein database AegyXcel \cite{Ribeiro-AegyXcel}.
+
+\subsection{Real-time quantitative RT-PCR validation of RNA-seq data}
+
+A total of 13 genes identified by RNA-seq to be expressed differentially between S and B mosquitoes were chosen for real-time quantitative PCR analysis. Total RNA was extracted by TRIZOL (Invitrogen) from a pool of eight females kept exclusively on a sugar diet or a similar pool collected five hours after blood feeding. Following DNAse I (Invitrogen) treatment, a total of 10 μg of RNA were used for cDNA synthesis with superscript III (Invitrogen) and random primers. Real-time quantitative PCR reactions of 20 μl were performed in triplicate with SYBR Green Supermix (Biorad) and 0.3 μM of each primer on three sequential five-fold dilutions each of the original cDNA. Real-time quantitative PCR reactions were run on an iQ3 system (Biorad). No primer dimer was detected when inspecting the melting curves and primer pairs were chosen that displayed greater than 90\% amplification efficiency, in all cases except AAEL002565, where efficiency was 89.313 ± 5.384. Fold-changes in gene expression between S and B mosquitoes were derived by the comparative CT method \cite{Schmittgen2008}, using the constitutive gene rp49 (GenBank Acc. No.:AY539746; AAEL003396) as the reference and four samples each for S and B mosquitoes. Correlation between the expression values detected by RNA-seq and qRT-PCR for the 13 genes tested was estimated by calculating Spearman's Rho correlation in the JMP501 statistical software (SAS Institute INC., Cary, NC). The paired t-test in Excel was used to compare the expression values for each transcript in the two methods. The significance of the qRT-PCR-based difference in expression values between B and S mosquitoes based on four samples each for B and S were calculated using a standard t-test.
+
+\subsection{Splice-site predictions}
+
+The program HMMsplicer \cite{Dimon2010} followed by custom Python scripts was used to assess transcriptome plasticity. Initial HMMsplicer runs were performed separately for sugar-fed and blood-fed samples using all RNA-seq reads that passed Illumina's quality filtering, regardless of whether they aligned to the genome. Junctions were predicted initially for single reads and then combined with perfectly matching junctions and junctions within 3 bp of each other. The combined junction inherits the location of the highest scoring junction and the combined score is adjusted appropriately. Only junctions predicting canonical splice sites after this combination were retained. Predictions for sugar-fed and blood-fed samples were combined and scores adjusted similar to above to improve the predictive power, but perfectly matching junctions were required for junctions to be combined. Finally, only junctions with more than one supporting RNA-seq read and an HMMsplicer score of 600 or greater were considered here.
+
+\subsection{Motif discovery}
+
+SCOPE \cite{Carlson2007} uses an ensemble method to combine the results of three specialized motif finders that separately concentrate on non-degenerate motifs, degenerate motifs and motifs that contain two separate ``half-sites''. It generates significance scores by combining overrepresentation, positional bias and the proportion of the co-regulated promoters to contain at least one instance of the motif. It is resistant to the common problem of extraneous or ``non-informative'' promoter regions included in the co-regulated set. SCOPE was run using the 2000 bp upstream of the start codon for each transcript with SCOPE's OccurrenceKSScorer to generate the significance values.
+
+
+
+
+\section{Strain Variation in the Transcriptome of the Dengue Fever Vector, \Aea}
+% CITEME Ptitsyn et al. 2011  Ptitsyn2011
+% CITEME Stobbart 1977 Stobbart1977
+% CITEME Bonizzoni et al. 2011 Bonizzoni2011
+% CITEME Bonizzoni et al. 2011 Bonizzoni2011
+% CITEME Langmead et al. 2009 Langmead2009
+% CITEME Bonizzoni et al. 2011 Bonizzoni2011
+% CITEME Wang et al. 2010 Wang2010
+% CITEME Benjamini and Hochberg 1995 Benjamini1995
+% CITEME Guo et al. 2010 Guo2010
+% CITEME Ingsriswang et al. 2011 Ingsriswang2011
+
+\subsection{\Aea\ strains}
+LVP, CTM, and Rex-D mosquitoes were reared under identical laboratory conditions to prevent the effects of environmental factors on transcription. Female and male mosquitoes were kept together in cages with unlimited access to sugar (raisins) and water until blood feeding. Three- to five day-old female mosquitoes were allowed to feed on anesthetized mice. Blood-fed females were transferred to another cage, kept with access to water and sugar, and whole-animal samples harvested at 5, 8, 12, 24, or 72 hr post-bloodmeal (hPBM) and stored at −80°. Blood-feedings occurred between 8 and 10 AM to avoid differences in expression profiles attributable to circadian rhythms \cite{Ptitsyn2011}.
+
+\subsection{Weight comparisons of sugar and blood-fed mosquitoes}
+Three-day old females were separated into pools of 20 mosquitoes each, denied access to water for 4 hr, immobilized by \coo, and weighed. Mosquitoes then were given access to water and sucrose until 4 hr before blood-feeding. At 24 hr after the first weight measurement, six pools of each strain were allowed to feed on anesthetized mice for 15 min. Immediately after blood-feeding, each pool was immobilized by \coo\ and reweighed. Two additional weight measurements were recorded at 30-min intervals to account for diuresis \cite{Stobbart1977}. The differences in weight before and after blood-feeding and among the three strains were analyzed by a t-test, assuming equal variance.
+
+\subsection{RNA-seq library preparation and sequencing}
+Total RNA was extracted with TRIZOL (Invitrogen) from pools of three female mosquitoes either kept on a sugar diet (S) or 5 hr after blood-feeding (B), The quality of the RNA was checked on an Agilent 2100 Bioanalyzer, and two samples each of S and B mosquitoes were pooled for RNA-seq library preparation. Libraries were prepared following the standard Illumina protocol (\url{http://www.illumina.com/products/mrna_seq_8_sample_prep_kit.ilmn}) and sequenced with 40-bp single reads at the Expression Analysis Core at the UC Davis Genome Center (\url{http://genomecenter.ucdavis.edu/expression_analysis/}). Libraries were run at a nucleic acid concentration of 4 to 5 pM.
+
+\subsection{Reverse transcription gene amplification}
+Total RNA was extracted using TRIZOL (Invitrogen) from pools of 300 embryos collected 12 hr after egg deposition, 30 3rd instar larvae, 30 pupae, or five adults. Adult samples included 3- to 5-day-old male or female mosquitoes kept on a sugar diet and 3- to 5-day-old females collected 5, 24 and 72 hPBM. Total RNA from six adult samples of each of the time points was pooled in equal amounts to have a representation of 30 individuals as in the case of larvae and pupae. After DNAse I treatment (Ambion), 800 ng of RNA were used for cDNA synthesis with Superscript III (Invitrogen) and random oligonucleotide primers. Gene amplification reactions were performed with the use of 2 μl of cDNA, 0.4 μM of each transcript-specific primer, 0.2 nM each dNTP, 2 mM MgSO$_{4}$, 1X buffer, and 1 Unit of Platinum Taq DNA Polymerase (Invitrogen). Amplification conditions were 94° for 2 min followed by 25 to 40 cycles of 94° for 15 sec, 45 to 65° for 30 to 45 sec, 68° for 30 sec, and a final step at 68° for 6 min. Amplification products were resolved in a 2\% agarose gel and stained with GelRed (Phenix Research).
+
+\subsection{Quantitative real-time gene amplification}
+Total RNA was extracted by TRIZOL (Invitrogen) from pools of eight females either kept exclusively on a sugar diet or eight females collected at 5, 8, 12, and 24 hPBM. After DNAse I (Invitrogen) treatment, 10 µg of RNA were used for cDNA synthesis with Superscript III (Invitrogen) and random primers. Real-time quantitative gene amplification reactions for 13 selected transcripts were run and analyzed as described previously \cite{Bonizzoni2011}.
+
+\subsection{RNA-seq data analyses}
+RNA-seq data for the CTM and Rex-D strains are deposited at the NCBI Gene Expression Omnibus under accession number GSE32074. RNA-seq data for the LVP strain are available under the accession number GSE24872 \cite{Bonizzoni2011}. Sequence reads were mapped to the LVP reference genome with Bowtie \cite{Langmead2009}, allowing a maximum of two mismatches and with the -m option, which returns only reads with a single best match in the genome \cite{Bonizzoni2011}.
+
+Differential transcript accumulation levels among conditions were assessed by the likelihood ratio test implemented in DEGseq \cite{Wang2010}, after accounting for the different total gene counts of each library, and at a P value of 0.001 with a false discovery rate of 0.1\% \cite{Benjamini1995}. Use of the modifier “significant” in the following text implies that accumulation values met the statistical criteria.
+
+The reference file containing transcript annotation information and used in DEGseq was generated by converting a GTF annotation file obtained through \url{http://metazoa.ensembl.org/} to the format (refflat) accepted by DEGseq and represents gene-build AaegL1.2. Function parent attribution of the sequenced transcripts is based on the \Aa\ database AegyXcel (\url{http://exon.niaid.nih.gov/transcriptome.html#aegyxcel}). Transcripts accumulated differentially among samples were visualized in the \Aa\ protein network \cite{Guo2010} with the use of Cytoscape\_v2.7.0 (\url{http://www.cytoscape.org/}). Metabolic pathways were analyzed by LinkinPath \cite{Ingsriswang2011}, which accepts a maximum of 5000 sequences per session and the color of each group of sequences is assigned automatically.
+
+
+\section{Complex modulation of the \Aea transcriptome in response to dengue virus infection}
+% [*\CITEME 13] \cite{Salazar2007}
+% [*\CITEME 30] \cite{Bernhardt2012}
+% [*\CITEME 31] \cite{bonizzoni2012strain}
+% [*\CITEME 32] \cite{Deubel1986}
+% [*\CITEME 33] \cite{Hess2011}
+% [*\CITEME 34] \cite{Pitts2011}
+% [*\CITEME 35] \cite{Trapnell2009}
+% [*\CITEME 36] \cite{Anders2010}
+% [*\CITEME 37] \cite{Trapnell2010}
+% [*\CITEME 38] \cite{Kersey2012}
+% [*\CITEME 39] \cite{Waterhouse2007}
+% [*\CITEME 40] \cite{Bailey1994}
+% [*\CITEME 41] \cite{Mahony2007stamp}
+
+\subsection{Mosquitoes}
+
+The \Aa\ Chetumal (CTM) strain derives from mosquitoes collected in Chetumal (Yucatan Peninsula, Mexico) in 2005 \cite{Bernhardt2012}. Mosquitoes were maintained at 28°C, 70-80\% relative humidity, with 12-12 h light-dark photoperiod at Colorado State University (CSU; Fort Collins, Colorado). Larvae were fed on finely-ground fish food (Tetramin, Tetra Werke, Germany). Adult males and females were kept together in cages with unlimited access to water and a sugar source (raisins) until blood feeding. Defibrinated sheep blood (Colorado Serum Company, Denver, CO) was used for artificial blood meals.
+
+\subsection{Virus and Mosquito Oral Infection}
+
+A DENV-2 strain, Jam1409, of the American-Asian genotype isolated in Jamaica in 1983, was used in this study \cite{Deubel1986}. DENV-2 Jam1409 was cultured in \textit{Ae. albopictus} C6/36 cells and high passage (>25 passages) viruses were used in oral challenges \cite{Salazar2007}. Specifically, 350 and 330 adult females were fed either a DENV2-infected meal diluted 1:1 in sheep’s blood or uninfected C6/36 cell culture medium diluted 1:1 in sheep’s blood, respectively. Blood meals had a viral titer of 7.9 log10 pfu/ml. ‘DENVI’ or ‘B’ designate mosquitoes fed either the infected or uninfected blood meal, respectively. After blood feeding, 20 DENVI mosquitoes were sacrificed and viral titers determined for each individual using a standard method \cite{Hess2011}. Specifically, mosquito bodies were homogenized in 270 µl of Dulbecco’s Modified Eagle Medium (DMEM) and then centrifuged to eliminate large debris particles. The supernatant was further filtered and used in serial dilutions to infect monolayers of Vero cells. The lowest concentration infecting Vero cells was used to calculate the viral titer of DENVI mosquitoes. Prevalence of infection was 65\% and the median viral titer in infected mosquitoes was 2.2 log10 pfu per mosquito. Samples of 20-30 mosquitoes were removed at 1, 4 and 14 days post infection (dpi), and midguts were dissected from the carcasses. Midguts, salivary glands and corresponding carcasses were collected at 14 dpi. The time points of 1, 4 and 14 dpi were chosen as representing an early time point post-infection when viral particles are confined within the midguts, a time point during the dissemination out of the midgut and a time point within the peak of viral titers in the salivary glands, respectively \cite{Salazar2007}. Midguts and carcasses were collected individually for DENVI and in pools of 10 for B mosquitoes. Salivary glands were collected in pools of 20. Oral challenges and tissue dissections were conducted in a BSL-3 facility at CSU. All dissected samples were placed in 50 µl of 1:1 PBS:Trizol, frozen in dry ice and shipped to the University of California, Irvine, for RNA extraction.
+
+\subsection{RNA-seq Library Preparation and Sequencing}
+
+Total RNA was extracted with TRIZOL (Invitrogen) from pools of 5-10 midguts, 20 salivary glands and corresponding carcasses. The quality of the RNA was checked on an Agilent 2100 Bioanalyser and RNA from a total of 20-40 mosquitoes was pooled in equal amounts for RNA-seq library preparation. Illumina single-end RNA-seq libraries were prepared and sequenced for 40 cycles by the Expression Analysis Core at the UC Davis Genome Center. The need for biological replicates was mitigated as done previously by pooling samples of a large number of mosquitoes for each library \cite{Pitts2011}. Libraries were run at a concentration of 4-5 pM. Evidence for a correlation in transcript accumulation levels as estimated by RNA-seq data and quantitative real-time polymerase chain reaction (qRT-PCR) was provided previously \cite{bonizzoni2012strain}.
+
+\subsection{Data Analyses}
+
+RNA-seq data are deposited at NCBI's Sequence Read Archive (SRA) under accession number SRA058076. Reads were mapped to the Liverpool reference transcriptome (gene build AaegL1. 2) with the splice aligner TopHat, imposing a fragment length of 20 \cite{Trapnell2009}. The accumulation levels of poly-adenylated RNAs were assumed to reflect changes in transcriptional activity of the corresponding genes and quantified in terms of mean number of reads per gene by DESeq \cite{Anders2010}, and in terms of \gls{FPKM} using Cufflinks \cite{Trapnell2010}. FPKM accounts for gene/transcript length and allows more accurate comparisons of accumulation levels across genes/transcripts within a sample.
+
+Statistical significance in differential accumulation of poly-adenylated RNAs between DENVI and B mosquitoes at each time point/tissue was assessed conservatively by two different programs: DESeq and Cuffdiff within Cufflinks \cite{Anders2010,Trapnell2010}. DESeq requires the raw number of reads as input. As a consequence, DESeq was run at the gene level to avoid counting multiple times the reads mapping to exons shared by different transcript isoforms. Cuffdiff output comprises significance in accumulation levels of poly-adenylated RNAs both at the gene and transcript isoform level. Significance in differential gene product representation may not correspond unequivocally to significance at the transcript level because many genes encode a number of transcript isoforms. As a consequence, comparison of results between DESeq and Cuffdiff were done at the gene level. DESeq was run with the “blind” method, the “fit-only” sharing mode and the “local” fit type. Cuffdiff was run requiring a minimum alignment count of 10 and the upper-quartile-norm option, which can improve robustness of differential accumulation calls for less abundant transcripts. Both DESeq and Cuffdiff assess significance in differential accumulation fitting data to a negative binomial distribution, a method shown to maintain control of type-I error and that represents a statistical improvement with respect to the likelihood ratio test we applied previously \cite{bonizzoni2012strain,Anders2010}. As a consequence, differences are expected in transcript quantification levels and significance in differential accumulation between CTM-B and -DENVI mosquitoes of this study and CTM-sugar fed and CTM-B mosquitoes at 5 hours post blood-meal \cite{bonizzoni2012strain}. Gene description used the biomart function of the EnsemblMetazoa (\url{http://metazoa.ensembl.org/index.html}) and Immunodb (\url{http://cegg.unige.ch/Insecta/immunodb}) \cite{Kersey2012,Waterhouse2007}.
+
+The motif-based sequence analyses suite MEME \cite{Bailey1994} was used to investigate the 2000 base-pairs (bp) adjacent to the 5′-end of ATG start-codon (hereafter designated “promoters”) of selected genes. MEME was run imposing 10 motifs, ranging from 6-20 bp. Each identified motif was analyzed for potential transcription-factor binding sites based on the hypothesis that sequence similarity reflects functional similarity. STAMP, a web tool for analyzing DNA-binding motif similarity, was used to search the closest match for each motif in the STAMP-supported transcription-factor databases \cite{Mahony2007stamp}.
+
+
+
 \chapter{Code}
 
 

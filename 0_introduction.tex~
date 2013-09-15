@@ -244,10 +244,23 @@ An example of such a method is the Medea system successfully engineered in \Dm\ 
 \end{enumerate}
 
 
-\section{Conservation of bloodmeal-regulated transcription}
+\subsection{Conservation of bloodmeal-regulated transcription}
 \dummytext[3]
 
-\subsection{Evolutionary relationship between mosquitoes and hematophagy}
+\section{Evolutionary relationship between mosquitoes and hematophagy}
+\begin{quotation}
+\textbf{Closely Related Lineages, Share Similar Sets of Protein Families
+in Their Sialomes, Even If No Apparent Orthologous or Conserved
+Functional Relationships Exist}
+For example, while the D7-proteins in mosquitoes possess an extra α-helix
+involved in the binding of biogenic amines, this helix is absent from the D7-proteins from sand flies and biting midges, implying that they will not possess biogenic amine-binding function (Mans et al., 2007).
+
+Th\textbf{e Same Protein Families are Prone to Expansion in Closely Related Lineages}
+The odorant-binding/D7-family expanded in mosquitoes, sand flies and bitingmidges (Anderson et al., 2006; Campbell et al., 2005; Francischetti et al., 2002a).
+
+Excerpted from \cite{Markland2011}
+\end{quotation} 
+
 \dummytext[3]
 
 \subsection{Implications for design of transgenic vector control systems?}

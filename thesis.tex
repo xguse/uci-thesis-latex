@@ -11,8 +11,12 @@
 %
 \documentclass[12pt,fleqn]{ucithesis}
 % \documentclass[12pt,fleqn]{report}
-
+\usepackage{etex}
+\usepackage{lscape}
 % 
+
+
+\usepackage{todonotes}
 % % A few common packages
 % \usepackage{amsmath}
 \usepackage{amsthm}
@@ -32,10 +36,11 @@
 \usepackage{booktabs}
 \usepackage[bf]{caption}
 \usepackage{subcaption}  % \begin{subfigure}...\end{subfigure} within figure
+\DeclareCaptionSubType[Alph]{figure}
 \usepackage{soul}
 \usepackage{graphicx}
 \usepackage[normalem]{ulem}
-
+\usepackage{adjustbox}
 
 \usepackage[nointegrals]{wasysym}
 
@@ -44,7 +49,8 @@
 
 
 % other libraries that I use
-\usepackage{amsmath,amssymb}
+\usepackage{mathtools} % loads the amsmath package with extra goodies
+\usepackage{amssymb}
 \usepackage{colortbl}
 \usepackage{calc}
 \usepackage{color}
@@ -82,7 +88,7 @@
 
 % plainpages=false fixes the "duplicate ignored" error with page counters
 % Set pdfborder to 0 0 0 to disable colored borders around PDF hyperlinks
-\usepackage[plainpages=false,pdfborder={0 0 0},colorlinks]{hyperref}
+\usepackage[plainpages=false,pdfborder={0 0 0},colorlinks,breaklinks]{hyperref}
 % \usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
 
 
@@ -129,13 +135,15 @@
 % Very handy to speed up compilation if you're working on a certain
 % part of your thesis. It conserves page numbers, references, etc.
 % even for non-included files.
-\includeonly{0_introduction,1_chapter1_reviewDevRation,appendix}
+%\includeonly{0_introduction,1_chapter1_reviewDevRation,appendix}
 
 \begin{document}
 
 % Preliminary pages are always loaded (TOC, CV, etc.)
 \input{preliminaries}
 \preliminarypages
+\todototoc
+\listoftodos
 
 % Include the different components of your thesis, in separate files.
 % Using \include allows you to set \includeonly above.

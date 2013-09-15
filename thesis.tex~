@@ -19,7 +19,7 @@
 \usepackage{array}
 \usepackage{relsize}
 % 
-
+\usepackage{fixltx2e}
 \usepackage{tabularx}
 
 % My Packages:
@@ -82,7 +82,7 @@
 
 % plainpages=false fixes the "duplicate ignored" error with page counters
 % Set pdfborder to 0 0 0 to disable colored borders around PDF hyperlinks
-\usepackage[plainpages=false,pdfborder={0 0 0},colorlinks]{hyperref}
+\usepackage[plainpages=false,pdfborder={0 0 0},colorlinks,breaklinks]{hyperref}
 % \usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
 
 

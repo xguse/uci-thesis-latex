@@ -1,0 +1,36 @@
+
+\begin{figure}[h]
+\centering
+
+\begin{subfigure}[b]{.4\linewidth}
+\centering
+\includegraphics[width=\linewidth]{figures/figs/gfunc_graph_figs/ortho-graph-model.pdf}
+\caption{N-way single copy ortholog graph structure}\label{fig:nway-ortholog-graph-model}
+\end{subfigure}%
+
+\quad
+
+\begin{subfigure}[b]{.4\linewidth}
+\centering
+\includegraphics[width=\linewidth]{figures/figs/gfunc_graph_figs/ortho-graph-node-data.pdf}
+\caption{Node data model}\label{fig:nway-ortholog-graph-node-data}
+\end{subfigure}
+
+
+
+\begin{subfigure}[b]{.4\linewidth}
+\centering
+\includegraphics[width=\linewidth]{figures/figs/gfunc_graph_figs/ortho-graph-edge-data.pdf}
+\caption{Edge data model}\label{fig:nway-ortholog-graph-edge-data}
+\end{subfigure}%
+
+\quad
+
+\begin{subfigure}[b]{.4\linewidth}
+\centering
+\includegraphics[width=\linewidth]{figures/figs/gfunc_graph_figs/ortho-graph-ptci.pdf}
+\caption{Example PTCI data}\label{fig:nway-ortholog-graph-ptci}
+\end{subfigure}
+
+\caption{Graph model used to integrate data types}\label{fig:nway-ortholog-graph}
+\end{figure}

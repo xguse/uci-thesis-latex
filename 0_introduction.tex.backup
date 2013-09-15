@@ -14,7 +14,7 @@
 % \item \chkBoxX Introduction to control of transcription and imoprtance of \glspl{CRE}/\glspl{CRM}
 % \end{enumerate}
 
-\section{Hematophagy (bloodfeeding) is an essential part of  }
+
 
 
 \section{Dengue fever and malaria are mosquito borne diseases}
@@ -30,7 +30,7 @@ The fact that both of these diseases are caused by multiple pathogen species com
 
 \alert{TONY: MORE HERE ABOUT WHY THIS COMPLICATES THINGS?}
 
-\section{The transmission cycles of dengue fever and malaria require mosquitoes}
+\section{Hematophagy (bloodfeeding) is an essential part of mosquito-borne disease}
 
 Another very important aspect of both of these diseases is that people do not become infected through interaction with other people, and mosquitoes do not become infected through interaction with other mosquitoes.
 The transmission cycles transmission of both diseases require that the pathogen be passed from human to mosquito or from mosquito to human.
@@ -66,7 +66,7 @@ Because the arrows of transmission essentially\footnote{While some mosquito
   broken (\CITEME).}
 points from mosquito to human or from human to mosquito, the cycle will collapse and a local area would eventually be cleared of the pathogen if either of those arrows are broken, provided that the intervention is maintained.
 This model suggests two primary targets for public health interventions aiming to reduce the \gls{incidence}
-(followed by \gls{prevalence}) of infection in a population.
+(followed by \gls{prevalence}) of infection in a population:
 
 \begin{enumerate}
 \item Prevent mosquitoes from infecting humans.
@@ -147,9 +147,11 @@ This makes characterization of the effects of a transgene complicated.
 However, with the successful implementation of the \gls{phic31} site-specific integration system in \Aa\ and \As\ \cite{Thorpe1998,Nimmo2006,Isaacs2012}, we can now reliably target specific, pre-characterized regions of these genomes for transgene integration of a single copy.
 
 Heritability is achieved through specifically targeting the \gls{germline} cells of mosquito embryos for transgenesis.
-In flies like mosquitoes, the cells that will become the germline always position themselves at one end (or pole) of the embryo.
+In flies like mosquitoes, the cells that will become the germline always position themselves at one end (or pole) of the embryo (Figure \ref{fig:pole-cells}).
 The transgenesis cocktail containing the transgene construct is injected into the embryos where the pole cells are located.
 This means that the first generation of mosquitoes that may contain the transgene in every cell of their body is \textbf{not} the injected generation but the progeny of the injected mosquitoes.
+
+\input{figures/pole-cells}
 
 \subsection{Effector genes}
 
@@ -242,8 +244,27 @@ An example of such a method is the Medea system successfully engineered in \Dm\ 
 \end{enumerate}
 
 
+\subsection{Conservation of bloodmeal-regulated transcription}
+\dummytext[3]
 
+\section{Evolutionary relationship between mosquitoes and hematophagy}
+\begin{quotation}
+\textbf{Closely Related Lineages, Share Similar Sets of Protein Families
+in Their Sialomes, Even If No Apparent Orthologous or Conserved
+Functional Relationships Exist}
+For example, while the D7-proteins in mosquitoes possess an extra alpha-helix
+involved in the binding of biogenic amines, this helix is absent from the D7-proteins from sand flies and biting midges, implying that they will not possess biogenic amine-binding function (Mans et al., 2007).
 
+Th\textbf{e Same Protein Families are Prone to Expansion in Closely Related Lineages}
+The odorant-binding/D7-family expanded in mosquitoes, sand flies and bitingmidges (Anderson et al., 2006; Campbell et al., 2005; Francischetti et al., 2002a).
+
+Excerpted from \cite{Markland2011}
+\end{quotation} 
+
+\dummytext[3]
+
+\subsection{Implications for design of transgenic vector control systems?}
+\dummytext[3]
 
 
 % \briefConclude{

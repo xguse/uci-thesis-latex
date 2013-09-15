@@ -1,16 +1,50 @@
-\chapter{Software Development to Support Analytical Approach}
+% Figure / table inputs
+
+
+
+
+
+\chapter{Approach and Custom Software solutions}
 
 \section{Purpose}
-Illustrate how lessons learned in previous chapter (as well as new lessons introduced here)
+Illustrate how lessons learned in previous chapter (as well as new lessons introduced here) are addressed through custom software solutions.
 \begin{enumerate}
- \item Importance of Dengue and Malaria
- \item Transmission cycle dependant on Mosquitoes
- \item Limited effectiveness (medical/finacial) of treatmeant of the diseases in rural poor human communities
- \item Vector Control Strategies
- \item How Transgenesis modifies the vector control landscape
- \item Elements of Successful Transgenesic Vector Control
- \item Introduction to control of transcription and imoprtance of CRE/CRMs
+ \item RNA-seq analysis, reproducibility, updating
+ \item Integration of multiple disparate Omics scale data types
+ \item Documentation of exactly how analyses were carried out (IPython notebooks)
 \end{enumerate}
+
+
+
+\section{The phylogenetic transcriptional correspondence index (PTCI)}
+
+
+
+
+
+
+
+
+Look at the parameter space of the PTCI (Figure \ref{fig:ptci-space}).  
+\input{figures/ptci-space}
+
+Here is the PTCI calculation:
+\input{equations/ptci}
+
+The graph model is useful (Figure \ref{fig:nway-ortholog-graph})
+
+\input{figures/nway-ortholog-graph}
+
+
+\pagebreak[4]
+\section{Blacktie RNA-seq pipeline}
+
+See Figure \ref{fig:tuxedo}
+
+
+\input{figures/tuxedo}
+
+
 
 
 %%% Local Variables: ***

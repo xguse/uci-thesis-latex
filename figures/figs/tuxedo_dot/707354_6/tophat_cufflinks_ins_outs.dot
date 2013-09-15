@@ -1,0 +1,343 @@
+// a run option: unflatten -l3 tophat_cufflinks_ins_outs.dot | dot -Tpdf -o tophat_cufflinks_ins_outs.pdf
+
+digraph g {
+	rankdir=TB;
+	
+ 
+
+	
+
+
+
+	node [shape=box,style=filled,fontname="DroidSans.ttf",fontsize=20, penwidth=3.0];
+	
+// 	Program Flow Line
+	Tophat     [label="Tophat\n(Read Alignment)", color="#FDDD4E"];
+	Cufflinks  [label="Cufflinks\n(Condition-specific Transcript Annotation)", color="#FDDD4E"];
+	Cuffmerge  [label="Cuffmerge\n(Unification of Separate Annotations)", color="#FDDD4E"];
+	Cuffdiff   [label="Cuffdiff\n(Differential Expression Analysis)",color="#FDDD4E"];
+	
+	Tophat -> Cufflinks -> Cuffmerge -> Cuffdiff;
+	
+	
+
+// 	**************** Major Node Definitions ******************
+
+	
+// 	Outside Data
+	genome_annotation    [label="genome_annotation.gtf", color="#9CC15A"];
+	genome_bowtie2_index [label="genome_bowtie2_index", color="#9CC15A"];
+	genome_seq           [label="genome_seq.fasta", color="#9CC15A"];
+	{rank = source; genome_annotation; genome_bowtie2_index;genome_seq;}
+
+// 	Tophat Inputs
+	c00f_reads [label="condition_0_rep_0.fastqs", color="#0B2D54", fontcolor="white"];
+// 	//c00r_reads [label="condition_0_rep_0.rev.fastqs", color="#0B2D54", fontcolor="white"];
+	
+	c01f_reads [label="condition_0_rep_1.fastqs", color="#0B2D54", fontcolor="white"];
+// 	//c01r_reads [label="condition_0_rep_1.rev.fastqs", color="#0B2D54", fontcolor="white"];
+	
+	c02f_reads [label="condition_0_rep_2.fastqs", color="#0B2D54", fontcolor="white"];
+// 	//c02r_reads [label="condition_0_rep_2.rev.fastqs", color="#0B2D54", fontcolor="white"];
+	
+	
+	
+	c10f_reads [label="condition_1_rep_0.fastqs", color="#5A9CC1"];
+// 	//c10r_reads [label="condition_1_rep_0.rev.fastqs", color="#5A9CC1"];
+	
+	c11f_reads [label="condition_1_rep_1.fastqs", color="#5A9CC1"];
+// 	//c11r_reads [label="condition_1_rep_1.rev.fastqs", color="#5A9CC1"];
+	
+	c12f_reads [label="condition_1_rep_2.fastqs", color="#5A9CC1"];
+// 	//c12r_reads [label="condition_1_rep_2.rev.fastqs", color="#5A9CC1"];
+
+// 	Tophat Outputs
+	th_out_0_0 [label="accepted_hits.bam", color="#0B2D54", fontcolor="white"];
+	th_out_0_1 [label="accepted_hits.bam", color="#0B2D54", fontcolor="white"];
+	th_out_0_2 [label="accepted_hits.bam", color="#0B2D54", fontcolor="white"];
+	
+	th_out_1_0 [label="accepted_hits.bam", color="#5A9CC1"];
+	th_out_1_1 [label="accepted_hits.bam", color="#5A9CC1"];
+	th_out_1_2 [label="accepted_hits.bam", color="#5A9CC1"];
+
+// 	Cufflinks Outputs
+	cl_out_0_0 [label="transcripts.gtf", color="#0B2D54", fontcolor="white"];
+	cl_out_0_1 [label="transcripts.gtf", color="#0B2D54", fontcolor="white"];
+	cl_out_0_2 [label="transcripts.gtf", color="#0B2D54", fontcolor="white"];
+	
+	cl_out_1_0 [label="transcripts.gtf", color="#5A9CC1"];
+	cl_out_1_1 [label="transcripts.gtf", color="#5A9CC1"];
+	cl_out_1_2 [label="transcripts.gtf", color="#5A9CC1"];
+
+	
+	{ node [color="#C0C0C0"];
+	
+// 	Cuffmerge Outputs
+	cm_out [label="merged.gtf"];
+
+// 	Cuffdiff Outputs
+	
+	cds_count_tracking              [label="cds.count_tracking"];
+	cds_diff                        [label="cds.diff"];
+	cds_fpkm_tracking               [label="cds.fpkm_tracking"];
+	cds_read_group_tracking         [label="cds.read_group_tracking"];
+	cds_exp_diff                    [label="cds_exp.diff"];
+	gene_exp_diff                   [label="gene_exp.diff"];
+	genes_count_tracking            [label="genes.count_tracking"];
+	genes_fpkm_tracking             [label="genes.fpkm_tracking"];
+	genes_read_group_tracking       [label="genes.read_group_tracking"];
+	isoform_exp_diff                [label="isoform_exp.diff"];
+	isoforms_count_tracking         [label="isoforms.count_tracking"];
+	isoforms_fpkm_tracking          [label="isoforms.fpkm_tracking"];
+	isoforms_read_group_tracking    [label="isoforms.read_group_tracking"];
+	promoters_diff                  [label="promoters.diff"];
+	read_groups_info                [label="read_groups.info"];
+	run_info                        [label="run.info"];
+	splicing_diff                   [label="splicing.diff"];
+	tss_group_exp_diff              [label="tss_group_exp.diff"];
+	tss_groups_count_tracking       [label="tss_groups.count_tracking"];
+	tss_groups_fpkm_tracking        [label="tss_groups.fpkm_tracking"];
+	tss_groups_read_group_tracking  [label="tss_groups.read_group_tracking"];
+	}
+
+
+	node [shape=box];
+	
+// 	Tophat Call Nodes
+	th_call_0_0 [label="tophat", color="#FDDD4E"];
+	th_call_0_1 [label="tophat", color="#FDDD4E"];
+	th_call_0_2 [label="tophat", color="#FDDD4E"];
+	th_call_1_0 [label="tophat", color="#FDDD4E"];
+	th_call_1_1 [label="tophat", color="#FDDD4E"];
+	th_call_1_2 [label="tophat", color="#FDDD4E"];
+	
+	{rank = same; Tophat;
+		th_call_0_0; th_call_0_1; th_call_0_2;
+		th_call_1_0;th_call_1_1; th_call_1_2; }
+	
+// 	Cufflinks Call Nodes
+	cl_call_0_0 [label="cufflinks", color="#FDDD4E"];
+	cl_call_0_1 [label="cufflinks", color="#FDDD4E"];
+	cl_call_0_2 [label="cufflinks", color="#FDDD4E"];
+	cl_call_1_0 [label="cufflinks", color="#FDDD4E"];
+	cl_call_1_1 [label="cufflinks", color="#FDDD4E"];
+	cl_call_1_2 [label="cufflinks", color="#FDDD4E"];
+
+	{rank = same; Cufflinks;
+		cl_call_0_0; cl_call_0_1; cl_call_0_2;
+		cl_call_1_0; cl_call_1_1; cl_call_1_2;}
+
+
+// 	Cuffmerge Call Node
+	cuffmerge_call [label="cuffmerge", color="#FDDD4E"];
+	{rank = same; Cuffmerge; cuffmerge_call;}
+
+// 	Cuffdiff Call Node
+	cuffdiff_call [label="cuffdiff", color="#FDDD4E"];
+	{rank = same; Cuffdiff; cuffdiff_call;}
+
+
+// 	**************** Tophat Edge Definitions ******************
+
+// 	Con_1_0
+// 		++ Ins ++
+	genome_annotation    -> th_call_1_0;
+	genome_bowtie2_index -> th_call_1_0;
+	
+	c10f_reads -> th_call_1_0;
+	//c10r_reads -> th_call_1_0;
+	
+// 		++ Outs ++
+	th_call_1_0 -> th_out_1_0;
+
+// 	Con_1_1
+// 		++ Ins ++
+	genome_annotation    -> th_call_1_1;
+	genome_bowtie2_index -> th_call_1_1;
+	
+	c11f_reads -> th_call_1_1;
+	//c11r_reads -> th_call_1_1;
+	
+// 		++ Outs ++
+	th_call_1_1 -> th_out_1_1;
+
+// 	Con_1_2
+// 		++ Ins ++
+	genome_annotation    -> th_call_1_2;
+	genome_bowtie2_index -> th_call_1_2;
+	
+	c12f_reads -> th_call_1_2;
+	//c12r_reads -> th_call_1_2;
+	
+// 		++ Outs ++
+	th_call_1_2 -> th_out_1_2;
+
+
+// 	Con_0_0
+// 		++ Ins ++
+	genome_annotation    -> th_call_0_0;
+	genome_bowtie2_index -> th_call_0_0;
+	
+	c00f_reads -> th_call_0_0;
+	//c00r_reads -> th_call_0_0;
+	
+// 		++ Outs ++
+	th_call_0_0 -> th_out_0_0;
+	
+	
+// 	Con_0_1
+// 		++ Ins ++
+	genome_annotation    -> th_call_0_1;
+	genome_bowtie2_index -> th_call_0_1;
+	
+	c01f_reads -> th_call_0_1;
+	//c01r_reads -> th_call_0_1;
+	
+// 		++ Outs ++
+	th_call_0_1 -> th_out_0_1;
+
+// 	Con_0_2
+// 		++ Ins ++
+	genome_annotation    -> th_call_0_2;
+	genome_bowtie2_index -> th_call_0_2;
+	
+	c02f_reads -> th_call_0_2;
+	//c02r_reads -> th_call_0_2;
+	
+// 		++ Outs ++
+	th_call_0_2 -> th_out_0_2;
+
+
+
+
+// 	**************** Cufflinks Edge Definitions ******************
+
+
+//  Con_0_0
+//      ++ Ins ++
+    genome_annotation  -> cl_call_0_0;
+    genome_seq         -> cl_call_0_0;
+    
+    th_out_0_0 -> cl_call_0_0;
+    
+//      ++ Outs ++
+    cl_call_0_0 -> cl_out_0_0;
+
+//  Con_0_1
+//      ++ Ins ++
+    genome_annotation  -> cl_call_0_1;
+    genome_seq         -> cl_call_0_1;
+    
+    th_out_0_1 -> cl_call_0_1;
+    
+//      ++ Outs ++
+    cl_call_0_1 -> cl_out_0_1;
+
+//  Con_0_2
+//      ++ Ins ++
+    genome_annotation  -> cl_call_0_2;
+    genome_seq         -> cl_call_0_2;
+    
+    th_out_0_2 -> cl_call_0_2;
+    
+//      ++ Outs ++
+    cl_call_0_2 -> cl_out_0_2;
+
+
+// 	Con_1_0
+// 		++ Ins ++
+	genome_annotation  -> cl_call_1_0;
+	genome_seq         -> cl_call_1_0;
+	
+	th_out_1_0 -> cl_call_1_0;
+	
+// 		++ Outs ++
+	cl_call_1_0 -> cl_out_1_0;
+
+// 	Con_1_1
+// 		++ Ins ++
+	genome_annotation  -> cl_call_1_1;
+	genome_seq         -> cl_call_1_1;
+	
+	th_out_1_1 -> cl_call_1_1;
+	
+// 		++ Outs ++
+	cl_call_1_1 -> cl_out_1_1;
+
+// 	Con_1_2
+// 		++ Ins ++
+	genome_annotation  -> cl_call_1_2;
+	genome_seq         -> cl_call_1_2;
+	
+	th_out_1_2 -> cl_call_1_2;
+	
+// 		++ Outs ++
+	cl_call_1_2 -> cl_out_1_2;
+
+
+
+
+
+
+
+	
+// 	**************** Cuffmerge Edge Definitions ******************
+// 		++ Ins ++
+	genome_annotation  -> cuffmerge_call;
+	genome_seq         -> cuffmerge_call;
+	
+	cl_out_0_0 -> cuffmerge_call;
+	cl_out_0_1 -> cuffmerge_call;
+	cl_out_0_2 -> cuffmerge_call;
+
+	cl_out_1_0 -> cuffmerge_call;
+	cl_out_1_1 -> cuffmerge_call;
+	cl_out_1_2 -> cuffmerge_call;
+
+// 		++ Outs ++
+	cuffmerge_call -> cm_out;
+	
+
+// 	**************** Cuffdiff Edge Definitions ******************
+// 		++ Ins ++
+	genome_annotation  -> cuffdiff_call;
+	genome_seq         -> cuffdiff_call;
+	
+	cm_out -> cuffdiff_call;
+
+
+// 		++ Outs ++
+
+
+	cuffdiff_call -> cds_count_tracking;
+	cuffdiff_call -> cds_diff;
+	cuffdiff_call -> cds_fpkm_tracking;
+	cuffdiff_call -> cds_read_group_tracking;
+	cuffdiff_call -> cds_exp_diff;
+	cuffdiff_call -> gene_exp_diff;
+	cuffdiff_call -> genes_count_tracking;
+	cuffdiff_call -> genes_fpkm_tracking;
+	cuffdiff_call -> genes_read_group_tracking;
+	cuffdiff_call -> isoform_exp_diff;
+	cuffdiff_call -> isoforms_count_tracking;
+	cuffdiff_call -> isoforms_fpkm_tracking;
+	cuffdiff_call -> isoforms_read_group_tracking;
+	cuffdiff_call -> promoters_diff;
+	cuffdiff_call -> read_groups_info;
+	cuffdiff_call -> run_info;
+	cuffdiff_call -> splicing_diff;
+	cuffdiff_call -> tss_group_exp_diff;
+	cuffdiff_call -> tss_groups_count_tracking;
+	cuffdiff_call -> tss_groups_fpkm_tracking;
+	cuffdiff_call -> tss_groups_read_group_tracking;
+	
+
+// //  Stager the final cuffdiff output to allow a more narrow figure
+//     {rank=same; cds_count_tracking; cds_fpkm_tracking;
+//                 cds_exp_diff; genes_count_tracking;
+//                 genes_read_group_tracking; isoforms_count_tracking;
+//                 isoforms_read_group_tracking; read_groups_info;
+//                 splicing_diff; tss_groups_count_tracking;
+//                 tss_groups_read_group_tracking}
+
+}

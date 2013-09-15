@@ -1,28 +1,29 @@
 \thesistitle{
-  Title of the Thesis
+  Insert Brilliant Insightful Title Here
 }
 
 \degreename{Doctor of Philosophy}
 
 % Use the wording given in the official list of degrees awarded by UCI:
 % http://www.rgs.uci.edu/grad/academic/degrees_offered.htm
-\degreefield{Computer Science}
+\degreefield{Biological Sciences}
 
 % Your name as it appears on official UCI records.
-\authorname{Your name}
+\authorname{William Augustine Dunn}
 
 % Use the full name of each committee member.
-\committeechair{Professor A}
+\committeechair{Anthony A. James}
 \othercommitteemembers
 {
-  Professor B\\
-  Professor C
+  Xiaohui Xie\\
+  Donald F. Senear
 }
 
-\degreeyear{2012}
+\degreeyear{2013}
 
 \copyrightdeclaration
 {
+\todo{add copy write text to preliminaries}
   {\copyright} {\Degreeyear} \Authorname
 }
 
@@ -39,6 +40,7 @@
 % The dedication page is optional.
 \dedications
 {
+\todo{write dedications}
   (Optional dedication page)
   
   To ...
@@ -46,6 +48,8 @@
 
 \acknowledgments
 {
+
+\todo{write acknowledgments}
   I would like to thank...
   
   (You must acknowledge grants and other funding assistance. 
@@ -82,7 +86,7 @@
 % and how to format it, below is just an example.
 \curriculumvitae
 {
-
+\todo{in-line my CV document and match styles}
 \textbf{EDUCATION}
   
   \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}lr}
@@ -136,6 +140,7 @@
 % supposedly somewhat of a soft constraint.
 \thesisabstract
 {
+\todo{write abstract}
   The abstract of your contribution goes here.
 }
 

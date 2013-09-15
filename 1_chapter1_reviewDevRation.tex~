@@ -26,7 +26,7 @@ Review a selection of my contributions to the literature that have informed the 
   \end{itemize}
 \end{enumerate}
 
-\section{Comparative genomics allows the discovery of cis-regulatory elements in mosquitoes}
+\section{Comparative genomics predicts of \textit{cis}-regulatory elements in mosquitoes}
 
 
 Figure \ref{fig:mosqPhyloTree}
@@ -39,7 +39,7 @@ Figure \ref{fig:sieglaff2009_full}
 \input{figures/mosqPhyloTree}
 
 
-\section{RNA-seq analyses of blood-induced changes in gene expression in the mosquito vector species, Aedes aegypti}
+\section{RNA-seq analyses of blood-induced changes in gene expression in the mosquito vector species, \Aea}
 
 Figure \ref{fig:aedesHMMsplice}
 
@@ -49,20 +49,20 @@ Figure \ref{fig:bonnizoniCREs}
 \input{figures/aedesHMMsplice}
 \input{figures/bonnizoniCREs}
 
-\section{Strain Variation in the Transcriptome of the Dengue Fever Vector, Aedes aegypti}
+\section{Strain variation in the transcriptome of the dengue fever vector, \Aea}
 
 Figure \ref{fig:aa-diff-paralogs}
 \input{figures/aa-diff-paralogs}
 
 
 
-% \section{Complex modulation of the Aedes aegypti transcriptome in response to dengue virus infection}
+\section{Complex modulation of the \Aea transcriptome in response to dengue virus infection}
 
-% Figure \ref{fig:bonizzoni2012complex-cre}
-% \input{figures/bonizzoni2012complex-cre}
+Figure \ref{fig:bonizzoni2012complex-cre}
+\input{figures/bonizzoni2012complex-cre}
 
 
-\section{\texorpdfstring{like\textsubscript{this}}{like this}}
+
 
 %%% Local Variables: ***
 %%% mode: latex ***

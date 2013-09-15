@@ -1,0 +1,31 @@
+
+\begin{figure}[hp]
+\centering
+
+\begin{subfigure}[t]{.5\linewidth}
+\centering
+\includegraphics[width=\linewidth]{/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/jaspar_insect_ptci/pairwise_ptci_hist.pdf}
+\caption{}
+\label{fig:1a}
+\end{subfigure}%
+
+\begin{subfigure}[t]{.5\linewidth}
+\centering\
+\includegraphics[width=\linewidth]{/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/jaspar_insect_ptci/pairwise_ptci_cum_hist.pdf}
+\caption{}
+\label{fig:1b}
+\end{subfigure}
+
+\begin{subfigure}[t]{.5\linewidth}
+\centering\
+\includegraphics[width=\linewidth]{/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/jaspar_insect_ptci/pairwise_ptci_fdr.pdf}
+\caption{}
+\label{fig:1c}
+\end{subfigure}
+
+\caption{\sf \textbf{Pairwise PTCI results}:\\
+\textbf{(A)} Histogram of pairwise PTCI results vs null distributions.
+\textbf{(B)} Reverse Cumulative histogram of pairwise PTCI results vs null distributions.
+\textbf{(C)} False discover rate vs PTCI threshold.}
+\label{fig:1}
+\end{figure}
