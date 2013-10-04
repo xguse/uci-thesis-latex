@@ -22,6 +22,17 @@ Figure \ref{fig:mean-ptci-hists}
 \input{figures/ecr_and_insects_25_clusters}
 Figure \ref{fig:25-clusters}
 
+\input{figures/cluster6_AaAgCq}
+Figure \ref{fig:cluster6}
+
+\input{figures/cluster7_AaAgCq}
+Figure \ref{fig:cluster7}
+
+\input{figures/cluster19_AaAgCq}
+Figure \ref{fig:cluster19}
+
+
+
 %%% Local Variables: ***
 %%% mode: latex ***
 %%% TeX-master: "thesis.tex" ***

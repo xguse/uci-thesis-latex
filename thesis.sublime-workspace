@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"A",
+				"ALL_STEME"
+			],
+			[
+				"Al",
+				"ALL_SELF"
+			],
+			[
+				"ALL",
+				"ALL_13"
+			],
+			[
+				"All",
+				"ALL_19"
+			],
+			[
 				"Ag_",
 				"Ag_orthos"
 			],
@@ -39,96 +55,53 @@
 			"file": "/home/gus/.bashrc",
 			"settings":
 			{
-				"buffer_size": 2093,
+				"buffer_size": 2136,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w9.sh",
+			"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_B1.txt",
 			"settings":
 			{
-				"buffer_size": 652,
-				"line_ending": "Unix"
+				"buffer_size": 396,
+				"line_ending": "Unix",
+				"name": "AAEL002630"
 			}
 		},
 		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w13.sh",
+			"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/B1_A1.txt",
 			"settings":
 			{
-				"buffer_size": 652,
-				"line_ending": "Unix"
+				"buffer_size": 649,
+				"line_ending": "Unix",
+				"name": "AAEL004584"
 			}
 		},
 		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w19.sh",
+			"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_A1.txt",
 			"settings":
 			{
-				"buffer_size": 652,
-				"line_ending": "Unix"
+				"buffer_size": 1749,
+				"line_ending": "Unix",
+				"name": "AAEL017139"
 			}
 		},
 		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w9.sh",
+			"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_B1.txt",
 			"settings":
 			{
-				"buffer_size": 658,
-				"line_ending": "Unix"
+				"buffer_size": 1738,
+				"line_ending": "Unix",
+				"name": "AAEL017139"
 			}
 		},
 		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w13.sh",
+			"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_A1.txt",
 			"settings":
 			{
-				"buffer_size": 658,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w19.sh",
-			"settings":
-			{
-				"buffer_size": 658,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/JASPAR_CORE_2009.meme",
-			"settings":
-			{
-				"buffer_size": 450719,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/steme_9_EM10000/meme.txt",
-			"settings":
-			{
-				"buffer_size": 95370,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w9.sh",
-			"settings":
-			{
-				"buffer_size": 653,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w13.sh",
-			"settings":
-			{
-				"buffer_size": 653,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w19.sh",
-			"settings":
-			{
-				"buffer_size": 653,
-				"line_ending": "Unix"
+				"buffer_size": 781,
+				"line_ending": "Unix",
+				"name": "AAEL002630"
 			}
 		}
 	],
@@ -156,19 +129,82 @@
 	},
 	"file_history":
 	[
+		"/home/gus/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/run_argot_hmmer.sh",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/run_argot_blastp.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/run_argot_blastp.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/run_argot_hmmer.sh",
+		"/home/gus/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/fly_factor_survey.transfac",
+		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/fly_factor_survey.meme",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/meme2transfac.py",
+		"/home/gus/DELETE_ME/test.meme",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/flyreg.mcast/mcast.txt",
+		"/home/gus/.local/share/fogapps/2e2e2d35a15a6146a9bbbc246a9ea4cd/fogger-2e2e2d35a15a6146a9bbbc246a9ea4cd.desktop",
+		"/home/gus/DELETE_ME/not_yet/Clustering_FPKM_data.py",
+		"/home/gus/src/motiflab/launch.jnlp",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/XoLg.23clusters.orthodb7.py",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/run_mcast.sh",
+		"/home/gus/Dropbox/InBox/Dissertation_workflowy_20130920.opml",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_tomtom.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_tomtom.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_tomtom.sh",
+		"/home/gus/DELETE_ME/download.txt",
+		"/home/gus/.local/share/fogapps/2e2e2d35a15a6146a9bbbc246a9ea4cd/app.json",
+		"/home/gus/.local/share/fogapps/9319f49b4e873b280fc0bd14bd840ea7/fogger-9319f49b4e873b280fc0bd14bd840ea7.desktop",
+		"/home/gus/.local/share/fogapps/9319f49b4e873b280fc0bd14bd840ea7/app.json",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/jaspar_insect.mcast/mcast.txt",
+		"/home/gus/Dropbox/common/motif_databases/Jaspar_2012_05_20/Archive/Custom/EcR_team.meme",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_steme_w19.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_steme_w13.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_steme_w19.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_steme_w13.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_steme_w19.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_steme_w13.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/run_tomtom_template.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/run_steme_w9_template.sh",
+		"/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.ecr_team.yaml",
+		"/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.Jaspar_insect_nr_orthodb7.yaml",
+		"/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.ecr_team_orthodb7.yaml",
+		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/combo.meme",
+		"/home/gus/Dropbox/common/motif_databases/ad_hoc/alt_suH_Adryan2007.pfm",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/all/ecr_OR_insect_meanPTCI_thresh_1_gene_names.txt",
+		"/home/gus/Dropbox/common/projects/orthodb/orthodb.txt",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_tomtom.sh",
+		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/README",
+		"/home/gus/Dropbox/common/motif_databases/ad_hoc/alt_suH_Adryan2007.pwm",
+		"/home/gus/Dropbox/common/motif_databases/Jaspar_2012_05_20/Archive/all_data/FlatFileDir/CN0001.1.pfm",
+		"/home/gus/Dropbox/common/projects/orthodb/AaAgCq_1to1_orthos.tsv",
+		"/home/gus/Dropbox/common/projects/orthodb/orthodb7_mosqs_20130918.txt",
+		"/home/gus/Dropbox/common/projects/orthodb/view-source cegg.unige.ch orthodb7 orthodb.txt",
+		"/home/gus/Dropbox/common/ipy_notebooks/ecr_U_insect_ptci_1_0_Exploring_Profiles_cls19.ipynb",
+		"/home/gus/Dropbox/common/ipy_notebooks/ecr_U_insect_ptci_1_0_Exploring_Profiles_cls7.ipynb",
+		"/home/gus/Dropbox/common/ipy_notebooks/ecr_U_insect_ptci_1_0_Exploring_Profiles_cls6.ipynb",
+		"/home/gus/Dropbox/common/projects/orthodb/OrthoDB7_Insecta_tabtext",
+		"/home/gus/.bashrc",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/all/run_argot_hmmer.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_tomtom.sh",
+		"/home/gus/DELETE_ME/Clustering_FPKM_data.py",
+		"/home/gus/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/gus/src/Sylamer.jnlp",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/ecr_and_insects_ptci_20130903/ecr_and_insects_ptci1_gene_profiles_from_cummerbund/25_clusters.pgf",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w19.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w13.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w9.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w9.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w13.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w19.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_tomtom.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_combo.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_tomtom.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/steme_9_EM10000/meme.txt",
+		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/JASPAR_CORE_2009.meme",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w19.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w13.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_mcast.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w19.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w13.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_tomtom.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_combo.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_tomtom.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w19.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w13.sh",
@@ -178,7 +214,6 @@
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w6.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/XoLg_cls6.names.AGAP.txt",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/deactivated/XoLg_cls19.names.AGAP.txt",
-		"/home/gus/DELETE_ME/Clustering_FPKM_data.py",
 		"/home/gus/DELETE_ME/clustering.py",
 		"/home/gus/DELETE_ME/chengchurch.py",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_steme_w6.sh",
@@ -200,8 +235,6 @@
 		"/home/gus/DELETE_ME/nsmb.2660-S6.csv",
 		"/home/gus/virtualenvs/py275/lib/python2.7/site-packages/bibench/validation/enrichment.py",
 		"/home/gus/Dropbox/repos/git/BiBench-0.1/bibench/validation/enrichment.py",
-		"/home/gus/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/home/gus/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 		"/home/gus/src/MeV_4_8_1/tmev.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_steme.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/ecr_OR_insect_meanPTCI_thresh_1_gene_names.CPIJ.txt",
@@ -222,16 +255,8 @@
 		"/home/gus/src/vibou.gTile-master/metadata.json",
 		"/home/gus/src/vibou.gTile-master/prefs.js",
 		"/home/gus/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
-		"/home/gus/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/gus/Dropbox/repos/git/movingthelamppost/2013/07/12/installing_pyqt____because_it_s_too_good_for_pip_or_easy_install_.rst",
-		"/home/gus/scratch/sort_example.py",
-		"/home/gus/Dropbox/repos/git/movingthelamppost/2013/06/29/speak__for_the_cup_of_hemlock_is_not_yet_on_your_lips.rst",
-		"/home/gus/Dropbox/repos/git/blacktie/docs/project.rst",
-		"/home/gus/Dropbox/repos/git/movingthelamppost/conf.py",
-		"/home/gus/src/aur/exonerate/PKGBUILD",
-		"/home/gus/.conkyrc",
-		"/home/gus/Dropbox/repos/git/movingthelamppost/2013/06/14/arthropod_genomics_symposium_2013____notre_dame.rst",
-		"/home/gus/Dropbox/repos/git/blacktie/README.rst"
+		"/home/gus/scratch/sort_example.py"
 	],
 	"find":
 	{
@@ -249,6 +274,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"^MOTIF",
+			"AGAP012223",
+			"\\n",
+			">>> ",
 			"# <.+",
 			"Blues",
 			"r.importr",
@@ -293,6 +322,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			" ",
 			"",
 			"jet",
 			"importr",
@@ -330,7 +360,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -338,15 +368,15 @@
 					"file": "/home/gus/.bashrc",
 					"settings":
 					{
-						"buffer_size": 2093,
+						"buffer_size": 2136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1036,
-								1036
+								1079,
+								1079
 							]
 						],
 						"settings":
@@ -361,23 +391,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w9.sh",
+					"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_B1.txt",
 					"settings":
 					{
-						"buffer_size": 652,
+						"buffer_size": 396,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37,
-								37
+								396,
+								396
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+							"auto_name": "AAEL002630",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -387,262 +418,108 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w13.sh",
+					"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/B1_A1.txt",
 					"settings":
 					{
-						"buffer_size": 652,
+						"buffer_size": 649,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								649,
+								649
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+							"auto_name": "AAEL004584",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 144.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w19.sh",
+					"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_A1.txt",
 					"settings":
 					{
-						"buffer_size": 652,
+						"buffer_size": 1749,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22,
-								22
+								1749,
+								1749
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+							"auto_name": "AAEL017139",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2544.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w9.sh",
+					"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_B1.txt",
 					"settings":
 					{
-						"buffer_size": 658,
+						"buffer_size": 1738,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								657,
-								657
+								1738,
+								1738
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+							"auto_name": "AAEL017139",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2520.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w13.sh",
+					"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_A1.txt",
 					"settings":
 					{
-						"buffer_size": 658,
+						"buffer_size": 781,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								406,
-								406
+								781,
+								781
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w19.sh",
-					"settings":
-					{
-						"buffer_size": 658,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								658,
-								658
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/JASPAR_CORE_2009.meme",
-					"settings":
-					{
-						"buffer_size": 450719,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/steme_9_EM10000/meme.txt",
-					"settings":
-					{
-						"buffer_size": 95370,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
+							"auto_name": "AAEL002630",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2232.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w9.sh",
-					"settings":
-					{
-						"buffer_size": 653,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								652,
-								652
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w13.sh",
-					"settings":
-					{
-						"buffer_size": 653,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								653,
-								653
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w19.sh",
-					"settings":
-					{
-						"buffer_size": 653,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								653,
-								653
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -706,6 +583,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 235.0,
+	"side_bar_width": 141.0,
 	"status_bar_visible": true
 }
