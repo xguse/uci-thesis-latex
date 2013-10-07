@@ -111,7 +111,7 @@ For example, biosynthesis of fatty acids associates predominantly with transcrip
 Proteins corresponding to transcripts accumulated differentially in a strain-specific manner were identified in both cases, with the same protein function encoded by paralogous transcripts in the different strains.
 Examples include FabI (enoyl-[acyl carrier protein] reductase) of the fatty acid biosynthesis pathway linked to transcripts AAEL003961-RA and AAEL002493-RA, which significantly increased in all three strains (fold-changes: 1.4-2.4); AAEL009634-RC and AAEL014840-RA, both of which increased 2-fold in CTM; AAEL000705-RA, AAEL000689-RA and AAEL004273-RA, which decreased in CTM (fold-changes: 2.5-4.4); AAEL009685-RB, which decreased 5.4-fold in Rex-D; and AAEL017302-RA, AAEL007669-RA, AAEL008227-RA, AAEL009625-RA, AAEL013491-RA, AAEL017320-RA, AAEL000690-RA, AAEL002228-RA, AAEL003148-RA, AAEL003183-RA, AAEL010075-RA, AAEL012400-RA, and AAEL008016-RA, which decreased in all three strains, with fold-changes in the range of 0.6-11.3.
 All of these transcripts are annotated currently as short-chain and steroid dehydrogenases, oxidoreductases, or fatty acid synthases (AegyXcel) and match to short-chain dehydrogenases in the PFAM database \cite{Finn2008}, with the exception of AAEL002228-RA, whose best match is ketoacyl synthase.
-They all have the PKS\_KR enzymatic domain as a best match in the SMART database \cite{Letunic2009}, except for AAEL012400-RA, which matches the SEP enzymatic domain.
+They all have the PKS_KR enzymatic domain as a best match in the SMART database \cite{Letunic2009}, except for AAEL012400-RA, which matches the SEP enzymatic domain.
 The protein HADHA (4.2.1.17 in the fatty acid elongation pathway), functioning as an aldehyde reductase and enoyl-coA hydratase, is associated with transcripts AAEL010146-RB (annotated as 3-hydroxyacyl-coa dehydrogenase) and increased 2.9-fold in LVP and AAEL003993-RA (putative cyclohex-1-ene-1-carboxyl-CoA hydratase), which increased in all three strains with fold-changes ranging between 1.6 and 2.3.
 
 Figure 5 
@@ -154,13 +154,13 @@ DENV infection can be blocked at the time of midgut infection (midgut infection 
 Quantitative trait loci analyses of the midgut infection barrier identified three loci with additive effects that encompass several digestive enzymes including early and late trypsins, maltase, aminopeptidase N and carboxypeptidase A \cite{Black2002,Gomez-Machorro2004}.
 It was proposed that trypsin inhibition affects DENV2 replication in the midgut and virus dissemination \cite{Molina-Cruz2005}.
 Early trypsin may contribute to proteolytic processing of DENV2 surface proteins \cite{Gorrochotegui-Escalante2005}.
-However, no association has been discovered between quantitative trait nucleotides in the early trypsin gene try3\_aedae (AAEL007818) and susceptibility to DENV2 in \Aa\ populations from Mexico \cite{Gorrochotegui-Escalante2005}.
+However, no association has been discovered between quantitative trait nucleotides in the early trypsin gene try3_aedae (AAEL007818) and susceptibility to DENV2 in \Aa\ populations from Mexico \cite{Gorrochotegui-Escalante2005}.
 RNA-seq data confirms a decrease in accumulation for transcript AAEL007818-RB at 5 hPBM, a splice variant of the early trypsin gene \cite{Noriega1999}.
 The fold-decrease in accumulation spans one order of magnitude, from −23.55 in Rex-D to −130.24 in CTM and −138.24 in LVP, supporting the hypothesis that differences in early trypsin regulation may be associated with distinct DENV2 susceptibility across \Aa\ strains.
 
 Digestion and immunity share bio-products such as \gls{reactive oxygen species (ROS)} \cite{Molina-Cruz2008}, and these processes are linked at the protein network level \cite{Guo2010}.
 The majority of immunity-related genes were decreased in accumulation in all three strains after a bloodmeal.
-The most pronounced decrease in accumulation was observed for the antimicrobial peptide \gls{AMP} (AAEL003389-RA).
+The most pronounced decrease in accumulation was observed for the antimicrobial peptide (\gls{AMP}) attacin (AAEL003389-RA).
 Indeed, all AMPs decreased in accumulation with the exception of CecF (AAEL000625-RA), which significantly increased in accumulation exclusively in CTM.
 The overall AMP decrease may be associated with an increase in bacterial proliferation observed after a bloodmeal \cite{Oliveira2011}.
 The most common midgut bacteria do not show proteolysis activity but are implicated in the lysis of red blood cells, which release hemoglobin \cite{Gaio2011}.
