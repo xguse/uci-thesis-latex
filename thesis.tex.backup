@@ -10,16 +10,20 @@
 % e.g. \section[short]{long}.
 %
 \documentclass[12pt,fleqn]{ucithesis}
-%\documentclass[12pt,fleqn]{report}
-
+% \documentclass[12pt,fleqn]{report}
+\usepackage{etex}
+\usepackage{lscape}
 % 
+
+
+\usepackage{todonotes}
 % % A few common packages
 % \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{array}
 \usepackage{relsize}
 % 
-
+\usepackage{fixltx2e}
 \usepackage{tabularx}
 
 % My Packages:
@@ -32,23 +36,21 @@
 \usepackage{booktabs}
 \usepackage[bf]{caption}
 \usepackage{subcaption}  % \begin{subfigure}...\end{subfigure} within figure
+\DeclareCaptionSubType[Alph]{figure}
 \usepackage{soul}
 \usepackage{graphicx}
 \usepackage[normalem]{ulem}
-
+\usepackage{adjustbox}
 
 \usepackage[nointegrals]{wasysym}
-\usepackage{glossaries}
-\makeglossaries
 
-\include{glossary_terms.tex}
-\include{acronym_terms.tex}
 
 
 
 
 % other libraries that I use
-\usepackage{amsmath,amssymb}
+\usepackage{mathtools} % loads the amsmath package with extra goodies
+\usepackage{amssymb}
 \usepackage{colortbl}
 \usepackage{calc}
 \usepackage{color}
@@ -59,81 +61,17 @@
 \usepackage{float,wrapfig}
 \usepackage{ifthen}
 
-% \usepackage{kpfonts}
-% \usepackage[T1]{fontenc}
-
-\usepackage{kpfonts} %%
-\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
-\usepackage[T1]{fontenc}
-
-%\usepackage{fourier}
-%\usepackage{mathptmx}
-%\usepackage{tgschola}
-%\usepackage{bookman}
-%\usepackage{venturisold}
-%\usepackage{gfsdidot}
-%\usepackage{courier}
-%\usepackage{bera}
-%\usepackage{palatino}
-%\usepackage{times}
-%\usepackage[math]{anttor}
-% \usepackage[garamond]{mathdesign}
-
-%\usepackage[scaled]{beramono}
-
-
-
-\usepackage{listings}
-\usepackage{textcomp}
-\usepackage{setspace}
-
-
-\renewcommand{\lstlistlistingname}{List of Code}
-\renewcommand{\lstlistingname}{Code Listing}
+\input{fonts}
 
 \definecolor{shade}{HTML}{D4D7FE}
 \definecolor{gray}{gray}{0.5}
 \definecolor{green}{rgb}{0,0.5,0}
 
-\lstnewenvironment{python}[1][]{
-\lstset{
-language=python,
-basicstyle=\ttfamily\small\setstretch{1},
-stringstyle=\color{red},
-tabsize=4,
-showstringspaces=false,
-alsoletter={1234567890},
-otherkeywords={\ , \}, \{},
-keywordstyle=\color{blue},
-emph={access,and,break,class,continue,def,del,elif,else,%
-except,exec,finally,for,from,global,if,import,in,is,%
-lambda,not,or,pass,print,raise,return,try,while},
-emphstyle=\color{black}\bfseries,
-emph={[2]True, False, None, self},
-emphstyle=[2]\color{green},
-emph={[3]from, import, as},
-emphstyle=[3]\color{blue},
-upquote=true,
-morecomment=[s]{"""}{"""},
-breaklines=true,
-commentstyle=\color{green}\slshape,
-emph={[4]1, 2, 3, 4, 5, 6, 7, 8, 9, 0},
-emphstyle=[4]\color{blue},
-literate=*{:}{{\textcolor{blue}:}}{1}%
-	{=}{{\textcolor{blue}=}}{1}%
-	{-}{{\textcolor{blue}-}}{1}%
-	{+}{{\textcolor{blue}+}}{1}%
-	{*}{{\textcolor{blue}*}}{1}%
-	{!}{{\textcolor{blue}!}}{1}%
-	{(}{{\textcolor{blue}(}}{1}%
-	{)}{{\textcolor{blue})}}{1}%
-	{[}{{\textcolor{blue}[}}{1}%
-	{]}{{\textcolor{blue}]}}{1}%
-	{<}{{\textcolor{blue}<}}{1}%
-	{>}{{\textcolor{blue}>}}{1}%
-	{\_}{}{0\discretionary{\_}{}{\_}},%
-framexleftmargin=1mm, framextopmargin=1mm, frame=shadowbox, rulesepcolor=\color{blue},#1
-}}{}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{setspace}
+
+\input{listings_defs}
 
 
 \newfloat{floater}{thp}{floater}[chapter]
@@ -145,133 +83,21 @@ framexleftmargin=1mm, framextopmargin=1mm, frame=shadowbox, rulesepcolor=\color{
 %%%%%%   END LOAD LIBRARIES   %%%%%%   
 
 
-%%%%%%       Define Colors
-\definecolor{grey}{RGB}{152,152,152}
-\definecolor{brick}{RGB}{160,0,0}
-% % % Math Definitions: 
-\DeclareMathOperator*{\median}{median} 
-
-
-% commands for common volumes and things that are annoying to type
-\newcommand{\mul}{$\mu$l}
-%\newcommand{\ul}{$\mu$l}
-\newcommand{\ug}{$\mu$g}
-\newcommand{\uM}{$\mu$M}
-\newcommand{\degree}{\ensuremath{^\circ}}
-\newcommand{\C}{\degree C}
-\newcommand\water{H$_2$O}
-\newcommand\chlf{CHCl$_3$}
-\newcommand\chkBox{ {\Square} }
-\newcommand\chkBoxX{ {\CheckedBox} }
-
-
-
-% miniSolns are little on-the-spot mixes rather than stock solutions
-% \newcommand\miniSoln[1]{%
-%         %\bigskip
-%         \begin{center}\sffamily%
-%                 \ovalbox{\parbox[l]{5in}{\vskip1ex \hskip1ex \textbf{Solution:} \textcolor{black}{#1}}}%
-%         \end{center}%
-%         %\bigskip%
-% }
-
-\newcommand\synopsis[1]{%
-        %\bigskip
-        \begin{center}%
-                \fbox{
-					\begin{minipage}[c]{.95\linewidth}
-					\vskip1ex \hskip1ex \textbf{Synopsis:} \textcolor{black}{#1}
-					\end{minipage}
-				}%
-        \end{center}%
-        %\bigskip%
-}
-
-% bioCheats are hacks that might work as a last resort to fix a failed experiment
-\newcommand\bioCheat[1]{%
-        %\bigskip
-        \begin{center}\sffamily% 
-                \ovalbox{\parbox[l]{5in}{\textbf{Bio-cheats:} \textcolor{green}{#1}}}%
-        \end{center}%
-        %\bigskip%
-}
-
-% bioTip are little suggestions for getting slightly better results or optimization
-\newcommand\bioTip[1]{%
-        %\bigskip
-        \begin{center}\sffamily%
-                \ovalbox{\parbox[l]{5in}{\textbf{BioTip:} \textcolor{green}{#1}}}%
-        \end{center}%
-        %\bigskip%
-}
-
-% valuable lessons are little problems that you finally figure out how to solve
-\newcommand\valuableLesson[1]{%
-	%\bigskip
-	\begin{center}\sffamily%
-		\ovalbox{\parbox[l]{5in}{\textbf{Valuable Lesson:} \textcolor{blue}{#1}}}%
-	\end{center}%
-	%\bigskip%
-}
-
-% gotchas are things that could cause your experiment to fail if you aren't careful
-\newcommand\gotcha[1]{%
-	%\bigskip
-	\begin{center}\sffamily%
-		\ovalbox{\parbox[l]{5in}{\textbf{Gotchas:} \textcolor{red}{#1}}}%
-	\end{center}%
-	%\bigskip%
-}
-
-% this is how I link to raw data
-% you have to update this url to whereever you put your own data
-\newcommand\dataLink[2]{\href{http://hamlet.bu.edu/labNotebook/#1}{#2}}
-
-% brief conclusions sum up a section
-\newcommand\briefConclude[1]{\paragraph{Brief Conclusions:} #1}
-
-% brief updates are added later after I learn something that might be relevant to a previous section
-%\newcommand\briefUpdate[2]{\paragraph{Brief Update \emph{#1}:} \textcolor{magenta}{#2}}
-\newcommand\briefUpdate[2]{%
-	%\bigskip
-	\begin{center}%
-	\begin{tikzpicture}
- 		\node [fill=shade,rounded corners=7pt]
-		{ \parbox[l]{6in}{\bsf{Brief Update \emph{#1}:} \textcolor{magenta}{\bsf{#2}}} };
-	\end{tikzpicture}
-	\end{center}%
-	%\bigskip%
-}
-
-% to dos are temporary reminders of stuff I'd like to do;  I usually try to remove 
-% them after I've done the stuff.
-\newcommand\toDo[1]{\paragraph{\textcolor{green}{To Do!!!}}\textcolor{red}{#1}}
-
-% format a file name
-\newcommand\fName[1]{\texttt{\textcolor{green}{#1}}}
-
-% format a simple command
-\newcommand\cmd[1]{\texttt{\textcolor{brick}{#1}}}
-
-% format a bold sans serif
-\newcommand\bsf[1]{\textbf{\textsf{#1}}}
-
-% Alert text Style
-\newcommand\alert[1]{\textcolor{magenta}{#1}}
-
-% rArrow short
-\newcommand\rArw{$\Rightarrow$}
-
-% et al
-\newcommand\etal{\textit{et al.}}
-
-%paraBreak
-\newcommand{\pb}{\vskip2.5ex}
+\input{wad_defs}
 
 
 % plainpages=false fixes the "duplicate ignored" error with page counters
 % Set pdfborder to 0 0 0 to disable colored borders around PDF hyperlinks
-\usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
+\usepackage[plainpages=false,pdfborder={0 0 0},colorlinks,breaklinks]{hyperref}
+% \usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
+
+
+\usepackage[acronym]{glossaries}
+\makeglossaries
+
+\input{glossary_terms}
+\input{acronym_terms}
+\input{species_defs}
 
 % Uncomment the following two lines to use the algorithm package,
 % which provides an algorithm environment similar to figure and table
@@ -309,13 +135,15 @@ framexleftmargin=1mm, framextopmargin=1mm, frame=shadowbox, rulesepcolor=\color{
 % Very handy to speed up compilation if you're working on a certain
 % part of your thesis. It conserves page numbers, references, etc.
 % even for non-included files.
-%\includeonly{0_introduction.tex}
+% \includeonly{1_chapter1_reviewDevRation,appendix}
 
 \begin{document}
 
 % Preliminary pages are always loaded (TOC, CV, etc.)
 \input{preliminaries}
 \preliminarypages
+\todototoc
+\listoftodos
 
 % Include the different components of your thesis, in separate files.
 % Using \include allows you to set \includeonly above.
@@ -336,8 +164,8 @@ framexleftmargin=1mm, framextopmargin=1mm, frame=shadowbox, rulesepcolor=\color{
 
 % "References should be formatted in style most common in discipline",
 % abbrv is only a suggestion.
-\bibliographystyle{abbrv}
-\bibliography{thesis}
+\bibliographystyle{abbrvnat}
+\bibliography{/home/gus/Dropbox/MendeleyBibTeX/thesis}
 
 % The Thesis Manual says not to include appendix figures and tables in
 % the List of Figures and Tables, respectively, so these commands from

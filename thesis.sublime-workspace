@@ -51,59 +51,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/gus/.bashrc",
-			"settings":
-			{
-				"buffer_size": 2136,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_B1.txt",
-			"settings":
-			{
-				"buffer_size": 396,
-				"line_ending": "Unix",
-				"name": "AAEL002630"
-			}
-		},
-		{
-			"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/B1_A1.txt",
-			"settings":
-			{
-				"buffer_size": 649,
-				"line_ending": "Unix",
-				"name": "AAEL004584"
-			}
-		},
-		{
-			"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_A1.txt",
-			"settings":
-			{
-				"buffer_size": 1749,
-				"line_ending": "Unix",
-				"name": "AAEL017139"
-			}
-		},
-		{
-			"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_B1.txt",
-			"settings":
-			{
-				"buffer_size": 1738,
-				"line_ending": "Unix",
-				"name": "AAEL017139"
-			}
-		},
-		{
-			"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_A1.txt",
-			"settings":
-			{
-				"buffer_size": 781,
-				"line_ending": "Unix",
-				"name": "AAEL002630"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -129,7 +76,29 @@
 	},
 	"file_history":
 	[
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/Transcription_factors/TranscripFactor_1.list",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012strain_xrpt.tex",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012complex_xrpt.tex",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/blast_SUHW_CLONES_vs_TrinityAs00.out",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/blast_SUHW_CLONES_vs_TrinityAs04.out",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/SuHW_trinity_hits.fas",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/blast_TrinityAs04.sh",
+		"/home/gus/Dropbox/common/projects/trinity_As/trinity_As_04_0/trinity_As_04_0.sh",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/SUHW_CLONES_all.fas",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW CLONES-FASTA/SUHW11_M13F.fas",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012comparative.txt",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/Transcription_factors/orthodb7_AaAgAsCq_present.txt",
+		"/home/gus/.config/sublime-text-2/Packages/Theme - Default/Widget.sublime-settings",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/1_chapter1_reviewDevRation.tex",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_Rebecas_clones/SUHW11_M13F.Seq",
 		"/home/gus/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/gus/.config/sublime-text-2/Packages/Theme - Default/Widgets.stTheme",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_A1.txt",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_B1.txt",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_A1.txt",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/B1_A1.txt",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_B1.txt",
+		"/home/gus/.bashrc",
 		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/run_argot_hmmer.sh",
 		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/run_argot_blastp.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/run_argot_blastp.sh",
@@ -185,7 +154,6 @@
 		"/home/gus/Dropbox/common/ipy_notebooks/ecr_U_insect_ptci_1_0_Exploring_Profiles_cls7.ipynb",
 		"/home/gus/Dropbox/common/ipy_notebooks/ecr_U_insect_ptci_1_0_Exploring_Profiles_cls6.ipynb",
 		"/home/gus/Dropbox/common/projects/orthodb/OrthoDB7_Insecta_tabtext",
-		"/home/gus/.bashrc",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/all/run_argot_hmmer.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_tomtom.sh",
 		"/home/gus/DELETE_ME/Clustering_FPKM_data.py",
@@ -235,28 +203,7 @@
 		"/home/gus/DELETE_ME/nsmb.2660-S6.csv",
 		"/home/gus/virtualenvs/py275/lib/python2.7/site-packages/bibench/validation/enrichment.py",
 		"/home/gus/Dropbox/repos/git/BiBench-0.1/bibench/validation/enrichment.py",
-		"/home/gus/src/MeV_4_8_1/tmev.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_steme.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/ecr_OR_insect_meanPTCI_thresh_1_gene_names.CPIJ.txt",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/ecr_OR_insect_meanPTCI_thresh_1_gene_names.AGAP.txt",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_argot_blastp.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/ecr_OR_insect_meanPTCI_thresh_1_gene_names.AAEL.txt",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/RNAseq_results/bio/dunnw/data/4mosqs_mg_RNAseq/gtf_strict/cuffdiff_Ag_00_0.Ag_04_0.Ag_06_0.Ag_08_0.Ag_10_0/genes.fpkm_tracking",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/RNAseq_results/bio/dunnw/data/4mosqs_mg_RNAseq/gtf_strict/gene_fpkm_dumps/Cq.fpkm",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/RNAseq_results/bio/dunnw/data/4mosqs_mg_RNAseq/gtf_strict/gene_fpkm_dumps/Ag.features",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/RNAseq_results/bio/dunnw/data/4mosqs_mg_RNAseq/gtf_strict/gene_fpkm_dumps/Ag.fpkm",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/RNAseq_results/bio/dunnw/data/4mosqs_mg_RNAseq/gtf_strict/cuffmerge_Ag_00_0.Ag_04_0.Ag_06_0.Ag_08_0.Ag_10_0/merged.gtf",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/1_chapter1_reviewDevRation.tex",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/RNAseq_results/bio/dunnw/data/4mosqs_mg_RNAseq/gtf_strict/cuffdiff_Aa_00_0.Aa_04_0.Aa_06_0.Aa_08_0.Aa_10_0.cufflinks202/genes.fpkm_tracking",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012strain_xrpt.tex",
-		"/home/gus/.config/sublime-text-2/Packages/User/LaTeX.sublime-settings",
-		"/home/gus/src/repos/hg/ShellTile@emasab/metadata.json",
-		"/home/gus/src/gTile@vibou/metadata.json",
-		"/home/gus/src/vibou.gTile-master/metadata.json",
-		"/home/gus/src/vibou.gTile-master/prefs.js",
-		"/home/gus/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
-		"/home/gus/Dropbox/repos/git/movingthelamppost/2013/07/12/installing_pyqt____because_it_s_too_good_for_pip_or_easy_install_.rst",
-		"/home/gus/scratch/sort_example.py"
+		"/home/gus/src/MeV_4_8_1/tmev.sh"
 	],
 	"find":
 	{
@@ -274,6 +221,92 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Sequences producing significant alignments",
+			"\\n",
+			" ",
+			"\\n",
+			"[77]",
+			"[76]",
+			"[75]",
+			"[74]",
+			"[73]",
+			"[72]",
+			"[71]",
+			"[70]",
+			"[69]",
+			"[68]",
+			"[67]",
+			"[66]",
+			"[65]",
+			"[64]",
+			"[63]",
+			"\\cite{19214215}",
+			"[62]",
+			"[61]",
+			"[60]",
+			"[59]",
+			"[58]",
+			"[57]",
+			"[56]",
+			"[55]",
+			"[54]",
+			"[53]",
+			"[52]",
+			"[51]",
+			"[50]",
+			"[49]",
+			"[48]",
+			"[47]",
+			"[46]",
+			"[45]",
+			"[44]",
+			"[43]",
+			"[42]",
+			"[40]",
+			"[37]",
+			"[36]",
+			"[35]",
+			"[31]",
+			"[30]",
+			"[29]",
+			"[28]",
+			"[27]",
+			"[26]",
+			"[25]",
+			"[24]",
+			"[23]",
+			"[22]",
+			"[21]",
+			"[20]",
+			"[19]",
+			"[18]",
+			"[17]",
+			"[16]",
+			"[15]",
+			"[14]",
+			"[13]",
+			"[12]",
+			"]–[",
+			"]-[",
+			"[11]",
+			"[9]",
+			"[10]",
+			"[8]",
+			"[7]",
+			"[6]",
+			"[4]",
+			"[3]",
+			"[2]",
+			"(Ae\\.)\\n",
+			"\\. ",
+			" Ae. aegypti",
+			" Ae. aegypti ",
+			"CREs ",
+			"CRE ",
+			"CRM ",
+			"CRMs",
+			"panel",
+			"\\.  ",
 			"^MOTIF",
 			"AGAP012223",
 			"\\n",
@@ -323,6 +356,90 @@
 		"replace_history":
 		[
 			" ",
+			"\\\\ ",
+			" ",
+			"\\cite{Weaver2009}",
+			"\\cite{Kanlaya2009}",
+			"\\cite{Creaven1999}",
+			"\\cite{Chase2011}",
+			"\\cite{Wei}",
+			"\\cite{Kent2004}",
+			"\\cite{Souza-Neto2009}",
+			"\\cite{Kuno2010}",
+			"\\cite{Armstrong2001}",
+			"\\cite{Wahlund1928}",
+			"\\cite{Brackney2008}",
+			"\\cite{Brackney2010}",
+			"\\cite{Gorman2001}",
+			"\\cite{Kobe1994}",
+			"\\cite{Xie2011}",
+			"\\cite{Sanchez-Vargas2009}",
+			"\\cite{Girard2007}",
+			"\\cite{Wang2012}",
+			"\\cite{Cho1999}",
+			"\\cite{Matsumoto2008}",
+			"\\cite{Conus2010}",
+			"\\cite{Trpis1986}",
+			"\\cite{Muir1998}",
+			"\\cite{Liu2009}",
+			"\\cite{Flajollet2009}",
+			"\\cite{Guo2010a}",
+			"\\cite{Abrams2005}",
+			"\\cite{Miller2009}",
+			"\\cite{Shore1995}",
+			"\\cite{Boggaram2009}",
+			"\\cite{Hansen2007}",
+			"\\cite{Sandstrom1997}",
+			"\\cite{Rajeswari2002}",
+			"\\cite{Agawa2007}",
+			"\\cite{Matys2006}",
+			"\\cite{Lindholm2010}",
+			"\\cite{Sieglaff2009}",
+			"\\cite{Bailey2006}",
+			"\\cite{Trapnell2010}",
+			"\\cite{Anders2010}",
+			"\\cite{Trapnell2009}",
+			"\\cite{bonizzoni2012strain}",
+			"\\cite{Bernhardt2012}",
+			"\\cite{Colpitts2011}",
+			"\\cite{Sim2012}",
+			"\\cite{Behura2011}",
+			"\\cite{Luplertlop2011}",
+			"\\cite{Tchankouo-Nguetcheu2010}",
+			"\\cite{Sim2010}",
+			"\\cite{19214215}",
+			"\\cite{Cox2011}",
+			"\\cite{Gubler1976}",
+			"\\cite{Xi2008}",
+			"\\cite{Samsa2009}",
+			"\\cite{Mercado-Curiel2008}",
+			"\\cite{Rey2003}",
+			"\\cite{Heinz2003}",
+			"\\cite{Bennett2002}",
+			"\\cite{Lambrechts2011}",
+			"\\cite{Salazar2007}",
+			"\\cite{Anderson2006}",
+			"\\cite{Black2002}",
+			"\\cite{Angel2008}",
+			"\\cite{Watts1987}",
+			"\\cite{Gunther2007}",
+			"\\cite{Mathur2010}",
+			"\\cite{Franz2006}",
+			"\\cite{Kramer2003}",
+			"\\cite{Nene2007}",
+			"\\cite{Gubler2002}",
+			"\\1 ",
+			"\\1",
+			".\\n",
+			" \\Aa",
+			" \\Aa\\ ",
+			"\\Aa\\",
+			"\\glspl{CRE} ",
+			"\\gls{CRE} ",
+			"\\gls{CRM} ",
+			"\\glspl{CRM}",
+			".\\n",
+			" ",
 			"",
 			"jet",
 			"importr",
@@ -360,170 +477,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/gus/.bashrc",
-					"settings":
-					{
-						"buffer_size": 2136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1079,
-								1079
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_B1.txt",
-					"settings":
-					{
-						"buffer_size": 396,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								396,
-								396
-							]
-						],
-						"settings":
-						{
-							"auto_name": "AAEL002630",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/B1_A1.txt",
-					"settings":
-					{
-						"buffer_size": 649,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								649,
-								649
-							]
-						],
-						"settings":
-						{
-							"auto_name": "AAEL004584",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 144.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_A1.txt",
-					"settings":
-					{
-						"buffer_size": 1749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1749,
-								1749
-							]
-						],
-						"settings":
-						{
-							"auto_name": "AAEL017139",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2544.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_B1.txt",
-					"settings":
-					{
-						"buffer_size": 1738,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1738,
-								1738
-							]
-						],
-						"settings":
-						{
-							"auto_name": "AAEL017139",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2520.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_A1.txt",
-					"settings":
-					{
-						"buffer_size": 781,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								781,
-								781
-							]
-						],
-						"settings":
-						{
-							"auto_name": "AAEL002630",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 432.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -583,6 +538,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 141.0,
+	"side_bar_width": 110.0,
 	"status_bar_visible": true
 }
