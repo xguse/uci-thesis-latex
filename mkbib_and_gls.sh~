@@ -1,0 +1,9 @@
+#!/bin/bash
+pdflatex -interaction=nonstopmode thesis
+pdflatex -interaction=nonstopmode thesis
+bibtex thesis
+bibtex thesis
+echo ''
+makeglossaries thesis
+makeglossaries thesis
+
