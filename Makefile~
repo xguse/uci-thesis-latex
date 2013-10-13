@@ -21,7 +21,6 @@ $(PDF) : $(DVI)
 $(DVI) : $(DEP) | $(OUT)
 	$(CMDLATEX) $(SRC)
 	bibtex $(OUT)/$(PROJ)
-	makeglossaries $(OUT)/$(PROJ)
 	$(CMDLATEX) $(SRC)
 	$(CMDLATEX) $(SRC)	# Run LaTeX again to make sure all references are correct
 

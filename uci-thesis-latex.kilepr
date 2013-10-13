@@ -4,7 +4,7 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1.0
-lastDocument=1_chapter1_reviewDevRation.tex
+lastDocument=2_chapter.tex
 masterDocument=thesis.tex
 name=uci-thesis-latex
 pkg_extIsRegExp=false
@@ -19,65 +19,47 @@ options='%S.idx'
 MakeIndex=Default
 QuickBuild=
 
-[document-settings,item:0_introduction.tex]
+[document-settings,item:1_chapter.tex]
 Bookmarks=
 Encoding=UTF-8
-FoldedColumns=
-FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
-ReadWrite=true
 
-[document-settings,item:1_chapter1_reviewDevRation.tex]
+[document-settings,item:2_chapter.tex]
 Bookmarks=
 Encoding=UTF-8
-FoldedColumns=
-FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
-ReadWrite=true
 
-[document-settings,item:2_chapter2_softwareDev.tex]
+[document-settings,item:3_chapter.tex]
 Bookmarks=
 Encoding=UTF-8
-FoldedColumns=
-FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
-ReadWrite=true
 
-[document-settings,item:3_chapter3_mgTimeCourse.tex]
+[document-settings,item:4_chapter.tex]
 Bookmarks=
 Encoding=UTF-8
-FoldedColumns=
-FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
-ReadWrite=true
 
-[document-settings,item:4_chapter4_otherColabvWrk.tex]
+[document-settings,item:5_chapter.tex]
 Bookmarks=
 Encoding=UTF-8
-FoldedColumns=
-FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
-ReadWrite=true
 
-[document-settings,item:5_conclusions.tex]
+[document-settings,item:6_chapter.tex]
 Bookmarks=
 Encoding=UTF-8
-FoldedColumns=
-FoldedLines=
 Highlighting=LaTeX
 Indentation Mode=normal
 Mode=LaTeX
-ReadWrite=true
 
 [document-settings,item:acronym_terms.tex]
 Bookmarks=
@@ -332,65 +314,65 @@ Indentation Mode=normal
 Mode=LaTeX
 ReadWrite=true
 
-[item:0_introduction.tex]
-archive=true
-column=13
-encoding=UTF-8
-highlight=LaTeX
-line=1
-mode=LaTeX
-open=true
-order=0
-
-[item:1_chapter1_reviewDevRation.tex]
-archive=true
-column=0
-encoding=UTF-8
-highlight=LaTeX
-line=143
-mode=LaTeX
-open=true
-order=7
-
-[item:2_chapter2_softwareDev.tex]
-archive=true
-column=47
-encoding=UTF-8
-highlight=LaTeX
-line=2
-mode=LaTeX
-open=true
-order=16
-
-[item:3_chapter3_mgTimeCourse.tex]
+[item:1_chapter.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=false
+open=true
+order=2
+
+[item:2_chapter.tex]
+archive=true
+column=344
+encoding=UTF-8
+highlight=LaTeX
+line=19
+mode=LaTeX
+open=true
+order=3
+
+[item:3_chapter.tex]
+archive=true
+column=0
+encoding=UTF-8
+highlight=LaTeX
+line=0
+mode=LaTeX
+open=true
+order=4
+
+[item:4_chapter.tex]
+archive=true
+column=0
+encoding=UTF-8
+highlight=LaTeX
+line=0
+mode=LaTeX
+open=true
 order=5
 
-[item:4_chapter4_otherColabvWrk.tex]
+[item:5_chapter.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=false
-order=7
+open=true
+order=6
 
-[item:5_conclusions.tex]
+[item:6_chapter.tex]
 archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=false
-order=15
+open=true
+order=7
 
 [item:acronym_terms.tex]
 archive=true
@@ -399,7 +381,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=11
 mode=LaTeX
-open=true
+open=false
 order=2
 
 [item:appendix.tex]
@@ -429,7 +411,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=1
 mode=LaTeX
-open=true
+open=false
 order=13
 
 [item:figures/aedesHMMsplice.tex]
@@ -439,7 +421,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=1
 mode=LaTeX
-open=true
+open=false
 order=14
 
 [item:figures/bonizzoni2012complex-cre.tex]
@@ -449,7 +431,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=1
 mode=LaTeX
-open=true
+open=false
 order=12
 
 [item:figures/cluster19_AaAgCq.tex]
@@ -529,7 +511,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=6
 mode=LaTeX
-open=true
+open=false
 order=15
 
 [item:figures/nway-ortholog-graph.tex]
@@ -539,7 +521,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=1
 mode=LaTeX
-open=true
+open=false
 order=17
 
 [item:figures/pole-cells.tex]
@@ -574,12 +556,12 @@ order=9
 
 [item:fonts.tex]
 archive=true
-column=24
+column=20
 encoding=UTF-8
 highlight=LaTeX
-line=2
+line=14
 mode=LaTeX
-open=true
+open=false
 order=10
 
 [item:glossary_terms.tex]
@@ -589,7 +571,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=1
 mode=LaTeX
-open=true
+open=false
 order=1
 
 [item:my_papers_texts/bonizzoni2012complex_xrpt.tex]
@@ -599,7 +581,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=111
 mode=LaTeX
-open=true
+open=false
 order=9
 
 [item:my_papers_texts/bonizzoni2012strain_xrpt.tex]
@@ -609,7 +591,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=88
 mode=LaTeX
-open=true
+open=false
 order=8
 
 [item:preliminaries.tex]
@@ -620,7 +602,7 @@ highlight=LaTeX
 line=94
 mode=LaTeX
 open=true
-order=3
+order=1
 
 [item:species_defs.tex]
 archive=true
@@ -629,7 +611,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=5
 
 [item:tables/species-disease-region.tex]
@@ -639,18 +621,18 @@ encoding=UTF-8
 highlight=LaTeX
 line=11
 mode=LaTeX
-open=true
+open=false
 order=6
 
 [item:thesis.tex]
 archive=true
-column=11
+column=10
 encoding=UTF-8
 highlight=LaTeX
-line=18
+line=154
 mode=LaTeX
 open=true
-order=11
+order=0
 
 [item:uci-thesis-latex.kilepr]
 archive=true
@@ -679,44 +661,44 @@ encoding=UTF-8
 highlight=LaTeX
 line=5
 mode=LaTeX
-open=true
+open=false
 order=4
 
-[view-settings,view=0,item:0_introduction.tex]
-CursorColumn=13
-CursorLine=1
-JumpList=
-ViMarks=.,267,0,[,267,0,],267,12
-
-[view-settings,view=0,item:1_chapter1_reviewDevRation.tex]
+[view-settings,view=0,item:1_chapter.tex]
 CursorColumn=0
-CursorLine=143
+CursorLine=0
 JumpList=
-ViMarks=.,143,0,[,143,0,],143,0
+ViMarks=
 
-[view-settings,view=0,item:2_chapter2_softwareDev.tex]
-CursorColumn=47
-CursorLine=2
+[view-settings,view=0,item:2_chapter.tex]
+CursorColumn=344
+CursorLine=19
 JumpList=
-ViMarks=.,13,0,[,13,0,],13,12
+ViMarks=.,0,0,[,0,0,],-1,-1
 
-[view-settings,view=0,item:3_chapter3_mgTimeCourse.tex]
-CursorColumn=2
-CursorLine=24
+[view-settings,view=0,item:3_chapter.tex]
+CursorColumn=0
+CursorLine=0
 JumpList=
-ViMarks=.,24,0,[,24,0,],24,1
+ViMarks=
 
-[view-settings,view=0,item:4_chapter4_otherColabvWrk.tex]
-CursorColumn=47
-CursorLine=1
+[view-settings,view=0,item:4_chapter.tex]
+CursorColumn=0
+CursorLine=0
 JumpList=
-ViMarks=.,1,46,[,1,27,],1,46
+ViMarks=
 
-[view-settings,view=0,item:5_conclusions.tex]
-CursorColumn=51
-CursorLine=5
+[view-settings,view=0,item:5_chapter.tex]
+CursorColumn=0
+CursorLine=0
 JumpList=
-ViMarks=.,5,0,[,1,0,],5,50
+ViMarks=
+
+[view-settings,view=0,item:6_chapter.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=
 
 [view-settings,view=0,item:acronym_terms.tex]
 CursorColumn=24
@@ -827,10 +809,10 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:fonts.tex]
-CursorColumn=24
-CursorLine=2
+CursorColumn=20
+CursorLine=14
 JumpList=
-ViMarks=.,2,0,[,1,0,],2,23
+ViMarks=.,4,0,[,4,0,],4,1
 
 [view-settings,view=0,item:glossary_terms.tex]
 CursorColumn=60
@@ -869,10 +851,10 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:thesis.tex]
-CursorColumn=11
-CursorLine=18
+CursorColumn=10
+CursorLine=154
 JumpList=
-ViMarks=.,18,11,[,18,11,],18,11
+ViMarks=.,154,9,[,154,9,],154,9
 
 [view-settings,view=0,item:ucithesis.cls]
 CursorColumn=0

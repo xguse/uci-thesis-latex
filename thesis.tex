@@ -16,7 +16,7 @@
 % 
 
 
-\usepackage{todonotes}
+\usepackage[disable]{todonotes}
 % % A few common packages
 % \usepackage{amsmath}
 \usepackage{amsthm}
@@ -135,7 +135,7 @@
 % Very handy to speed up compilation if you're working on a certain
 % part of your thesis. It conserves page numbers, references, etc.
 % even for non-included files.
-% \includeonly{1_chapter1_reviewDevRation,appendix}
+\includeonly{2_chapter,appendix}
 
 \begin{document}
 
@@ -147,13 +147,12 @@
 
 % Include the different components of your thesis, in separate files.
 % Using \include allows you to set \includeonly above.
-\include{0_introduction}
-\include{1_chapter1_reviewDevRation}
-\include{2_chapter2_softwareDev}
-\include{3_chapter3_mgTimeCourse}
-\include{4_chapter4_otherColabvWrk}
-\include{5_conclusions}
-
+\include{1_chapter}
+\include{2_chapter}
+\include{3_chapter}
+\include{4_chapter}
+\include{5_chapter}
+\include{6_chapter}
 
 % ... and so on
 
