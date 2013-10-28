@@ -10,6 +10,8 @@
 
 \printglossaries
 
+%\chapter{Code}
+
 \chapter{Methods}
 
 \section{Comparative genomics allows the discovery of \textit{cis}-regulatory elements in mosquitoes}
@@ -181,7 +183,123 @@ The motif-based sequence analyses suite MEME \cite{Bailey1994} was used to inves
 
 
 
-\chapter{Code}
+\chapter{Protocols}
+
+\section{RNA isolation through Reverse Transcriptase reaction} \label{prot:RNA_Judy}
+\subsection{Materials}
+{\sf
+\begin{tabular}{ll} \toprule
+RNA Isolation: &\\ \midrule
+Trizol						&	500 \mul/sample \\
+\chlf						&	100 \mul/sample \\
+isopropanol					&	250 \mul/sample \\
+EtOH(75\% in DEPC)			&	500 \mul/sample \\
+RNase Inhibitor(ambion)	&	20U/sample in RNase free \water\  20 \mul\ final vol \\
+Turbo DNaseFree(ambion)		&	\\
+DNase Inactivator			&	5 \mul/sample \\
+% &\\
+% \toprule
+% Reverse Transcription:&\\ \midrule
+% x&\\
+% x&\\
+\bottomrule
+\end{tabular} 
+}
+
+\subsection{Procedure}
+\alert{\sffamily NOTE: unless otherwise specified, keep Trizol and the RNA it contains on ice to slow any rouge RNases.}
+\begin{enumerate} \raggedright
+	\item \chkBox Sample is placed in 500 \mul\ of Trizol reagent.
+	\item \chkBox Homogenize with pestle.
+	\item \chkBox Incubate at room temperature for 5 minutes.
+	\item \chkBox Spin (13,000 rpm $\sim$ 11,900 g) for 10 minutes at \alert{4\C}.
+	\item \chkBox Retain supernatant.  \bioCheat{If your tissue is soft enough that it is virtually disintegrated, you do not need to recover a supernatant.  Just keep the same tubes.}
+	\item \chkBox Add 100 \mul\ \chlf\ and shake vigorously by hand for 15 seconds.
+	\item \chkBox Incubate for 5 minutes at 25\C.
+	\item \chkBox Spin (13,000 rpm) for 15 minutes at \alert{4\C}.
+	\item \chkBox Transfer the aqueous phase to \alert{RNase-free} 1.5 ml tubes.  \gotcha{Stay away from the interface bt the phases!}
+	\item \chkBox Add 250 \mul\ isopropanol and invert to mix.
+	\item \chkBox Incubate for 10 minutes at 25\C.
+	\item \chkBox Spin (13,000 rpm) for 10 minutes at \alert{4\C}.
+	\item \chkBox Retain and wash the precipitate with 500 \mul\ of ice-cold 75\% EtOH (\alert{made with DEPC \water})
+	\item \chkBox Spin (13,000 rpm) for 5 minutes at \alert{4\C}.
+	\item \chkBox Retain precipitate and allow to dry for about 10 minutes at 25\C. \gotcha{Do not over-dry or resuspension may fail.}
+	\item \chkBox Re-suspend each pellet in 20 \mul\ of:
+		\miniSoln{
+			\begin{center}
+				\begin{tabular}{ll}\toprule
+				\textbf{Componant} & \textbf{Volume}\\ \midrule
+				20 U RNase inhibitor (40U/\mul) & 0.5 \mul\ \\
+				RNase-free \water\ & 19.5 \mul\ \\ \bottomrule
+				\end{tabular}
+			\end{center} \vskip1ex
+		}
+\end{enumerate}
+
+
+\pagebreak
+\section{DNA-Free RNA Kit: \textit{small (<200nt) RNA elimination} (Zymo R1013) } \label{ZymoR1013noSmall}
+\subsection{Materials}
+
+\begin{table}[h] \sffamily \centering
+\caption{\textbf{\sf RNA Resuspension Buffer Master Mix}}\label{ZymoR1013noSmall_RNAresusBfr}
+\begin{tabular}{lrrr}
+\toprule
+Componant								 & Vol/sample & Samples & Total \textit{(Smpl * 1.05)} \\ \midrule
+\chkBox RNase inhibitor (Ambion) (40U/\mul)		 & 0.5 \mul\   & ?		& ? \\
+\chkBox RNase-free \water\ 						 & 19.5 \mul\  & ?		& ?\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h] \sffamily \centering
+\caption{\textbf{\sf DNase Digestion Buffer Master Mix}}\label{ZymoR1013noSmall_DNaseBfr}
+\begin{tabular}{lrrr}
+\toprule
+Componant							&	Vol/sample		&	Samples	&	Total \textit{(Smpl * 1.05)} \\ \midrule
+\chkBox 10X DNase I Buffer (kit)	&	5 \mul		&	?		&	? \\
+\chkBox RNase-free DNase I (kit)	&	2.5 \mul	&	?		&	? \\
+\chkBox RNase-free \water\ 			&	22.5 \mul	&	?		&	?\\
+\bottomrule
+\end{tabular}
+
+\end{table}
+
+\begin{table}[h] \sffamily \centering
+\caption{\textbf{\sf RNA Binding Buffer Master Mix \textit{(small RNA elimination version)}}}\label{ZymoR1013noSmall_RNAbinding}
+\begin{tabular}{lrrr}
+\toprule
+Componant							&	Vol/sample	&	Samples	&	Total \textit{(Smpl * 1.05)} \\ \midrule
+\chkBox RNA binding Buffer (kit)	&	50 \mul	&	?		&	? \\
+\chkBox EtOH (95-100\%)				&	50 \mul	&	?		&	? \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\subsection{Procedure}
+\begin{enumerate}
+\item \chkBox Prepare RNA resuspension Master Mix (Buffer \ref{ZymoR1013noSmall_RNAresusBfr}).
+\item \chkBox Aliquot 20 \mul\ of Buffer \ref{ZymoR1013noSmall_RNAresusBfr} to each semi-dried RNA precipitate.
+\item \chkBox Incubate at 25\C\ for 10 minutes. \gotcha{If RNA has been in EtOH for a long time or has over-dried, you will want to increase this time and/or temperature to ensure that the RNA has fully resuspended.}
+\item \chkBox Once resuspension is complete, \alert{store tubes on ice}.
+\item \chkBox Prepare DNase Digestion Master Mix (Buffer \ref{ZymoR1013noSmall_DNaseBfr}). \gotcha{Keep DNase enzyme and any tubes that contain enzyme \alert{on ice} until initiation of reaction incubation.}
+\item \chkBox Aliquot 30 \mul\ of Buffer \ref{ZymoR1013noSmall_DNaseBfr} into each RNA sample tube and mix well by \alert{gentle} vortex.
+\item \chkBox Incubate RNA+DNase at 37\C\ for 15-30 minutes.
+\item \chkBox Prepare RNA Binding Buffer \textit{(small RNA elimination version)} (Buffer \ref{ZymoR1013noSmall_RNAbinding}).
+\item \chkBox Aliquot 100 \mul\ of Buffer \ref{ZymoR1013noSmall_RNAbinding} to each 50 \mul\ DNase digest reaction and mix well.
+\item \chkBox Transfer each sample from above to a Zymo-Spin IC Column plus collection tube and spin at $\ge$ 12,000 x g for 1 minute; discard flow-through.
+\item \chkBox Add 400 \mul\ \textbf{RNA Prep Buffer} (kit) to column and spin at $\ge$ 12,000 x g for 1 minute; discard flow-through.
+\item \chkBox Add 800 \mul\ \textbf{RNA Wash Buffer} (kit) to column and spin at $\ge$ 12,000 x g for 1 minute; discard flow-through.
+\item \chkBox Repeat above with 400 \mul\ \textbf{RNA Wash Buffer} (kit), discard flow-through.
+\item \chkBox Spin column at $\ge$ 12,000 x g for 2 minutes.
+\item \chkBox Carefully transfer column to a fresh \alert{RNase-free} 1.5 ml tube.
+\item \chkBox Add at least 6 \mul\ of \alert{DNase/RNase-free} \water\ directly to the column surface and incubate at 25\C\ for 2 minutes. \bioTip{increasing the column soak time and/or performing a second elution may increase final yields.}
+\item \chkBox Spin at 10,000 x g for 30 seconds; retain flow-through.
+\item Store immediately at \alert{-80\C{}} after performing Spec analysis etc.
+\end{enumerate}
+
+
 
 
 %%% Local Variables: ***

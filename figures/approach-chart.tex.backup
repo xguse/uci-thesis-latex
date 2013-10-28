@@ -1,0 +1,21 @@
+
+\begin{landscape}
+
+\begin{figure}[h]
+
+\includegraphics[width=.9\textwidth]{figures/figs/approach_chart/approach_overview.pdf}
+
+\caption[Input-output diagram of approach overview]{
+\sf \textbf{Input-output diagram of approach overview:}
+%
+The approach employed can be divided into three stages.
+\textsc{Preliminary Data Preparation} consists of accumulating and preparing the foundational data representing the four data-types to be integrated into the gFunc graph.
+\textsc{gFunc-based Analysis} involves mapping the foundational data onto the gFunc graph structure and submitting the graph to custom Python functions that read, analyze, and write results back to the graph to calculate the \glspl{PTCI} and corresponding \glspl{FDR}.
+This is done using two \gls{TFBS} profile data-sets with results being merged by a union-type set-operation to obtain the overall set orthologs representing putatively conserved midgut \glspl{mAP}.
+\textsc{Characterization of Results} then uses Argot2 to obtain functional annotations of the ortholog-sets, and the \glspl{mAP} of \Ag\ members are clustered using k-means clustering to group the ortholog-sets by expression similarity.
+
+}
+\label{fig:approach-chart}
+\end{figure}
+
+\end{landscape}

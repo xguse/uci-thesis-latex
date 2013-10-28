@@ -1,0 +1,13 @@
+graph nway_one2one {
+    graph [splines=ortho];
+
+    node [style=filled,colorscheme=rdylbu3,penwidth=1.0,fontname="DroidSans.ttf"];
+
+    Aa_homolog [label="homolog in Aa", fillcolor = 1];
+    Ag_homolog [label="homolog in Ag", fillcolor = 2];
+    Cq_homolog [label="homolog in Cq", fillcolor = 3];
+
+    Aa_homolog -- Ag_homolog;
+    Aa_homolog -- Cq_homolog;
+    Ag_homolog -- Cq_homolog;
+}
