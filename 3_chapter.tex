@@ -3,38 +3,129 @@
 \chapter{Approach and Custom Software solutions} \label{chap:3}
 \todo[inline]{replace CITEME tags in Approach and Custom Software solutions}
 
-\section{Purpose}
-Illustrate how lessons learned in previous chapter (as well as new lessons introduced here) are addressed through custom software solutions.
-\begin{enumerate}
- \item RNA-seq analysis, reproducibility, updating
- \item Integration of multiple disparate Omics scale data types
- \item Documentation of exactly how analyses were carried out (IPython notebooks)
-\end{enumerate}
 
-\todo[inline]{MEGA: you need to write most of this chapter}
+Frequently, \gls{functional-genomics} approaches contain problems or subproblems that require generating biologically meaningful gene-sets that pertain to the focus of the particular phenomenon being targeted.
+Optimizing signal-to-noise ratios in data is a major challenge to generating useful gene-sets.
+This project aims to generate meaningful gene-sets through integrating information from four supporting data-types:
 
-\section{The phylogenetic transcriptional correspondence index (PTCI)}
-
-
+\begin{itemize}
+    \item comparative genomics ($N$-way 1-to-1 ortholog relationships)
+    \item comparative transcriptomics (identical RNA-seq experiments performed using divergent mosquito species with the shared trait of \gls{hematophagy})
+    \item phylogenetics (estimated divergence since last common ancestor)
+    \item putative regulatory mechanisms (predicted \gls{TFBS} profiles)
+\end{itemize}
 
 
 
+\section{Approach}
+
+\paragraph*{Comparative Genomics:}
+
+The initial gene-set for this project was limited to genes that have exactly one matching 1-to-1 ortholog in \Aa, \Ag, \As, and \Cq.
+The purpose of this constraint is to maximize the probability of conserved function between genes analyzed. 
+
+This preliminary gene set was obtained using the orthoDB7 \url{http://cegg.unige.ch/orthodb7} website by first selecting the node representing only the mosquito branch of the phylogeny \cite{Waterhouse2013}.
+Then, the following requirements were enforced when retrieving ortholog relationship results 
+
+\begin{quotation}
+    \texttt{co-ortholog copy-number: AAEGY=1, AGAMB=1, ASTEP=1, CQUIN=1}
+\end{quotation}
+
+\input{figures/approach-chart}
+
+The results of the query are provided as file \texttt{orthodb7\_mosqs\_20130918.txt} in the supplementary data files associated with this dissertation \cite{Dunn2013dissSupl}.
+ 
+Custom python code was used to extract the 1-to-1 orthologs for \Aa, \Ag, and \Cq\ (Figure \ref{fig:approach-chart}).
+The coded process is provided as an executable IPython notebook located at \url{http://goo.gl/EM1pHL} for in-depth inspection as well as for the purpose of openness and reproducibility.
+
+Briefly, the results table was filtered for data pertaining to \Aa, \Ag, or \Cq.
+Then I built a graph-representation of the data such that each orthoDB ortholog group could be queried to ensure that exactly one gene was represented for each species of interest.
+These genes represent gene-set that formed the starting point for the rest of my approach.
+The filtered set is available as supplementary file \texttt{AaAgCq\_1to1\_orthos.tsv} \cite{Dunn2013dissSupl}.
+
+It should be noted that while this set contains only genes from the three species included in this document, each group should also have exactly one ortholog from \As\ as well which represents an additional constraint intended to limit the ortholog-sets to those most likely to fulfill the same function in each species.
+
+\paragraph*{Comparative Transcriptomics:}
+
+Whole RNA was extracted from dissected midguts of 16 female individuals of each species among the following time points: \gls{NBF} (0), 2, 4, 6, 8, 10 h \gls{PBM} (Protocol \ref{prot:RNA_Judy}) to identify and analyze orthologous genes that exhibit correlated \glspl{mAP} in the midguts of females directly following the ingestion of a bloodmeal.
 
 
+\paragraph*{Phylogenetics:}
 
-Look at the parameter space of the PTCI (Figure \ref{fig:ptci-space}).  
-\input{figures/ptci-space}
+The phylogenetics aspect of this approach consists of using the estimated phylogenetic distances between each species to weight the comparisons between data correlations calculated for each pairwise 1-to-1 ortholog duo.
+This is encoded as $d$ in the \gls{PTCI} expression defined in Equation \ref{eq:ptci} (see Section \ref{sec:ptci}).
 
-Here is the PTCI calculation:
+The values of $d$ for each species-pair have been estimated previously (Table \ref{tab:evo-ranges}) (compiled in \citet{Sieglaff2009}).
+
+\input{tables/evo-ranges}
+
+
+\paragraph*{Putative Transcriptional Regulatory Control Mechanisms:}
+
+Part of the \gls{PTCI} includes correlation of a \gls{TFBS} scanning signature between ortholog pairs.
+If the \gls{PTCI} is calculated using a set of \gls{TFBS} that are known to interact with the \gls{20E} signaling cascade, then this portion of the \gls{PTCI} acts as a rough proxy for correlation with putative activity of the \gls{20E} cascade.
+
+The \gls{TFBS} profiles are obtained through scanning the 2000 bp regions 5' to the annotated start of transcription for each gene using the \gls{MOODS} application wrapped in custom Python code \cite{Pizzi2009}.
+The scoring method used was log-odds.
+The final \gls{TFBS} profile score for a gene-motif combination consists of the sum of all site-scores with positive log-odds scores.
+In this way the gene-motif score represents the count of all site-scores that fit the motif model better than would be expected after considering the background sequence-composition of the putative promoter-regions weighted by the log-odds value of each site-score.
+For example, for motif model $m$, if one sequence had three sites that each received log-odds scores of 0.33, then the gene-motif score is approximately 1.
+Alternatively, if a second sequence has a single site that matches $m$ with a positive score of 1, both sequences would have approximately equal gene-motif scores for $m$.
+Just as the \gls{mAP} for a particular gene consists of 5 values that represent the \gls{FPKM} score for that gene at 5 time-points, the \gls{TFBS} profile of a gene consists of $N$ values (the number of motif models considered) that represent the sum of sites in the putative promoter region that received a positive log-odds value weighted by the log-odds value of each site.
+
+This is an imperfect solution as \gls{ChIP-Seq} using antibodies to specific \glspl{TF} in each species is preferable\footnote{those that are presently associated with \gls{20E} for instance}.
+However this was impractical for this work due to the absence of suitable antibodies and the cost of developing and executing all assays in each species.
+
+
+\section{The phylogenetic transcriptional correspondence index (PTCI)} \label{sec:ptci}
+
+The \gls{PTCI} (Equation \ref{eq:ptci}) attempts to provide a metric that combines multiple pairwise \gls{Pcc} ($r$) relating to multiple comparison dimensions pertaining to each 1:1 ortholog pair and then weight it using the relative evolutionary divergence times of each pairwise comparison ($d$).
+%
 \input{equations/ptci}
+%
+In Equation \ref{eq:ptci}, the two comparison dimensions being combined are the similarity between an ortholog-pair with respect to \gls{mAP} ($r_{x}$) and \gls{TFBS} profile signature ($r_{t}$).
+The pairwise species-divergence is represented by $d$.
+However, the divergence times must be transformed using a scaling function ($w()$) that prevents the \textbf{much} larger values of raw divergence values from dominating the index.
+I have chosen to constrain the range of $w(d)$ between $1$ (no reward) and $1.1$ (a reward of 10\%).
+This range was chosen to allow the evolutionary distance to affect the ranking of an ortholog-set without having a dominating effect.
+I explored other settings, but this range appeared to be a good compromise (not shown).
+%
+\input{figures/ptci-space}
+%
+The \gls{TFBS} data is derived through imperfect and non-empirical means.
+
+
+(Figure \ref{fig:ptci-space}).
+
+
+
+
 
 The graph model is useful (Figure \ref{fig:nway-ortholog-graph})
 
 \input{figures/nway-ortholog-graph}
 
 
-\pagebreak[4]
-\section{Blacktie RNA-seq pipeline}
+
+\section{Custom Software Solutions}
+
+Two core bodies of software were developed for this project as well as numerous smaller custom Python scripts.
+Blacktie is a python package that automates data flow between and record keeping for analysis runs of the components of the third-party analysis pipeline dubbed the \gls{TuxProt} \cite{Trapnell2012}.
+The purpose of the second software project, the \gls{gFunc}, is to provide a framework with which to integrate many, disparate data types to facilitate the synthesis of functional genomics analyses that make use of as many types of data as may be useful.
+
+Blacktie's code and documentation have been made available to the public.
+It is hosted as a \gls{Git} project with the complete history of code commits included and available for easy open source improvement and collaboration.
+It is also available as an easily installable package from the \gls{PyPI} for general users.
+It has been downloaded and installed over 2000 times as of this time with its latest version (v0.2.1.2) being downloaded at least 327 times (according to \gls{PyPI}).
+
+\gls{gFunc} is based around an existing, well known, and well maintained network-graph framework called networkx \cite{Hagberg2008}.
+\gls{gFunc} uses this code library as a database backbone and provides a framework for installing common genomic data-types into the graph structure as well as a convention for extending the core objects of \gls{gFunc} to handle new types of data.
+The project is not formally released.
+After using it for my own work, I have learned more about how best to organize the code.
+Once it has been re-factored to incorporate the lessons learned here (mainly that the core objects should be simplified as much as possible and more of the data management should be coded directly with networkx rather than re-implementing certain functions), it will be released to the public using the same mechanisms as described for Blacktie.
+
+
+\subsection{Blacktie RNA-seq pipeline}
 
 See Figure \ref{fig:tuxedo}
 

@@ -51,17 +51,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "\\chapter{Review of Pertinent Publications}\n%\\todo[inline]{replace CITEME tags in Development of Rationale and Review of Published Works}\n\nOur previous attempts to infer \\glspl{CRE} bioinformatically have been relatively successful.\nComparative genomics by way of the \\gls{MDOS} program allowed us to infer a set of k-mers that should represent \\glspl{CRE} conserved among three species of mosquitoes (\\Aa, \\Ag, \\Cq).\nThis method used no expression information in the process of predicting the \\glspl{CRE}.\nHowever, we were able to show that a sub-set of the inferred \\glspl{CRE} were enriched significantly in abundance profiles derived from a previous affymetrix-based bloodfeeding experiment in \\Ag\\ \\cite{Marinotti2005},\\cite{Marinotti2006},\\cite{Sieglaff2009}.\nComparing transcriptional abundance profiles between sugarfed and bloodfed (5h \\gls{PBM}) \\Aa\\ mosquitoes allowed us to predict multiple putative \\glspl{CRE} when we focused on transcripts that were detected at high levels in in bloodfed mosquitoes but undetectable in sugarfed females \\cite{Bonizzoni2011}.\nPossible \\glspl{CRM} were observed by visual inspection as well, but efforts to confirm biological meaningfulness have not yet been completed.\nPutative \\glspl{CRM} were again observed by visual inspection in an experiment comparing mRNA abundance profiles between \\Aa\\ fed with blood infected with dengue virus and those fed with non-infected blood.\nIn this study, specific tissues were dissected and analyzed separately providing a level of tissue specificity as well.\nThese \\gls{CRM} results also remain in the process of being confirmed experimentally.\n\nThese studies have provided useful lessons that I have incorporated into the approach described in Chapter \\ref{chap:3}.\nA common theme among these lessons is the importance of the relative ratio of signal-to-noise contained in the data-set being examined.\nFor example, in \\citet{Bonizzoni2011}, the most successful \\gls{CRE} prediction results arose from a gene-set characterized by a fairly restrictive abundance profile definition (the requirement that transcripts be highly detected at 5h PBM but completely undetectable in sugarfed mosquitoes).\nThis yielded a gene-set of just 40 members.\n\\citet{bonizzoni2012complex} further demonstrates that \\gls{functional genomics} results are sensitive to the definition of gene-sets used for analysis.\nIn addition to abundance profile definition, \\citet{Bonizzoni2011} illustrated that, in \\Aa, the official annotation is incomplete and contains at least some level of annotation errors that may be considered particularly troublesome to analyses that rely on accurate definition of putative promoter sequences; however, it also provides support that, despite containing errors, the current state of annotation is sufficient to allow \\gls{CRE} prediction.\nFinally, in experiments comparing mRNA abundance profiles between three different strains of a single species (\\Aa), \\citet{bonizzoni2012strain} illustrates the need to take precautions when comparing differences in transcript abundance profiles between species that are estimated to have last shared a common ancestor as long as 200 \\gls{Mya}.\n\n\n\n\n\\section{Comparative genomics allows the discovery of \\textit{cis}-regulatory elements in mosquitoes. \\cite{Sieglaff2009}}\n\\input{figures/mosqPhyloTree}\n\\input{figures/sieglaff2009_full}\n\n% [*\\CITEME 3]  \\cite{Nene2007}\n% [*\\CITEME 10] \\cite{Wu2008}\n% [*\\CITEME 25] \\cite{Kokoza2001}\n% [*\\CITEME 26] \\cite{Cho2006}\n% [*\\CITEME 28] \\cite{Attardo2003}\n% [*\\CITEME 29] \\cite{Ahmed1999}\n% [*\\CITEME 30] \\cite{Pham2005}\n% [*\\CITEME 32] \\cite{Giannoni2001}\n% [*\\CITEME 33] \\cite{Davidson2010}\n% [*\\CITEME 34] \\cite{Das2007a}\n% [*\\CITEME 35] \\cite{Hu2005}\n% [*\\CITEME 36] \\cite{Tompa2005}\n% [*\\CITEME 37] \\cite{Wasserman2004}\n% [*\\CITEME 38] \\cite{Elemento2005}\n% [*\\CITEME 39] \\cite{Stark2007}\n% [*\\CITEME 40] \\cite{Xie2005}\n% [*\\CITEME 41] \\cite{Dittmer2003}\n% [*\\CITEME 42] \\cite{Meredith2006}\n% [*\\CITEME 43] \\cite{Hernandez-Romano2008}\n% [*\\CITEME 44] \\cite{Rai1999a}\n% [*\\CITEME 45] \\cite{Borkent2004}\n% [*\\CITEME 46] \\cite{Calvo2006}\n% [*\\CITEME 47] \\cite{Adelman2007}\n% [*\\CITEME 48] \\cite{Xu2005a}\n% [*\\CITEME 49] \\cite{Jasinskiene2007}\n\n\n\nThe role \\glspl{CRE} play in regulating gene expression during development is well-established \\cite{Davidson2010}, and the development of tools for their identification is an active area of research following the publication of genome sequence and associated genome-wide expression datasets. However, the discovery \\textit{in silico} of \\glspl{CRE} is challenging because typically they are short, degenerate, and contained within vast amounts of intergenic genomic DNA. Despite these limitations, various computational approaches have been developed for their discovery \\cite{Das2007a,Hu2005,Tompa2005,Wasserman2004}. Comparative genomics represents a powerful extension to \\gls{CRE} discovery that diminishes these effects. Functional gene regulatory elements, including \\glspl{CRE}, are proposed to diverge at much lower rates compared to neutral sequences because of selective pressures, and therefore may stand out from surrounding neutral DNA by virtue of their greater levels of conservation among orthologous sequences. Previous work has demonstrated the utility of this concept \\cite{Elemento2005,Stark2007,Xie2005} and comparative genomics of insects has been applied successfully to map putative \\glspl{CRE} in the genomes of relatively closely related \\textit{Drosophila} species, [divergence times estimated ≤ 50 \\gls{Mya} \\cite{Stark2007} (Figure \\ref{fig:mosqPhyloTree})], in which orthologous intergenic sequences are aligned more easily. The work represented here includes mosquito species with phylogenetic relationships spanning 20 to 200 \\gls{Mya} with genomic comparisons complicated by large amounts of dispersed repetitive elements \\cite{Nene2007}.\n\nThe \\gls{MDOS} algorithm \\cite{Wu2008} was designed to mitigate these problems by not requiring alignment of orthologous sequences, and incorporating features that account for the greater probability for the co-occurrence of a motif because of shared ancestry in orthologous sequences. The application of \\gls{MDOS} for computational discovery of putative \\glspl{CRE} shared among mosquitoes resulted in the identification of mosquito-specific or enriched motifs. These motifs demonstrate that \\gls{MDOS} can identify related DNA sequences in diverged mosquitoes and may be useful in similar scenarios in which genome sequences are being analyzed for species that have no other closely related genomes available. Furthermore, the identification \\textit{in silico} of GATA-factor and other \\gls{TFBS} that are identical to those whose function was established experimentally \\cite{Kokoza2001,Cho2006,Attardo2003,Ahmed1999,Pham2005,Giannoni2001,Dittmer2003,Meredith2006} serves as a powerful positive control for these analyses. The 5′-end regions of immune-related genes from \\Ag\\ and \\Dm\\ were screened for conserved motifs, and AT-rich domains were found to associate with \\gls{NFKB} response elements \\cite{Hernandez-Romano2008}. These sequences were not identified in these analyses because the restrictions on the dataset used eliminated many of the immune-related genes where one-to-one orthology may be difficult to establish. In addition, most AT-rich domains discovered in their study were ≤ 6 nucleotides in length, and these analyses only addressed those recovered with lengths of 7 to 9 nucleotides.\n\nThe 3 mosquito species included in this study require a blood meal for successful reproduction. Although this trait is not unique to this group of arthropods, acquiring the necessary nutrients for egg development from ingested blood is a specialized adaptation in insects. There is debate on when and how \\gls{hematophagy} arose in mosquito evolution \\cite{Rai1999a}, but it is hypothesized that the occurrence of this trait in the larger clade is \\gls{monophyletic} \\cite{Borkent2004,Calvo2006}. Most of the discovered mosquito motifs are associated with blood meal-regulated genes. Thus, these data support a common hematophagous ancestor for all mosquitoes, and indicate that \\gls{hematophagy} acts as a selective force for conservation of \\glspl{CRE}.\n\nThe functionality of some of the discovered motifs was supported further in \\Ag\\ and \\Aa\\ by their association with genes displaying enriched transcription product accumulation within tissues responsible for blood meal digestion and reproduction (Figure \\ref{fig:sieglaff2009_full}). These findings bolster the conclusion that these mosquitoes share a regulatory code controlling expression levels for some genes regulated after \\gls{hematophagy}. The availability of additional genome-wide studies of gene expression for all 3 mosquito species will facilitate discovery of other associations of the motifs with specific gene-regulation patterns.\n\nThis study and similar genome-wide approaches to identify putative \\glspl{CRE} in mosquitoes \\cite{Hernandez-Romano2008} are furthering our understanding of the mechanisms involved in gene regulation in this group of vector insects. An expanded set of putative mosquito \\glspl{CRE} will allow the definition of genome-wide motif-association maps and the identification of \\glspl{CRM} comprising multiple, linked \\glspl{CRE} that convey specific patterns of gene expression. Experimental validation of the functionality of each discovered motif and regulatory module is necessary and will provide support for the development of mosquito synthetic promoters that deliver desired and predetermined expression patterns in transgenic mosquitoes. \nThe availability of defined synthetic mosquito promoters that direct controlled, local gene expression in response to pathogens also would be a major advance. These promoters would allow engineering of mosquitoes with increased parasite or virus resistance. These and similar envisioned applications for mosquito control and the control of mosquito-borne disease transmission will benefit greatly from a better understanding of gene regulation mechanisms in these insects.\n\n\n\n\n\n\n\n\n\n\n\\pagebreak\n\n\\section{RNA-seq analyses of blood-induced changes in gene expression in the mosquito vector species, \\Aea\\ \\cite{Bonizzoni2011}}\n% [-17] Brackney2010\n% [-31] Fischer2008\n% [-32] Pane2007\n% [-33] Lawson2009\n% [-50] Salazar2007\n% [-54] Marelli2006\n% [-55] Amenya2010\n% [-56] Carlson2007\n% [-57] Kriventseva2008\n% [-58] Sieglaff2009\n% [-60] Hubbard2002\n% [-61] GENEBUILD?\n% [-62] Bennet2002\n% [-63] Black2002\n% [-64] Terenius2008\n\n\n\nBonizzoni and Dunn \\cite{Bonizzoni2011} provides a detailed examination of the changes in transcripts accumulation occurring at the whole-body level of \\Aa\\  females 5 hours \\gls{PBM}. The observed changes are consistent with the beginning of an intense physiological response to a bloodmeal. The majority of immunity-related transcripts tended to accumulate at lower levels in blood fed mosquitoes. This finding supports the hypothesis that there may be a gap in immunity following a bloodmeal. Reduced expression of immune genes in blood fed mosquitoes could favor the establishment of infections, especially considering that pathogens such as dengue viruses infect the midgut epithelial cells within minutes after the contact \\cite{Salazar2007}. However, changes in transcript abundance observed at the whole-body level may mask changes in accumulation occurring primarily in the midgut. Different levels of activation of immunity genes after a blood feeding may be one of the factors contributing to the variability in vector competence for dengue viruses observed in different geographic populations of \\Aa\\  \\cite{Bennett2002},\\cite{Black2002}. The quantity and quality of data generated by RNA-seq technology makes this an ideal approach for comparative analyses of the transcriptome of \\Aa\\ strains with different vector competence and vectorial capacity.\n\nOur analyses of the expression profiles of sugarfed (S) and bloodfed (B) mosquitoes allowed the identification of co-regulated genes and putative \\textit{cis}-regulatory elements and modules from the \\Aa\\  genome. Further knowledge of the mechanisms involved in regulation of gene expression in vector species is critical to the development of control strategies whereby the vector is modified genetically to express anti-pathogen effector molecules in tissue-specific and time-regulated manners \\cite{Terenius2008}. Promoter and other \\textit{cis}-acting regulatory DNA fragments are needed to regulate restricted expression of selected anti-pathogen effector molecules. Moreover, we described several examples of how the RNA-seq data generated can help improve the current annotation of the \\Aa\\  genome.\n\n\\subsection{Transcripts found exclusively in bloodfed mosquitoes}\nForty transcripts were found only in bloodfed mosquitoes, with the highest read-counts reaching ~1000/transcript, after normalizing for different library sizes (data not shown). Functional parent attribution for these transcripts is consistent with a role in digestion and in the progression of the gonotrophic cycle. Specifically, two transcripts, Aa5G1 (AAE013712-RA) and AaSPVI (AAE010196-RA), correspond to the midgut serine proteases shown previously to be elicited by a bloodmeal in the midgut of \\Aa\\  females \\cite{Brackney2010}. Seven other transcripts encode enzymes (i.e. decarboxylase, cathepsin b and trypsins), and two are implicated in trafficking. Transcripts AAE014815-RA and AAE005950-RB correspond to the vacuolar protein sorting 13B from yeast and the chloride channel protein 2, respectively. Ten transcripts are orthologous to the G12 gene of \\Ag\\ and share the Insect Allergen Repeat motif. This motif is hypothesized to be a novel, insect-specific detoxifying domain implicated in the co-evolution of herbivorous insects and their plant hosts and also has been linked to nitrile-specific detoxification \\cite{Fischer2008}. Transcripts AAEL006126-RB and AAEL008921-RC are predicted orthologues of the \\Cxq\\ vitellogenin-A1 gene and the \\Dmel\\ spaghetti squash (sqh) gene, respectively. The sqh gene product encodes the regulatory light-chain of non-muscle myosin II, which is required for cytoplasmic transport in nurse cells during oogenesis and also has been implicated in germline \\gls{RNAi} processes \\cite{Pane2007}.\n\n\\subsection{\\textit{Cis}-regulatory element discovery}\nTightly regulated and bloodmeal-induced expression profiles are of particular interest for designing transgenic mosquito-based control strategies to reduce transmission of dengue fever. \\textit{Cis}-regulatory sequences derived from bloodmeal-induced / up-regulated mosquito genes allow potentiating swift induction and effective levels of transcription of an associated effector gene, while likely inflicting the least fitness cost \\cite{Marelli2006,Marelli2006}. We interpret the different levels of mRNA accumulation seen in this study to reflect changes in transcriptional activity of the corresponding genes, although it is possible that some levels may vary as a function of changing transcript stability or rates of turnover. With this in mind, we used \\gls{SCOPE} \\cite{Carlson2007} to predict putative \\glspl{CRE} that may provide the basis for rational identification and selection of new candidate promoter regions and for modification of the transcriptional profiles of current transgene constructs. We examined the 2000 base pairs (bp) flanking the 5'-boundaries of the 40 transcripts that were undetected in libraries from sugarfed mosquitoes but detected at significant levels in the RNA-seq libraries from bloodfed mosquitoes and identified a redundant list of 22 motifs that are enriched significantly in these sequences (Figure \\ref{fig:bonizzoni2011-cres}). A possible \\gls{CRM} constructed with the discovered \\glspl{CRE} is represented by the motif consensus sequences, \\texttt{cnatcnkcwgtt}, \\texttt{gyactyvar}, and \\texttt{tgakamga}, and is associated with \\Aa\\  orthologs of the G12 gene of \\Ag\\ (AGAP006187) (Figure \\ref{fig:bonizzoni2011-cres}). \\Aa\\ has 17 G12 genes, many more relative to other insects, which have 4.5 on average (according to OrthoDB; group EOG95TCTG) \\cite{Kriventseva2008}. The transcripts of nine of the G12 orthologs are present in this co-regulated gene set (representing ~25\\% of the 40).\n\nAnother putative \\gls{CRM} contains the consensus sequence \\texttt{tgakamga}, \\texttt{cnatcnkcwgtt}, \\texttt{asttrccc} and \\texttt{aarcttbd} (Figure \\ref{fig:bonizzoni2011-cres}). This \\gls{CRM} groups with the cathepsin b genes, AAEL015312-RA and AAEL007585-RA. Verification of these \\glspl{CRM} will require empirical testing, however, the top 10 matches for \\texttt{tgakamga}, which is present in both putative \\glspl{CRM}, align well to members of the mosquito-conserved GATA motifs correlated to transcriptional responses to blood feeding in \\Ag\\ \\cite{Sieglaff2009}.\n\n\n\n\n\n\\subsection{RNA-seq identifies annotation corrections}\n\n\\input{figures/bonizzoni2011-cres}\n\\input{figures/aedesHMMsplice}\n\\input{tables/bonizzoni2011-novel-junx}\n\nRNA-seq also provides an opportunity to examine and improve the current annotation of the \\Aa\\  genome and examine the level of transcriptome plasticity in terms of alternative splicing. We used HMMSplicer \\cite{Sieglaff2009} to compare junctions revealed by our data to the annotation provided by Vectorbase and Ensembl \\cite{Lawson2009,Hubbard2002}. HMMSplicer predicted 32,501 junctions supported by at least two RNA-seq reads using the combined data from sugar and bloodfed samples. Of these, 24,100 (74\\%) matched junctions present in the AaegL1.2 gene-build provided by VectorBase, leaving 8,401 predicted novel high-scoring splice sites supported by multiple RNA-seq reads. A total of 4500 (~54\\%) of these occur within annotated gene boundaries and may represent un-annotated alternatively-spliced transcripts. To estimate how many of the remaining splice junctions might be truly novel, we mapped them to increasingly larger DNA fragments flanking the currently-annotated genes (Table \\ref{tab:bonizzoni2011-novel-junx}). A total of 2687 (~33\\%) junctions mapped within 32,000 bp of the 5'- or 3'-ends of annotated gene boundaries. Of these, 1439 mapped within 4000 bp, consistent with the interpretation that they may represent alternatively-spliced transcripts of the previously-identified genes. Those mapping beyond 4000 bp could be alternate junctions of the known genes, represent un-annotated transcription products, or be artifacts.\n\n\nAn accurate gene annotation, especially with respect to the \\gls{TSS}, is considerably advantageous with respect to the accurate discovery of \\glspl{CRE} because prediction tools must make the assumption that the sequences included are true regulatory regions, and their performance suffers when this is false. For the \\gls{CRE} predictions described in the previous section, 36 of the 40 transcript start sites were in close agreement to the Ensembl annotation \\cite{Hubbard2002}. Figure \\ref{fig:aedesHMMsplice} highlights three determined amendments to the current annotation, all supported by EST data. Figure \\ref{fig:aedesHMMsplice} (A and B) supports the conclusion that the current annotation has missed the putative first exons that extend the 5'-UTRs of some genes (AAEL006259, AAEL010818) and provides additional information for predicting accurate \\glspl{TSS}. In the case of AAEL010818, the \\gls{TSS} determined by RNA-seq data is 20 kb to the 5'-end of the annotated start site, far outside the distances commonly searched for \\glspl{CRE} (Figure \\ref{fig:aedesHMMsplice} B). In some cases, as was seen for AAEL001774, the first exon was annotated but included as a separate gene model, which also contains the likely 5'-UTR of AAEL001759 (Figure \\ref{fig:aedesHMMsplice} C). AAEL001774 encodes a protein comprising 50 amino acids with no known functional domains aside from a predicted signal peptide that makes up 66\\% of its length.\n\n\n\n\n\n\n\n\n\n\n\\pagebreak\n\\section{Complex modulation of the \\Aea\\ transcriptome in response to dengue virus infection. \\cite{bonizzoni2012complex}}\n%\\todo[inline]{import text for COMPLEX MODULATION OF AEDES TXOME}\n\n\n\\input{my_papers_texts/bonizzoni2012complex_xrpt}\n\n\n\n\\pagebreak\n\\section{Strain variation in the transcriptome of the dengue fever vector, \\Aea. \\cite{bonizzoni2012strain}}\n%\\todo[inline]{import text for STRAIN VARIATION}\n\n\n\n\\input{my_papers_texts/bonizzoni2012strain_xrpt}\n\n\n\\section{Finally}\n\nFunctional Genomics can be thought of as a problem of generating meaningful gene-sets.\nSignal-to-noise is major challenge in generating useful gene-sets. This project aims to generate meaningful gene-sets through integration of multiple data-types\n\n\\begin{itemize}\n    \\item comparative genomics (N-way 1-to-1 orthologs)\n\n    \\item comparative transcriptomics (identical RNA-seq experiments on divergent Mosquito species with shared trait: bloodfeeding)\n\n    \\item phylogenetics (estimated divergence since last common ancestor)\n\n    \\item existing knowledge about certain bloodmeal related transcriptional control programs (20E interacting TFBS motifs)\n\\end{itemize}\n\n\n\n\n%%% Local Variables: ***\n%%% mode: latex ***\n%%% TeX-master: \"thesis.tex\" ***\n%%% End: ***\n",
-			"file": "2_chapter.tex",
-			"file_size": 21278,
-			"file_write_time": 1381644677000000,
-			"settings":
-			{
-				"buffer_size": 21276,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -87,6 +76,19 @@
 	},
 	"file_history":
 	[
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/not_one2one_example.dot",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/approach_chart/approach.dot",
+		"/home/gus/Downloads/manjaro-xfce-0.8.7.1-x86_64/manjaro-0.8.7.1-md5sum.txt",
+		"/home/gus/Downloads/manjaro-xfce-0.8.7.1-x86_64/manjaro-xfce-0.8.7.1-x86_64-pkgs.txt",
+		"/home/gus/Dropbox/repos/git/blacktie/src/blacktie/scripts/blacktie_pipeline.py",
+		"/home/gus/src/codemirror-3.19/README.md",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/test_digrap.dot",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/not_one2one_example.gv",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/one2one_example.gv",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/one2one_example.dot",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example.dot",
+		"/home/gus/DELETE_ME/table1.txt",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/2_chapter.tex",
 		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012strain_xrpt.tex",
 		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012complex_xrpt.tex",
 		"/home/gus/.config/sublime-text-2/Packages/User/LaTeX.sublime-settings",
@@ -201,20 +203,7 @@
 		"/home/gus/DELETE_ME/chengchurch.py",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_steme_w6.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_combo.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_tomtom.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/deactivated/XoLg_cls6.names.AGAP.txt",
-		"/home/gus/Dropbox/repos/git/matplotlib/lib/matplotlib/mathtext.py",
-		"/home/gus/Dropbox/repos/git/spartan/src/spartan.egg-info/SOURCES.txt",
-		"/home/gus/Dropbox/repos/git/spartan/src/spartan.egg-info/dependency_links.txt",
-		"/home/gus/Dropbox/repos/git/spartan/src/spartan.egg-info/entry_points.txt",
-		"/home/gus/Dropbox/repos/git/spartan/src/spartan.egg-info/not-zip-safe",
-		"/home/gus/Dropbox/repos/git/spartan/src/spartan.egg-info/PKG-INFO",
-		"/home/gus/Dropbox/repos/git/spartan/src/spartan.egg-info/top_level.txt",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_steme_w9.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_steme_w13.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_steme_w19.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/RNAseq_results/bio/dunnw/data/4mosqs_mg_RNAseq/gtf_strict/gene_fpkm_dumps/Ag.fpkm.tsv",
-		"/home/gus/Dropbox/repos/git/BiBench-0.1/bibench/datasets/rdata.py"
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_tomtom.sh"
 	],
 	"find":
 	{
@@ -232,6 +221,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"    ",
+			" -- ",
+			"_",
+			"\\n",
 			"ROCK",
 			"cre}",
 			"Figure S5",
@@ -355,18 +348,18 @@
 			"]-[",
 			"[11]",
 			"[9]",
-			"[10]",
-			"[8]",
-			"[7]",
-			"[6]",
-			"[4]"
+			"[10]"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"",
+			"\\n",
+			"_homolog",
+			"','",
 			"Figure \\ref{fig:bon2012complex-S5}",
 			"e-value",
 			"Figure \\ref{fig:bon2012complex-S4}",
@@ -490,11 +483,7 @@
 			" ",
 			"",
 			"jet",
-			"importr",
-			"\\t",
-			"ecr_OR_insect_20130903",
-			"Cq\\1",
-			"Aa\\1"
+			"importr"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -505,35 +494,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "2_chapter.tex",
-					"settings":
-					{
-						"buffer_size": 21276,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20258,
-								20258
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 5124.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -1,0 +1,74 @@
+
+%\newacronym{<label>}{<abbrv>}{<full>}
+
+\newacronym{RNA-Seq}{RNA-Seq}{RNA sequencing}
+
+\newacronym{DNA-Seq}{DNA-Seq}{DNA sequencing}
+
+\newacronym{ChIP-Seq}{ChIP-Seq}{chromatin immunoprecipitation followed by DNA-Seq}
+
+\newacronym{FDR}{FDR}{false discovery rate}
+
+\newacronym{PyPI}{PyPI}{Python Package Index}
+
+\newacronym{gFunc}{gFunc}{graph-based functional genomics framework}
+
+\newacronym{STEME}{STEME}{Suffix Tree Em for Motif Elicitation}
+
+\newacronym{MEME}{MEME}{Multiple Em for Motif Elicitation}
+
+\newacronym{PTCI}{PTCI}{Phylogenetic Transcriptional Correlation Index}
+
+\newacronym{mAP}{mAP}{mRNA accumulation profile}
+
+\newacronym{20E}{20E}{20-hydroxyecdysone}
+
+\newacronym{EIP}{EIP}{extrinsic incubation period}
+
+\newacronym{dpi}{dpi}{days post infection}
+
+\newacronym{ROS}{ROS}{reactive oxygen species}
+
+\newacronym{DENV}{DENV}{dengue virus}
+
+\newacronym{DENVI}{DENVI}{dengue virus infected}
+
+\newacronym{DENV2}{DENV2}{dengue virus serotype 2}
+
+\newacronym{Rex-D}{Rex-D}{Rexville D Puerto Rico}
+
+\newacronym{CTM}{CTM}{Chetumal}
+
+\newacronym{LVP}{LVP}{Liverpool}
+
+\newacronym{AMP}{AMP}{attacin}
+
+\newacronym{NBF}{NBF}{non-bloodfed}
+
+\newacronym{TSS}{TSS}{transcriptional start sites}
+
+\newacronym{SCOPE}{SCOPE}{Suite for Computational identification Of Promoter Elements}
+
+\newacronym{PBM}{PBM}{post bloodmeal}
+
+\newacronym{RNAi}{RNAi}{RNA interference}
+
+\newacronym{NFKB}{\nfkb}{Nuclear Factor $\kappa$-light-chain-enhancer of activated B cells}
+
+\newacronym{MDOS}{MDOS}{Motif Discovery using Orthologous Sequences}
+
+\newacronym{Mya}{Mya}{million years ago}
+
+\newacronym{FPKM}{FPKM}{fragments per kilobase of transcript per million mapped reads}
+
+\newacronym{CRE}{CRE}{\textit{cis}-regulatory element}
+
+\newacronym{CRM}{CRM}{\textit{cis}-regulatory module}
+
+\newacronym{RIDL}{RIDL}{release of insects carrying a dominant lethal phenotype}
+
+\newacronym{SIT}{SIT}{sterile insect technique}
+
+\newacronym{TF}{TF}{transcription factor}
+
+\newacronym{TFBS}{TFBS}{transcription factor binding site}
