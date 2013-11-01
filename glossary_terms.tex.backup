@@ -1,8 +1,13 @@
-\newglossaryentry{functionalgenomics}{name={functional genomics},
-description={an approach to molecular biology that attempts to incorporate much of the varied wealth of data produced by modern ``Omics'' projects to describe the functions and interactions of the entire genome; it specifically focuses on dynamic aspects of the genome such as transcription, translation, regulatory, and protein–protein (or protein-DNA) interactions, as opposed to the static aspects of the genomic information such as DNA sequence or structures; finally, a major feature of functional genomics studies is their genome-wide approach to these questions, generally involving high-throughput methods rather than a more traditional “gene-by-gene” approach.}}
+\newglossaryentry{functional-genomics}{name={functional genomics},
+description={an approach to molecular biology that attempts to incorporate much of the varied wealth of data produced by modern ``Omics'' projects to describe the functions and interactions of the entire genome; it specifically focuses on dynamic aspects of the genome such as transcription, translation, regulatory, and protein–protein (or protein-DNA) interactions, as opposed to the static aspects of the genomic information such as DNA sequence or structures}}
 
+\newglossaryentry{Git}{name={Git},
+description={In software development, Git is a distributed revision control and source code management system with an emphasis on speed.
+Every Git working directory is a full-fledged repository with complete history and full version tracking capabilities, not dependent on network access or a central server.
+Git is free software distributed under the terms of the GNU General Public License version 2. \url{http://en.wikipedia.org/wiki/Git_(software)}}}
 
-
+\newglossaryentry{TuxProt}{name={Tuxedo Protocol},
+description={an integrated RNA-Seq analysis protocol consisting of the following co-developed programs: Bowtie, Tophat, Cufflinks, Cuffmerge, Cuffdiff, and CummeRbund.  An overview figure and further description can be found here: \url{http://www.nature.com/nprot/journal/v7/n3/fig_tab/nprot.2012.016_F2.html}}}
 
 \newglossaryentry{monophyletic}{name={monophyletic},
 description={having developed from a single ancestral source}}

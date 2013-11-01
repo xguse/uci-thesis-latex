@@ -6,10 +6,10 @@
 
 Frequently, \gls{functional-genomics} approaches contain problems or subproblems that require generating biologically meaningful gene-sets that pertain to the focus of the particular phenomenon being targeted.
 Optimizing signal-to-noise ratios in data is a major challenge to generating useful gene-sets.
-This project aims to generate meaningful gene-sets through integration information from four supporting data-types:
+This project aims to generate meaningful gene-sets through integrating information from four supporting data-types:
 
 \begin{itemize}
-    \item comparative genomics (N-way 1-to-1 ortholog relationships)
+    \item comparative genomics ($N$-way 1-to-1 ortholog relationships)
     \item comparative transcriptomics (identical RNA-seq experiments performed using divergent mosquito species with the shared trait of \gls{hematophagy})
     \item phylogenetics (estimated divergence since last common ancestor)
     \item putative regulatory mechanisms (predicted \gls{TFBS} profiles)
@@ -41,7 +41,7 @@ The coded process is provided as an executable IPython notebook located at \url{
 Briefly, the results table was filtered for data pertaining to \Aa, \Ag, or \Cq.
 Then I built a graph-representation of the data such that each orthoDB ortholog group could be queried to ensure that exactly one gene was represented for each species of interest.
 These genes represent gene-set that formed the starting point for the rest of my approach.
-The filtered set is available as supplementary file \texttt{AaAgCq\_1to1\_orthos.tsv}.
+The filtered set is available as supplementary file \texttt{AaAgCq\_1to1\_orthos.tsv} \cite{Dunn2013dissSupl}.
 
 It should be noted that while this set contains only genes from the three species included in this document, each group should also have exactly one ortholog from \As\ as well which represents an additional constraint intended to limit the ortholog-sets to those most likely to fulfill the same function in each species.
 
@@ -65,19 +65,41 @@ The values of $d$ for each species-pair have been estimated previously (Table \r
 Part of the \gls{PTCI} includes correlation of a \gls{TFBS} scanning signature between ortholog pairs.
 If the \gls{PTCI} is calculated using a set of \gls{TFBS} that are known to interact with the \gls{20E} signaling cascade, then this portion of the \gls{PTCI} acts as a rough proxy for correlation with putative activity of the \gls{20E} cascade.
 
-This is an imperfect solution as \gls{ChIP-Seq} using antibodies to these \glspl{TF} in each species is preferable.
+The \gls{TFBS} profiles are obtained through scanning the 2000 bp regions 5' to the annotated start of transcription for each gene using the \gls{MOODS} application wrapped in custom Python code \cite{Pizzi2009}.
+The scoring method used was log-odds.
+The final \gls{TFBS} profile score for a gene-motif combination consists of the sum of all site-scores with positive log-odds scores.
+In this way the gene-motif score represents the count of all site-scores that fit the motif model better than would be expected after considering the background sequence-composition of the putative promoter-regions weighted by the log-odds value of each site-score.
+For example, for motif model $m$, if one sequence had three sites that each received log-odds scores of 0.33, then the gene-motif score is approximately 1.
+Alternatively, if a second sequence has a single site that matches $m$ with a positive score of 1, both sequences would have approximately equal gene-motif scores for $m$.
+Just as the \gls{mAP} for a particular gene consists of 5 values that represent the \gls{FPKM} score for that gene at 5 time-points, the \gls{TFBS} profile of a gene consists of $N$ values (the number of motif models considered) that represent the sum of sites in the putative promoter region that received a positive log-odds value weighted by the log-odds value of each site.
+
+This is an imperfect solution as \gls{ChIP-Seq} using antibodies to specific \glspl{TF} in each species is preferable\footnote{those that are presently associated with \gls{20E} for instance}.
 However this was impractical for this work due to the absence of suitable antibodies and the cost of developing and executing all assays in each species.
 
 
 \section{The phylogenetic transcriptional correspondence index (PTCI)} \label{sec:ptci}
 
-
-Look at the parameter space of the \gls{PTCI} (Figure \ref{fig:ptci-space}).
-
-\input{figures/ptci-space}
-
-Here is the \gls{PTCI} calculation:
+The \gls{PTCI} (Equation \ref{eq:ptci}) attempts to provide a metric that combines multiple pairwise \gls{Pcc} ($r$) relating to multiple comparison dimensions pertaining to each 1:1 ortholog pair and then weight it using the relative evolutionary divergence times of each pairwise comparison ($d$).
+%
 \input{equations/ptci}
+%
+In Equation \ref{eq:ptci}, the two comparison dimensions being combined are the similarity between an ortholog-pair with respect to \gls{mAP} ($r_{x}$) and \gls{TFBS} profile signature ($r_{t}$).
+The pairwise species-divergence is represented by $d$.
+However, the divergence times must be transformed using a scaling function ($w()$) that prevents the \textbf{much} larger values of raw divergence values from dominating the index.
+I have chosen to constrain the range of $w(d)$ between $1$ (no reward) and $1.1$ (a reward of 10\%).
+This range was chosen to allow the evolutionary distance to affect the ranking of an ortholog-set without having a dominating effect.
+I explored other settings, but this range appeared to be a good compromise (not shown).
+%
+\input{figures/ptci-space}
+%
+The \gls{TFBS} data is derived through imperfect and non-empirical means.
+
+
+(Figure \ref{fig:ptci-space}).
+
+
+
+
 
 The graph model is useful (Figure \ref{fig:nway-ortholog-graph})
 
@@ -88,11 +110,11 @@ The graph model is useful (Figure \ref{fig:nway-ortholog-graph})
 \section{Custom Software Solutions}
 
 Two core bodies of software were developed for this project as well as numerous smaller custom Python scripts.
-Blacktie is a python package that automates data flow between and record keeping for analysis runs of the components of the third-party analysis pipeline dubbed the Tuxedo Protocol \cite{Trapnell2012}.
+Blacktie is a python package that automates data flow between and record keeping for analysis runs of the components of the third-party analysis pipeline dubbed the \gls{TuxProt} \cite{Trapnell2012}.
 The purpose of the second software project, the \gls{gFunc}, is to provide a framework with which to integrate many, disparate data types to facilitate the synthesis of functional genomics analyses that make use of as many types of data as may be useful.
 
 Blacktie's code and documentation have been made available to the public.
-It is hosted as a git project with the complete history of code commits included and available for easy open source improvement and collaboration.
+It is hosted as a \gls{Git} project with the complete history of code commits included and available for easy open source improvement and collaboration.
 It is also available as an easily installable package from the \gls{PyPI} for general users.
 It has been downloaded and installed over 2000 times as of this time with its latest version (v0.2.1.2) being downloaded at least 327 times (according to \gls{PyPI}).
 

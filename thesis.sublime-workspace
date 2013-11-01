@@ -51,33 +51,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "figures/figs/one2one_example/not_one2one_example.dot",
-			"settings":
-			{
-				"buffer_size": 541,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "graph approach {\n    graph [splines=ortho];\n\n    node [style=filled,colorscheme=rdylbu3,penwidth=1.0,fontname=\"DroidSans.ttf\"];\n\n    Aa_homolog [label=\"homolog in Aa\", fillcolor = 1];\n    Ag_homolog [label=\"homolog in Ag\", fillcolor = 2];\n    Cq_homolog [label=\"homolog in Cq\", fillcolor = 3];\n\n    Aa_homolog -- Ag_homolog;\n    Aa_homolog -- Cq_homolog;\n    Ag_homolog -- Cq_homolog;\n}\n\n\n# comparative genomics (N-way 1-to-1 orthologs)\n\n# comparative transcriptomics (identical RNA-seq experiments on divergent Mosquito species with shared trait: bloodfeeding)\n\n# phylogenetics (estimated divergence since last common ancestor)\n\n# existing knowledge about certain bloodmeal related transcriptional control programs (20E interacting TFBS motifs)\n\n\n## Comparative Genomics\n\n\n## Comparative Transcriptomics\n\n\n\n## Phylogenetics\n\n\n## Targeting Specific Transcriptional Control Mechanisms\n",
-			"file": "figures/figs/approach_chart/approach.dot",
-			"file_size": 391,
-			"file_write_time": 1382682120000000,
-			"settings":
-			{
-				"buffer_size": 884,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/gus/Downloads/manjaro-xfce-0.8.7.1-x86_64/manjaro-0.8.7.1-md5sum.txt",
-			"settings":
-			{
-				"buffer_size": 66,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -103,6 +76,9 @@
 	},
 	"file_history":
 	[
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/not_one2one_example.dot",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/approach_chart/approach.dot",
+		"/home/gus/Downloads/manjaro-xfce-0.8.7.1-x86_64/manjaro-0.8.7.1-md5sum.txt",
 		"/home/gus/Downloads/manjaro-xfce-0.8.7.1-x86_64/manjaro-xfce-0.8.7.1-x86_64-pkgs.txt",
 		"/home/gus/Dropbox/repos/git/blacktie/src/blacktie/scripts/blacktie_pipeline.py",
 		"/home/gus/src/codemirror-3.19/README.md",
@@ -227,10 +203,7 @@
 		"/home/gus/DELETE_ME/chengchurch.py",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_steme_w6.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_combo.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_tomtom.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/deactivated/XoLg_cls6.names.AGAP.txt",
-		"/home/gus/Dropbox/repos/git/matplotlib/lib/matplotlib/mathtext.py",
-		"/home/gus/Dropbox/repos/git/spartan/src/spartan.egg-info/SOURCES.txt"
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/run_tomtom.sh"
 	],
 	"find":
 	{
@@ -521,89 +494,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "figures/figs/one2one_example/not_one2one_example.dot",
-					"settings":
-					{
-						"buffer_size": 541,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								56,
-								56
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Graphviz/DOT.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "figures/figs/approach_chart/approach.dot",
-					"settings":
-					{
-						"buffer_size": 884,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14,
-								14
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Graphviz/DOT.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/gus/Downloads/manjaro-xfce-0.8.7.1-x86_64/manjaro-0.8.7.1-md5sum.txt",
-					"settings":
-					{
-						"buffer_size": 66,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -1,6 +1,10 @@
 
 %\newacronym{<label>}{<abbrv>}{<full>}
 
+\newacronym{RNA-Seq}{RNA-Seq}{RNA sequencing}
+
+\newacronym{DNA-Seq}{DNA-Seq}{DNA sequencing}
+
 \newacronym{ChIP-Seq}{ChIP-Seq}{chromatin immunoprecipitation followed by DNA-Seq}
 
 \newacronym{FDR}{FDR}{false discovery rate}
@@ -64,5 +68,7 @@
 \newacronym{RIDL}{RIDL}{release of insects carrying a dominant lethal phenotype}
 
 \newacronym{SIT}{SIT}{sterile insect technique}
+
+\newacronym{TF}{TF}{transcription factor}
 
 \newacronym{TFBS}{TFBS}{transcription factor binding site}
