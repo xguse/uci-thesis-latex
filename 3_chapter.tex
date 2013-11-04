@@ -10,7 +10,7 @@ This project aims to generate meaningful gene-sets through integrating informati
 
 \begin{itemize}
     \item comparative genomics ($N$-way 1-to-1 ortholog relationships)
-    \item comparative transcriptomics (identical RNA-seq experiments performed using divergent mosquito species with the shared trait of \gls{hematophagy})
+    \item comparative transcriptomics (identical \gls{RNA-Seq} experiments performed using divergent mosquito species with the shared trait of \gls{hematophagy})
     \item phylogenetics (estimated divergence since last common ancestor)
     \item putative regulatory mechanisms (predicted \gls{TFBS} profiles)
 \end{itemize}
@@ -79,41 +79,45 @@ However this was impractical for this work due to the absence of suitable antibo
 
 \section{The phylogenetic transcriptional correspondence index (PTCI)} \label{sec:ptci}
 
-The \gls{PTCI} (Equation \ref{eq:ptci}) attempts to provide a metric that combines multiple pairwise \gls{Pcc} ($r$) relating to multiple comparison dimensions pertaining to each 1:1 ortholog pair and then weight it using the relative evolutionary divergence times of each pairwise comparison ($d$).
+The \gls{PTCI} (Equation \ref{eq:ptci}) attempts to provide a metric that combines multiple pairwise \glspl{Pcc} ($r$) relating to multiple comparison dimensions for each 1:1 ortholog-pair then weight it by the relative evolutionary divergence times of each pairwise comparison ($d$).
 %
 \input{equations/ptci}
 %
 In Equation \ref{eq:ptci}, the two comparison dimensions being combined are the similarity between an ortholog-pair with respect to \gls{mAP} ($r_{x}$) and \gls{TFBS} profile signature ($r_{t}$).
 The pairwise species-divergence is represented by $d$.
-However, the divergence times must be transformed using a scaling function ($w()$) that prevents the \textbf{much} larger values of raw divergence values from dominating the index.
+However, the divergence times must be scaled using function $w()$ that prevents the \textbf{much} larger values of raw divergence values from dominating the index.
 I have chosen to constrain the range of $w(d)$ between $1$ (no reward) and $1.1$ (a reward of 10\%).
 This range was chosen to allow the evolutionary distance to affect the ranking of an ortholog-set without having a dominating effect.
-I explored other settings, but this range appeared to be a good compromise (not shown).
+I explored other constraint settings, but this range appeared to be a good compromise (not shown).%
 %
-\input{figures/ptci-space}
+\input{figures/ptci-space}%
 %
-The \gls{TFBS} data is derived through imperfect and non-empirical means.
-
-
-(Figure \ref{fig:ptci-space}).
-
-
-
-
-
-The graph model is useful (Figure \ref{fig:nway-ortholog-graph})
+The \gls{TFBS} data is derived through imperfect and non-empirical means\footnote{They are non-empirical in that they are statistical predictions rather than the results of physical experiments.}.
+Therefore, they should not carry the same significance as the information encoded in the \glspl{mAP}.
+I explored several methods for combining the two correlations.
+Equation \ref{eq:ptci} values the \gls{TFBS} correlations at 50\% of the \gls{mAP} correlations.
+This avoids scenarios in which an ortholog-pair that has $r_{x} = 0$ and $r_{t}=1$ ranks the same as if the values were opposite while still allowing the \gls{PTCI} to be positive overall\footnote{Positive \gls{PTCI} implies positive combined correspondence between the ortholog correlations which may still be valid even with the failure to detect correlation between \glspl{mAP} when combined with the detection of very strong correlation between \gls{TFBS} profiles.} but rank below ortholog-pairs with $r_{x} = 1$ and $r_{t}=0$ (Figure \ref{fig:ptci-space}).
+Figure \ref{fig:ptci-space} provides detailed illustrations of the effects of weighting the \gls{TFBS} information at 50\% of the \gls{mAP} data across the spectrum of possible $r_{x}$ and $r_{t}$ value-combinations.
 
 \input{figures/nway-ortholog-graph}
 
+The \gls{PTCI} fundamentally is a pairwise index.
+The $N$-way 1:1 ortholog-sets in aggregate are scored by calculating the arithmetic mean of the respective pairwise 1:1 ortholog-sets (Figure \ref{fig:nway-ortholog-graph-ptci}).
+Figure \ref{fig:nway-ortholog-graph-model} illustrates how a hypothetical 3-way 1:1 ortholog-set is related by 1:1 orthology between three species.
+This is the fundamental graph-relationship representation that is modeled in the \gls{gFunc} code\footnote{See Section \ref{sec:custom-software}.}.
 
 
-\section{Custom Software Solutions}
+
+
+
+
+\section{Custom Software Solutions}\label{sec:custom-software}
 
 Two core bodies of software were developed for this project as well as numerous smaller custom Python scripts.
-Blacktie is a python package that automates data flow between and record keeping for analysis runs of the components of the third-party analysis pipeline dubbed the \gls{TuxProt} \cite{Trapnell2012}.
+\gls{blacktie} is a python package that automates data flow between and record keeping for analysis runs of the components of the third-party analysis pipeline dubbed the \gls{TuxProt} \cite{Trapnell2012}.
 The purpose of the second software project, the \gls{gFunc}, is to provide a framework with which to integrate many, disparate data types to facilitate the synthesis of functional genomics analyses that make use of as many types of data as may be useful.
 
-Blacktie's code and documentation have been made available to the public.
+\gls{blacktie}'s code and documentation have been made available to the public.
 It is hosted as a \gls{Git} project with the complete history of code commits included and available for easy open source improvement and collaboration.
 It is also available as an easily installable package from the \gls{PyPI} for general users.
 It has been downloaded and installed over 2000 times as of this time with its latest version (v0.2.1.2) being downloaded at least 327 times (according to \gls{PyPI}).
@@ -122,15 +126,46 @@ It has been downloaded and installed over 2000 times as of this time with its la
 \gls{gFunc} uses this code library as a database backbone and provides a framework for installing common genomic data-types into the graph structure as well as a convention for extending the core objects of \gls{gFunc} to handle new types of data.
 The project is not formally released.
 After using it for my own work, I have learned more about how best to organize the code.
-Once it has been re-factored to incorporate the lessons learned here (mainly that the core objects should be simplified as much as possible and more of the data management should be coded directly with networkx rather than re-implementing certain functions), it will be released to the public using the same mechanisms as described for Blacktie.
+Once it has been re-factored to incorporate the lessons learned here (mainly that the core objects should be simplified as much as possible and more of the data management should be coded directly with networkx rather than re-implementing certain functions), it will be released to the public using the same mechanisms as described for \gls{blacktie}.
 
 
-\subsection{Blacktie RNA-seq pipeline}
-
-See Figure \ref{fig:tuxedo}
-
+\subsection{Blacktie RNA-Seq pipeline}
+Leveraging multiple fastQ files of \gls{RNA-Seq} reads into a coherent picture of gene expression and transcript models is a multi-step process.
+Various analysis methods and corresponding programs exist and continue to be developed (DESeq \cite{Anders2010}, edgeR \cite{Robinson2010a}, eXpress \cite{Roberts2013}, MISO \cite{Katz2010}, Oases \cite{Schulz2012}, Trans-ABySS \cite{Robertson2010}).
+The \gls{TuxProt} is a popular method with good documentation and user-support \cite{Trapnell2012}.
+It consists of a coordinated data-flow through multiple complementary but stand-alone programs: \gls{tophat}, \gls{bowtie}, \gls{cufflinks}, \gls{cuffmerge}, \gls{cuffdiff}, and finally \gls{cummeRbund} \cite{Kim2013}, \cite{Langmead2012}, \cite{Trapnell2010}, \cite{Goff2012}.
+This requires the organization and coordination of many files of different types through many different program calls and output steps (Figure \ref{fig:tuxedo}).
+Each step might take hours or days depending on the size of input data.
+A further complication inherent to the use of swiftly evolving academic software is that new versions of the analysis software may be released after the analyses have been run but before the work has been published.
+It is not uncommon for the latest version to give appreciably different results than the version originally used.
 
 \input{figures/tuxedo}
+
+The purpose of \gls{blacktie} is to streamline and simplify the complex task of analyzing full \gls{RNA-Seq} experiments using these programs; to record automatically settings used and program output messages so that users may track them later to data; provide a base-set of functions and classes that will allow users to create custom pipelines easily by editing a single file (or if they want: writing their own custom scripts).
+For example, \gls{blacktie} makes the process of re-running an analysis from the point of an updated program more reliable because all settings and source-files are recorded automatically and made available alongside the original output.
+
+
+Some other features include:
+
+\begin{enumerate}
+    \item simple installation
+    \item simple command line interface that allows one to fully automate and reliably repeat their analysis of \gls{RNA-Seq} data using the \gls{TuxProt}
+    \item ability to send email updates to the user
+    \item intelligently continue with as much of the analysis as possible if a single branch of the pipeline fails
+    \item analyze multiple, complex \gls{tophat}/\gls{cufflinks} experiments at once using a single command
+    \item automatically generates \gls{SGE} scripts for use with a computing cluster
+    \item checks the user's system for an R installation (required to run \gls{cummeRbund})
+    \item checks for \gls{cummeRbund} library and walks user through installation if it is not currently installed
+    \item automatic preliminary  \gls{cummeRbund} Quality Control, Basic Differential Expression, and Basic Pattern Discovery plots using cummeRbund
+\end{enumerate}
+
+
+
+\gls{blacktie} aims to bring automated, reproducible \gls{RNA-Seq} analysis with built-in record keeping to more researchers so that quality results may be obtained faster, easier and will contain fewer mistakes.
+
+
+
+\subsection{gFunc framework for the integration and analysis of disparate genomic-scale data-types}
 
 
 

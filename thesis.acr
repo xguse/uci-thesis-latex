@@ -5,7 +5,7 @@
 		\setentrycounter[]{page}\glsnumberformat{19}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{30}}}%
 \glossaryentryfield{20E}{\glsnamefont{20E}}{20-hydroxyecdysone}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{57}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{57\delimN 58}}}\glsgroupskip
 \glsgroupheading{A}\relax \glsresetentrylist %
 \glossaryentryfield{AMP}{\glsnamefont{AMP}}{attacin}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{44}}}%
@@ -52,7 +52,7 @@
 		\setentrycounter[]{page}\glsnumberformat{55}}}%
 \glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{58}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{90}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{93}}}\glsgroupskip
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossaryentryfield{gFunc}{\glsnamefont{gFunc}}{graph-based functional genomics framework}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{55}\delimN 
@@ -67,7 +67,7 @@
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossaryentryfield{mAP}{\glsnamefont{mAP}}{mRNA accumulation profile}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{55\delimN 56}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{58}}}%
+		\setentrycounter[]{page}\glsnumberformat{58\delimN 59}}}%
 \glossaryentryfield{MDOS}{\glsnamefont{MDOS}}{Motif Discovery using Orthologous Sequences}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{16}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{18}}}%
@@ -78,7 +78,7 @@
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glossaryentryfield{NBF}{\glsnamefont{NBF}}{non-bloodfed}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{56}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{67}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{70}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossaryentryfield{PBM}{\glsnamefont{PBM}}{post bloodmeal}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{16\delimN 17}\delimN 
@@ -86,18 +86,23 @@
 		\setentrycounter[]{page}\glsnumberformat{38}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{40}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{56}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{67}}}%
+		\setentrycounter[]{page}\glsnumberformat{70}}}%
 \glossaryentryfield{PTCI}{\glsnamefont{PTCI}}{Phylogenetic Transcriptional Correlation Index}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{55}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{57\delimN 58}}}%
+		\setentrycounter[]{page}\glsnumberformat{57\delimR 59}}}%
 \glossaryentryfield{PyPI}{\glsnamefont{PyPI}}{Python Package Index}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{59}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{62}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossaryentryfield{Rex-D}{\glsnamefont{Rex-D}}{Rexville D Puerto Rico}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{37\delimR 41}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{43\delimR 46}}}%
 \glossaryentryfield{RIDL}{\glsnamefont{RIDL}}{release of insects carrying a dominant lethal phenotype}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}}}%
+\glossaryentryfield{RNA-Seq}{\glsnamefont{RNA-Seq}}{RNA sequencing}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{53}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{63}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{65\delimN 66}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{74}}}%
 \glossaryentryfield{RNAi}{\glsnamefont{RNAi}}{RNA interference}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{22}}}%
 \glossaryentryfield{ROS}{\glsnamefont{ROS}}{reactive oxygen species}{\relax }{\glossaryentrynumbers{\relax 
@@ -105,6 +110,8 @@
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossaryentryfield{SCOPE}{\glsnamefont{SCOPE}}{Suite for Computational identification Of Promoter Elements}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{23}}}%
+\glossaryentryfield{SGE}{\glsnamefont{SGE}}{\gls {SunGridEngine}}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{65}}}%
 \glossaryentryfield{SIT}{\glsnamefont{SIT}}{sterile insect technique}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip

@@ -1,3 +1,37 @@
+
+% \newglossaryentry{TAG}{name={NAME},
+% description={xxxxxxxxx}}
+
+
+\newglossaryentry{bowtie}{name={bowtie},
+description={xxxxxxxxx}}
+
+\newglossaryentry{tophat}{name={tophat},
+description={xxxxxxxxx}}
+
+\newglossaryentry{cufflinks}{name={cufflinks},
+description={xxxxxxxxx}}
+
+\newglossaryentry{cuffmerge}{name={cuffmerge},
+description={xxxxxxxxx}}
+
+\newglossaryentry{cuffdiff}{name={cuffdiff},
+description={xxxxxxxxx}}
+
+\newglossaryentry{cummeRbund}{name={cummeRbund},
+description={xxxxxxxxx}}
+
+\newglossaryentry{blacktie}{name={Blacktie},
+description={a python application written to facilitate the automation of the \gls{RNA-Seq} using the \gls{TuxProt}.}}
+
+\newglossaryentry{SunGridEngine}{name={Sun Grid Engine},
+description={a popular job scheduling system used to coordinate the efficient use of jobs submitted to a cluster computing environment}}
+
+
+\newglossaryentry{Pcc}{name={Pearson correlation coefficient},
+description={a measure of the linear correlation between two variables, resulting in a value between +1 and −1, where 1 is perfect positive correlation, 0 is no correlation, and −1 is perfect negative correlation}}
+
+
 \newglossaryentry{functional-genomics}{name={functional genomics},
 description={an approach to molecular biology that attempts to incorporate much of the varied wealth of data produced by modern ``Omics'' projects to describe the functions and interactions of the entire genome; it specifically focuses on dynamic aspects of the genome such as transcription, translation, regulatory, and protein–protein (or protein-DNA) interactions, as opposed to the static aspects of the genomic information such as DNA sequence or structures}}
 

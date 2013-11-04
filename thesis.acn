@@ -220,6 +220,7 @@
 \glossaryentry{DENV2?\glossaryentryfield{DENV2}{\glsnamefont{DENV2}}{dengue virus serotype 2}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
 \glossaryentry{CTM?\glossaryentryfield{CTM}{\glsnamefont{CTM}}{Chetumal}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
 \glossaryentry{Rex-D?\glossaryentryfield{Rex-D}{\glsnamefont{Rex-D}}{Rexville D Puerto Rico}{\relax }|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{RNA-Seq?\glossaryentryfield{RNA-Seq}{\glsnamefont{RNA-Seq}}{RNA sequencing}{\relax }|setentrycounter[]{page}\glsnumberformat}{53}
 \glossaryentry{TFBS?\glossaryentryfield{TFBS}{\glsnamefont{TFBS}}{transcription factor binding site}{\relax }|setentrycounter[]{page}\glsnumberformat}{53}
 \glossaryentry{gFunc?\glossaryentryfield{gFunc}{\glsnamefont{gFunc}}{graph-based functional genomics framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{55}
 \glossaryentry{PTCI?\glossaryentryfield{PTCI}{\glsnamefont{PTCI}}{Phylogenetic Transcriptional Correlation Index}{\relax }|setentrycounter[]{page}\glsnumberformat}{55}
@@ -252,13 +253,30 @@
 \glossaryentry{TFBS?\glossaryentryfield{TFBS}{\glsnamefont{TFBS}}{transcription factor binding site}{\relax }|setentrycounter[]{page}\glsnumberformat}{58}
 \glossaryentry{20E?\glossaryentryfield{20E}{\glsnamefont{20E}}{20-hydroxyecdysone}{\relax }|setentrycounter[]{page}\glsnumberformat}{58}
 \glossaryentry{TFBS?\glossaryentryfield{TFBS}{\glsnamefont{TFBS}}{transcription factor binding site}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{mAP?\glossaryentryfield{mAP}{\glsnamefont{mAP}}{mRNA accumulation profile}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{TFBS?\glossaryentryfield{TFBS}{\glsnamefont{TFBS}}{transcription factor binding site}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{mAP?\glossaryentryfield{mAP}{\glsnamefont{mAP}}{mRNA accumulation profile}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{PTCI?\glossaryentryfield{PTCI}{\glsnamefont{PTCI}}{Phylogenetic Transcriptional Correlation Index}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{TFBS?\glossaryentryfield{TFBS}{\glsnamefont{TFBS}}{transcription factor binding site}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{mAP?\glossaryentryfield{mAP}{\glsnamefont{mAP}}{mRNA accumulation profile}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{PTCI?\glossaryentryfield{PTCI}{\glsnamefont{PTCI}}{Phylogenetic Transcriptional Correlation Index}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
 \glossaryentry{gFunc?\glossaryentryfield{gFunc}{\glsnamefont{gFunc}}{graph-based functional genomics framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
-\glossaryentry{PyPI?\glossaryentryfield{PyPI}{\glsnamefont{PyPI}}{Python Package Index}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{PTCI?\glossaryentryfield{PTCI}{\glsnamefont{PTCI}}{Phylogenetic Transcriptional Correlation Index}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{mAP?\glossaryentryfield{mAP}{\glsnamefont{mAP}}{mRNA accumulation profile}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{TFBS?\glossaryentryfield{TFBS}{\glsnamefont{TFBS}}{transcription factor binding site}{\relax }|setentrycounter[]{page}\glsnumberformat}{59}
 \glossaryentry{TFBS?\glossaryentryfield{TFBS}{\glsnamefont{TFBS}}{transcription factor binding site}{\relax }|setentrycounter[]{page}\glsnumberformat}{60}
+\glossaryentry{gFunc?\glossaryentryfield{gFunc}{\glsnamefont{gFunc}}{graph-based functional genomics framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{PyPI?\glossaryentryfield{PyPI}{\glsnamefont{PyPI}}{Python Package Index}{\relax }|setentrycounter[]{page}\glsnumberformat}{62}
 \glossaryentry{PyPI?\glossaryentryfield{PyPI}{\glsnamefont{PyPI}}{Python Package Index}{\relax }|setentrycounter[]{page}\glsnumberformat}{62}
 \glossaryentry{gFunc?\glossaryentryfield{gFunc}{\glsnamefont{gFunc}}{graph-based functional genomics framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{62}
 \glossaryentry{gFunc?\glossaryentryfield{gFunc}{\glsnamefont{gFunc}}{graph-based functional genomics framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{62}
 \glossaryentry{gFunc?\glossaryentryfield{gFunc}{\glsnamefont{gFunc}}{graph-based functional genomics framework}{\relax }|setentrycounter[]{page}\glsnumberformat}{62}
-\glossaryentry{NBF?\glossaryentryfield{NBF}{\glsnamefont{NBF}}{non-bloodfed}{\relax }|setentrycounter[]{page}\glsnumberformat}{67}
-\glossaryentry{PBM?\glossaryentryfield{PBM}{\glsnamefont{PBM}}{post bloodmeal}{\relax }|setentrycounter[]{page}\glsnumberformat}{67}
-\glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{101}
+\glossaryentry{RNA-Seq?\glossaryentryfield{RNA-Seq}{\glsnamefont{RNA-Seq}}{RNA sequencing}{\relax }|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{RNA-Seq?\glossaryentryfield{RNA-Seq}{\glsnamefont{RNA-Seq}}{RNA sequencing}{\relax }|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{RNA-Seq?\glossaryentryfield{RNA-Seq}{\glsnamefont{RNA-Seq}}{RNA sequencing}{\relax }|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{SGE?\glossaryentryfield{SGE}{\glsnamefont{SGE}}{\gls {SunGridEngine}}{\relax }|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{RNA-Seq?\glossaryentryfield{RNA-Seq}{\glsnamefont{RNA-Seq}}{RNA sequencing}{\relax }|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{NBF?\glossaryentryfield{NBF}{\glsnamefont{NBF}}{non-bloodfed}{\relax }|setentrycounter[]{page}\glsnumberformat}{70}
+\glossaryentry{PBM?\glossaryentryfield{PBM}{\glsnamefont{PBM}}{post bloodmeal}{\relax }|setentrycounter[]{page}\glsnumberformat}{70}
+\glossaryentry{RNA-Seq?\glossaryentryfield{RNA-Seq}{\glsnamefont{RNA-Seq}}{RNA sequencing}{\relax }|setentrycounter[]{page}\glsnumberformat}{86}
+\glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{106}
