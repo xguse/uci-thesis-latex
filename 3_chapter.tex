@@ -17,7 +17,9 @@ This project aims to generate meaningful gene-sets through integrating informati
 
 
 
-\section{Approach}
+\section{Preliminary data preparation} \label{sec:prelim-data}
+
+Four foundational data-sets were compiled that represent Genomics, Transcriptomics, Phylogenetics, and Putative Transcriptional Regulatory information.
 
 \paragraph*{Comparative Genomics:}
 
@@ -166,6 +168,90 @@ Some other features include:
 
 
 \subsection{gFunc framework for the integration and analysis of disparate genomic-scale data-types}
+
+A common problem in the era of big data is how to incorporate many types of genome-scale data so that that the question at hand is meaningfully informed.
+Relational databases such as MySQL or PostgreSQL have been used as data storage and analysis workhorses for decades at least.
+Relational databases and graph-style databases each have performance advantages and disadvantages depending on the structure of the data and the most common operations expected to be carried out on the data.
+However, a major advantage of graph-style models lies in the similarity that is shared with how many biologists conceptualize data and interactions between data entities.
+A gene or protein can easily be conceptualized as a node with edges representing interactions or relationships\footnote{Edges may easily be conceptualized as many biologically relevant relationships such as homology, physical interactions, ancestor} between the nodes (Figure \ref{fig:ecrusp-graph}) \cite{Franceschini2013}.
+\input{figures/ecrusp-graph}
+
+
+\subsubsection{Package Organization}
+The code is organized around three fundamental types of classes.
+The first type is made up of the data classes.
+These model how data pertaining to nodes or edges are stored and accessed.
+The second type of class consists of parser classes.
+These consume a source file and convert the information into forms that can be loaded into data classes.
+The third type are the graph tool classes (GraphBuilder, and GraphHandler).
+These deal with mapping the parsed data onto the graph structure and help access the information from that graph as analyses are being performed, respectively.
+
+
+The flexibility of this organization lies in the graph construction process.
+The data parser classes encode specific information on how a single data-type is digested.
+They all inherit a set of basic methods that control how data should be mapped to the graph, whether it is edge-data or node-data.
+Because they all have this same graph-facing interface, the GraphBuilder does not need to know what kind of data the parser represents.
+It simply is provided with a parser class, and it consumes that parser as the information streamed through the parser is correctly added to the graph.
+Because of this format, it is straightforward to adapt the \gls{gFunc} system to accept new data-types.
+One simply needs to write a parser class that inherits from the base parser class and include the correct rules for parsing the new data-type.
+That new parser can be included in a list of existing parser classes to be provided to the GraphBuilder and the new data will be correctly added into the graph structure.
+
+The GraphHandler stores the graph and provides conveniences for accessing its contents, such as node and edge dictionaries.
+
+
+\section{gFunc-based analysis}
+Once the preliminary data preparation is accomplished (Section \label{sec:prelim-data}), the data is loaded into a \gls{gFunc} graph through a script (\texttt{gfunc\_build\_n\_way\_one2one.py} \cite{Dunn2013dissSupl}) that coordinates the initiation of relevant parsers and provides them to a GraphBuilder object that maps the data onto the 3-way 1:1 ortholog-relationships.
+\glspl{FDR} are empirically estimated by calculating all 3-way-\gls{PTCI} values first using the real 3-way 1:1 ortholog relationships, then repeating the analysis many times with randomized (null) 3-way 1:1 orthology relationships.
+\alert{(for what follows: should i refer to the figure from the next chapter here?  Its kinda like having results in the methods section?)}
+The \gls{FDR} is then defined, for a given 3-way-\gls{PTCI} threshold, as the median value of the null 3-way \glspl{PTCI} divided by the actual 3-way \gls{PTCI} (\texttt{PTCI\_testing\_rsrd\_1.0\_1.1\_new\_data\_Jaspar\_nr\_insect\_20130918\_orthodb7.ipynb} \cite{Dunn2013dissSupl}).
+This information is used to define an acceptable 3-way-\gls{PTCI} threshold that balances selectivity with sensitivity.
+Given a 3-way-\gls{PTCI} threshold, a filter script (\texttt{Getting\_and\_using\_filtered\_gfunc\_genes\_ecr\_team\_OR\_jaspar\_insect\_20120918\_orthodb7.ipynb} \cite{Dunn2013dissSupl}) is applied to extract the 3-way 1:1 ortholog sets that are greater than or equal to the threshold.
+
+This process is carried out using two sets of \gls{TFBS} profile data: one that covers the entire JASPAR \gls{TFBS}-model database for insects (\texttt{JASPAR\_CORE\_2009\_insects.meme}  \cite{Dunn2013dissSupl}), another that is limited to 12 \gls{TFBS}-models that are thought to participate in \gls{20E}-regulated transcriptional regulatory mechanisms (\texttt{EcR\_team.meme} \cite{Dunn2013dissSupl}).
+The later is meant to provide a set of 3-way 1:1 orthologs generated with a focus toward a particular regulatory program while the former is intended to capture a more general set.
+The union of the two result-sets are taken forward to the Characterization Stage.
+
+
+
+\section{Characterization of results}
+The \gls{gFunc} analysis yields a set of the top midgut transcriptionally corresponding 3-way 1:1 ortholog-sets.
+Two types of characterization were carried out on these ortholog-sets.
+The characterization method used \gls{Argot2} to obtain functional annotations of the ortholog-sets by comparing the protein sequences of the 3-way 1:1 ortholog-sets against previuosly annotated proteins (\gls{Swiss-Prot}) and hidden markov-models of described protein domains (\gls{Pfam}) \cite{Boeckmann},\cite{Punta2012},\cite{Falda2012}.
+The second method consisted of grouping the \glspl{mAP} by similarity using k-means clustering.
+
+\subsection{Functional inference of filtered 3-way 1:1 ortholog sets}
+
+\gls{Argot2} was used to infer functional annotations for the selected proteins of the three mosquito species.
+First, the peptide sequences must be compared with well characterized databases of functinally annotated data.
+\gls{Argot2} suppports the use of either the Swiss-Prot\footnote{Swiss-Prot is the manually annotated and reviewed section of the UniProt Knowledgebase.} database of protein sequences or the \gls{Pfam}\footnote{The Pfam database is a large collection of protein families, each represented by multiple sequence alignments and \glspl{HMM}.} database of protein domain models or both.
+Here both were used.
+
+The following blastp settings were used against the \gls{Swiss-Prot} proteins, as requested by the \gls{Argot2} instructions:
+
+\begin{Verbatim}
+blastp -outfmt "6 qseqid sseqid evalue " -query your_sequences \
+      -db Uniprot -out output_file
+\end{Verbatim}
+
+Likewise, the following HMMER3 settings were used against the \gls{Pfam} domain models\footnote{The Pfam-A (hand-currated models) and Pfam-B (automated curration) databases were combined as suggested by \gls{Argot2}.}, as requested by the \gls{Argot2} instructions:
+
+
+\begin{Verbatim}
+hmmscan --tblout output_file P-fam_database your_protein_sequences
+\end{Verbatim}
+
+Both sets of results were then compressed into ``zip'' files and uploaded to the \gls{Argot2} servers for analysis.
+
+\subsection{Clustering of filtered 3-way 1:1 ortholog sets}
+
+Clusters were generated by custom python code that used Biopython's k-means clustering (version 1.62) \cite{Cock2009}.
+\gls{mAP} data was log transformed after 1 FPKM was added to all data to remove zeros ($log_{10}(\mathrm{FPKM}+1)$). 
+K-means was then applied using the arithmetic mean as the center for cluster definition.
+Twenty-three clusters ($k = 23$) were used.
+The clustering was performed using the \glspl{mAP} from \Ag\ because this species is approximately equidistant from the other two with regard to a last common ancestor.
+Four of the resulting clusters were chosen for further description in Chapter \ref{chap:4} and the orthologs of the corresponding members of each cluster from \Aa\ and \Cq\ were retrieved and combined with those from \Ag.
+The four clusters were chosen because they exhibit a major change between \gls{NBF} and 4h \gls{PBM}\footnote{There is a small but reproducible peak in \gls{20E} titers that occurs 4h \gls{PBM} \cite{Hagedorn1975} and coincides with a peak in posterior midgut aminopeptidase activity that has been noted in \As\ \cite{Billingsley1991}; an initiation of the increase of late trypsin in the midgut \cite{Barillasmury1991},\cite{Graf1988}; and an increase of JH-esterase activity that causes a rapid decline of \gls{JH} \cite{Shapiro1986}.} samples that may indicate the \glspl{mAP} contained in these clusters are influenced by \gls{20E}-regulated transcriptional regulatory mechanisms.
+The four patterns can be described roughly as ``up-regulated \textit{at} 4h \gls{PBM}'', ``down-regulated \textit{at} 4h \gls{PBM}'', ``up-regulated \textit{after} 4h \gls{PBM}'', and ``down-regulated \textit{after} 4h \gls{PBM}''.
 
 
 

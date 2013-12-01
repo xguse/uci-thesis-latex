@@ -3,8 +3,8 @@ def_graphic_ext=
 img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
-kileversion=2.1.0
-lastDocument=3_chapter.tex
+kileversion=2.1.3
+lastDocument=4_chapter.tex
 masterDocument=thesis.tex
 name=uci-thesis-latex
 pkg_extIsRegExp=false
@@ -41,20 +41,6 @@ Indentation Mode=normal
 Mode=LaTeX
 
 [document-settings,item:4_chapter.tex]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=LaTeX
-Indentation Mode=normal
-Mode=LaTeX
-
-[document-settings,item:5_chapter.tex]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=LaTeX
-Indentation Mode=normal
-Mode=LaTeX
-
-[document-settings,item:6_chapter.tex]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=LaTeX
@@ -166,7 +152,28 @@ Indentation Mode=normal
 Mode=LaTeX
 ReadWrite=true
 
+[document-settings,item:figures/ecr-mean-ptci-figs.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:figures/ecr-pairwise-ptci-figs.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
 [document-settings,item:figures/ecr_and_insects_23_clusters_ptci_0_95_orthodb7.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
+[document-settings,item:figures/ecrusp-graph.tex]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=LaTeX
@@ -346,7 +353,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=26
 mode=LaTeX
-open=true
+open=false
 order=2
 
 [item:2_chapter.tex]
@@ -356,58 +363,38 @@ encoding=UTF-8
 highlight=LaTeX
 line=19
 mode=LaTeX
-open=true
-order=3
+open=false
+order=8
 
 [item:3_chapter.tex]
 archive=true
-column=38
+column=9
 encoding=UTF-8
 highlight=LaTeX
-line=131
+line=81
 mode=LaTeX
 open=true
 order=4
 
 [item:4_chapter.tex]
 archive=true
-column=0
+column=240
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=11
 mode=LaTeX
-open=false
-order=5
-
-[item:5_chapter.tex]
-archive=true
-column=0
-encoding=UTF-8
-highlight=LaTeX
-line=0
-mode=LaTeX
-open=false
-order=6
-
-[item:6_chapter.tex]
-archive=true
-column=0
-encoding=UTF-8
-highlight=LaTeX
-line=0
-mode=LaTeX
-open=false
-order=7
+open=true
+order=1
 
 [item:acronym_terms.tex]
 archive=true
-column=40
+column=0
 encoding=UTF-8
 highlight=LaTeX
 line=3
 mode=LaTeX
-open=true
-order=8
+open=false
+order=3
 
 [item:appendix.tex]
 archive=true
@@ -416,7 +403,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=187
 mode=LaTeX
-open=true
+open=false
 order=7
 
 [item:equations/cumulative-hypergeometric.tex]
@@ -431,13 +418,13 @@ order=18
 
 [item:equations/ptci.tex]
 archive=true
-column=13
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=1
+line=0
 mode=LaTeX
-open=true
-order=18
+open=false
+order=5
 
 [item:figures/aa-diff-paralogs.tex]
 archive=true
@@ -446,28 +433,28 @@ encoding=UTF-8
 highlight=LaTeX
 line=9
 mode=LaTeX
-open=true
+open=false
 order=12
 
 [item:figures/aedesHMMsplice.tex]
 archive=true
-column=16
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=1
+line=0
 mode=LaTeX
 open=false
-order=14
+order=9
 
 [item:figures/approach-chart.tex]
 archive=true
-column=52
+column=130
 encoding=UTF-8
 highlight=LaTeX
-line=19
+line=14
 mode=LaTeX
-open=true
-order=5
+open=false
+order=1
 
 [item:figures/bonizzoni2012complex-cre.tex]
 archive=true
@@ -481,10 +468,10 @@ order=12
 
 [item:figures/cluster19_AaAgCq.tex]
 archive=true
-column=0
+column=23
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=15
 mode=LaTeX
 open=false
 order=12
@@ -497,17 +484,17 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=false
-order=8
+order=0
 
 [item:figures/cluster7_AaAgCq.tex]
 archive=true
-column=0
+column=119
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=4
 mode=LaTeX
 open=false
-order=16
+order=7
 
 [item:figures/cre-crm-intro.tex]
 archive=true
@@ -519,7 +506,37 @@ mode=LaTeX
 open=false
 order=8
 
+[item:figures/ecr-mean-ptci-figs.tex]
+archive=true
+column=18
+encoding=UTF-8
+highlight=LaTeX
+line=13
+mode=LaTeX
+open=true
+order=2
+
+[item:figures/ecr-pairwise-ptci-figs.tex]
+archive=true
+column=7
+encoding=UTF-8
+highlight=LaTeX
+line=17
+mode=LaTeX
+open=true
+order=3
+
 [item:figures/ecr_and_insects_23_clusters_ptci_0_95_orthodb7.tex]
+archive=true
+column=4
+encoding=UTF-8
+highlight=LaTeX
+line=7
+mode=LaTeX
+open=false
+order=7
+
+[item:figures/ecrusp-graph.tex]
 archive=true
 column=0
 encoding=UTF-8
@@ -527,7 +544,7 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=false
-order=6
+order=10
 
 [item:figures/mean-ptci-figs.tex]
 archive=true
@@ -537,7 +554,7 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=false
-order=11
+order=6
 
 [item:figures/mosq-xsection.tex]
 archive=true
@@ -546,7 +563,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=3
 mode=LaTeX
-open=true
+open=false
 order=21
 
 [item:figures/mosqPhyloTree.tex]
@@ -556,18 +573,18 @@ encoding=UTF-8
 highlight=LaTeX
 line=9
 mode=LaTeX
-open=true
+open=false
 order=20
 
 [item:figures/nway-ortholog-graph.tex]
 archive=true
-column=161
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=39
+line=0
 mode=LaTeX
-open=true
-order=15
+open=false
+order=8
 
 [item:figures/pole-cells.tex]
 archive=true
@@ -576,7 +593,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=10
 mode=LaTeX
-open=true
+open=false
 order=10
 
 [item:figures/ptci-space.tex]
@@ -586,7 +603,7 @@ encoding=UTF-8
 highlight=LaTeX
 line=25
 mode=LaTeX
-open=true
+open=false
 order=17
 
 [item:figures/sieglaff2009_full.tex]
@@ -596,38 +613,38 @@ encoding=UTF-8
 highlight=LaTeX
 line=10
 mode=LaTeX
-open=true
+open=false
 order=19
 
 [item:figures/tuxedo.tex]
 archive=true
-column=108
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=9
+line=0
 mode=LaTeX
-open=true
-order=14
+open=false
+order=6
 
 [item:fonts.tex]
 archive=true
-column=20
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=14
+line=0
 mode=LaTeX
-open=true
-order=6
+open=false
+order=12
 
 [item:glossary_terms.tex]
 archive=true
-column=35
+column=169
 encoding=UTF-8
 highlight=LaTeX
-line=4
+line=10
 mode=LaTeX
-open=true
-order=16
+open=false
+order=2
 
 [item:my_papers_texts/bonizzoni2012complex_xrpt.tex]
 archive=true
@@ -641,23 +658,23 @@ order=9
 
 [item:my_papers_texts/bonizzoni2012strain_xrpt.tex]
 archive=true
-column=7
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=88
+line=0
 mode=LaTeX
 open=false
-order=8
+order=3
 
 [item:preliminaries.tex]
 archive=true
-column=31
+column=98
 encoding=UTF-8
 highlight=LaTeX
-line=94
+line=1
 mode=LaTeX
-open=true
-order=1
+open=false
+order=3
 
 [item:species_defs.tex]
 archive=true
@@ -667,17 +684,17 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=false
-order=5
+order=2
 
 [item:tables/evo-ranges.tex]
 archive=true
-column=39
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=17
+line=0
 mode=LaTeX
-open=true
-order=9
+open=false
+order=4
 
 [item:tables/species-disease-region.tex]
 archive=true
@@ -686,15 +703,15 @@ encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
-order=11
+open=false
+order=6
 
 [item:thesis.tex]
 archive=true
-column=0
+column=37
 encoding=UTF-8
 highlight=LaTeX
-line=135
+line=88
 mode=LaTeX
 open=true
 order=0
@@ -721,13 +738,13 @@ order=9
 
 [item:wad_defs.tex]
 archive=true
-column=1
+column=47
 encoding=UTF-8
 highlight=LaTeX
-line=45
+line=158
 mode=LaTeX
 open=true
-order=13
+order=5
 
 [view-settings,view=0,item:1_chapter.tex]
 CursorColumn=0
@@ -742,34 +759,22 @@ JumpList=
 ViMarks=.,0,0,[,0,0,],-1,-1
 
 [view-settings,view=0,item:3_chapter.tex]
-CursorColumn=38
-CursorLine=131
+CursorColumn=9
+CursorLine=81
 JumpList=
-ViMarks=.,135,260,[,135,219,],135,260
+ViMarks=.,225,174,[,225,174,],225,182
 
 [view-settings,view=0,item:4_chapter.tex]
-CursorColumn=0
-CursorLine=0
+CursorColumn=240
+CursorLine=11
 JumpList=
-ViMarks=
-
-[view-settings,view=0,item:5_chapter.tex]
-CursorColumn=0
-CursorLine=0
-JumpList=
-ViMarks=
-
-[view-settings,view=0,item:6_chapter.tex]
-CursorColumn=0
-CursorLine=0
-JumpList=
-ViMarks=
+ViMarks=.,11,237,[,11,232,],11,237
 
 [view-settings,view=0,item:acronym_terms.tex]
-CursorColumn=40
+CursorColumn=0
 CursorLine=3
 JumpList=
-ViMarks=.,3,27,[,3,27,],3,39
+ViMarks=.,33,20,[,33,20,],33,27
 
 [view-settings,view=0,item:appendix.tex]
 CursorColumn=61
@@ -796,14 +801,14 @@ JumpList=
 ViMarks=.,8,0,[,8,0,],8,0
 
 [view-settings,view=0,item:figures/aedesHMMsplice.tex]
-CursorColumn=16
-CursorLine=1
+CursorColumn=69
+CursorLine=3
 JumpList=
-ViMarks=.,1,16,[,1,16,],1,16
+ViMarks=.,3,0,[,3,0,],3,0
 
 [view-settings,view=0,item:figures/approach-chart.tex]
-CursorColumn=52
-CursorLine=19
+CursorColumn=130
+CursorLine=14
 JumpList=
 ViMarks=.,19,51,[,19,42,],19,51
 
@@ -837,17 +842,35 @@ CursorLine=16
 JumpList=
 ViMarks=
 
-[view-settings,view=0,item:figures/ecr_and_insects_23_clusters_ptci_0_95_orthodb7.tex]
-CursorColumn=39
-CursorLine=5
-JumpList=
-ViMarks=.,5,39,[,5,39,],5,39
-
-[view-settings,view=0,item:figures/mean-ptci-figs.tex]
-CursorColumn=26
+[view-settings,view=0,item:figures/ecr-mean-ptci-figs.tex]
+CursorColumn=18
 CursorLine=13
 JumpList=
-ViMarks=.,13,9,[,13,9,],13,25
+ViMarks=.,13,17,[,13,17,],13,17
+
+[view-settings,view=0,item:figures/ecr-pairwise-ptci-figs.tex]
+CursorColumn=7
+CursorLine=17
+JumpList=
+ViMarks=.,13,21,[,13,21,],13,21
+
+[view-settings,view=0,item:figures/ecr_and_insects_23_clusters_ptci_0_95_orthodb7.tex]
+CursorColumn=4
+CursorLine=7
+JumpList=
+ViMarks=.,14,0,[,14,0,],14,0
+
+[view-settings,view=0,item:figures/ecrusp-graph.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=.,5,147,[,5,148,],5,147
+
+[view-settings,view=0,item:figures/mean-ptci-figs.tex]
+CursorColumn=0
+CursorLine=0
+JumpList=
+ViMarks=.,-1,-1,[,-1,-1,],-1,-1
 
 [view-settings,view=0,item:figures/mosq-xsection.tex]
 CursorColumn=0
@@ -892,16 +915,16 @@ JumpList=
 ViMarks=.,9,107,[,9,101,],9,107
 
 [view-settings,view=0,item:fonts.tex]
-CursorColumn=20
-CursorLine=14
+CursorColumn=2
+CursorLine=13
 JumpList=
-ViMarks=.,14,0,[,14,0,],14,0
+ViMarks=.,13,0,[,13,0,],13,1
 
 [view-settings,view=0,item:glossary_terms.tex]
-CursorColumn=35
-CursorLine=4
+CursorColumn=169
+CursorLine=10
 JumpList=
-ViMarks=.,4,34,[,4,34,],4,34
+ViMarks=.,10,168,[,10,166,],10,168
 
 [view-settings,view=0,item:my_papers_texts/bonizzoni2012complex_xrpt.tex]
 CursorColumn=52
@@ -910,16 +933,16 @@ JumpList=
 ViMarks=.,111,7,[,111,7,],111,51
 
 [view-settings,view=0,item:my_papers_texts/bonizzoni2012strain_xrpt.tex]
-CursorColumn=7
-CursorLine=88
+CursorColumn=43
+CursorLine=83
 JumpList=
 ViMarks=.,88,0,[,88,0,],88,80
 
 [view-settings,view=0,item:preliminaries.tex]
-CursorColumn=31
-CursorLine=94
+CursorColumn=98
+CursorLine=1
 JumpList=
-ViMarks=.,142,0,[,142,0,],142,12
+ViMarks=.,1,98,[,1,98,],1,98
 
 [view-settings,view=0,item:species_defs.tex]
 CursorColumn=0
@@ -940,10 +963,10 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:thesis.tex]
-CursorColumn=0
-CursorLine=135
+CursorColumn=37
+CursorLine=88
 JumpList=
-ViMarks=.,137,0,[,137,0,],137,1
+ViMarks=.,88,0,[,87,0,],88,36
 
 [view-settings,view=0,item:ucithesis.cls]
 CursorColumn=0
@@ -952,7 +975,7 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:wad_defs.tex]
-CursorColumn=1
-CursorLine=45
+CursorColumn=47
+CursorLine=158
 JumpList=
-ViMarks=.,45,0,[,33,0,],45,0
+ViMarks=.,158,46,[,158,46,],158,46

@@ -1,0 +1,802 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"A",
+				"ALL_STEME"
+			],
+			[
+				"Al",
+				"ALL_SELF"
+			],
+			[
+				"ALL",
+				"ALL_13"
+			],
+			[
+				"All",
+				"ALL_19"
+			],
+			[
+				"Ag_",
+				"Ag_orthos"
+			],
+			[
+				"mem",
+				"members"
+			],
+			[
+				"bas",
+				"base_dir"
+			],
+			[
+				"to",
+				"tomtom_out"
+			],
+			[
+				"TOM",
+				"tomtom_out"
+			],
+			[
+				"data",
+				"data_list"
+			],
+			[
+				"dat",
+				"data_list"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "My expertise is in bioinformatics with a heavy focus in management and analysis of big-data projects.\nI have worked extensively in non-model organisms that are vectors of human disease (Anopheles, Aedes, Culex).\nMy research focuses on exploiting large data sets, leveraging multiple types of data (SNPs, RNA-Seq, phylogenies, proteomics, comparative genomics, etc), and designing systems and programs to automate the integration and synthesis of these data to address the particular biological question at hand in light of how it fits in to the broader web of current understanding.\nI place particular emphasis on the reproducibility of my methods through the use of share-able IPython Notebooks (\\url{http://ipython.org/notebook.html}) and authorship of executable code that other researchers may access to replicate or further my work \\cite{Dunn2013a}.\nI have performed lead data management and analysis for four genome-scale, big-data projects and provided assistance and support for two more.\nThese data and analyses have so far produced 6 publications and over 50 citations since 2009 (is this worth including?) \\cite{Vannini2013,Bonizzoni2013,bonizzoni2012complex,bonizzoni2012strain,Bonizzoni2011,Sieglaff2009}.\nIn 2009 I was awarded a three year training fellowship through the Institute for Genomics and Bioinformatics at UCI and funded by the NIH/NLM (NIH/NLM 5T15LM007443 ).\nAs a part of this training program I have successfully completed courses to develop skills such as classical statistical analysis, molecular biology algorithms, and Bayesian approaches to biological questions.\n\n\nThis project is uniquely suited to the extensive expertise and research interests of Dr. J. Powell and Dr. G. Caccone and the resources and relationships that they have cultivated at Yale; it would greatly benefit from this environment.\nFurthermore, I believe that my experience managing and analyzing big-data projects as well as interests in non-model vector-insects and my proven track record of streamlining and publishing an RNA-seq analysis pipeline that addresses standardization, reproducibility and openness (Blacktie: https://crate.io/packages/blacktie/ -- downloaded over 2000 times \\cite{Dunn2013a}) support my ability to form a synergistic and productive research association with Drs. Powel and Caccone that also will be of vital importance to my own development as an investigator.  \n",
+			"settings":
+			{
+				"buffer_size": 2397,
+				"line_ending": "Unix",
+				"name": "My expertise is in bioinformatics with a heavy foc"
+			}
+		},
+		{
+			"file": "/home/gus/Dropbox/common/motif_databases/Jaspar_2012_05_20/Archive/Custom/EcR_team.txt",
+			"settings":
+			{
+				"buffer_size": 1902,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.ecr_team_orthodb7.yaml",
+			"settings":
+			{
+				"buffer_size": 2156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/my_writings_about_it/present_specific_aims_email_first.txt",
+			"settings":
+			{
+				"buffer_size": 4226,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/my_writings_about_it/request_letters_of_rec.txt",
+			"settings":
+			{
+				"buffer_size": 3447,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 369.0,
+		"selected_items":
+		[
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"PACKA",
+				"Package Control: List Packages"
+			],
+			[
+				"PACK",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/wad_donnelley_proposal.md",
+		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/wad_donnelley_proposal_latex/edit_drafts/wad_proposal.txt",
+		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/my_writings_about_it/present_specific_aims_email_first.txt",
+		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/wad_donnelley_proposal_latex/edit_drafts/wad_proposalGC.txt",
+		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/my_writings_about_it/request_letters_of_rec.txt",
+		"/home/gus/.kde/tmp-vlad/kileq21602.tmp",
+		"/home/gus/.kde/tmp-vlad/kileY21602.tmp",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/not_one2one_example.dot",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/approach_chart/approach.dot",
+		"/home/gus/Downloads/manjaro-xfce-0.8.7.1-x86_64/manjaro-0.8.7.1-md5sum.txt",
+		"/home/gus/Downloads/manjaro-xfce-0.8.7.1-x86_64/manjaro-xfce-0.8.7.1-x86_64-pkgs.txt",
+		"/home/gus/Dropbox/repos/git/blacktie/src/blacktie/scripts/blacktie_pipeline.py",
+		"/home/gus/src/codemirror-3.19/README.md",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/test_digrap.dot",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/not_one2one_example.gv",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/one2one_example.gv",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/one2one_example.dot",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example.dot",
+		"/home/gus/DELETE_ME/table1.txt",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/2_chapter.tex",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012strain_xrpt.tex",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012complex_xrpt.tex",
+		"/home/gus/.config/sublime-text-2/Packages/User/LaTeX.sublime-settings",
+		"/home/gus/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012complex.txt",
+		"/home/gus/src/latex_pkgs/cite_styles/nature/README",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/plos_biology.bst",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/1_chapter1_reviewDevRation.tex",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/Transcription_factors/TranscripFactor_1.list",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/blast_SUHW_CLONES_vs_TrinityAs00.out",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/blast_SUHW_CLONES_vs_TrinityAs04.out",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/SuHW_trinity_hits.fas",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/blast_TrinityAs04.sh",
+		"/home/gus/Dropbox/common/projects/trinity_As/trinity_As_04_0/trinity_As_04_0.sh",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/SUHW_CLONES_all.fas",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW CLONES-FASTA/SUHW11_M13F.fas",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012comparative.txt",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/Transcription_factors/orthodb7_AaAgAsCq_present.txt",
+		"/home/gus/.config/sublime-text-2/Packages/Theme - Default/Widget.sublime-settings",
+		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_Rebecas_clones/SUHW11_M13F.Seq",
+		"/home/gus/.config/sublime-text-2/Packages/Theme - Default/Widgets.stTheme",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_A1.txt",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_B1.txt",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_A1.txt",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/B1_A1.txt",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_B1.txt",
+		"/home/gus/.bashrc",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/run_argot_hmmer.sh",
+		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/run_argot_blastp.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/run_argot_blastp.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/run_argot_hmmer.sh",
+		"/home/gus/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/fly_factor_survey.transfac",
+		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/fly_factor_survey.meme",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/meme2transfac.py",
+		"/home/gus/DELETE_ME/test.meme",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/flyreg.mcast/mcast.txt",
+		"/home/gus/.local/share/fogapps/2e2e2d35a15a6146a9bbbc246a9ea4cd/fogger-2e2e2d35a15a6146a9bbbc246a9ea4cd.desktop",
+		"/home/gus/DELETE_ME/not_yet/Clustering_FPKM_data.py",
+		"/home/gus/src/motiflab/launch.jnlp",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/XoLg.23clusters.orthodb7.py",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/run_mcast.sh",
+		"/home/gus/Dropbox/InBox/Dissertation_workflowy_20130920.opml",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_tomtom.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_tomtom.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_tomtom.sh",
+		"/home/gus/DELETE_ME/download.txt",
+		"/home/gus/.local/share/fogapps/2e2e2d35a15a6146a9bbbc246a9ea4cd/app.json",
+		"/home/gus/.local/share/fogapps/9319f49b4e873b280fc0bd14bd840ea7/fogger-9319f49b4e873b280fc0bd14bd840ea7.desktop",
+		"/home/gus/.local/share/fogapps/9319f49b4e873b280fc0bd14bd840ea7/app.json",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/jaspar_insect.mcast/mcast.txt",
+		"/home/gus/Dropbox/common/motif_databases/Jaspar_2012_05_20/Archive/Custom/EcR_team.meme",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_steme_w19.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_steme_w13.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_steme_w19.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_steme_w13.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_steme_w19.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_steme_w13.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/run_tomtom_template.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/run_steme_w9_template.sh",
+		"/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.ecr_team.yaml",
+		"/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.Jaspar_insect_nr_orthodb7.yaml",
+		"/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.ecr_team_orthodb7.yaml",
+		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/combo.meme",
+		"/home/gus/Dropbox/common/motif_databases/ad_hoc/alt_suH_Adryan2007.pfm",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/all/ecr_OR_insect_meanPTCI_thresh_1_gene_names.txt",
+		"/home/gus/Dropbox/common/projects/orthodb/orthodb.txt",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_tomtom.sh",
+		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/README",
+		"/home/gus/Dropbox/common/motif_databases/ad_hoc/alt_suH_Adryan2007.pwm",
+		"/home/gus/Dropbox/common/motif_databases/Jaspar_2012_05_20/Archive/all_data/FlatFileDir/CN0001.1.pfm",
+		"/home/gus/Dropbox/common/projects/orthodb/AaAgCq_1to1_orthos.tsv",
+		"/home/gus/Dropbox/common/projects/orthodb/orthodb7_mosqs_20130918.txt",
+		"/home/gus/Dropbox/common/projects/orthodb/view-source cegg.unige.ch orthodb7 orthodb.txt",
+		"/home/gus/Dropbox/common/ipy_notebooks/ecr_U_insect_ptci_1_0_Exploring_Profiles_cls19.ipynb",
+		"/home/gus/Dropbox/common/ipy_notebooks/ecr_U_insect_ptci_1_0_Exploring_Profiles_cls7.ipynb",
+		"/home/gus/Dropbox/common/ipy_notebooks/ecr_U_insect_ptci_1_0_Exploring_Profiles_cls6.ipynb",
+		"/home/gus/Dropbox/common/projects/orthodb/OrthoDB7_Insecta_tabtext",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/all/run_argot_hmmer.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_tomtom.sh",
+		"/home/gus/DELETE_ME/Clustering_FPKM_data.py",
+		"/home/gus/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/gus/src/Sylamer.jnlp",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/ecr_and_insects_ptci_20130903/ecr_and_insects_ptci1_gene_profiles_from_cummerbund/25_clusters.pgf",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w19.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w13.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/steme_9_EM10000/meme.txt",
+		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/JASPAR_CORE_2009.meme",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w19.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w13.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_mcast.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w19.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w13.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_tomtom.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_combo.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_tomtom.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w19.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w13.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w9.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_combo.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w20.sh",
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w6.sh"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">",
+			"\\.  ",
+			"\\. ",
+			". ",
+			"\\. ",
+			"\\n",
+			"\\. ",
+			"    ",
+			" -- ",
+			"_",
+			"\\n",
+			"ROCK",
+			"cre}",
+			"Figure S5",
+			"WNV",
+			"e value",
+			"Figure S4",
+			"cre}",
+			"Figure S3",
+			"FPKMB",
+			"Figure S2",
+			"FPKM\\gls{DENVI}",
+			"Table S4",
+			"\\gls{CRE}s",
+			"CRE",
+			"Table 2",
+			"\\gls{DENV}I",
+			"Table S1",
+			"Table 1",
+			"EIP",
+			"dpi",
+			"}\\cite",
+			"[5]",
+			"[1]",
+			"\\Aea ",
+			"Aedes aegypti",
+			"\\Aa ",
+			"Ae. aegypti",
+			"DENV",
+			"Figure S8",
+			"Table S14",
+			"Table S13",
+			"Figure S7",
+			"Figure 2",
+			"Figure S6",
+			"Table S10",
+			"Table S8",
+			"Figure S3",
+			"Table 3",
+			"Figure 1",
+			"Table S2",
+			"(Table 1)",
+			"hPBM",
+			"Bennet2002",
+			"blood-",
+			"blood-fed",
+			"blood-",
+			" DENV2",
+			" Rex-D",
+			" LVP",
+			" CTM",
+			" LVP",
+			" CTM",
+			"format.url output",
+			"url",
+			"Sequences producing significant alignments",
+			"\\n",
+			" ",
+			"\\n",
+			"[77]",
+			"[76]",
+			"[75]",
+			"[74]",
+			"[73]",
+			"[72]",
+			"[71]",
+			"[70]",
+			"[69]",
+			"[68]",
+			"[67]",
+			"[66]",
+			"[65]",
+			"[64]",
+			"[63]",
+			"\\cite{19214215}",
+			"[62]",
+			"[61]",
+			"[60]",
+			"[59]",
+			"[58]",
+			"[57]",
+			"[56]",
+			"[55]",
+			"[54]",
+			"[53]",
+			"[52]",
+			"[51]",
+			"[50]",
+			"[49]",
+			"[48]",
+			"[47]",
+			"[46]",
+			"[45]",
+			"[44]",
+			"[43]",
+			"[42]",
+			"[40]",
+			"[37]",
+			"[36]",
+			"[35]",
+			"[31]",
+			"[30]",
+			"[29]",
+			"[28]",
+			"[27]",
+			"[26]",
+			"[25]",
+			"[24]",
+			"[23]",
+			"[22]",
+			"[21]",
+			"[20]",
+			"[19]",
+			"[18]",
+			"[17]",
+			"[16]",
+			"[15]",
+			"[14]"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			".\\n\n\n\\n",
+			"\n\n\\n",
+			" ",
+			"\n\\n",
+			"",
+			"\\n",
+			"_homolog",
+			"','",
+			"Figure \\ref{fig:bon2012complex-S5}",
+			"e-value",
+			"Figure \\ref{fig:bon2012complex-S4}",
+			"Figure \\ref{fig:bon2012complex-S3}",
+			"Figure \\ref{fig:bon2012complex:S3}",
+			"FPKM$_{B}$",
+			"Figure \\ref{fig:bon2012complex:S2}",
+			"FPKM$_{DENVI}$",
+			"not shown",
+			"\\glspl{CRE}",
+			"\\gls{CRE}",
+			"not shown",
+			"\\gls{DENVI}",
+			"not shown",
+			"\\gls{EIP}",
+			"\\gls{dpi}",
+			"}, \\cite",
+			"\\cite{James2007}",
+			"\\cite{WHO2009}",
+			"\\Aea\\ ",
+			"\\Aea",
+			"\\Aa\\ ",
+			"\\Aa\\",
+			"\\Aa",
+			"\\gls{DENV}",
+			"not shown",
+			"(not shown)",
+			"h \\gls{PBM}",
+			"Bennett2002",
+			" \\gls{DENV2}",
+			" \\gls{Rex-D}",
+			" \\gls{LVP}",
+			" \\gls{CTM}",
+			"\\gls{LVP}",
+			"\\gls{CTM}",
+			"",
+			" ",
+			"\\\\ ",
+			" ",
+			"\\cite{Weaver2009}",
+			"\\cite{Kanlaya2009}",
+			"\\cite{Creaven1999}",
+			"\\cite{Chase2011}",
+			"\\cite{Wei}",
+			"\\cite{Kent2004}",
+			"\\cite{Souza-Neto2009}",
+			"\\cite{Kuno2010}",
+			"\\cite{Armstrong2001}",
+			"\\cite{Wahlund1928}",
+			"\\cite{Brackney2008}",
+			"\\cite{Brackney2010}",
+			"\\cite{Gorman2001}",
+			"\\cite{Kobe1994}",
+			"\\cite{Xie2011}",
+			"\\cite{Sanchez-Vargas2009}",
+			"\\cite{Girard2007}",
+			"\\cite{Wang2012}",
+			"\\cite{Cho1999}",
+			"\\cite{Matsumoto2008}",
+			"\\cite{Conus2010}",
+			"\\cite{Trpis1986}",
+			"\\cite{Muir1998}",
+			"\\cite{Liu2009}",
+			"\\cite{Flajollet2009}",
+			"\\cite{Guo2010a}",
+			"\\cite{Abrams2005}",
+			"\\cite{Miller2009}",
+			"\\cite{Shore1995}",
+			"\\cite{Boggaram2009}",
+			"\\cite{Hansen2007}",
+			"\\cite{Sandstrom1997}",
+			"\\cite{Rajeswari2002}",
+			"\\cite{Agawa2007}",
+			"\\cite{Matys2006}",
+			"\\cite{Lindholm2010}",
+			"\\cite{Sieglaff2009}",
+			"\\cite{Bailey2006}",
+			"\\cite{Trapnell2010}",
+			"\\cite{Anders2010}",
+			"\\cite{Trapnell2009}",
+			"\\cite{bonizzoni2012strain}",
+			"\\cite{Bernhardt2012}",
+			"\\cite{Colpitts2011}",
+			"\\cite{Sim2012}",
+			"\\cite{Behura2011}",
+			"\\cite{Luplertlop2011}",
+			"\\cite{Tchankouo-Nguetcheu2010}",
+			"\\cite{Sim2010}",
+			"\\cite{19214215}",
+			"\\cite{Cox2011}",
+			"\\cite{Gubler1976}",
+			"\\cite{Xi2008}",
+			"\\cite{Samsa2009}",
+			"\\cite{Mercado-Curiel2008}",
+			"\\cite{Rey2003}",
+			"\\cite{Heinz2003}",
+			"\\cite{Bennett2002}",
+			"\\cite{Lambrechts2011}",
+			"\\cite{Salazar2007}",
+			"\\cite{Anderson2006}",
+			"\\cite{Black2002}",
+			"\\cite{Angel2008}",
+			"\\cite{Watts1987}",
+			"\\cite{Gunther2007}",
+			"\\cite{Mathur2010}",
+			"\\cite{Franz2006}",
+			"\\cite{Kramer2003}",
+			"\\cite{Nene2007}",
+			"\\cite{Gubler2002}",
+			"\\1 ",
+			"\\1",
+			".\\n",
+			" \\Aa",
+			" \\Aa\\ ",
+			"\\Aa\\",
+			"\\glspl{CRE} ",
+			"\\gls{CRE} ",
+			"\\gls{CRM} ",
+			"\\glspl{CRM}",
+			".\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 2397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								601,
+								601
+							]
+						],
+						"settings":
+						{
+							"auto_name": "My expertise is in bioinformatics with a heavy foc",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/gus/Dropbox/common/motif_databases/Jaspar_2012_05_20/Archive/Custom/EcR_team.txt",
+					"settings":
+					{
+						"buffer_size": 1902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							],
+							[
+								184,
+								184
+							],
+							[
+								425,
+								425
+							],
+							[
+								577,
+								577
+							],
+							[
+								713,
+								713
+							],
+							[
+								885,
+								885
+							],
+							[
+								1013,
+								1013
+							],
+							[
+								1171,
+								1171
+							],
+							[
+								1297,
+								1297
+							],
+							[
+								1419,
+								1419
+							],
+							[
+								1589,
+								1589
+							],
+							[
+								1758,
+								1758
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1287.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.ecr_team_orthodb7.yaml",
+					"settings":
+					{
+						"buffer_size": 2156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/my_writings_about_it/present_specific_aims_email_first.txt",
+					"settings":
+					{
+						"buffer_size": 4226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/my_writings_about_it/request_letters_of_rec.txt",
+					"settings":
+					{
+						"buffer_size": 3447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3003,
+								3003
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 471.0,
+	"status_bar_visible": true
+}
