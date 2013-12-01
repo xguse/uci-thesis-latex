@@ -1,0 +1,51 @@
+\chapter{Results} \label{chap:4}
+
+\section{Preliminary data preparation}
+
+\section{gFunc-based analysis}
+
+\subsection{PTCI calculations}
+
+\gls{PTCI} data was calculated using two complementary sets of \gls{TFBS} models.
+One 
+
+
+\input{figures/ecr-pairwise-ptci-figs}
+EcR-pair (Figure \ref{fig:ecr-pair-ptci-hists})
+
+\input{figures/ecr-mean-ptci-figs}
+EcR-mean (Figure \ref{fig:ecr-mean-ptci-hists})
+
+\input{figures/insect-pairwise-ptci-figs}
+Insect-pair (Figure \ref{fig:insect-pair-ptci-hists})
+
+\input{figures/insect-mean-ptci-figs}
+Insect-mean (Figure \ref{fig:insect-mean-ptci-hists})
+
+
+
+
+\section{Characterization of Results}
+
+\input{figures/ecr_and_insects_23_clusters_ptci_0_95_orthodb7.tex}
+Figure \ref{fig:23-clusters}
+
+% \input{figures/cluster6_AaAgCq}
+% Figure \ref{fig:cluster6}
+% 
+% \input{figures/cluster7_AaAgCq}
+% Figure \ref{fig:cluster7}
+% 
+% \input{/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/pandas_out/process.tex}
+% Table \ref{tab:cluster7-P-mean-TS}
+% 
+% 
+% \input{figures/cluster19_AaAgCq}
+% Figure \ref{fig:cluster19}
+
+
+
+%%% Local Variables: ***
+%%% mode: latex ***
+%%% TeX-master: "thesis.tex" ***
+%%% End: ***
