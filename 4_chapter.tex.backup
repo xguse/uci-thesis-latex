@@ -1,47 +1,124 @@
+
+
 \chapter{Results} \label{chap:4}
 
 \section{Preliminary data preparation}
 
 \section{gFunc-based analysis}
-
-\subsection{PTCI calculations}
-
-\gls{PTCI} data was calculated using two complementary sets of \gls{TFBS} models.
-One 
-
-
 \input{figures/ecr-pairwise-ptci-figs}
-EcR-pair (Figure \ref{fig:ecr-pair-ptci-hists})
-
+% EcR-pair (Figure \ref{fig:ecr-pair-ptci-hists})
 \input{figures/ecr-mean-ptci-figs}
-EcR-mean (Figure \ref{fig:ecr-mean-ptci-hists})
-
+% EcR-mean (Figure \ref{fig:ecr-mean-ptci-hists})
 \input{figures/insect-pairwise-ptci-figs}
-Insect-pair (Figure \ref{fig:insect-pair-ptci-hists})
-
+% Insect-pair (Figure \ref{fig:insect-pair-ptci-hists})
 \input{figures/insect-mean-ptci-figs}
-Insect-mean (Figure \ref{fig:insect-mean-ptci-hists})
+% Insect-mean (Figure \ref{fig:insect-mean-ptci-hists})
 
+These results pertain to the second stage of the approach described in Chapter \ref{chap:3} (Figure \ref{fig:approach-chart}: \textit{yellow box}).
 
+\paragraph*{Complementary sets of TFBS models:}
+\gls{PTCI} data was calculated using two complementary sets of \gls{TFBS} models.
+%
+One set focuses the \gls{PTCI} on genes that have been associated with \gls{20E} and its nuclear receptor (\PTCIe) (Figures \ref{fig:ecr-pair-ptci-hists} and \ref{fig:ecr-mean-ptci-hists}), and a second provides a general focus on \gls{TFBS} models provided by JASPAR that are defined in insects at large (\PTCIi) (Figures \ref{fig:insect-pair-ptci-hists} and \ref{fig:insect-mean-ptci-hists}).
+%
+\FDR\ estimation was used to determine a suitable \PTCI\ value to use as a threshold for further investigating particular 3-way 1:1 ortholog sets.
+%
+It was determined that in both \gls{TFBS} model data-sets a mean \PTCI\ threshold of 0.95 yielded an \FDR\ of approximately 15\% and maximized the number of genes for further classification (Figures \ref{fig:ecr-mean-ptci-hists-fdr} and \ref{fig:insect-mean-ptci-hists-fdr}).
+%
+This threshold produced 666 and 708 genes in the \PTCIi\ and \PTCIe\ sets, respectively.
+%
+The union of these gene-sets was 930 genes or 310 genes from each species.
+%
+The intersection was 444 or an overlap of 66\% of the \PTCIi\ genes and 62.7\% of the \PTCIe\ genes.
+%
+The unique proportion contributed by each set are 33\% and 37.3\%, respectively.
 
+\paragraph*{Mean vs pairwise PTCI:}
+Comparing the \FDR\ values of the pairwise- and mean-\PTCI\ scores at the 0.95 threshold reveals the impact of considering information from all 3-way 1:1 orthologs simultaneously rather than species-pair by species-pair (Figures \ref{fig:ecr-pair-ptci-hists-fdr} vs \ref{fig:ecr-mean-ptci-hists-fdr} and Figures \ref{fig:insect-pair-ptci-hists-fdr} vs \ref{fig:insect-mean-ptci-hists-fdr}).
+%
+The quality, as judged by \FDR, is strikingly improved by including the relationships of all three species weighted by their pairwise evolutionary distance: an improvement of approximately 30 percentage points in both cases.
 
 \section{Characterization of Results}
+These results pertain to the third stage of the approach described in Chapter \ref{chap:3} (Figure \ref{fig:approach-chart}: \textit{blue box}).
+
+\subsection{Functional annotations (before k-means clustering)}
+
+Functional annotations were obtained for the 930 genes using \gls{Argot2} (Section \ref{chap:3-sec:characterization-of-results}).
+%
+%% How many of the 930 were assigned at least one annotation >= 200? --> 760 (Aa:253 ,Ag:254 , Cq:253 )
+%% How many genes got better than 2000? --> 452 (Aa: 154, Ag:153 , Cq:145 )
+Of these, 760 were assigned, by \gls{Argot2}, at least one annotation with a \gls{TS} greater than or equal to 200\footnote{This is the threshold that is suggested by the developers based on their in-house benchmarking \url{http://www.medcomp.medicina.unipd.it/Argot2/help/argot\_scores.php\#ts}} (\Aa: 253, \Ag: 254, \Cq: 253).
+%
+452 were assigned annotations with \glspl{TS} greater than or equal to 2000 (\Aa: 154, \Ag: 153, \Cq: 145).
+%
+This indicates that on the whole, most of the 930 genes produced by the \gls{gFunc} process were assigned annotations of a quality at least as stringent as used by the developers of \gls{Argot2}.
+
+%%%%%%%%%%%%%%%%%%%%%
 
 \input{figures/ecr_and_insects_23_clusters_ptci_0_95_orthodb7.tex}
-Figure \ref{fig:23-clusters}
+\input{figures/cluster4_AaAgCq}
+\input{figures/cluster6_AaAgCq}
+\input{figures/cluster16_AaAgCq}
+\input{figures/cluster22_AaAgCq}
 
-% \input{figures/cluster6_AaAgCq}
-% Figure \ref{fig:cluster6}
-% 
-% \input{figures/cluster7_AaAgCq}
-% Figure \ref{fig:cluster7}
+\subsection{K-means clustering}
+
+K-means clustering ($k=23$) was applied to the 310 genes from \Ag\ to attempt to partition the 3-way 1:1 ortholog sets based on \gls{mAP} similarity.
+%
+\Ag\ was selected because it shares approximately equidistant evolutionary divergence to both other species.
+%
+Four of the resulting clusters were chosen for further characterization (Figure \ref{fig:23-clusters}: \textit{Cluster IDs 4, 6, 16, and 22}) because they have expression patterns that may be regulated by a noted pulse of \gls{20E} that occurs around 4h \gls{PBM}\footnote{See Section \ref{chap:3-sec:clustering-of-filtered-ortholog-sets} for more information.}.
+%
+
+
+
+
+% cls4
+\input{tables/clsXX_process.tex}
+Table \ref{tab:clsXX-process}
+
+\input{tables/clsXX_function.tex}
+Table \ref{tab:clsXX-function}
+
+\input{tables/clsXX_cellular.tex}
+Table \ref{tab:clsXX-cellular}
+
+% cls6
+\input{tables/clsXX_process.tex}
+Table \ref{tab:clsXX-process}
+
+\input{tables/clsXX_function.tex}
+Table \ref{tab:clsXX-function}
+
+\input{tables/clsXX_cellular.tex}
+Table \ref{tab:clsXX-cellular}
+
+% cls16
+\input{tables/clsXX_process.tex}
+Table \ref{tab:clsXX-process}
+
+\input{tables/clsXX_function.tex}
+Table \ref{tab:clsXX-function}
+
+\input{tables/clsXX_cellular.tex}
+Table \ref{tab:clsXX-cellular}
+
+% cls22
+\input{tables/clsXX_process.tex}
+Table \ref{tab:clsXX-process}
+
+\input{tables/clsXX_function.tex}
+Table \ref{tab:clsXX-function}
+
+\input{tables/clsXX_cellular.tex}
+Table \ref{tab:clsXX-cellular}
+
 % 
 % \input{/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/pandas_out/process.tex}
 % Table \ref{tab:cluster7-P-mean-TS}
 % 
 % 
-% \input{figures/cluster19_AaAgCq}
-% Figure \ref{fig:cluster19}
+
 
 
 
