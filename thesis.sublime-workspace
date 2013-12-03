@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"pand",
+				"pandas_out"
+			],
+			[
+				"save",
+				"save_dir"
+			],
+			[
 				"A",
 				"ALL_STEME"
 			],
@@ -64,6 +72,14 @@
 			"settings":
 			{
 				"buffer_size": 3410,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/ecr_U_insect_ptci_0_95_Exploring_Profiles_clsALL_orthodb7.py",
+			"settings":
+			{
+				"buffer_size": 10108,
 				"line_ending": "Unix"
 			}
 		}
@@ -261,6 +277,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cls22",
+			"cluster_name = 'downAfter4'\ncluster_id = 6",
 			">",
 			"\\.  ",
 			"\\. ",
@@ -386,9 +404,7 @@
 			"[19]",
 			"[18]",
 			"[17]",
-			"[16]",
-			"[15]",
-			"[14]"
+			"[16]"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -396,6 +412,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"clsALL",
 			".\\n\n\n\\n",
 			"\n\n\\n",
 			" ",
@@ -522,8 +539,7 @@
 			"\\glspl{CRE} ",
 			"\\gls{CRE} ",
 			"\\gls{CRM} ",
-			"\\glspl{CRM}",
-			".\\n"
+			"\\glspl{CRM}"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -534,7 +550,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -587,6 +603,35 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/ecr_U_insect_ptci_0_95_Exploring_Profiles_clsALL_orthodb7.py",
+					"settings":
+					{
+						"buffer_size": 10108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9002,
+								9002
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6624.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

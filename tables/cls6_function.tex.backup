@@ -1,0 +1,53 @@
+% Booktabs require to add \usepackage{booktabs} to your document preamble
+\begin{table}[h]
+\begin{center} \sf
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Name}                                                 & \textbf{Total Score (mean)} \\ \midrule
+protein transporter activity                                  & 9225.37                     \\
+translation elongation factor activity                        & 4478.17                     \\ % #EXPLAIN
+GTPase activity                                               & 4364.13                     \\
+GTP binding                                                   & 3823.91                     \\
+phospholipid binding                                          & 3341.66                     \\
+pyridoxal phosphate binding                                   & 2871.76                     \\
+steroid hormone receptor activity                             & 2322.77                     \\ % which gene(s) is this?
+protein kinase binding                                        & 2059.25                     \\
+sequence-specific DNA binding                                 & 1999.76                     \\ % transcription factor repression?
+protein N-terminus binding                                    & 1781.39                     \\
+protein complex binding                                       & 1446.01                     \\
+transferase activity, transferring acyl groups                & 1047.27                     \\
+integrin binding                                              & 1003.53                     \\
+protein domain specific binding                               & 995.27                      \\
+DNA binding                                                   & 910.28                      \\ % transcription factor repression?
+ATP-dependent helicase activity                               & 877.71                      \\
+carboxylesterase activity                                     & 828.49                      \\
+sequence-specific DNA binding transcription factor activity   & 796.99                      \\ % transcription factor repression?
+nucleotide binding                                            & 772.48                      \\ % transcription factor repression?
+hydrolase activity                                            & 766.78                      \\
+helicase activity                                             & 737.95                      \\ % #EXPLAIN
+ATP binding                                                   & 700.66                      \\
+glutamate synthase activity                                   & 578.54                      \\
+zinc ion binding                                              & 578.26                      \\ % transcription factor repression?
+protein binding                                               & 569.78                      \\
+GTPase regulator activity                                     & 568.11                      \\
+transferase activity                                          & 536.16                      \\
+oxidoreductase activity                                       & 512.70                      \\
+protein dimerization activity                                 & 503.19                      \\
+nucleic acid binding                                          & 500.17                      \\
+oxidoreductase activity, acting on the CH-NH2 group of donors & 461.69                      \\
+metal ion binding                                             & 453.98                      \\
+kinesin binding                                               & 450.65                      \\
+JUN kinase binding                                            & 392.02                      \\ % #EXPLAIN
+phosphatidylinositol-3,4,5-trisphosphate binding              & 387.10                      \\
+lipid binding                                                 & 367.29                      \\
+RNA binding                                                   & 316.90                      \\
+protein homodimerization activity                             & 309.12                      \\ % transcription factor repression?
+catalytic activity                                            & 263.32                      \\
+glutamate synthase (ferredoxin) activity                      & 254.70                      \\ % #EXPLAIN
+transporter activity                                          & 233.90                      \\ \bottomrule
+\end{tabular}
+\end{center}
+
+\caption[Cluster 6 top function GO terms]{\sf \textbf{Cluster 6 top function GO terms}}
+\label{tab:cls6-function}
+\end{table}

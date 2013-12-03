@@ -1,0 +1,55 @@
+% Booktabs require to add \usepackage{booktabs} to your document preamble
+\begin{table}[h]
+\begin{center} \sf
+\begin{tabular}{@{}lr@{}}
+\toprule
+\textbf{Name}                                                                                  & \textbf{Total Score (mean)} \\ \midrule
+translation initiation factor activity                                                         & 18796.17                    \\
+protein transporter activity                                                                   & 13663.10                    \\
+signal recognition particle binding                                                            & 9157.88                     \\
+endoplasmic reticulum signal peptide binding                                                   & 7943.20                     \\
+Rab GDP-dissociation inhibitor activity                                                        & 7361.38                     \\
+hydrolase activity, acting on acid anhydrides, catalyzing transmembrane movement of substances & 6647.91                     \\
+hydrogen ion transmembrane transporter activity                                                & 6278.87                     \\
+ferrochelatase activity                                                                        & 4990.12                     \\
+GTP binding                                                                                    & 4006.06                     \\
+enzyme binding                                                                                 & 3697.54                     \\
+saccharopine dehydrogenase (NAD+, L-glutamate-forming) activity                                & 3453.61                     \\
+zinc ion binding                                                                               & 3215.15                     \\
+glutamate-ammonia ligase activity                                                              & 2901.02                     \\
+RNA binding                                                                                    & 2799.62                     \\
+ATPase activity, coupled to transmembrane movement of substances                               & 2678.79                     \\
+pyridoxal phosphate binding                                                                    & 2586.25                     \\
+transporter activity                                                                           & 2044.78                     \\
+saccharopine dehydrogenase (NADP+, L-lysine-forming) activity                                  & 1890.88                     \\
+threonine-type endopeptidase activity                                                          & 1842.63                     \\
+GTPase activator activity                                                                      & 1780.38                     \\
+transaminase activity                                                                          & 1686.97                     \\
+aminopeptidase activity                                                                        & 1592.00                     \\
+endopeptidase activity                                                                         & 1546.38                     \\
+nucleoside-triphosphatase activity                                                             & 1372.39                     \\
+ATPase activity                                                                                & 1369.37                     \\
+hydrolase activity                                                                             & 1352.33                     \\
+lyase activity                                                                                 & 1299.81                     \\
+ubiquitin-protein ligase activity                                                              & 1261.81                     \\
+oxidoreductase activity                                                                        & 1237.14                     \\
+nucleotide binding                                                                             & 1166.69                     \\
+GTPase activity                                                                                & 1110.62                     \\
+protein binding                                                                                & 1013.21                     \\
+oligopeptide transporter activity                                                              & 927.01                      \\
+symporter activity                                                                             & 915.24                      \\
+ligase activity                                                                                & 870.70                      \\
+metallopeptidase activity                                                                      & 809.99                      \\
+metal ion binding                                                                              & 794.06                      \\
+peptidase activity                                                                             & 792.59                      \\
+proton-transporting ATPase activity, rotational mechanism                                      & 702.75                      \\
+ATP binding                                                                                    & 662.73                      \\
+catalytic activity                                                                             & 438.09                      \\
+transferase activity                                                                           & 319.82                      \\
+dipeptide transporter activity                                                                 & 217.58                      \\ \bottomrule
+\end{tabular}
+\end{center}
+
+\caption[Cluster 4 top function GO terms]{\sf \textbf{Cluster 4 top function GO terms}}
+\label{tab:cls4-function}
+\end{table}
