@@ -55,72 +55,101 @@ This indicates that on the whole, most of the 930 genes produced by the \gls{gFu
 
 %%%%%%%%%%%%%%%%%%%%%
 
-\input{figures/ecr_and_insects_23_clusters_ptci_0_95_orthodb7.tex}
-\input{figures/cluster4_AaAgCq}
-\input{figures/cluster6_AaAgCq}
-\input{figures/cluster16_AaAgCq}
-\input{figures/cluster22_AaAgCq}
-
 \subsection{K-means clustering}
 
-K-means clustering ($k=23$) was applied to the 310 genes from \Ag\ to attempt to partition the 3-way 1:1 ortholog sets based on \gls{mAP} similarity.
+K-means clustering ($k=23$) was applied to the 310 genes from \Ag\ to partition the 3-way 1:1 ortholog sets based on \gls{mAP} similarity.
 %
 \Ag\ was selected because it shares approximately equidistant evolutionary divergence to both other species.
 %
 Four of the resulting clusters were chosen for further characterization (Figure \ref{fig:23-clusters}: \textit{Cluster IDs 4, 6, 16, and 22}) because they have expression patterns that may be regulated by a noted pulse of \gls{20E} that occurs around 4h \gls{PBM}\footnote{See Section \ref{chap:3-sec:clustering-of-filtered-ortholog-sets} for more information.}.
 %
+\input{figures/ecr_and_insects_23_clusters_ptci_0_95_orthodb7.tex}
+
+\subsection{Cluster descriptions}
+
+Clusters 4, 6, 16, and 22 were chosen for further characterization because they demonstrated patterns of mRNA accumulation that change sharply between \gls{NBF} and 4h \gls{PBM}.
+%
+Clusters 4 and 6 maintain similar \gls{FPKM} values for the remaining time points and are referred to as ``up after 4h'' (Figure \ref{fig:cluster4}) and ``down after 4h'' (Figure \ref{fig:cluster6}) respectively.
+%
+Clusters 16 and 22 follow the change in \gls{FPKM} at 4h \gls{PBM} by gradually trending back towards the original level of accumulation and are referred to as ``down at 4h'' (Figure \ref{fig:cluster16}) and ``up at 4h'' (Figure \ref{fig:cluster22}) respectively.
+%
+The interest in changes that focus on 4h \gls{PBM} stems from the description of a small but reproducible pulse of \gls{20E} that coincides with many important events which signal the switch from a \gls{JH} dominated signaling environment to one influenced by the lack of \gls{JH} and presence of \gls{20E}\footnote{See Discussion (Section \ref{chap:4-sec:discussion}) for more details.}
+
+\paragraph*{Cluster-specific functional annotation results:}
+
+The cluster-specific functional annotation results included in the following sections represent the mean \gls{TS} for all occurrences of each term in the cluster-specific \gls{Argot2} results.
+%
+This provides an overview of which function and process gene ontology terms characterize the cluster as a whole as opposed to each individual gene.
+
+\subsubsection{Cluster 4 (up after 4h)}
+
+\paragraph*{General description:}
+
+Cluster 4 is characterized by genes that have a \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations below their mean and \gls{FPKM} values between 0 and 0.5 standard deviations above their mean for the remainder of the time course.
+%
+This \gls{mAP} illustrates a rapid and sustained increase in mRNA abundance putatively triggered by the bloodfeeding stimulus.
+%
 
 
-
-
+\paragraph*{Notable functional annotation terms:}
+\lipsum[2]
+\paragraph*{\glspl{mAP} between species:}
+\lipsum[3]
+\input{figures/cluster4_AaAgCq}
 % cls4
-\input{tables/clsXX_process.tex}
-Table \ref{tab:clsXX-process}
+\input{tables/cls4_process.tex}
+Table \ref{tab:cls4-process}
+\input{tables/cls4_function.tex}
+Table \ref{tab:cls4-function}
+% \input{tables/cls4_cellular.tex}
+% Table \ref{tab:cls4-cellular}
 
-\input{tables/clsXX_function.tex}
-Table \ref{tab:clsXX-function}
 
-\input{tables/clsXX_cellular.tex}
-Table \ref{tab:clsXX-cellular}
+\subsubsection{Cluster 6}
 
+This is data for Cluster 6.
+
+\input{figures/cluster6_AaAgCq}
 % cls6
-\input{tables/clsXX_process.tex}
-Table \ref{tab:clsXX-process}
+\input{tables/cls6_process.tex}
+Table \ref{tab:cls6-process}
+\input{tables/cls6_function.tex}
+Table \ref{tab:cls6-function}
+% \input{tables/cls6_cellular.tex}
+% Table \ref{tab:cls6-cellular}
 
-\input{tables/clsXX_function.tex}
-Table \ref{tab:clsXX-function}
+\subsubsection{Cluster 16}
 
-\input{tables/clsXX_cellular.tex}
-Table \ref{tab:clsXX-cellular}
+This is data for Cluster 16.
 
+\input{figures/cluster16_AaAgCq}
 % cls16
-\input{tables/clsXX_process.tex}
-Table \ref{tab:clsXX-process}
+\input{tables/cls16_process.tex}
+Table \ref{tab:cls16-process}
+\input{tables/cls16_function.tex}
+Table \ref{tab:cls16-function}
+% \input{tables/cls16_cellular.tex}
+% Table \ref{tab:cls16-cellular}
 
-\input{tables/clsXX_function.tex}
-Table \ref{tab:clsXX-function}
+\subsubsection{Cluster 22}
 
-\input{tables/clsXX_cellular.tex}
-Table \ref{tab:clsXX-cellular}
+This is data for Cluster 22.
 
+\input{figures/cluster22_AaAgCq}
 % cls22
-\input{tables/clsXX_process.tex}
-Table \ref{tab:clsXX-process}
-
-\input{tables/clsXX_function.tex}
-Table \ref{tab:clsXX-function}
-
-\input{tables/clsXX_cellular.tex}
-Table \ref{tab:clsXX-cellular}
-
-% 
-% \input{/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/pandas_out/process.tex}
-% Table \ref{tab:cluster7-P-mean-TS}
-% 
-% 
+\input{tables/cls22_process.tex}
+Table \ref{tab:cls22-process}
+\input{tables/cls22_function.tex}
+Table \ref{tab:cls22-function}
+% \input{tables/cls22_cellular.tex}
+% Table \ref{tab:cls22-cellular}
 
 
+\section{Discussion} \label{chap:4-sec:discussion}
 
+% \subsection{Bloodfeeding and the midgut}
+
+% \subsection{Heme biosynthetic process}
 
 %%% Local Variables: ***
 %%% mode: latex ***
