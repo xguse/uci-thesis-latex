@@ -82,6 +82,14 @@
 				"buffer_size": 10108,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "uci-manual/scrape_manual.py",
+			"settings":
+			{
+				"buffer_size": 649,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -550,7 +558,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -632,6 +640,32 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 6624.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "uci-manual/scrape_manual.py",
+					"settings":
+					{
+						"buffer_size": 649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
