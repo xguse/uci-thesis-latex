@@ -34,7 +34,7 @@
 \glossaryentryfield{CRM}{\glsnamefont{CRM}}{\textit {cis}-regulatory module}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{16\delimN 17}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{19}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{23}}}%
 \glossaryentryfield{CTM}{\glsnamefont{CTM}}{Chetumal}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{27\delimN 28}\delimN 
@@ -52,7 +52,8 @@
 \glossaryentryfield{DENVI}{\glsnamefont{DENVI}}{dengue virus infected}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{28\delimR 33}}}%
 \glossaryentryfield{dpi}{\glsnamefont{dpi}}{days post infection}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{26\delimR 34}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{26\delimR 30}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32\delimR 34}}}\glsgroupskip
 \glsgroupheading{E}\relax \glsresetentrylist %
 \glossaryentryfield{EIP}{\glsnamefont{EIP}}{extrinsic incubation period}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{26\delimN 27}}}\glsgroupskip
@@ -68,7 +69,7 @@
 		\setentrycounter[]{page}\glsnumberformat{85}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{90}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{94}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{130}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{119}}}\glsgroupskip
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossaryentryfield{gFunc}{\glsnamefont{gFunc}}{graph-based functional genomics framework}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{55}\delimN 
@@ -79,7 +80,7 @@
 \glsgroupheading{H}\relax \glsresetentrylist %
 \glossaryentryfield{HMM}{\glsnamefont{HMM}}{hidden Markov model}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{70}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{112}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{101}}}\glsgroupskip
 \glsgroupheading{J}\relax \glsresetentrylist %
 \glossaryentryfield{JH}{\glsnamefont{JH}}{juvenile hormone}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{71}\delimN 
@@ -145,7 +146,7 @@
 		\setentrycounter[]{page}\glsnumberformat{53}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{63}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{65\delimN 66}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{110}}}%
+		\setentrycounter[]{page}\glsnumberformat{99}}}%
 \glossaryentryfield{RNAi}{\glsnamefont{RNAi}}{RNA interference}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{22}}}%
 \glossaryentryfield{ROS}{\glsnamefont{ROS}}{reactive oxygen species}{\relax }{\glossaryentrynumbers{\relax 

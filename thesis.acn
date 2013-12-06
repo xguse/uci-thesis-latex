@@ -366,14 +366,12 @@
 \glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{80}
 \glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{80}
 \glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{80}
-\glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{80}
 \glossaryentry{mAP?\glossaryentryfield{mAP}{\glsnamefont{mAP}}{mRNA accumulation profile}{\relax }|setentrycounter[]{page}\glsnumberformat}{80}
 \glossaryentry{mAP?\glossaryentryfield{mAP}{\glsnamefont{mAP}}{mRNA accumulation profile}{\relax }|setentrycounter[]{page}\glsnumberformat}{81}
 \glossaryentry{Argot2?\glossaryentryfield{Argot2}{\glsnamefont{Argot2}}{Annotation Retrieval of Gene Ontology Terms (\url {http://www.medcomp.medicina.unipd.it/Argot2/})}{\relax }|setentrycounter[]{page}\glsnumberformat}{82}
 \glossaryentry{TS?\glossaryentryfield{TS}{\glsnamefont{TS}}{Total Score}{\relax }|setentrycounter[]{page}\glsnumberformat}{82}
 \glossaryentry{NBF?\glossaryentryfield{NBF}{\glsnamefont{NBF}}{non-bloodfed}{\relax }|setentrycounter[]{page}\glsnumberformat}{82}
 \glossaryentry{NBF?\glossaryentryfield{NBF}{\glsnamefont{NBF}}{non-bloodfed}{\relax }|setentrycounter[]{page}\glsnumberformat}{85}
-\glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{85}
 \glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{85}
 \glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{85}
 \glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{85}
@@ -404,6 +402,6 @@
 \glossaryentry{mAP?\glossaryentryfield{mAP}{\glsnamefont{mAP}}{mRNA accumulation profile}{\relax }|setentrycounter[]{page}\glsnumberformat}{94}
 \glossaryentry{mAP?\glossaryentryfield{mAP}{\glsnamefont{mAP}}{mRNA accumulation profile}{\relax }|setentrycounter[]{page}\glsnumberformat}{95}
 \glossaryentry{Argot2?\glossaryentryfield{Argot2}{\glsnamefont{Argot2}}{Annotation Retrieval of Gene Ontology Terms (\url {http://www.medcomp.medicina.unipd.it/Argot2/})}{\relax }|setentrycounter[]{page}\glsnumberformat}{97}
-\glossaryentry{RNA-Seq?\glossaryentryfield{RNA-Seq}{\glsnamefont{RNA-Seq}}{RNA sequencing}{\relax }|setentrycounter[]{page}\glsnumberformat}{111}
-\glossaryentry{HMM?\glossaryentryfield{HMM}{\glsnamefont{HMM}}{hidden Markov model}{\relax }|setentrycounter[]{page}\glsnumberformat}{113}
-\glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{131}
+\glossaryentry{RNA-Seq?\glossaryentryfield{RNA-Seq}{\glsnamefont{RNA-Seq}}{RNA sequencing}{\relax }|setentrycounter[]{page}\glsnumberformat}{112}
+\glossaryentry{HMM?\glossaryentryfield{HMM}{\glsnamefont{HMM}}{hidden Markov model}{\relax }|setentrycounter[]{page}\glsnumberformat}{114}
+\glossaryentry{FPKM?\glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }|setentrycounter[]{page}\glsnumberformat}{132}
