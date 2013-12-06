@@ -1,49 +1,297 @@
+
+
 \chapter{Results} \label{chap:4}
 
-\section{Preliminary data preparation}
+\section{Preliminary data preparation stage}
 
-\section{gFunc-based analysis}
+These results pertain to the first stage of the approach described in Chapter \ref{chap:3} (Figure \ref{fig:approach-chart}: \textit{salmon box}).
 
-\subsection{PTCI calculations}
+\section{gFunc-based analysis stage}
 
+
+
+
+These results pertain to the second stage of the approach described in Chapter \ref{chap:3} (Figure \ref{fig:approach-chart}: \textit{yellow box}).
+
+\paragraph*{Complementary sets of TFBS models:}
 \gls{PTCI} data was calculated using two complementary sets of \gls{TFBS} models.
-One 
-
-
+%
+One set focuses the \gls{PTCI} on genes that have been associated with \gls{20E} and its nuclear receptor (\PTCIe) (Figures \ref{fig:ecr-pair-ptci-hists} and \ref{fig:ecr-mean-ptci-hists}), and a second provides a general focus on \gls{TFBS} models provided by JASPAR that are defined in insects at large (\PTCIi) (Figures \ref{fig:insect-pair-ptci-hists} and \ref{fig:insect-mean-ptci-hists}).
+%
 \input{figures/ecr-pairwise-ptci-figs}
-EcR-pair (Figure \ref{fig:ecr-pair-ptci-hists})
-
 \input{figures/ecr-mean-ptci-figs}
-EcR-mean (Figure \ref{fig:ecr-mean-ptci-hists})
-
 \input{figures/insect-pairwise-ptci-figs}
-Insect-pair (Figure \ref{fig:insect-pair-ptci-hists})
-
 \input{figures/insect-mean-ptci-figs}
-Insect-mean (Figure \ref{fig:insect-mean-ptci-hists})
+%
+\FDR\ estimation was used to determine a suitable \PTCI\ value to use as a threshold for further investigating particular 3-way 1:1 ortholog sets.
+%
+It was determined that in both \gls{TFBS} model data-sets a mean \PTCI\ threshold of 0.95 yielded an \FDR\ of approximately 15\% and maximized the number of genes for further classification (Figures \ref{fig:ecr-mean-ptci-hists-fdr} and \ref{fig:insect-mean-ptci-hists-fdr}).
+%
+This threshold produced 666 and 708 genes in the \PTCIi\ and \PTCIe\ sets, respectively.
+%
+The union of these gene-sets was 930 genes or 310 genes from each species.
+%
+The intersection was 444 or an overlap of 66\% of the \PTCIi\ genes and 62.7\% of the \PTCIe\ genes.
+%
+The unique proportion contributed by each set are 33\% and 37.3\%, respectively.
 
+\paragraph*{Mean vs pairwise PTCI:}
+Comparing the \FDR\ values of the pairwise- and mean-\PTCI\ scores at the 0.95 threshold reveals the impact of considering information from all 3-way 1:1 orthologs simultaneously rather than species-pair by species-pair (Figures \ref{fig:ecr-pair-ptci-hists-fdr} vs \ref{fig:ecr-mean-ptci-hists-fdr} and Figures \ref{fig:insect-pair-ptci-hists-fdr} vs \ref{fig:insect-mean-ptci-hists-fdr}).
+%
+The quality, as judged by \FDR, is strikingly improved by including the relationships of all three species weighted by their pairwise evolutionary distance: an improvement of approximately 30 percentage points in both cases.
 
+\section{Characterization of results stage}
+These results pertain to the third stage of the approach described in Chapter \ref{chap:3} (Figure \ref{fig:approach-chart}: \textit{blue box}).
 
+\subsection{Functional annotations (before k-means clustering)}
 
-\section{Characterization of Results}
+Functional annotations were obtained for the 930 genes using \gls{Argot2} (Section \ref{chap:3-sec:characterization-of-results}).
+%
+%% How many of the 930 were assigned at least one annotation >= 200? --> 760 (Aa:253 ,Ag:254 , Cq:253 )
+%% How many genes got better than 2000? --> 452 (Aa: 154, Ag:153 , Cq:145 )
+Of these, 760 were assigned, by \gls{Argot2}, at least one annotation with a \gls{TS} greater than or equal to 200\footnote{This is the threshold that is suggested by the developers based on their in-house benchmarking \url{http://www.medcomp.medicina.unipd.it/Argot2/help/argot\_scores.php\#ts}} (\Aa: 253, \Ag: 254, \Cq: 253).
+%
+452 were assigned annotations with \glspl{TS} greater than or equal to 2000 (\Aa: 154, \Ag: 153, \Cq: 145).
+%
+This indicates that on the whole, most of the 930 genes produced by the \gls{gFunc} process were assigned annotations of a quality at least as stringent as used by the developers of \gls{Argot2}.
 
+%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{K-means clustering}
+
+K-means clustering ($k=23$) was applied to the 310 genes from \Ag\ to partition the 3-way 1:1 ortholog sets based on \gls{mAP} similarity.
+%
+\Ag\ was selected because it shares approximately equidistant evolutionary divergence to both other species.
+%
+Four of the resulting clusters were chosen for further characterization (Figure \ref{fig:23-clusters}: \textit{Cluster IDs 4, 6, 16, and 22}) because they have expression patterns that may be regulated by a noted pulse of \gls{20E} that occurs around 4h \gls{PBM}\footnote{See Section \ref{chap:3-sec:clustering-of-filtered-ortholog-sets} for more information.}.
+%
 \input{figures/ecr_and_insects_23_clusters_ptci_0_95_orthodb7.tex}
-Figure \ref{fig:23-clusters}
 
-% \input{figures/cluster6_AaAgCq}
-% Figure \ref{fig:cluster6}
-% 
-% \input{figures/cluster7_AaAgCq}
-% Figure \ref{fig:cluster7}
-% 
-% \input{/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/pandas_out/process.tex}
-% Table \ref{tab:cluster7-P-mean-TS}
-% 
-% 
-% \input{figures/cluster19_AaAgCq}
-% Figure \ref{fig:cluster19}
+\subsection{Highlighted clusters}
+
+Clusters 4, 6, 16, and 22 were chosen for further characterization because they demonstrated patterns of mRNA accumulation that change sharply between \gls{NBF} and 4h \gls{PBM}.
+%
+Clusters 4 and 6 maintain similar \gls{FPKM} values for the remaining time points and are referred to as ``up after 4h'' (Figure \ref{fig:cluster4}) and ``down after 4h'' (Figure \ref{fig:cluster6}) respectively.
+%
+Clusters 16 and 22 follow the change in \gls{FPKM} at 4h \gls{PBM} by gradually trending back towards the original level of accumulation and are referred to as ``down at 4h'' (Figure \ref{fig:cluster16}) and ``up at 4h'' (Figure \ref{fig:cluster22}) respectively.
+%
+The interest in changes that focus on 4h \gls{PBM} stems from the description of a small but reproducible pulse of \gls{20E} that coincides with many important events which signal the switch from a \gls{JH} dominated signaling environment to one influenced by the lack of \gls{JH} and presence of \gls{20E}\footnote{See Discussion (Section \ref{chap:4-sec:discussion}) for more details.}
+
+The cluster-specific functional annotation results included in the following sections represent the mean \gls{TS} for all occurrences of each term in the cluster-specific \gls{Argot2} results.
+%
+This provides an overview of which function and process gene ontology terms characterize the cluster as a whole as opposed to each individual gene.
+
+\subsubsection{Cluster 4 (up after 4h)}
+
+\paragraph*{General description:}
+
+Cluster 4 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{below} their overall mean \gls{FPKM} \gls{FPKM} and median \gls{FPKM} values between 0 and 0.5 standard deviations \textit{above} their overall mean \gls{FPKM} for the remainder of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster4}).
+%
+This \gls{mAP} illustrates a rapid and sustained increase in mRNA abundance putatively triggered by the bloodfeeding stimulus.
+%
+\input{figures/cluster4_AaAgCq}
+
+\paragraph*{Functional annotations of cluster 4:}
+
+% upregulation of translation/TOR
+%	peptide quality control 
+% active secretory pathways in both directions
+% Metabolic activities
+
+% Heme management
+% midgut repair
+
+The three main themes present in the \gls{Argot2} functional annotation terms for this cluster can be described as translation, secretory processes, and peptide metabolic activities.
+%
+Other supported activities include heme management and midgut repair (Tables \ref{tab:cls4-process} and \ref{tab:cls4-function}).
+\input{tables/cls4_process.tex}
+\input{tables/cls4_function.tex}
+
+Representative terms from the ``process'' ontology domain that directly pertain to translation include (trailing parenthetical represents the mean \gls{TS}) SRP-dependent cotranslational protein targeting to membrane  (13254.87), regulation of translational initiation (4594.46), formation of translation preinitiation complex (4524.89), translational initiation (4288.82), and translation (3777.61).
+%
+In addition, other process-terms include activities expected to be up-regulated when translation is increasing include proteasome assembly (3326.44), ubiquitin-dependent protein catabolic process (1963.42), and protein ubiquitination (1073.12).
+%
+Similarly, the ``function'' ontology domain terms related to translation include translation initiation factor activity (18796.17), RNA binding (2799.62), transaminase activity (1686.97), and transferase activity (319.82).
+
+Both process and function domain terms suggest an increase in secretory activity as well (anterograde and retrograde directions).
+%
+Process terms include Golgi organization (7289.78), ER to Golgi vesicle-mediated transport (5914.05), retrograde vesicle-mediated transport, Golgi to ER (2202.55), and vesicle fusion with Golgi apparatus (2141.47).
+%
+Complementary function terms are signal recognition particle binding (9157.88) and endoplasmic reticulum signal peptide binding (7943.20).
+
+A major difference between the nutrients available to female mosquitoes when bloodfeeding versus sugarfeeding (\gls{NBF} sample) is the abundance of protein.
+%
+The increase in transcription of genes that encode products related to metabolizing peptides is evident in these data as well.
+%
+For example, proteolysis (2453.58), proteolysis involved in cellular protein catabolic process (1972.16), L-lysine catabolic process (417.84), lysine catabolic process (414.33), and L-cysteine catabolic process (378.10) are represented in the process domain terms, while threonine-type endopeptidase activity (1842.63), aminopeptidase activity (1592.00), endopeptidase activity (1546.38), and peptidase activity (792.59) are examples from the function domain.
+
+Other notable sets of functional annotations for cluster 4 include a set that involves heme management (heme biosynthetic process [5069.12], porphyrin-containing compound biosynthetic process [3077.12], and ferrochelatase activity [4990.12]) and a set that may be involved in cellular repair of the midgut (cell-cell adhesion [1774.89], autophagy [447.12], and cell differentiation [279.02]).
 
 
+% \paragraph*{\glspl{mAP} between species:}
+% \lipsum[3]
+
+
+
+
+
+\subsubsection{Cluster 6 (down after 4h)}
+
+\paragraph*{General description:}
+
+Cluster 6 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{above} their overall mean \gls{FPKM} \gls{FPKM} and median \gls{FPKM} values of approximately 0.5 standard deviations \textit{below} their overall mean \gls{FPKM} for the remainder of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster6}).
+%
+This \gls{mAP} illustrates a rapid and sustained decrease in mRNA abundance following bloodfeeding.
+%
+\input{figures/cluster6_AaAgCq}
+
+
+\paragraph*{Functional annotations of cluster 6:}
+
+% downregulation of transcription factors
+% translation elongation
+% signaling
+% Heme management
+
+
+% transcription factors
+%	X AGAP002238:AAEL010222CPIJ008350 {GATA-type}
+%	x AAEL009171:CPIJ001396:AGAP003726 {ortholog to Dmel bZIP family. CREBRF subfamily}
+%	x CPIJ004057:AAEL009114:AGAP004050 {Doublesex}
+%	x CPIJ014945:AAEL002062:AGAP005661 {Ftz-f1}
+%	x AAEL001361:AGAP006990:CPIJ002241 {Bap 170 }
+%	x CPIJ005607:AAEL005452:AGAP010201 {ortholog to Dmel crp}
+
+
+Possible themes regarding the functional annotation terms for cluster 6 are down-regulation of certain transcription factors, signaling molecules, and heme management (Tables \ref{tab:cls6-process} and \ref{tab:cls6-function}).
+\input{tables/cls6_process.tex}
+\input{tables/cls6_function.tex}
+
+
+At least six 3-way 1:1 ortholog sets in this cluster are likely transcription factors (Table \ref{tab:TFs-in-cls6}).
+\input{tables/TFs-in-cls6.tex}
+%
+Five have putative identities based on orthology to \Dm\ or have been given the names in at least one of the mosquito genome projects on VectorBase.
+%
+The are a GATA-factor member, doublesex, Ftz-F1, Bap 170, and crp.
+%
+The last, which exists only as accession numbers in all species including \Dm, is predicted to be a basic leucine zipper transcription factor.
+
+Process terms relating to signaling activities include (trailing parenthetical represents the mean \gls{TS}) regulation of cyclin-dependent protein serine/threonine kinase activity (950.21), steroid hormone mediated signaling pathway (779.04), Wnt receptor signaling pathway (330.08), protein phosphorylation (263.56), and synapse assembly (222.33).
+%
+Relevant function terms are steroid hormone receptor activity (2322.77), protein kinase binding (2059.25), sequence-specific DNA binding (1999.76), integrin binding (1003.53), JUN kinase binding (392.02), and phosphatidylinositol-3,4,5-trisphosphate binding (387.10).
+
+Another notable set of annotation terms concerns heme management.
+%
+They are heme biosynthetic process (2615.06), protoporphyrinogen IX biosynthetic process (769.19), tetrapyrrole biosynthetic process (607.64), and pyridoxal phosphate binding (2871.76).
+%
+They all originate from the same ortholog-set (AAEL007787, AGAP003184, CPIJ007746), which are aminolevulinate synthases.
+%
+Aminolevulinate synthase catalyzes D-Aminolevulinic acid which is the first precursor in the pathway to produce heme.
+
+
+
+
+
+
+
+
+\subsubsection{Cluster 16 (down at 4h)}
+
+\paragraph*{General description:}
+
+Cluster 16 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{above} their overall mean \gls{FPKM} and a 4h \gls{PBM} median \gls{FPKM} value of between 0.5 and 1 standard deviations \textit{below} their overall mean \gls{FPKM}. The median \gls{FPKM} values for the remaining time points then gradually approach the overall mean \gls{FPKM} by the end of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster16}).
+%
+This \gls{mAP} illustrates a rapid and substantial but temporary decrease in mRNA abundance following bloodfeeding.
+%
+\input{figures/cluster16_AaAgCq}
+
+
+\paragraph*{Functional annotations of cluster 16:}
+
+% Downreulation of carbohydrate metabolism
+% downregulation of autophagy/apoptotic process (yippee)/cellular arrest
+% dwnreg of translation-repression
+%   AAEL002550	 AGAP001639	 CPIJ002368 from OrthoDB
+
+Cluster 16 contains genes with annotations that largely fit into the areas of carbohydrate digestion, cellular arrest, and repression of translation (Tables \ref{tab:cls16-process} and \ref{tab:cls16-process}).
+%
+Terms relating to carbohydrate digestion are carbohydrate metabolic process (4077.43), maltose alpha-glucosidase activity (378.58), hydrolase activity (366.71), and alpha-glucosidase activity (285.38).
+
+Cellular arrest terms assigned by \gls{Argot2} include autophagy (686.01) and apoptotic process (670.22).
+%
+However, two ortholog-sets produced errors during the process that parsed the \gls{Argot2} results and others returned no process or fun.
+%
+Using OrthoDB to examine annotation terms assigned to these ortholog-sets with the OrthoDB ``metazoa'' ortholog database yielded notable terms.
+%
+
+
+
+
+\input{tables/cls16_process.tex}
+\input{tables/cls16_function.tex}
+
+
+\subsubsection{Cluster 22 (up at 4h)}
+
+\paragraph*{General description:}
+
+Cluster 22 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of between 0 and 0.5 standard deviations \textit{below} their overall mean \gls{FPKM} and a 4h \gls{PBM} median \gls{FPKM} value of approximately 1.5 standard deviations \textit{above} their overall mean \gls{FPKM}. The median \gls{FPKM} values for the remaining time points then gradually approach approximately 1 standard deviations \textit{below} the overall mean \gls{FPKM} by the end of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster22}).
+%
+This \gls{mAP} illustrates a rapid and substantial but temporary increase in mRNA abundance following bloodfeeding.
+%
+\input{figures/cluster22_AaAgCq}
+
+
+\paragraph*{Functional annotations of cluster 22:}
+
+% protein folding / translation
+% membrane transport
+% chromatin reoganization / link to 20E signaling pathway
+
+% ## not found in func annotation mean tables ## AAEL011240	 AGAP006534	 CPIJ002990  --> ortholog to Dmel putzig (ptz)  annotated as described with: positive regulation of Notch signaling pathway; negative regulation of JAK-STAT cascade; chromosome organization; ecdysone receptor-mediated signaling pathway; cell cycle; neurogenesis; chromatin organization.
+
+
+% transcription factors
+%	AAEL011240, AGAP006534, CPIJ002990 {ortholog to Dmel putzig (ptz)}
+%	AAEL002795, AGAP003943, CPIJ004011 {Rfx transcription factor}
+
+
+Cluster 2 has the fewest members of ortholog-sets of the four clusters described here (7 members per species).
+%
+The putative functions in this cluster can be associated with protein translation and protein folding and transcription regulation and chromatin reorganization (Tables \ref{tab:cls22-process} and \ref{tab:cls22-function}).
+%
+Terms associated with protein translation and folding include translation initiation factor activity (20221.31), unfolded protein binding (7160.14), lysyl-tRNA aminoacylation (5305.2), regulation of translational initiation (5198.1), protein folding (5145.4), translation (3885.2), tRNA aminoacylation for protein translation (3277.1), translational initiation (3268.5), cellular protein metabolic process (2591.6), formation of translation preinitiation complex (1607.7), and tRNA processing (223.64).
+
+\input{tables/cls22_process.tex}
+\input{tables/cls22_function.tex}
+
+Two ortholog-sets are annotated as transcription factors (AAEL011240, AGAP006534, CPIJ002990: orthologs to \Dm\ putzig; and AAEL002795, AGAP003943, CPIJ004011: Rfx transcription factors).
+%
+FlyBase has annotated putzig with the following terms in \Dm\, positive regulation of Notch signaling pathway; negative regulation of JAK-STAT cascade; chromosome organization; ecdysone receptor-mediated signaling pathway; cell cycle; neurogenesis; chromatin organization \cite{Marygold2013}.
+%
+The Rfx transcription factors were assigned regulation of insulin secretion (709.97) and endocrine pancreas development (296.05) by \gls{Argot2}.
+%
+OrthoDB corroborates these annotations, but only when vertebrate genomes are included in the data-set.
+
+Membrane transport and signaling terms are also present.
+%
+They are arsenite transmembrane transporter activity (1600.53), transporter activity (400.96), transmembrane transport (2120.5), signal transduction (853.12), negative regulation of BMP signaling pathway (526.20), regulation of cell cycle (470.82), and transport (288.59).
+
+
+
+
+
+
+
+
+\section{Discussion} \label{chap:4-sec:discussion}
+
+% interpretation of Argot2 results (insulin/pancreas dev came from vertebrate matches and require a degree of interpretation)
+
+% \subsection{Bloodfeeding and the midgut}
+
+% \subsection{Heme biosynthetic process}
 
 %%% Local Variables: ***
 %%% mode: latex ***
