@@ -1,16 +1,16 @@
 % Booktabs require to add \usepackage{booktabs} to your document preamble
-\begin{table}[h]
+\begin{table}[hp]
 \begin{center} \sf
-\begin{tabular}{@{}lr@{}}
+\begin{tabular}{p{.7\textwidth}r}
 \toprule
 \textbf{Name}                                                 & \textbf{Total Score (mean)} \\ \midrule
 protein transporter activity                                  & 9225.37                     \\
-translation elongation factor activity                        & 4478.17                     \\ % #EXPLAIN
+translation elongation factor activity                        & 4478.17                     \\ % #EXPLAIN (elongation factor 2)
 GTPase activity                                               & 4364.13                     \\
 GTP binding                                                   & 3823.91                     \\
 phospholipid binding                                          & 3341.66                     \\
 pyridoxal phosphate binding                                   & 2871.76                     \\
-steroid hormone receptor activity                             & 2322.77                     \\ % which gene(s) is this?
+steroid hormone receptor activity                             & 2322.77                     \\ % which gene(s) is this? (AGAP005661:AAEL002062:CPIJ014945 Ftz transcription factor)
 protein kinase binding                                        & 2059.25                     \\
 sequence-specific DNA binding                                 & 1999.76                     \\ % transcription factor repression?
 protein N-terminus binding                                    & 1781.39                     \\
@@ -19,12 +19,12 @@ transferase activity, transferring acyl groups                & 1047.27         
 integrin binding                                              & 1003.53                     \\
 protein domain specific binding                               & 995.27                      \\
 DNA binding                                                   & 910.28                      \\ % transcription factor repression?
-ATP-dependent helicase activity                               & 877.71                      \\
+ATP-dependent helicase activity                               & 877.71                      \\ % #EXPLAIN {orthodb7: ATP-dependent RNA helicase}
 carboxylesterase activity                                     & 828.49                      \\
 sequence-specific DNA binding transcription factor activity   & 796.99                      \\ % transcription factor repression?
 nucleotide binding                                            & 772.48                      \\ % transcription factor repression?
 hydrolase activity                                            & 766.78                      \\
-helicase activity                                             & 737.95                      \\ % #EXPLAIN
+helicase activity                                             & 737.95                      \\ % #EXPLAIN {orthodb7: ATP-dependent RNA helicase}
 ATP binding                                                   & 700.66                      \\
 glutamate synthase activity                                   & 578.54                      \\
 zinc ion binding                                              & 578.26                      \\ % transcription factor repression?

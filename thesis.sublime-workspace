@@ -90,6 +90,15 @@
 				"buffer_size": 649,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"contents": "AAEL010222\nAGAP002238\nCPIJ008350\nAGAP004050\nAAEL009114\nCPIJ004057\nAGAP005661\nAAEL002062\nCPIJ014945\nAAEL009171\nAGAP003726\nCPIJ001396\nAAEL001361\nAGAP006990\nCPIJ002241\nAAEL005452\nAGAP010201\nCPIJ005607",
+			"settings":
+			{
+				"buffer_size": 197,
+				"line_ending": "Unix",
+				"name": "AAEL010222"
+			}
 		}
 	],
 	"build_system": "",
@@ -285,6 +294,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			", ",
 			"cls22",
 			"cluster_name = 'downAfter4'\ncluster_id = 6",
 			">",
@@ -411,8 +421,7 @@
 			"[20]",
 			"[19]",
 			"[18]",
-			"[17]",
-			"[16]"
+			"[17]"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -420,6 +429,8 @@
 		"regex": true,
 		"replace_history":
 		[
+			"\\n",
+			"\\t",
 			"clsALL",
 			".\\n\n\n\\n",
 			"\n\n\\n",
@@ -545,9 +556,7 @@
 			" \\Aa\\ ",
 			"\\Aa\\",
 			"\\glspl{CRE} ",
-			"\\gls{CRE} ",
-			"\\gls{CRM} ",
-			"\\glspl{CRM}"
+			"\\gls{CRE} "
 		],
 		"reverse": false,
 		"show_context": true,
@@ -558,7 +567,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -656,13 +665,39 @@
 						"selection":
 						[
 							[
-								416,
-								482
+								649,
+								649
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "AAEL010222",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -729,6 +764,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 471.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true
 }

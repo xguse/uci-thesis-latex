@@ -1,0 +1,27 @@
+% Booktabs require to add \usepackage{booktabs} to your document preamble
+\begin{table}[hp]
+\begin{center} \sf
+\begin{tabular}{p{.7\textwidth}r}
+\toprule
+\textbf{Name}                                 & \textbf{Total Score (mean)} \\ \midrule
+one-carbon metabolic process                  & 8498.68                     \\
+carbohydrate metabolic process                & 4077.43                     \\ % amalase
+translation                                   & 3505.77                     \\
+regulation of Rho protein signal transduction & 1336.90                     \\
+homophilic cell adhesion                      & 1316.75                     \\
+cell adhesion                                 & 851.76                      \\
+autophagy                                     & 686.01                      \\ % APG8 autophagy related gene
+apoptotic process                             & 670.22                      \\
+regulation of myelination                     & 618.20                      \\
+protein phosphorylation                       & 542.93                      \\
+phosphorylation                               & 395.02                      \\
+metabolic process                             & 286.58                      \\
+protein transport                             & 262.15                      \\
+protein ubiquitination                        & 242.49                      \\
+intracellular signal transduction             & 212.22                      \\ \bottomrule
+\end{tabular}
+\end{center}
+
+\caption[Cluster 16 top process GO terms]{\sf \textbf{Cluster 16 top process GO terms}}
+\label{tab:cls16-process}
+\end{table}

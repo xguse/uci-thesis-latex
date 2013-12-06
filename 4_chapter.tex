@@ -85,7 +85,7 @@ This provides an overview of which function and process gene ontology terms char
 
 \paragraph*{General description:}
 
-Cluster 4 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations below their mean and media\gls{FPKM} values between 0 and 0.5 standard deviations above their mean for the remainder of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster4}).
+Cluster 4 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{below} their overall mean \gls{FPKM} \gls{FPKM} and median \gls{FPKM} values between 0 and 0.5 standard deviations \textit{above} their overall mean \gls{FPKM} for the remainder of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster4}).
 %
 This \gls{mAP} illustrates a rapid and sustained increase in mRNA abundance putatively triggered by the bloodfeeding stimulus.
 %
@@ -135,25 +135,85 @@ Other notable sets of functional annotations for cluster 4 include a set that in
 
 
 
-\subsubsection{Cluster 6}
+\subsubsection{Cluster 6 (down after 4h)}
 
-This is data for Cluster 6.
+\paragraph*{General description:}
 
+Cluster 6 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{above} their overall mean \gls{FPKM} \gls{FPKM} and median \gls{FPKM} values of approximately 0.5 standard deviations \textit{below} their overall mean \gls{FPKM} for the remainder of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster6}).
+%
+This \gls{mAP} illustrates a rapid and sustained decrease in mRNA abundance following bloodfeeding.
+%
 \input{figures/cluster6_AaAgCq}
-% cls6
+
+
+\paragraph*{Functional annotations of cluster 6:}
+
+% downregulation of transcription factors
+% translation elongation
+% signaling
+% Heme management
+
+
+% transcription factors
+%	X AGAP002238:AAEL010222CPIJ008350 {GATA-type}
+%	x AAEL009171:CPIJ001396:AGAP003726 {ortholog to Dmel bZIP family. CREBRF subfamily}
+%	x CPIJ004057:AAEL009114:AGAP004050 {Doublesex}
+%	x CPIJ014945:AAEL002062:AGAP005661 {Ftz-f1}
+%	x AAEL001361:AGAP006990:CPIJ002241 {Bap 170 }
+%	x CPIJ005607:AAEL005452:AGAP010201 {ortholog to Dmel crp}
+
+
+Possible themes regarding the functional annotation terms for cluster 6 are down-regulation of certain transcription factors, signaling molecules, and heme management (Tables \ref{tab:cls6-process} and \ref{tab:cls6-function}).
 \input{tables/cls6_process.tex}
-Table \ref{tab:cls6-process}
 \input{tables/cls6_function.tex}
-Table \ref{tab:cls6-function}
-% \input{tables/cls6_cellular.tex}
-% Table \ref{tab:cls6-cellular}
 
-\subsubsection{Cluster 16}
 
-This is data for Cluster 16.
+At least six 3-way 1:1 ortholog sets in this cluster are likely transcription factors (Table \ref{tab:TFs-in-cls6}).
+\input{tables/TFs-in-cls6.tex}
+%
+Five have putative identities based on orthology to \Dm\ or have been given the names in at least one of the mosquito genome projects on VectorBase.
+%
+The are a GATA-factor member, doublesex, Ftz-F1, Bap 170, and crp.
+%
+The last, which exists only as accession numbers in all species including \Dm, is predicted to be a basic leucine zipper transcription factor.
 
+Process terms relating to signaling activities include (trailing parenthetical represents the mean \gls{TS}) regulation of cyclin-dependent protein serine/threonine kinase activity (950.21), steroid hormone mediated signaling pathway (779.04), Wnt receptor signaling pathway (330.08), protein phosphorylation (263.56), and synapse assembly (222.33).
+%
+Relevant function terms are steroid hormone receptor activity (2322.77), protein kinase binding (2059.25), sequence-specific DNA binding (1999.76), integrin binding (1003.53), JUN kinase binding (392.02), and phosphatidylinositol-3,4,5-trisphosphate binding (387.10).
+
+Another notable set of annotation terms concerns heme management.
+%
+They are heme biosynthetic process (2615.06), protoporphyrinogen IX biosynthetic process (769.19), tetrapyrrole biosynthetic process (607.64), and pyridoxal phosphate binding (2871.76).
+%
+They all originate from the same ortholog-set (AAEL007787, AGAP003184, CPIJ007746), which are aminolevulinate synthases.
+%
+Aminolevulinate synthase catalyzes D-Aminolevulinic acid which is the first precursor in the pathway to produce heme.
+
+
+
+
+
+
+
+
+\subsubsection{Cluster 16 (down at 4h)}
+
+\paragraph*{General description:}
+
+Cluster 16 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{above} their overall mean \gls{FPKM} and a 4h \gls{PBM} median \gls{FPKM} value of between 0.5 and 1 standard deviations \textit{below} their overall mean \gls{FPKM}. The median \gls{FPKM} values for the remaining time points then gradually approach the overall mean \gls{FPKM} by the end of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster16}).
+%
+This \gls{mAP} illustrates a rapid and substantial but temporary decrease in mRNA abundance following bloodfeeding.
+%
 \input{figures/cluster16_AaAgCq}
-% cls16
+
+
+\paragraph*{Functional annotations of cluster 16:}
+
+% Downreulation of carbohydrate metabolism
+% downregulation of autophagy
+
+
+
 \input{tables/cls16_process.tex}
 Table \ref{tab:cls16-process}
 \input{tables/cls16_function.tex}
@@ -161,21 +221,62 @@ Table \ref{tab:cls16-function}
 % \input{tables/cls16_cellular.tex}
 % Table \ref{tab:cls16-cellular}
 
-\subsubsection{Cluster 22}
+\subsubsection{Cluster 22 (up at 4h)}
 
-This is data for Cluster 22.
+\paragraph*{General description:}
 
+Cluster 22 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of between 0 and 0.5 standard deviations \textit{below} their overall mean \gls{FPKM} and a 4h \gls{PBM} median \gls{FPKM} value of approximately 1.5 standard deviations \textit{above} their overall mean \gls{FPKM}. The median \gls{FPKM} values for the remaining time points then gradually approach approximately 1 standard deviations \textit{below} the overall mean \gls{FPKM} by the end of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster22}).
+%
+This \gls{mAP} illustrates a rapid and substantial but temporary increase in mRNA abundance following bloodfeeding.
+%
 \input{figures/cluster22_AaAgCq}
-% cls22
+
+
+\paragraph*{Functional annotations of cluster 22:}
+
+% protein folding / translation
+% membrane transport
+% chromatin reoganization / link to 20E signaling pathway
+
+% ## not found in func annotation mean tables ## AAEL011240	 AGAP006534	 CPIJ002990  --> ortholog to Dmel putzig (ptz)  annotated as described with: positive regulation of Notch signaling pathway; negative regulation of JAK-STAT cascade; chromosome organization; ecdysone receptor-mediated signaling pathway; cell cycle; neurogenesis; chromatin organization.
+
+
+% transcription factors
+%	AAEL011240, AGAP006534, CPIJ002990 {ortholog to Dmel putzig (ptz)}
+%	AAEL002795, AGAP003943, CPIJ004011 {Rfx transcription factor}
+
+
+Cluster 2 has the fewest members of ortholog-sets of the four clusters described here (7 members per species).
+%
+The putative functions in this cluster can be associated with protein translation and protein folding and transcription regulation and chromatin reorganization (Tables \ref{tab:cls22-process} and \ref{tab:cls22-function}).
+%
+Terms associated with protein translation and folding include translation initiation factor activity (20221.31), unfolded protein binding (7160.14), lysyl-tRNA aminoacylation (5305.2), regulation of translational initiation (5198.1), protein folding (5145.4), translation (3885.2), tRNA aminoacylation for protein translation (3277.1), translational initiation (3268.5), cellular protein metabolic process (2591.6), formation of translation preinitiation complex (1607.7), and tRNA processing (223.64).
+
 \input{tables/cls22_process.tex}
-Table \ref{tab:cls22-process}
 \input{tables/cls22_function.tex}
-Table \ref{tab:cls22-function}
-% \input{tables/cls22_cellular.tex}
-% Table \ref{tab:cls22-cellular}
+
+Two ortholog-sets are annotated as transcription factors (AAEL011240, AGAP006534, CPIJ002990: orthologs to \Dm\ putzig; and AAEL002795, AGAP003943, CPIJ004011: Rfx transcription factors).
+%
+FlyBase has annotated putzig with the following terms in \Dm\, positive regulation of Notch signaling pathway; negative regulation of JAK-STAT cascade; chromosome organization; ecdysone receptor-mediated signaling pathway; cell cycle; neurogenesis; chromatin organization \cite{Marygold2013}.
+%
+The Rfx transcription factors were assigned regulation of insulin secretion (709.97) and endocrine pancreas development (296.05) by \gls{Argot2}.
+%
+OrthoDB corroborates these annotations, but only when vertebrate genomes are included in the data-set.
+
+Membrane transport and signaling terms are also present.
+%
+They are arsenite transmembrane transporter activity (1600.53), transporter activity (400.96), transmembrane transport (2120.5), signal transduction (853.12), negative regulation of BMP signaling pathway (526.20), regulation of cell cycle (470.82), and transport (288.59).
+
+
+
+
+
+
 
 
 \section{Discussion} \label{chap:4-sec:discussion}
+
+% interpretation of Argot2 results (insulin/pancreas dev came from vertebrate matches and require a degree of interpretation)
 
 % \subsection{Bloodfeeding and the midgut}
 
