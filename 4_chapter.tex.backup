@@ -210,16 +210,27 @@ This \gls{mAP} illustrates a rapid and substantial but temporary decrease in mRN
 \paragraph*{Functional annotations of cluster 16:}
 
 % Downreulation of carbohydrate metabolism
-% downregulation of autophagy
+% downregulation of autophagy/apoptotic process (yippee)/cellular arrest
+% dwnreg of translation-repression
+%   AAEL002550	 AGAP001639	 CPIJ002368 from OrthoDB
+
+Cluster 16 contains genes with annotations that largely fit into the areas of carbohydrate digestion, cellular arrest, and repression of translation (Tables \ref{tab:cls16-process} and \ref{tab:cls16-process}).
+%
+Terms relating to carbohydrate digestion are carbohydrate metabolic process (4077.43), maltose alpha-glucosidase activity (378.58), hydrolase activity (366.71), and alpha-glucosidase activity (285.38).
+
+Cellular arrest terms assigned by \gls{Argot2} include autophagy (686.01) and apoptotic process (670.22).
+%
+However, two ortholog-sets produced errors during the process that parsed the \gls{Argot2} results and others returned no process or fun.
+%
+Using OrthoDB to examine annotation terms assigned to these ortholog-sets with the OrthoDB ``metazoa'' ortholog database yielded notable terms.
+%
+
 
 
 
 \input{tables/cls16_process.tex}
-Table \ref{tab:cls16-process}
 \input{tables/cls16_function.tex}
-Table \ref{tab:cls16-function}
-% \input{tables/cls16_cellular.tex}
-% Table \ref{tab:cls16-cellular}
+
 
 \subsubsection{Cluster 22 (up at 4h)}
 
@@ -248,15 +259,20 @@ This \gls{mAP} illustrates a rapid and substantial but temporary increase in mRN
 
 Cluster 2 has the fewest members of ortholog-sets of the four clusters described here (7 members per species).
 %
-The putative functions in this cluster can be associated with protein translation and protein folding and transcription regulation and chromatin reorganization.
+The putative functions in this cluster can be associated with protein translation and protein folding and transcription regulation and chromatin reorganization (Tables \ref{tab:cls22-process} and \ref{tab:cls22-function}).
 %
 Terms associated with protein translation and folding include translation initiation factor activity (20221.31), unfolded protein binding (7160.14), lysyl-tRNA aminoacylation (5305.2), regulation of translational initiation (5198.1), protein folding (5145.4), translation (3885.2), tRNA aminoacylation for protein translation (3277.1), translational initiation (3268.5), cellular protein metabolic process (2591.6), formation of translation preinitiation complex (1607.7), and tRNA processing (223.64).
+
+\input{tables/cls22_process.tex}
+\input{tables/cls22_function.tex}
 
 Two ortholog-sets are annotated as transcription factors (AAEL011240, AGAP006534, CPIJ002990: orthologs to \Dm\ putzig; and AAEL002795, AGAP003943, CPIJ004011: Rfx transcription factors).
 %
 FlyBase has annotated putzig with the following terms in \Dm\, positive regulation of Notch signaling pathway; negative regulation of JAK-STAT cascade; chromosome organization; ecdysone receptor-mediated signaling pathway; cell cycle; neurogenesis; chromatin organization \cite{Marygold2013}.
 %
-
+The Rfx transcription factors were assigned regulation of insulin secretion (709.97) and endocrine pancreas development (296.05) by \gls{Argot2}.
+%
+OrthoDB corroborates these annotations, but only when vertebrate genomes are included in the data-set.
 
 Membrane transport and signaling terms are also present.
 %
@@ -265,16 +281,13 @@ They are arsenite transmembrane transporter activity (1600.53), transporter acti
 
 
 
-\input{tables/cls22_process.tex}
-% Table \ref{tab:cls22-process}
-\input{tables/cls22_function.tex}
-% Table \ref{tab:cls22-function}
+
 
 
 
 \section{Discussion} \label{chap:4-sec:discussion}
 
-% interpretation of Argot2 results (insulin/pancreas dev came from vertabrate )
+% interpretation of Argot2 results (insulin/pancreas dev came from vertebrate matches and require a degree of interpretation)
 
 % \subsection{Bloodfeeding and the midgut}
 

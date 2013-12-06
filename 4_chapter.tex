@@ -1,15 +1,12 @@
 
 
-\chapter{Results} \label{chap:4}
+\chapter{Results and Discussion} \label{chap:4}
 
-\section{Preliminary data preparation stage}
-
-These results pertain to the first stage of the approach described in Chapter \ref{chap:3} (Figure \ref{fig:approach-chart}: \textit{salmon box}).
+% \section{Preliminary data preparation stage}
+% 
+% These results pertain to the first stage of the approach described in Chapter \ref{chap:3} (Figure \ref{fig:approach-chart}: \textit{salmon box}).
 
 \section{gFunc-based analysis stage}
-
-
-
 
 These results pertain to the second stage of the approach described in Chapter \ref{chap:3} (Figure \ref{fig:approach-chart}: \textit{yellow box}).
 
@@ -210,16 +207,29 @@ This \gls{mAP} illustrates a rapid and substantial but temporary decrease in mRN
 \paragraph*{Functional annotations of cluster 16:}
 
 % Downreulation of carbohydrate metabolism
-% downregulation of autophagy
+% downregulation of autophagy/apoptotic process (yippee)/cellular arrest
+% dwnreg of translation-repression
+%   AAEL002550	 AGAP001639	 CPIJ002368 from OrthoDB
+
+Cluster 16 contains genes with annotations that largely fit into the areas of carbohydrate digestion, cellular arrest, and repression of translation (Tables \ref{tab:cls16-process} and \ref{tab:cls16-process}).
+%
+Htwo ortholog-sets produced errors during the process that parsed the \gls{Argot2} results and others returned no process or function domain terms.
+
+
+Terms relating to carbohydrate digestion are carbohydrate metabolic process (4077.43), maltose alpha-glucosidase activity (378.58), hydrolase activity (366.71), and alpha-glucosidase activity (285.38).
+
+Cellular arrest terms assigned by \gls{Argot2} include autophagy (686.01) and apoptotic process (670.22).
+
+%
+Using OrthoDB to examine annotation terms assigned to these ortholog-sets with the OrthoDB ``metazoa'' ortholog database yielded notable results.
+%
+
 
 
 
 \input{tables/cls16_process.tex}
-Table \ref{tab:cls16-process}
 \input{tables/cls16_function.tex}
-Table \ref{tab:cls16-function}
-% \input{tables/cls16_cellular.tex}
-% Table \ref{tab:cls16-cellular}
+
 
 \subsubsection{Cluster 22 (up at 4h)}
 
