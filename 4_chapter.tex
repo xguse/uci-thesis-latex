@@ -213,22 +213,25 @@ This \gls{mAP} illustrates a rapid and substantial but temporary decrease in mRN
 
 Cluster 16 contains genes with annotations that largely fit into the areas of carbohydrate digestion, cellular arrest, and repression of translation (Tables \ref{tab:cls16-process} and \ref{tab:cls16-process}).
 %
-Htwo ortholog-sets produced errors during the process that parsed the \gls{Argot2} results and others returned no process or function domain terms.
+Two ortholog-sets produced errors during the process that parsed the \gls{Argot2} results and others returned no process or function domain terms.
+%
+In these cases, OrthoDB was used to examine annotation terms assigned to these ortholog-sets using the OrthoDB ``metazoa'' database, and are noted as OrthoDB results.
 
+\input{tables/cls16_process.tex}
+\input{tables/cls16_function.tex}
 
 Terms relating to carbohydrate digestion are carbohydrate metabolic process (4077.43), maltose alpha-glucosidase activity (378.58), hydrolase activity (366.71), and alpha-glucosidase activity (285.38).
 
 Cellular arrest terms assigned by \gls{Argot2} include autophagy (686.01) and apoptotic process (670.22).
 
 %
-Using OrthoDB to examine annotation terms assigned to these ortholog-sets with the OrthoDB ``metazoa'' ortholog database yielded notable results.
+Additionally, OrthoDB results identified one ortholog-set (AAEL002833, AGAP011828, CPIJ006471) as orthologs to \Dm\ Cathepsin L which FlyBase annotates with biological process terms including proteolysis, autophagic cell death, protein catabolic process, and salivary gland cell autophagic cell death.
 %
 
+Terms pertaining to the repression of translation were obtained from the ortholog-set including AAEL002550, AGAP001639, and CPIJ002368 via OrthoDB.
+%
+Process results include 32 genes with negative regulation of translational initiation (GO:0045947), and function results contain 17 genes with translation repressor activity, nucleic acid binding (GO:0000900); 15 genes with translation repressor activity (GO:0030371); and 2 genes with  poly(A) RNA binding (GO:0008143:).
 
-
-
-\input{tables/cls16_process.tex}
-\input{tables/cls16_function.tex}
 
 
 \subsubsection{Cluster 22 (up at 4h)}
