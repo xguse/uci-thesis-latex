@@ -1,5 +1,3 @@
-
-
 \chapter{Results and Discussion} \label{chap:4}
 
 % \section{Preliminary data preparation stage}
@@ -283,7 +281,7 @@ FlyBase has annotated putzig with the following terms in \Dm, positive regulatio
 %
 The Rfx transcription factors were assigned regulation of insulin secretion (709.97) and endocrine pancreas development (296.05) by \gls{Argot2}.
 %
-OrthoDB corroborates these annotations, but only when the database includes metazoa at large.
+OrthoDB corroborates these annotations, but only when the database includes metazoa.
 
 Membrane transport and signaling terms are also present.
 %
@@ -299,15 +297,112 @@ They are arsenite transmembrane transporter activity (1600.53), transporter acti
 \section{Discussion} \label{chap:4-sec:discussion}
 
 
+% Cluster 4
+% upregulation of translation/TOR
+%	peptide quality control 
+% active secretory pathways in both directions
+% Metabolic activities
 
-\subsection{Interpretation of Argot2 results} % interpretation of Argot2 results (insulin/pancreas dev came from vertebrate matches and require a degree of interpretation)
-\lipsum[1]
+% Heme management
+% midgut repair
 
-\subsection{Heme management}
-\lipsum[1]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Cluster 6
+% downregulation of transcription factors
+% translation elongation
+% signaling
+% Heme management
+
+% transcription factors
+%	X AGAP002238:AAEL010222CPIJ008350 {GATA-type}
+%	x AAEL009171:CPIJ001396:AGAP003726 {ortholog to Dmel bZIP family. CREBRF subfamily}
+%	x CPIJ004057:AAEL009114:AGAP004050 {Doublesex}
+%	x CPIJ014945:AAEL002062:AGAP005661 {Ftz-f1}
+%	x AAEL001361:AGAP006990:CPIJ002241 {Bap 170 }
+%	x CPIJ005607:AAEL005452:AGAP010201 {ortholog to Dmel crp}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Cluster 16
+
+% Downreulation of carbohydrate metabolism
+% downregulation of autophagy/apoptotic process (yippee)/cellular arrest
+% dwnreg of translation-repression
+%   AAEL002550	 AGAP001639	 CPIJ002368 from OrthoDB
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Cluster 22
+
+% protein folding / translation
+% membrane transport
+% chromatin reoganization / link to 20E signaling pathway
+
+% ## not found in func annotation mean tables ## AAEL011240	 AGAP006534	 CPIJ002990  --> ortholog to Dmel putzig (ptz)  annotated as described with: positive regulation of Notch signaling pathway; negative regulation of JAK-STAT cascade; chromosome organization; ecdysone receptor-mediated signaling pathway; cell cycle; neurogenesis; chromatin organization.
+
+
+% transcription factors
+%	AAEL011240, AGAP006534, CPIJ002990 {ortholog to Dmel putzig (ptz)}
+%	AAEL002795, AGAP003943, CPIJ004011 {Rfx transcription factor}
+
+Clusters 4, 6, 16, and 22 do not constitute a comprehensive representation of midgut transcription profiles.
+%
+The clusters are only four of 23 from the partitioned set of \glspl{mAP} obtained by the \gls{gFunc} selection process.
+%
+Furthermore, the decision only to focus on genes that are members of 3-way 1:1 ortholog relationships restricted this study to roughly 30\% of the total genes annotated in each species from the beginning.
+%
+However, the aim of this study was not to produce a comprehensive overview but a concentrated view of a limited aspect of gene expression in the midgut based on \textit{a priori} objectives.
+%
+Clusters 4, 6, 16, and 22 represent the accomplishment of this aim.
+
+
+The bloodmeal is an extremely important event in the reproduction of mosquitoes.
+%
+However, it also poses significant biochemical challenges that must be managed.
+%
+A few of these challenges include massive distention of the tissues of the midgut and abdomen by the volume of the blood; dangerous compounds and potential pathogens that are contained in the blood; and massive and systemic changes in genomic activity among various cell-types that are triggered by the bloodmeal.
+%
+Before the bloodmeal, the female begins the process of developing a clutch of eggs, but the process is halted and maintains a state of suspended development.
+%
+Upon ingestion of a sufficient volume of protein-rich blood, this suspension of development is lifted and various cell-types alter their signaling and genomic contexts as development of the clutch resumes.
+
+
+The insulin and \gls{TOR} pathways are responsible for sensing the change in nutrient levels following a bloodmeal \cite{Roy2007}, \cite{Hietakangas2009}, [6\cite{Brandon2008}.
+%
+There are local and systemic aspects to nutrient sensing 5\cite{Hietakangas2009}.
+%
+Insulin, or insulin-like hormones, can transmit systemic signals through the hemolymph and contribute to \gls{TOR}-related, gene expression through interacting with \glspl{InR} on the cellular membrane.
+%
+This stimulates \gls{PI3K}, eventually resulting in de-repression of the TORC1 complex.
+%
+Local nutrient levels are sensed by monitoring energy (\gls{amp}-to-\gls{ATP} ratios) and amino acid levels.
+%
+TORC1 is repressed when \gls{amp}/\gls{ATP} is high and/or amino acid levels are low.
+%
+De-repression of TORC1 results in translation of specific pre-transcribed mRNAs and a general activation of translation.
+%
+Myc and FoxO transcription factors also mediate specific transcription events in response to TORC1.
+%
+Additionally, \gls{20E} titers gradually begin to rise immediately after bloodmeal ingestion, but the titers exhibit periodic peaks throughout the process (4h, 8h, and 24h \gls{PBM}) that coincide with specific events \cite{Hagedorn1975}.
+%
+Notably, a small but reproducible peak in 20E titer occurs four hours after blood feeding.
+%
+This coincides with many bloodmeal-related events such as a peak in posterior midgut aminopeptidase activity that has been noted in \As\ \cite{Billingsley1991}; an initiation of the increase of late trypsin in the midgut \cite{Barillasmury1991},\cite{Graf1988}; an increase of JH-esterase activity that causes a rapid decline of \gls{JH} \cite{Shapiro1986}, and an increase in transcript abundance of \gls{EcR} and associated transcription factors in the fat body \cite{Raikhel1999}.
+
+
+
 
 \subsection{Integrative interpretation of the functional aspects of clusters 4, 6, 16, and 22} % \subsection{Bloodfeeding and the midgut}
-\lipsum[1-3]
+
+
+
+\subsection{Interpretation of Argot2 results} % interpretation of Argot2 results (insulin/pancreas dev came from vertebrate matches and require a degree of interpretation)
+% \lipsum[1]
+
+\subsection{Heme management}
+% \lipsum[1]
+
 
 
 %%% Local Variables: ***

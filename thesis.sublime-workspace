@@ -19,7 +19,7 @@
 			"file": "/home/gus/Dropbox/repos/git/document_prep/Presentations/dissertation/conf.py",
 			"settings":
 			{
-				"buffer_size": 82,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -44,6 +44,14 @@
 			"settings":
 			{
 				"buffer_size": 8655,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/gus/src/vim_plugins/vim-online-thesaurus/README.md",
+			"settings":
+			{
+				"buffer_size": 1582,
 				"line_ending": "Unix"
 			}
 		}
@@ -189,7 +197,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -197,15 +205,15 @@
 					"file": "/home/gus/Dropbox/repos/git/document_prep/Presentations/dissertation/conf.py",
 					"settings":
 					{
-						"buffer_size": 82,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								82,
-								82
+								0,
+								0
 							]
 						],
 						"settings":
@@ -296,6 +304,32 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/gus/src/vim_plugins/vim-online-thesaurus/README.md",
+					"settings":
+					{
+						"buffer_size": 1582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

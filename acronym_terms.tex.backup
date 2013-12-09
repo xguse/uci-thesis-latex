@@ -1,6 +1,26 @@
 
 %\newacronym{<label>}{<abbrv>}{<full>}
 
+\newacronym{ATP}{ATP}{adenosine triphosphate}
+
+\newacronym{AMP}{AMP}{adenosine monophosphate}
+
+\newacronym{InR}{InR}{insulin receptor}
+
+\newacronym{PI3K}{PI3K}{phosphatidylinositol 3-kinase}
+
+\newacronym{TOR}{TOR}{target of rapamycin}
+
+\newacronym{TS}{TS}{Total Score}
+
+\newacronym{HMM}{HMM}{hidden Markov model}
+
+\newacronym{SGE}{SGE}{\gls{SunGridEngine}}
+
+\newacronym{MOODS}{MOODS}{MOtif Occurrence Detection Suite}
+
+\newacronym{Argot2}{Argot2}{Annotation Retrieval of Gene Ontology Terms (\url{http://www.medcomp.medicina.unipd.it/Argot2/})}
+
 \newacronym{RNA-Seq}{RNA-Seq}{RNA sequencing}
 
 \newacronym{DNA-Seq}{DNA-Seq}{DNA sequencing}
@@ -22,6 +42,8 @@
 \newacronym{mAP}{mAP}{mRNA accumulation profile}
 
 \newacronym{20E}{20E}{20-hydroxyecdysone}
+
+\newacronym{JH}{JH}{juvenile hormone}
 
 \newacronym{EIP}{EIP}{extrinsic incubation period}
 
