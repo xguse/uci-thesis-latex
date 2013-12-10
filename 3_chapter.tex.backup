@@ -200,20 +200,20 @@ The GraphHandler stores the graph and provides conveniences for accessing its co
 
 
 \section{gFunc-based analysis}
-Once the preliminary data preparation is accomplished (Section \label{sec:prelim-data}), the data is loaded into a \gls{gFunc} graph through a script (\alert{file-name}) that coordinates the initiation of relevant parsers and provides them to a GraphBuilder object that maps the data onto the 3-way 1:1 ortholog-relationships.
+Once the preliminary data preparation is accomplished (Section \label{sec:prelim-data}), the data is loaded into a \gls{gFunc} graph through a script (\texttt{gfunc\_build\_n\_way\_one2one.py} \cite{Dunn2013dissSupl}) that coordinates the initiation of relevant parsers and provides them to a GraphBuilder object that maps the data onto the 3-way 1:1 ortholog-relationships.
 \glspl{FDR} are empirically estimated by calculating all 3-way-\gls{PTCI} values first using the real 3-way 1:1 ortholog relationships, then repeating the analysis many times with randomized (null) 3-way 1:1 orthology relationships.
 \alert{(for what follows: should i refer to the figure from the next chapter here?  Its kinda like having results in the methods section?)}
-The \gls{FDR} is then defined, for a given 3-way-\gls{PTCI} threshold, as the median value of the null 3-way \glspl{PTCI} divided by the actual 3-way \gls{PTCI}.
+The \gls{FDR} is then defined, for a given 3-way-\gls{PTCI} threshold, as the median value of the null 3-way \glspl{PTCI} divided by the actual 3-way \gls{PTCI} (\texttt{PTCI\_testing\_rsrd\_1.0\_1.1\_new\_data\_Jaspar\_nr\_insect\_20130918\_orthodb7.ipynb} \cite{Dunn2013dissSupl}).
 This information is used to define an acceptable 3-way-\gls{PTCI} threshold that balances selectivity with sensitivity.
-Given a 3-way-\gls{PTCI} threshold, a filter script (\alert{file-name}) is applied to extract the 3-way 1:1 ortholog sets that are greater than or equal to the threshold.
+Given a 3-way-\gls{PTCI} threshold, a filter script (\texttt{Getting\_and\_using\_filtered\_gfunc\_genes\_ecr\_team\_OR\_jaspar\_insect\_20120918\_orthodb7.ipynb} \cite{Dunn2013dissSupl}) is applied to extract the 3-way 1:1 ortholog sets that are greater than or equal to the threshold.
 
-This process is carried out using two sets of \gls{TFBS} profile data: one that covers the entire JASPAR \gls{TFBS}-model database for insects (\alert{file-name}), another that is limited to 12 \gls{TFBS}-models that are thought to participate in \gls{20E}-regulated transcriptional regulatory mechanisms (\alert{file-name}).
+This process is carried out using two sets of \gls{TFBS} profile data: one that covers the entire JASPAR \gls{TFBS}-model database for insects (\texttt{JASPAR\_CORE\_2009\_insects.meme}  \cite{Dunn2013dissSupl}), another that is limited to 12 \gls{TFBS}-models that are thought to participate in \gls{20E}-regulated transcriptional regulatory mechanisms (\texttt{EcR\_team.meme} \cite{Dunn2013dissSupl}).
 The later is meant to provide a set of 3-way 1:1 orthologs generated with a focus toward a particular regulatory program while the former is intended to capture a more general set.
 The union of the two result-sets are taken forward to the Characterization Stage.
 
 
 
-\section{Characterization of results}
+\section{Characterization of results} \label{chap:3-sec:characterization-of-results}
 The \gls{gFunc} analysis yields a set of the top midgut transcriptionally corresponding 3-way 1:1 ortholog-sets.
 Two types of characterization were carried out on these ortholog-sets.
 The characterization method used \gls{Argot2} to obtain functional annotations of the ortholog-sets by comparing the protein sequences of the 3-way 1:1 ortholog-sets against previuosly annotated proteins (\gls{Swiss-Prot}) and hidden markov-models of described protein domains (\gls{Pfam}) \cite{Boeckmann},\cite{Punta2012},\cite{Falda2012}.
@@ -223,7 +223,7 @@ The second method consisted of grouping the \glspl{mAP} by similarity using k-me
 
 \gls{Argot2} was used to infer functional annotations for the selected proteins of the three mosquito species.
 First, the peptide sequences must be compared with well characterized databases of functinally annotated data.
-\gls{Argot2} suppports the use of either the Swiss-Prot\footnote{Swiss-Prot is the manually annotated and reviewed section of the UniProt Knowledgebase.} database of protein squences or the \gls{Pfam}\footnote{The Pfam database is a large collection of protein families, each represented by multiple sequence alignments and \glspl{HMM}.} database of protein domain models or both.
+\gls{Argot2} suppports the use of either the Swiss-Prot\footnote{Swiss-Prot is the manually annotated and reviewed section of the UniProt Knowledgebase.} database of protein sequences or the \gls{Pfam}\footnote{The Pfam database is a large collection of protein families, each represented by multiple sequence alignments and \glspl{HMM}.} database of protein domain models or both.
 Here both were used.
 
 The following blastp settings were used against the \gls{Swiss-Prot} proteins, as requested by the \gls{Argot2} instructions:
@@ -242,7 +242,7 @@ hmmscan --tblout output_file P-fam_database your_protein_sequences
 
 Both sets of results were then compressed into ``zip'' files and uploaded to the \gls{Argot2} servers for analysis.
 
-\subsection{Clustering of filtered 3-way 1:1 ortholog sets}
+\subsection{Clustering of filtered 3-way 1:1 ortholog sets} \label{chap:3-sec:clustering-of-filtered-ortholog-sets}
 
 Clusters were generated by custom python code that used Biopython's k-means clustering (version 1.62) \cite{Cock2009}.
 \gls{mAP} data was log transformed after 1 FPKM was added to all data to remove zeros ($log_{10}(\mathrm{FPKM}+1)$). 

@@ -92,12 +92,36 @@
 			}
 		},
 		{
-			"contents": "AAEL010222\nAGAP002238\nCPIJ008350\nAGAP004050\nAAEL009114\nCPIJ004057\nAGAP005661\nAAEL002062\nCPIJ014945\nAAEL009171\nAGAP003726\nCPIJ001396\nAAEL001361\nAGAP006990\nCPIJ002241\nAAEL005452\nAGAP010201\nCPIJ005607",
+			"contents": "",
 			"settings":
 			{
-				"buffer_size": 197,
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/etc/openvpn/easy-rsa/vars",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/etc/openvpn/easy-rsa/2.0/vars",
+			"settings":
+			{
+				"buffer_size": 1872,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Raikhel, Alexander S.\nMiura, Ken\nSegraves, William A.",
+			"settings":
+			{
+				"buffer_size": 53,
 				"line_ending": "Unix",
-				"name": "AAEL010222"
+				"name": "Raikhel, Alexander S."
 			}
 		}
 	],
@@ -149,6 +173,7 @@
 	},
 	"file_history":
 	[
+		"/home/gus/Dropbox/common/AdvDocument/20101011_sentVsn/AdvProp_final.pages/Contents/PkgInfo",
 		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/my_writings_about_it/request_letters_of_rec.txt",
 		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/my_writings_about_it/present_specific_aims_email_first.txt",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/ecr_OR_insect_meanPTCI_thresh_1_gene_names.CPIJ.txt",
@@ -275,8 +300,7 @@
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_tomtom.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w19.sh",
 		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w13.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w9.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_combo.sh"
+		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w9.sh"
 	],
 	"find":
 	{
@@ -294,6 +318,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\n",
+			" +\\& ",
+			"\\n",
+			" +\\& ",
+			"\\n",
+			" +\\& ",
+			"\\n",
+			" +\\& ",
+			"\\n",
+			" +\\& ",
+			"\\n",
+			" +\\& ",
+			"\\n",
+			" +\\& ",
 			", ",
 			"cls22",
 			"cluster_name = 'downAfter4'\ncluster_id = 6",
@@ -407,21 +445,7 @@
 			"[37]",
 			"[36]",
 			"[35]",
-			"[31]",
-			"[30]",
-			"[29]",
-			"[28]",
-			"[27]",
-			"[26]",
-			"[25]",
-			"[24]",
-			"[23]",
-			"[22]",
-			"[21]",
-			"[20]",
-			"[19]",
-			"[18]",
-			"[17]"
+			"[31]"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -429,6 +453,22 @@
 		"regex": true,
 		"replace_history":
 		[
+			", ",
+			" (",
+			", ",
+			" (",
+			" (\n ",
+			", ",
+			" (",
+			", ",
+			" (",
+			", ",
+			" (",
+			", ",
+			" (",
+			", ",
+			" ",
+			" (",
 			"\\n",
 			"\\t",
 			"clsALL",
@@ -540,23 +580,7 @@
 			"\\cite{Lambrechts2011}",
 			"\\cite{Salazar2007}",
 			"\\cite{Anderson2006}",
-			"\\cite{Black2002}",
-			"\\cite{Angel2008}",
-			"\\cite{Watts1987}",
-			"\\cite{Gunther2007}",
-			"\\cite{Mathur2010}",
-			"\\cite{Franz2006}",
-			"\\cite{Kramer2003}",
-			"\\cite{Nene2007}",
-			"\\cite{Gubler2002}",
-			"\\1 ",
-			"\\1",
-			".\\n",
-			" \\Aa",
-			" \\Aa\\ ",
-			"\\Aa\\",
-			"\\glspl{CRE} ",
-			"\\gls{CRE} "
+			"\\cite{Black2002}"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -567,7 +591,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -683,7 +707,7 @@
 					"buffer": 4,
 					"settings":
 					{
-						"buffer_size": 197,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -696,7 +720,85 @@
 						],
 						"settings":
 						{
-							"auto_name": "AAEL010222",
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/etc/openvpn/easy-rsa/vars",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/etc/openvpn/easy-rsa/2.0/vars",
+					"settings":
+					{
+						"buffer_size": 1872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1802,
+								1802
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 864.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Raikhel, Alexander S.",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,

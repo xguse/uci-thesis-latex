@@ -3,8 +3,8 @@ def_graphic_ext=
 img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
-kileversion=2.1.0
-lastDocument=tables/cls4_process.tex
+kileversion=2.1.3
+lastDocument=2_chapter.tex
 masterDocument=thesis.tex
 name=uci-thesis-latex
 pkg_extIsRegExp=false
@@ -316,6 +316,13 @@ Indentation Mode=normal
 Mode=LaTeX
 ReadWrite=true
 
+[document-settings,item:tables/TFs-in-cls6.tex]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+
 [document-settings,item:tables/cls16_cellular.tex]
 Bookmarks=
 Encoding=UTF-8
@@ -449,50 +456,50 @@ archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=26
+line=0
 mode=LaTeX
-open=false
-order=2
+open=true
+order=10
 
 [item:2_chapter.tex]
 archive=true
-column=344
+column=30
 encoding=UTF-8
 highlight=LaTeX
-line=19
+line=4
 mode=LaTeX
-open=false
-order=8
+open=true
+order=11
 
 [item:3_chapter.tex]
 archive=true
-column=115
+column=217
 encoding=UTF-8
 highlight=LaTeX
-line=244
+line=137
+mode=LaTeX
+open=true
+order=9
+
+[item:4_chapter.tex]
+archive=true
+column=48
+encoding=UTF-8
+highlight=LaTeX
+line=451
 mode=LaTeX
 open=true
 order=1
 
-[item:4_chapter.tex]
-archive=true
-column=0
-encoding=UTF-8
-highlight=LaTeX
-line=95
-mode=LaTeX
-open=true
-order=2
-
 [item:acronym_terms.tex]
 archive=true
-column=14
+column=42
 encoding=UTF-8
 highlight=LaTeX
 line=3
 mode=LaTeX
 open=true
-order=5
+order=8
 
 [item:appendix.tex]
 archive=true
@@ -522,7 +529,7 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=true
-order=4
+order=12
 
 [item:figures/aa-diff-paralogs.tex]
 archive=true
@@ -566,42 +573,42 @@ order=12
 
 [item:figures/cluster16_AaAgCq.tex]
 archive=true
-column=16
+column=0
 encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=11
 
 [item:figures/cluster22_AaAgCq.tex]
 archive=true
-column=16
+column=0
 encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=10
 
 [item:figures/cluster4_AaAgCq.tex]
 archive=true
-column=16
+column=18
 encoding=UTF-8
 highlight=LaTeX
 line=0
 mode=LaTeX
-open=true
+open=false
 order=9
 
 [item:figures/cluster6_AaAgCq.tex]
 archive=true
-column=16
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=1
+line=0
 mode=LaTeX
-open=true
+open=false
 order=12
 
 [item:figures/cre-crm-intro.tex]
@@ -616,27 +623,27 @@ order=8
 
 [item:figures/ecr-mean-ptci-figs.tex]
 archive=true
-column=18
+column=28
 encoding=UTF-8
 highlight=LaTeX
-line=13
+line=16
 mode=LaTeX
 open=false
-order=2
+order=6
 
 [item:figures/ecr-pairwise-ptci-figs.tex]
 archive=true
-column=7
+column=28
 encoding=UTF-8
 highlight=LaTeX
-line=17
+line=16
 mode=LaTeX
 open=false
 order=3
 
 [item:figures/ecr_and_insects_23_clusters_ptci_0_95_orthodb7.tex]
 archive=true
-column=26
+column=27
 encoding=UTF-8
 highlight=LaTeX
 line=9
@@ -656,20 +663,20 @@ order=10
 
 [item:figures/insect-mean-ptci-figs.tex]
 archive=true
-column=0
+column=28
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=16
 mode=LaTeX
 open=false
 order=11
 
 [item:figures/insect-pairwise-ptci-figs.tex]
 archive=true
-column=111
+column=28
 encoding=UTF-8
 highlight=LaTeX
-line=10
+line=16
 mode=LaTeX
 open=false
 order=12
@@ -696,13 +703,13 @@ order=20
 
 [item:figures/nway-ortholog-graph.tex]
 archive=true
-column=161
+column=105
 encoding=UTF-8
 highlight=LaTeX
 line=39
 mode=LaTeX
-open=false
-order=8
+open=true
+order=13
 
 [item:figures/pole-cells.tex]
 archive=true
@@ -786,13 +793,13 @@ order=3
 
 [item:preliminaries.tex]
 archive=true
-column=98
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=1
+line=87
 mode=LaTeX
-open=false
-order=3
+open=true
+order=14
 
 [item:species_defs.tex]
 archive=true
@@ -803,6 +810,16 @@ line=0
 mode=LaTeX
 open=false
 order=2
+
+[item:tables/TFs-in-cls6.tex]
+archive=true
+column=0
+encoding=UTF-8
+highlight=LaTeX
+line=0
+mode=LaTeX
+open=false
+order=3
 
 [item:tables/cls16_cellular.tex]
 archive=true
@@ -816,22 +833,22 @@ order=10
 
 [item:tables/cls16_function.tex]
 archive=true
-column=4
+column=7
 encoding=UTF-8
 highlight=LaTeX
-line=30
+line=1
 mode=LaTeX
 open=true
-order=8
+order=7
 
 [item:tables/cls16_process.tex]
 archive=true
-column=0
+column=16
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=1
 mode=LaTeX
-open=false
+open=true
 order=6
 
 [item:tables/cls22_cellular.tex]
@@ -846,23 +863,23 @@ order=13
 
 [item:tables/cls22_function.tex]
 archive=true
-column=0
+column=16
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=1
 mode=LaTeX
-open=false
-order=7
+open=true
+order=5
 
 [item:tables/cls22_process.tex]
 archive=true
-column=0
+column=16
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=1
 mode=LaTeX
-open=false
-order=8
+open=true
+order=4
 
 [item:tables/cls4_cellular.tex]
 archive=true
@@ -876,23 +893,23 @@ order=4
 
 [item:tables/cls4_function.tex]
 archive=true
-column=6
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=48
+line=0
 mode=LaTeX
-open=true
-order=6
+open=false
+order=8
 
 [item:tables/cls4_process.tex]
 archive=true
-column=101
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=30
+line=0
 mode=LaTeX
-open=true
-order=7
+open=false
+order=9
 
 [item:tables/cls6_cellular.tex]
 archive=true
@@ -906,23 +923,23 @@ order=7
 
 [item:tables/cls6_function.tex]
 archive=true
-column=6
+column=122
 encoding=UTF-8
 highlight=LaTeX
-line=10
+line=43
 mode=LaTeX
 open=true
-order=14
+order=3
 
 [item:tables/cls6_process.tex]
 archive=true
-column=30
+column=63
 encoding=UTF-8
 highlight=LaTeX
-line=11
+line=33
 mode=LaTeX
 open=true
-order=13
+order=2
 
 [item:tables/evo-ranges.tex]
 archive=true
@@ -949,7 +966,7 @@ archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=74
+line=80
 mode=LaTeX
 open=true
 order=0
@@ -976,43 +993,43 @@ order=9
 
 [item:wad_defs.tex]
 archive=true
-column=15
+column=0
 encoding=UTF-8
 highlight=LaTeX
-line=157
+line=0
 mode=LaTeX
-open=true
-order=3
+open=false
+order=14
 
 [view-settings,view=0,item:1_chapter.tex]
 CursorColumn=0
-CursorLine=26
+CursorLine=0
 JumpList=
-ViMarks=
+ViMarks=.,0,0,[,0,0,],0,0
 
 [view-settings,view=0,item:2_chapter.tex]
-CursorColumn=344
-CursorLine=19
+CursorColumn=30
+CursorLine=4
 JumpList=
-ViMarks=.,0,0,[,0,0,],-1,-1
+ViMarks=.,4,0,[,4,0,],4,0
 
 [view-settings,view=0,item:3_chapter.tex]
-CursorColumn=115
-CursorLine=244
+CursorColumn=217
+CursorLine=137
 JumpList=
-ViMarks=.,244,109,[,244,109,],244,109
+ViMarks=.,137,242,[,137,242,],137,242
 
 [view-settings,view=0,item:4_chapter.tex]
-CursorColumn=0
-CursorLine=95
+CursorColumn=48
+CursorLine=451
 JumpList=
-ViMarks=.,95,0,[,95,0,],-1,-1
+ViMarks=.,462,307,[,462,275,],462,307
 
 [view-settings,view=0,item:acronym_terms.tex]
-CursorColumn=14
+CursorColumn=42
 CursorLine=3
 JumpList=
-ViMarks=.,3,0,[,3,0,],3,0
+ViMarks=.,3,40,[,3,20,],3,40
 
 [view-settings,view=0,item:appendix.tex]
 CursorColumn=61
@@ -1069,10 +1086,10 @@ JumpList=
 ViMarks=.,0,15,[,0,15,],0,15
 
 [view-settings,view=0,item:figures/cluster4_AaAgCq.tex]
-CursorColumn=16
+CursorColumn=18
 CursorLine=0
 JumpList=
-ViMarks=.,0,15,[,0,15,],0,15
+ViMarks=.,0,16,[,0,16,],0,16
 
 [view-settings,view=0,item:figures/cluster6_AaAgCq.tex]
 CursorColumn=16
@@ -1087,19 +1104,19 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:figures/ecr-mean-ptci-figs.tex]
-CursorColumn=18
-CursorLine=13
+CursorColumn=28
+CursorLine=16
 JumpList=
-ViMarks=.,13,17,[,13,17,],13,17
+ViMarks=.,16,27,[,16,27,],16,27
 
 [view-settings,view=0,item:figures/ecr-pairwise-ptci-figs.tex]
-CursorColumn=7
-CursorLine=17
+CursorColumn=28
+CursorLine=16
 JumpList=
-ViMarks=.,13,21,[,13,21,],13,21
+ViMarks=.,16,27,[,16,27,],16,27
 
 [view-settings,view=0,item:figures/ecr_and_insects_23_clusters_ptci_0_95_orthodb7.tex]
-CursorColumn=26
+CursorColumn=27
 CursorLine=9
 JumpList=
 ViMarks=.,14,0,[,14,0,],14,0
@@ -1111,16 +1128,16 @@ JumpList=
 ViMarks=.,5,147,[,5,148,],5,147
 
 [view-settings,view=0,item:figures/insect-mean-ptci-figs.tex]
-CursorColumn=0
-CursorLine=0
+CursorColumn=28
+CursorLine=16
 JumpList=
-ViMarks=
+ViMarks=.,16,27,[,16,27,],16,27
 
 [view-settings,view=0,item:figures/insect-pairwise-ptci-figs.tex]
-CursorColumn=111
-CursorLine=10
+CursorColumn=28
+CursorLine=16
 JumpList=
-ViMarks=
+ViMarks=.,16,27,[,16,27,],16,27
 
 [view-settings,view=0,item:figures/mosq-xsection.tex]
 CursorColumn=0
@@ -1135,10 +1152,10 @@ JumpList=
 ViMarks=.,6,190,[,6,190,],6,190
 
 [view-settings,view=0,item:figures/nway-ortholog-graph.tex]
-CursorColumn=161
+CursorColumn=105
 CursorLine=39
 JumpList=
-ViMarks=.,39,160,[,39,159,],39,160
+ViMarks=.,39,105,[,39,105,],39,105
 
 [view-settings,view=0,item:figures/pole-cells.tex]
 CursorColumn=12
@@ -1189,16 +1206,22 @@ JumpList=
 ViMarks=.,88,0,[,88,0,],88,80
 
 [view-settings,view=0,item:preliminaries.tex]
-CursorColumn=98
-CursorLine=1
+CursorColumn=0
+CursorLine=87
 JumpList=
-ViMarks=.,1,98,[,1,98,],1,98
+ViMarks=.,87,0,[,87,0,],87,0
 
 [view-settings,view=0,item:species_defs.tex]
 CursorColumn=0
 CursorLine=0
 JumpList=
 ViMarks=
+
+[view-settings,view=0,item:tables/TFs-in-cls6.tex]
+CursorColumn=35
+CursorLine=12
+JumpList=
+ViMarks=.,18,114,[,18,89,],18,187
 
 [view-settings,view=0,item:tables/cls16_cellular.tex]
 CursorColumn=0
@@ -1207,16 +1230,16 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tables/cls16_function.tex]
-CursorColumn=4
-CursorLine=30
+CursorColumn=7
+CursorLine=1
 JumpList=
-ViMarks=.,3,19,[,3,19,],3,19
+ViMarks=.,1,15,[,1,15,],1,15
 
 [view-settings,view=0,item:tables/cls16_process.tex]
-CursorColumn=33
-CursorLine=3
+CursorColumn=16
+CursorLine=1
 JumpList=
-ViMarks=.,3,0,[,3,0,],3,32
+ViMarks=.,1,15,[,1,15,],1,15
 
 [view-settings,view=0,item:tables/cls22_cellular.tex]
 CursorColumn=0
@@ -1225,16 +1248,16 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tables/cls22_function.tex]
-CursorColumn=33
-CursorLine=3
+CursorColumn=16
+CursorLine=1
 JumpList=
-ViMarks=.,3,0,[,3,0,],3,32
+ViMarks=.,1,15,[,1,15,],1,15
 
 [view-settings,view=0,item:tables/cls22_process.tex]
-CursorColumn=33
-CursorLine=3
+CursorColumn=16
+CursorLine=1
 JumpList=
-ViMarks=.,3,0,[,3,0,],3,32
+ViMarks=.,1,15,[,1,15,],1,15
 
 [view-settings,view=0,item:tables/cls4_cellular.tex]
 CursorColumn=113
@@ -1243,16 +1266,16 @@ JumpList=
 ViMarks=.,12,119,[,12,96,],12,119
 
 [view-settings,view=0,item:tables/cls4_function.tex]
-CursorColumn=6
-CursorLine=48
+CursorColumn=16
+CursorLine=1
 JumpList=
-ViMarks=.,46,0,[,46,0,],46,1
+ViMarks=.,1,15,[,1,15,],1,15
 
 [view-settings,view=0,item:tables/cls4_process.tex]
-CursorColumn=101
-CursorLine=30
+CursorColumn=11
+CursorLine=5
 JumpList=
-ViMarks=.,52,139,[,52,138,],52,195
+ViMarks=.,1,15,[,1,15,],1,15
 
 [view-settings,view=0,item:tables/cls6_cellular.tex]
 CursorColumn=0
@@ -1261,16 +1284,16 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:tables/cls6_function.tex]
-CursorColumn=6
-CursorLine=10
+CursorColumn=122
+CursorLine=43
 JumpList=
-ViMarks=.,3,0,[,3,0,],3,32
+ViMarks=.,1,15,[,1,15,],1,15
 
 [view-settings,view=0,item:tables/cls6_process.tex]
-CursorColumn=30
-CursorLine=11
+CursorColumn=63
+CursorLine=33
 JumpList=
-ViMarks=.,3,19,[,3,19,],3,19
+ViMarks=.,1,15,[,1,15,],1,15
 
 [view-settings,view=0,item:tables/evo-ranges.tex]
 CursorColumn=0
@@ -1286,9 +1309,9 @@ ViMarks=
 
 [view-settings,view=0,item:thesis.tex]
 CursorColumn=0
-CursorLine=74
+CursorLine=80
 JumpList=
-ViMarks=.,91,16,[,91,16,],91,16
+ViMarks=.,80,0,[,80,0,],80,0
 
 [view-settings,view=0,item:ucithesis.cls]
 CursorColumn=0
@@ -1297,7 +1320,7 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:wad_defs.tex]
-CursorColumn=15
-CursorLine=157
+CursorColumn=45
+CursorLine=158
 JumpList=
 ViMarks=.,158,46,[,158,46,],158,46

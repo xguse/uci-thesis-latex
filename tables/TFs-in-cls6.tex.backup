@@ -1,0 +1,29 @@
+\begin{table}[hp]
+\sf
+\begin{center}
+\begin{tabular}{lr}\toprule
+\textbf{Ortholog set} & \textbf{Description} \\
+\midrule
+AAEL010222 & \multirow{3}{*}{GATA-type}\\
+AGAP002238 & \\
+CPIJ008350 & \\ \midrule
+AGAP004050 & \multirow{3}{*}{doublesex}\\
+AAEL009114 & \\
+CPIJ004057 & \\ \midrule
+AGAP005661 & \multirow{3}{*}{Ftz-F1}\\
+AAEL002062 & \\
+CPIJ014945 & \\ \midrule
+AAEL009171 & \multirow{3}{*}{uncharacterized basic leucine zipper (CREBRF subfamily)}\\
+AGAP003726 & \\
+CPIJ001396 & \\ \midrule
+AAEL001361 & \multirow{3}{*}{ortholog of \Dm\ Brahma associated protein 170kD (Bap170)}\\
+AGAP006990 & \\
+CPIJ002241 & \\ \midrule
+AAEL005452 & \multirow{3}{*}{ortholog of \Dm\ cropped (crp)}\\  %  Myc-type, basic helix-loop-helix (bHLH) domain
+AGAP010201 & \\
+CPIJ005607 & \\ \bottomrule
+\end{tabular}
+\end{center}
+
+\caption[Transcription factors in cluster 6 (down after 4h)]{\sf \textbf{Transcription factors in cluster 6 (down after 4h)}} \label{tab:TFs-in-cls6}
+\end{table} 

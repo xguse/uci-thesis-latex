@@ -135,7 +135,7 @@ Once it has been re-factored to incorporate the lessons learned here (mainly tha
 Leveraging multiple fastQ files of \gls{RNA-Seq} reads into a coherent picture of gene expression and transcript models is a multi-step process.
 Various analysis methods and corresponding programs exist and continue to be developed (DESeq \cite{Anders2010}, edgeR \cite{Robinson2010a}, eXpress \cite{Roberts2013}, MISO \cite{Katz2010}, Oases \cite{Schulz2012}, Trans-ABySS \cite{Robertson2010}).
 The \gls{TuxProt} is a popular method with good documentation and user-support \cite{Trapnell2012}.
-It consists of a coordinated data-flow through multiple complementary but stand-alone programs: \gls{tophat}, \gls{bowtie}, \gls{cufflinks}, \gls{cuffmerge}, \gls{cuffdiff}, and finally \gls{cummeRbund} \cite{Kim2013}, \cite{Langmead2012}, \cite{Trapnell2010}, \cite{Goff2012}.
+It consists of a coordinated data-flow through multiple complementary but stand-alone programs: \gls{tophat}, \gls{bowtie}, \gls{cufflinks}, \gls{cuffmerge}, \gls{cuffdiff}, and finally \gls{cummeRbund} \cite{Kim2013,Langmead2012,Trapnell2010,Goff2012}.
 This requires the organization and coordination of many files of different types through many different program calls and output steps (Figure \ref{fig:tuxedo}).
 Each step might take hours or days depending on the size of input data.
 A further complication inherent to the use of swiftly evolving academic software is that new versions of the analysis software may be released after the analyses have been run but before the work has been published.

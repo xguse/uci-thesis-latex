@@ -1,15 +1,10 @@
+\chapter{Results and Discussion} \label{chap:4}
 
-
-\chapter{Results} \label{chap:4}
-
-\section{Preliminary data preparation stage}
-
-These results pertain to the first stage of the approach described in Chapter \ref{chap:3} (Figure \ref{fig:approach-chart}: \textit{salmon box}).
+% \section{Preliminary data preparation stage}
+% 
+% These results pertain to the first stage of the approach described in Chapter \ref{chap:3} (Figure \ref{fig:approach-chart}: \textit{salmon box}).
 
 \section{gFunc-based analysis stage}
-
-
-
 
 These results pertain to the second stage of the approach described in Chapter \ref{chap:3} (Figure \ref{fig:approach-chart}: \textit{yellow box}).
 
@@ -33,7 +28,7 @@ The union of these gene-sets was 930 genes or 310 genes from each species.
 %
 The intersection was 444 or an overlap of 66\% of the \PTCIi\ genes and 62.7\% of the \PTCIe\ genes.
 %
-The unique proportion contributed by each set are 33\% and 37.3\%, respectively.
+The unique proportion contributed by each set was 33\% and 37.3\%, respectively.
 
 \paragraph*{Mean vs pairwise PTCI:}
 Comparing the \FDR\ values of the pairwise- and mean-\PTCI\ scores at the 0.95 threshold reveals the impact of considering information from all 3-way 1:1 orthologs simultaneously rather than species-pair by species-pair (Figures \ref{fig:ecr-pair-ptci-hists-fdr} vs \ref{fig:ecr-mean-ptci-hists-fdr} and Figures \ref{fig:insect-pair-ptci-hists-fdr} vs \ref{fig:insect-mean-ptci-hists-fdr}).
@@ -77,15 +72,19 @@ Clusters 16 and 22 follow the change in \gls{FPKM} at 4h \gls{PBM} by gradually 
 %
 The interest in changes that focus on 4h \gls{PBM} stems from the description of a small but reproducible pulse of \gls{20E} that coincides with many important events which signal the switch from a \gls{JH} dominated signaling environment to one influenced by the lack of \gls{JH} and presence of \gls{20E}\footnote{See Discussion (Section \ref{chap:4-sec:discussion}) for more details.}
 
-The cluster-specific functional annotation results included in the following sections represent the mean \gls{TS} for all occurrences of each term in the cluster-specific \gls{Argot2} results.
+The cluster-specific functional annotation results included in the following sections, unless otherwise stated, represent the mean \gls{TS} for all occurrences of each term in the cluster-specific \gls{Argot2} results.
 %
-This provides an overview of which function and process gene ontology terms characterize the cluster as a whole as opposed to each individual gene.
+This provides an overview of which function and process gene ontology terms characterize the cluster as a whole rather than each individual gene which is too much information to include practically.
+%
+All original data and gene-term associations can be viewed via the IPython notebook files used to parse and organize the corresponding figures and tables that follow.
+%
+These are available at the supplementary figshare data repository associated with this dissertation\footnote{Files are located at \url{http://dx.doi.org/10.6084/m9.figshare.810442}. They are titled as ``ecr\_U\_insect\_ptci\_0\_95\_Exploring\_Profiles\_\textit{clsX}\_orthodb7.ipynb'' where \textit{clsX} defines the cluster number. Follow the instructions under the \textbf{Viewing IPython notebooks (ipynb files)} heading to explore the code, figures, and full tables.} \cite{Dunn2013dissSupl}.
 
 \subsubsection{Cluster 4 (up after 4h)}
 
 \paragraph*{General description:}
 
-Cluster 4 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{below} their overall mean \gls{FPKM} \gls{FPKM} and median \gls{FPKM} values between 0 and 0.5 standard deviations \textit{above} their overall mean \gls{FPKM} for the remainder of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster4}).
+Cluster 4 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{below} the overall mean \gls{FPKM} followed by median \gls{FPKM} values between 0 and 0.5 standard deviations \textit{above} the overall mean \gls{FPKM} for the remainder of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster4}).
 %
 This \gls{mAP} illustrates a rapid and sustained increase in mRNA abundance putatively triggered by the bloodfeeding stimulus.
 %
@@ -107,7 +106,7 @@ Other supported activities include heme management and midgut repair (Tables \re
 \input{tables/cls4_process.tex}
 \input{tables/cls4_function.tex}
 
-Representative terms from the ``process'' ontology domain that directly pertain to translation include (trailing parenthetical represents the mean \gls{TS}) SRP-dependent cotranslational protein targeting to membrane  (13254.87), regulation of translational initiation (4594.46), formation of translation preinitiation complex (4524.89), translational initiation (4288.82), and translation (3777.61).
+Representative terms from the ``process'' ontology domain that directly pertain to translation include (trailing parentheticals represent the mean \gls{TS}) SRP-dependent cotranslational protein targeting to membrane  (13254.87), regulation of translational initiation (4594.46), formation of translation preinitiation complex (4524.89), translational initiation (4288.82), and translation (3777.61).
 %
 In addition, other process-terms include activities expected to be up-regulated when translation is increasing include proteasome assembly (3326.44), ubiquitin-dependent protein catabolic process (1963.42), and protein ubiquitination (1073.12).
 %
@@ -126,6 +125,14 @@ The increase in transcription of genes that encode products related to metaboliz
 For example, proteolysis (2453.58), proteolysis involved in cellular protein catabolic process (1972.16), L-lysine catabolic process (417.84), lysine catabolic process (414.33), and L-cysteine catabolic process (378.10) are represented in the process domain terms, while threonine-type endopeptidase activity (1842.63), aminopeptidase activity (1592.00), endopeptidase activity (1546.38), and peptidase activity (792.59) are examples from the function domain.
 
 Other notable sets of functional annotations for cluster 4 include a set that involves heme management (heme biosynthetic process [5069.12], porphyrin-containing compound biosynthetic process [3077.12], and ferrochelatase activity [4990.12]) and a set that may be involved in cellular repair of the midgut (cell-cell adhesion [1774.89], autophagy [447.12], and cell differentiation [279.02]).
+%
+The heme management terms all stem from the AAEL005415-AGAP003719-CPIJ008006 ortholog-set.
+%
+These are ferrochelatase enzymes.
+%
+Ferrochelatase catalyzes the final step of heme biosynthesis, insertion of the iron atom into the porphyrin ring \cite{Layer2010}.
+%
+
 
 
 % \paragraph*{\glspl{mAP} between species:}
@@ -139,7 +146,7 @@ Other notable sets of functional annotations for cluster 4 include a set that in
 
 \paragraph*{General description:}
 
-Cluster 6 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{above} their overall mean \gls{FPKM} \gls{FPKM} and median \gls{FPKM} values of approximately 0.5 standard deviations \textit{below} their overall mean \gls{FPKM} for the remainder of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster6}).
+Cluster 6 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{above} the overall mean \gls{FPKM} and median \gls{FPKM} values of approximately 0.5 standard deviations \textit{below} the overall mean \gls{FPKM} for the remainder of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster6}).
 %
 This \gls{mAP} illustrates a rapid and sustained decrease in mRNA abundance following bloodfeeding.
 %
@@ -171,13 +178,13 @@ Possible themes regarding the functional annotation terms for cluster 6 are down
 At least six 3-way 1:1 ortholog sets in this cluster are likely transcription factors (Table \ref{tab:TFs-in-cls6}).
 \input{tables/TFs-in-cls6.tex}
 %
-Five have putative identities based on orthology to \Dm\ or have been given the names in at least one of the mosquito genome projects on VectorBase.
+Five have putative identities based on orthology to \Dm\ or have been given names in at least one of the mosquito genome projects on VectorBase.
 %
-The are a GATA-factor member, doublesex, Ftz-F1, Bap 170, and crp.
+They are a GATA-factor member, doublesex, Ftz-F1, Bap 170, and crp.
 %
-The last, which exists only as accession numbers in all species including \Dm, is predicted to be a basic leucine zipper transcription factor.
+The remaining one exists only as accession numbers in all species including \Dm, and it is predicted to be a basic leucine zipper transcription factor.
 
-Process terms relating to signaling activities include (trailing parenthetical represents the mean \gls{TS}) regulation of cyclin-dependent protein serine/threonine kinase activity (950.21), steroid hormone mediated signaling pathway (779.04), Wnt receptor signaling pathway (330.08), protein phosphorylation (263.56), and synapse assembly (222.33).
+Process terms relating to signaling activities include (trailing parentheticals represent the mean \gls{TS}) regulation of cyclin-dependent protein serine/threonine kinase activity (950.21), steroid hormone mediated signaling pathway (779.04), Wnt receptor signaling pathway (330.08), protein phosphorylation (263.56), and synapse assembly (222.33).
 %
 Relevant function terms are steroid hormone receptor activity (2322.77), protein kinase binding (2059.25), sequence-specific DNA binding (1999.76), integrin binding (1003.53), JUN kinase binding (392.02), and phosphatidylinositol-3,4,5-trisphosphate binding (387.10).
 
@@ -187,20 +194,17 @@ They are heme biosynthetic process (2615.06), protoporphyrinogen IX biosynthetic
 %
 They all originate from the same ortholog-set (AAEL007787, AGAP003184, CPIJ007746), which are aminolevulinate synthases.
 %
-Aminolevulinate synthase catalyzes D-Aminolevulinic acid which is the first precursor in the pathway to produce heme.
+Aminolevulinate synthase catalyzes D-Aminolevulinic acid which is the first precursor in the pathway to produce heme \cite{Layer2010}.
 
 
 
-
-
-
-
+ 
 
 \subsubsection{Cluster 16 (down at 4h)}
 
 \paragraph*{General description:}
 
-Cluster 16 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{above} their overall mean \gls{FPKM} and a 4h \gls{PBM} median \gls{FPKM} value of between 0.5 and 1 standard deviations \textit{below} their overall mean \gls{FPKM}. The median \gls{FPKM} values for the remaining time points then gradually approach the overall mean \gls{FPKM} by the end of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster16}).
+Cluster 16 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of approximately 1.5 standard deviations \textit{above} the overall mean \gls{FPKM} and a 4h \gls{PBM} median \gls{FPKM} value of between 0.5 and 1 standard deviations \textit{below} the overall mean \gls{FPKM}. The median \gls{FPKM} values for the remaining time points then gradually approach the overall mean \gls{FPKM} by the end of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster16}).
 %
 This \gls{mAP} illustrates a rapid and substantial but temporary decrease in mRNA abundance following bloodfeeding.
 %
@@ -216,27 +220,32 @@ This \gls{mAP} illustrates a rapid and substantial but temporary decrease in mRN
 
 Cluster 16 contains genes with annotations that largely fit into the areas of carbohydrate digestion, cellular arrest, and repression of translation (Tables \ref{tab:cls16-process} and \ref{tab:cls16-process}).
 %
-Terms relating to carbohydrate digestion are carbohydrate metabolic process (4077.43), maltose alpha-glucosidase activity (378.58), hydrolase activity (366.71), and alpha-glucosidase activity (285.38).
-
-Cellular arrest terms assigned by \gls{Argot2} include autophagy (686.01) and apoptotic process (670.22).
+Two ortholog-sets produced errors during the process that parsed the \gls{Argot2} results and others returned no process or function domain terms.
 %
-However, two ortholog-sets produced errors during the process that parsed the \gls{Argot2} results and others returned no process or fun.
-%
-Using OrthoDB to examine annotation terms assigned to these ortholog-sets with the OrthoDB ``metazoa'' ortholog database yielded notable terms.
-%
-
-
-
+In these cases, OrthoDB was used to examine annotation terms assigned to these ortholog-sets using the OrthoDB ``metazoa'' database, and are noted as OrthoDB results.
 
 \input{tables/cls16_process.tex}
 \input{tables/cls16_function.tex}
+
+Terms relating to carbohydrate digestion are carbohydrate metabolic process (4077.43), maltose alpha-glucosidase activity (378.58), hydrolase activity (366.71), and alpha-glucosidase activity (285.38).
+
+Cellular arrest terms assigned by \gls{Argot2} include autophagy (686.01) and apoptotic process (670.22).
+
+%
+Additionally, OrthoDB results identified one ortholog-set (AAEL002833, AGAP011828, CPIJ006471) as orthologs to \Dm\ Cathepsin L which FlyBase annotates with biological process terms including proteolysis, autophagic cell death, protein catabolic process, and salivary gland cell autophagic cell death.
+%
+
+Terms pertaining to the repression of translation were obtained from the ortholog-set including AAEL002550, AGAP001639, and CPIJ002368 via OrthoDB.
+%
+Process results include 32 genes with negative regulation of translational initiation (GO:0045947), and function results contain 17 genes with translation repressor activity, nucleic acid binding (GO:0000900); 15 genes with translation repressor activity (GO:0030371); and 2 genes with  poly(A) RNA binding (GO:0008143:).
+
 
 
 \subsubsection{Cluster 22 (up at 4h)}
 
 \paragraph*{General description:}
 
-Cluster 22 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of between 0 and 0.5 standard deviations \textit{below} their overall mean \gls{FPKM} and a 4h \gls{PBM} median \gls{FPKM} value of approximately 1.5 standard deviations \textit{above} their overall mean \gls{FPKM}. The median \gls{FPKM} values for the remaining time points then gradually approach approximately 1 standard deviations \textit{below} the overall mean \gls{FPKM} by the end of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster22}).
+Cluster 22 is characterized by genes that have a median \gls{NBF} \gls{FPKM} of between 0 and 0.5 standard deviations \textit{below} the overall mean \gls{FPKM} and a 4h \gls{PBM} median \gls{FPKM} value of approximately 1.5 standard deviations \textit{above} the overall mean \gls{FPKM}. The median \gls{FPKM} values for the remaining time points then gradually approach approximately 1 standard deviations \textit{below} the overall mean \gls{FPKM} by the end of the time course (Figures \ref{fig:23-clusters} and \ref{fig:cluster22}).
 %
 This \gls{mAP} illustrates a rapid and substantial but temporary increase in mRNA abundance following bloodfeeding.
 %
@@ -257,9 +266,9 @@ This \gls{mAP} illustrates a rapid and substantial but temporary increase in mRN
 %	AAEL002795, AGAP003943, CPIJ004011 {Rfx transcription factor}
 
 
-Cluster 2 has the fewest members of ortholog-sets of the four clusters described here (7 members per species).
+Cluster 2 has the fewest members of ortholog-sets of the four clusters described here (7 members per species) (Figure \ref{fig:23-clusters}).
 %
-The putative functions in this cluster can be associated with protein translation and protein folding and transcription regulation and chromatin reorganization (Tables \ref{tab:cls22-process} and \ref{tab:cls22-function}).
+The putative functions in this cluster can be associated with protein translation and protein folding; transcription regulation; and chromatin reorganization (Tables \ref{tab:cls22-process} and \ref{tab:cls22-function}).
 %
 Terms associated with protein translation and folding include translation initiation factor activity (20221.31), unfolded protein binding (7160.14), lysyl-tRNA aminoacylation (5305.2), regulation of translational initiation (5198.1), protein folding (5145.4), translation (3885.2), tRNA aminoacylation for protein translation (3277.1), translational initiation (3268.5), cellular protein metabolic process (2591.6), formation of translation preinitiation complex (1607.7), and tRNA processing (223.64).
 
@@ -268,11 +277,11 @@ Terms associated with protein translation and folding include translation initia
 
 Two ortholog-sets are annotated as transcription factors (AAEL011240, AGAP006534, CPIJ002990: orthologs to \Dm\ putzig; and AAEL002795, AGAP003943, CPIJ004011: Rfx transcription factors).
 %
-FlyBase has annotated putzig with the following terms in \Dm\, positive regulation of Notch signaling pathway; negative regulation of JAK-STAT cascade; chromosome organization; ecdysone receptor-mediated signaling pathway; cell cycle; neurogenesis; chromatin organization \cite{Marygold2013}.
+FlyBase has annotated putzig with the following terms in \Dm, positive regulation of Notch signaling pathway; negative regulation of JAK-STAT cascade; chromosome organization; ecdysone receptor-mediated signaling pathway; cell cycle; neurogenesis; and chromatin organization \cite{Marygold2013}.
 %
 The Rfx transcription factors were assigned regulation of insulin secretion (709.97) and endocrine pancreas development (296.05) by \gls{Argot2}.
 %
-OrthoDB corroborates these annotations, but only when vertebrate genomes are included in the data-set.
+OrthoDB corroborates these annotations, but only when the database includes metazoa.
 
 Membrane transport and signaling terms are also present.
 %
@@ -287,11 +296,159 @@ They are arsenite transmembrane transporter activity (1600.53), transporter acti
 
 \section{Discussion} \label{chap:4-sec:discussion}
 
-% interpretation of Argot2 results (insulin/pancreas dev came from vertebrate matches and require a degree of interpretation)
 
-% \subsection{Bloodfeeding and the midgut}
+% Cluster 4
+% upregulation of translation/TOR
+%	peptide quality control 
+% active secretory pathways in both directions
+% Metabolic activities
 
-% \subsection{Heme biosynthetic process}
+% Heme management
+% midgut repair
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Cluster 6
+% downregulation of transcription factors
+% translation elongation
+% signaling
+% Heme management
+
+% transcription factors
+%	X AGAP002238:AAEL010222CPIJ008350 {GATA-type}
+%	x AAEL009171:CPIJ001396:AGAP003726 {ortholog to Dmel bZIP family. CREBRF subfamily}
+%	x CPIJ004057:AAEL009114:AGAP004050 {Doublesex}
+%	x CPIJ014945:AAEL002062:AGAP005661 {Ftz-f1}
+%	x AAEL001361:AGAP006990:CPIJ002241 {Bap 170 }
+%	x CPIJ005607:AAEL005452:AGAP010201 {ortholog to Dmel crp}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Cluster 16
+
+% Downreulation of carbohydrate metabolism
+% downregulation of autophagy/apoptotic process (yippee)/cellular arrest
+% dwnreg of translation-repression
+%   AAEL002550	 AGAP001639	 CPIJ002368 from OrthoDB
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Cluster 22
+
+% protein folding / translation
+% membrane transport
+% chromatin reoganization / link to 20E signaling pathway
+
+% ## not found in func annotation mean tables ## AAEL011240	 AGAP006534	 CPIJ002990  --> ortholog to Dmel putzig (ptz)  annotated as described with: positive regulation of Notch signaling pathway; negative regulation of JAK-STAT cascade; chromosome organization; ecdysone receptor-mediated signaling pathway; cell cycle; neurogenesis; chromatin organization.
+
+
+% transcription factors
+%	AAEL011240, AGAP006534, CPIJ002990 {ortholog to Dmel putzig (ptz)}
+%	AAEL002795, AGAP003943, CPIJ004011 {Rfx transcription factor}
+
+Clusters 4, 6, 16, and 22 do not constitute a comprehensive representation of midgut transcription profiles.
+%
+The clusters are only four of 23 from the partitioned set of \glspl{mAP} obtained by the \gls{gFunc} selection process.
+%
+Furthermore, the decision only to focus on genes that are members of 3-way 1:1 ortholog relationships restricted this study to roughly 30\% of the total genes annotated in each species from the beginning.
+%
+However, the aim of this study was not to produce a comprehensive overview but a concentrated view of a limited aspect of gene expression in the midgut based on \textit{a priori} objectives.
+%
+Clusters 4, 6, 16, and 22 represent the accomplishment of this aim.
+
+
+The bloodmeal is an extremely important event in the reproduction of mosquitoes.
+%
+However, it also poses significant biochemical challenges that must be managed.
+%
+A few of these challenges include massive distention of the tissues of the midgut and abdomen by the volume of the blood; dangerous compounds and potential pathogens that are contained in the blood; and massive and systemic changes in genomic activity among various cell-types that are triggered by the bloodmeal.
+%
+Before the bloodmeal, the female begins the process of developing a clutch of eggs, but the process is halted and maintains a state of suspended development.
+%
+Upon ingestion of a sufficient volume of protein-rich blood, this suspension of development is lifted and various cell-types alter their signaling and genomic contexts as development of the clutch resumes.
+
+
+The insulin and \gls{TOR} pathways are responsible for sensing the change in nutrient levels following a bloodmeal \cite{Roy2007}, \cite{Hietakangas2009}, \cite{Brandon2008}.
+%
+There are local and systemic aspects to nutrient sensing \cite{Hietakangas2009}.
+%
+Insulin, or insulin-like hormones, can transmit systemic signals through the hemolymph and contribute to \gls{TOR}-related, gene expression through interacting with \glspl{InR} on the cellular membrane.
+%
+This stimulates \gls{PI3K}, resulting in de-repression of the TORC1 complex.
+%
+Local nutrient levels are sensed by monitoring energy (\gls{amp}-to-\gls{ATP} ratios) and amino acid levels.
+%
+TORC1 is repressed when \gls{amp}/\gls{ATP} is high and/or amino acid levels are low.
+%
+De-repression of TORC1 results in translation of specific pre-transcribed mRNAs and a general activation of translation.
+%
+Myc and FoxO transcription factors also mediate specific transcription events in response to TORC1.
+%
+Additionally, \gls{20E} concentrations gradually begin to rise immediately after bloodmeal ingestion, and exhibit periodic peaks throughout the process (4h, 8h, and 24h \gls{PBM}) that coincide with specific events \cite{Hagedorn1975}.
+%
+Notably, a small but reproducible peak in \gls{20E} concentration occurs four hours after blood feeding.
+%
+This coincides with many bloodmeal-related events such as a peak in posterior midgut aminopeptidase activity that has been noted in \As\ \cite{Billingsley1991}; an initiation of the increase of late trypsin in the midgut \cite{Barillasmury1991},\cite{Graf1988}; an increase of \gls{JH}-esterase activity that causes a rapid decline of \gls{JH} \cite{Shapiro1986}, and an increase in transcript abundance of \gls{EcR} and associated transcription factors in the fat body \cite{Raikhel1999}.
+
+
+The results of my work support the events described above.
+%
+Cluster 4 increases directly following a bloodmeal and remains elevated until at least 10h \gls{PBM} and contains genes that code for products needed throughout the early digestive period as well as the translational system required to produce proteins from the transcripts.
+%
+These functions include secretory pathways required to supply the lumen of the midgut with digestive enzymes as well as translation coupled to signal peptide processing and deposit into the \gls{ER}.
+%
+Likewise, genes supporting the ability to digest and catabolize proteins are present in cluster 4 while genes involved in digestion of carbohydrates are found in cluster 16 and are therefore down-regulated directly following the bloodmeal.
+%
+This is consistent with the switch from a sugar-based diet to the protein-rich, carbohydrate-poor bloodmeal. 
+
+
+The repression of \gls{TOR} activity results in conservation of cellular resources, reduction of cellular proliferation, and activated autophagy pathways.
+%
+Increased concentrations of protein from the bloodmeal de-represses \gls{TOR} activity, triggering translation of pre-transcribed mRNA molecules.
+%
+\citet{Zhu2006}, using a fat body system, showed that Ftz-F1 acts in multiple capacities to potentate \gls{EcR} competence.
+%
+Ftz-F1 was found in cluster 6 (down after 4h).
+%
+This is consistent with its ability to participate in the activation of the early \gls{20E} responsive genes.
+%
+Furthermore, in \Dm, physical interaction between Ftz-F1 and early genes such as br (broad) has been confirmed \cite{Yamada2000}.
+%
+Ftz-F1 was also one of the \gls{20E} responsive transcription factors included in the generation of the \PTCIe\ ortholog sets.
+%
+Genes related to autophagy, generally expressed when \gls{TOR} activity is repressed were down-regulated in cluster 16 along with genes involved in repression of translation.
+
+The results connect to the \gls{20E} regulatory program in multiple ways.
+%
+Ftz-F1 is a competence factor for \gls{EcR}, and while the mRNA is reduced following the bloodmeal, this actually is to be expected.
+%
+The de-repression of the \gls{TOR} pathway acts to translate pre-transcribed mRNAs that have been translationally repressed.
+%
+This characteristic of the \gls{TOR} method of gene expression regulation results in somewhat counter-intuitive transcriptomic signatures because the transcript may decrease upon activation due to the end of a stage of transcript buildup.
+%
+Furthermore, the cluster 22 ortholog-set AAEL011240:AGAP006534:CPIJ002990 is an ortholog to the \Dm\ gene putzig (ptz) which is annotated in OrthoDB with the terms supporting a connection to the \gls{20E} regulatory program as well as a role as a master regulator (Notch signaling pathway; negative regulation of JAK-STAT cascade; chromosome organization; ecdysone receptor-mediated signaling pathway; cell cycle; chromatin organization).
+
+Heme management is an important challenge for bloodfed mosquitoes.
+%
+Excess heme leads to \gls{ROS} and other dangers.
+%
+One known mechanism of dealing with the heme challenge includes sequestration by ferritin.
+%
+This method was not immediately obvious in the four clusters examined.
+%
+However, heme-related genes were present in cluster 4 (up after 4h) and cluster 6 (down after 4h).
+%
+Interestingly, these were heme synthesis enzymes, not heme degrading enzymes.
+%
+Aminolevulinate synthase (the first step in the heme synthesis pathway) was down-regulated while ferrochelatase was found to be up-regulated.
+%
+This may be due to the fact that heme is actually a co-factor for some members of the \gls{20E} regulatory program (E75) and therefore may need to be maintained at some level for optimal reproductive success \cite{Reinking2005}.
+
+
+In conclusion, this project aimed to provide a method for identifying gene-sets enriched for targeted 
+
+
+
 
 %%% Local Variables: ***
 %%% mode: latex ***
