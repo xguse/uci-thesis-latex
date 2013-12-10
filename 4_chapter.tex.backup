@@ -368,13 +368,13 @@ Before the bloodmeal, the female begins the process of developing a clutch of eg
 Upon ingestion of a sufficient volume of protein-rich blood, this suspension of development is lifted and various cell-types alter their signaling and genomic contexts as development of the clutch resumes.
 
 
-The insulin and \gls{TOR} pathways are responsible for sensing the change in nutrient levels following a bloodmeal [3\cite{Roy2007}], [5\cite{Hietakangas2009}], [6\cite{Brandon2008}].
+The insulin and \gls{TOR} pathways are responsible for sensing the change in nutrient levels following a bloodmeal \cite{Roy2007}, \cite{Hietakangas2009}, \cite{Brandon2008}.
 %
-There are local and systemic aspects to nutrient sensing [5\cite{Hietakangas2009}].
+There are local and systemic aspects to nutrient sensing \cite{Hietakangas2009}.
 %
 Insulin, or insulin-like hormones, can transmit systemic signals through the hemolymph and contribute to \gls{TOR}-related, gene expression through interacting with \glspl{InR} on the cellular membrane.
 %
-This stimulates \gls{PI3K}, eventually resulting in de-repression of the TORC1 complex.
+This stimulates \gls{PI3K}, resulting in de-repression of the TORC1 complex.
 %
 Local nutrient levels are sensed by monitoring energy (\gls{amp}-to-\gls{ATP} ratios) and amino acid levels.
 %
@@ -384,24 +384,69 @@ De-repression of TORC1 results in translation of specific pre-transcribed mRNAs 
 %
 Myc and FoxO transcription factors also mediate specific transcription events in response to TORC1.
 %
-Additionally, \gls{20E} titers gradually begin to rise immediately after bloodmeal ingestion, but the titers exhibit periodic peaks throughout the process (4h, 8h, and 24h \gls{PBM}) that coincide with specific events [10\cite{Hagedorn1975}].
+Additionally, \gls{20E} concentrations gradually begin to rise immediately after bloodmeal ingestion, and exhibit periodic peaks throughout the process (4h, 8h, and 24h \gls{PBM}) that coincide with specific events \cite{Hagedorn1975}.
 %
-Notably, a small but reproducible peak in 20E titer occurs four hours after blood feeding.
+Notably, a small but reproducible peak in \gls{20E} concentration occurs four hours after blood feeding.
 %
-This coincides with a peak in posterior midgut aminopeptidase activity that has been noted in \As\ \cite{Billingsley1991}; an initiation of the increase of late trypsin in the midgut \cite{Barillasmury1991},\cite{Graf1988}; an increase of JH-esterase activity that causes a rapid decline of \gls{JH} \cite{Shapiro1986}, and up-regulation of \gls{EcR} and associated transcription factors in the fat body .
+This coincides with many bloodmeal-related events such as a peak in posterior midgut aminopeptidase activity that has been noted in \As\ \cite{Billingsley1991}; an initiation of the increase of late trypsin in the midgut \cite{Barillasmury1991},\cite{Graf1988}; an increase of \gls{JH}-esterase activity that causes a rapid decline of \gls{JH} \cite{Shapiro1986}, and an increase in transcript abundance of \gls{EcR} and associated transcription factors in the fat body \cite{Raikhel1999}.
 
 
+The results of my work support the events described above.
+%
+Cluster 4 increases directly following a bloodmeal and remains elevated until at least 10h \gls{PBM} and contains genes that code for products needed throughout the early digestive period as well as the translational system required to produce proteins from the transcripts.
+%
+These functions include secretory pathways required to supply the lumen of the midgut with digestive enzymes as well as translation coupled to signal peptide processing and deposit into the \gls{ER}.
+%
+Likewise, genes supporting the ability to digest and catabolize proteins are present in cluster 4 while genes involved in digestion of carbohydrates are found in cluster 16 and are therefore down-regulated directly following the bloodmeal.
+%
+This is consistent with the switch from a sugar-based diet to the protein-rich, carbohydrate-poor bloodmeal. 
 
 
-\subsection{Integrative interpretation of the functional aspects of clusters 4, 6, 16, and 22} % \subsection{Bloodfeeding and the midgut}
+The repression of \gls{TOR} activity results in conservation of cellular resources, reduction of cellular proliferation, and activated autophagy pathways.
+%
+Increased concentrations of protein from the bloodmeal de-represses \gls{TOR} activity, triggering translation of pre-transcribed mRNA molecules.
+%
+\citet{Zhu2006}, using a fat body system, showed that Ftz-F1 acts in multiple capacities to potentate \gls{EcR} competence.
+%
+Ftz-F1 was found in cluster 6 (down after 4h).
+%
+This is consistent with its ability to participate in the activation of the early \gls{20E} responsive genes.
+%
+Furthermore, in \Dm, physical interaction between Ftz-F1 and early genes such as br (broad) has been confirmed \cite{Yamada2000}.
+%
+Ftz-F1 was also one of the \gls{20E} responsive transcription factors included in the generation of the \PTCIe\ ortholog sets.
+%
+Genes related to autophagy, generally expressed when \gls{TOR} activity is repressed were down-regulated in cluster 16 along with genes involved in repression of translation.
+
+The results connect to the \gls{20E} regulatory program in multiple ways.
+%
+Ftz-F1 is a competence factor for \gls{EcR}, and while the mRNA is reduced following the bloodmeal, this actually is to be expected.
+%
+The de-repression of the \gls{TOR} pathway acts to translate pre-transcribed mRNAs that have been translationally repressed.
+%
+This characteristic of the \gls{TOR} method of gene expression regulation results in somewhat counter-intuitive transcriptomic signatures because the transcript may decrease upon activation due to the end of a stage of transcript buildup.
+%
+Furthermore, the cluster 22 ortholog-set AAEL011240:AGAP006534:CPIJ002990 is an ortholog to the \Dm\ gene putzig (ptz) which is annotated in OrthoDB with the terms supporting a connection to the \gls{20E} regulatory program as well as a role as a master regulator (Notch signaling pathway; negative regulation of JAK-STAT cascade; chromosome organization; ecdysone receptor-mediated signaling pathway; cell cycle; chromatin organization).
+
+Heme management is an important challenge for bloodfed mosquitoes.
+%
+Excess heme leads to \gls{ROS} and other dangers.
+%
+One known mechanism of dealing with the heme challenge includes sequestration by ferritin.
+%
+This method was not immediately obvious in the four clusters examined.
+%
+However, heme-related genes were present in cluster 4 (up after 4h) and cluster 6 (down after 4h).
+%
+Interestingly, these were heme synthesis enzymes, not heme degrading enzymes.
+%
+Aminolevulinate synthase (the first step in the heme synthesis pathway) was down-regulated while ferrochelatase was found to be up-regulated.
+%
+This may be due to the fact that heme is actually a co-factor for some members of the \gls{20E} regulatory program (E75) and therefore may need to be maintained at some level for optimal reproductive success \cite{Reinking2005}.
 
 
+In conclusion, this project aimed to provide a method for identifying gene-sets enriched for targeted 
 
-\subsection{Interpretation of Argot2 results} % interpretation of Argot2 results (insulin/pancreas dev came from vertebrate matches and require a degree of interpretation)
-% \lipsum[1]
-
-\subsection{Heme management}
-% \lipsum[1]
 
 
 

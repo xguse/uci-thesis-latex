@@ -2,188 +2,201 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{glssymbols}\relax \glsresetentrylist %
 \glossaryentryfield{NFKB}{\glsnamefont{\nfkb }}{Nuclear Factor $\kappa $-light-chain-enhancer of activated B cells}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{19}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{30}}}%
+		\setentrycounter[]{page}\glsnumberformat{18}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{29}}}%
 \glossaryentryfield{20E}{\glsnamefont{20E}}{20-hydroxyecdysone}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{57\delimN 58}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{69}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{71\delimR 74}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{78}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{80}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{96}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{56\delimN 57}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{68}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{70\delimR 73}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{77}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{79}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{95\delimR 97}}}\glsgroupskip
 \glsgroupheading{A}\relax \glsresetentrylist %
-\glossaryentryfield{AMP}{\glsnamefont{AMP}}{adenosine monophosphate}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{44}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{96}}}%
+\glossaryentryfield{AMP}{\glsnamefont{AMP}}{attacin}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{43}}}%
+\glossaryentryfield{amp}{\glsnamefont{AMP}}{adenosine monophosphate}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{95}}}%
 \glossaryentryfield{Argot2}{\glsnamefont{Argot2}}{Annotation Retrieval of Gene Ontology Terms (\url {http://www.medcomp.medicina.unipd.it/Argot2/})}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{55}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{69\delimN 70}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{77\delimN 78}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{80\delimN 81}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{90}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{92}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{94}}}%
+		\setentrycounter[]{page}\glsnumberformat{54}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{68\delimN 69}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{76\delimN 77}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{79\delimN 80}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{89}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{91}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{93}}}%
 \glossaryentryfield{ATP}{\glsnamefont{ATP}}{adenosine triphosphate}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{96}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{95}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossaryentryfield{ChIP-Seq}{\glsnamefont{ChIP-Seq}}{chromatin immunoprecipitation followed by DNA-Seq}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{58}}}%
+		\setentrycounter[]{page}\glsnumberformat{57}}}%
 \glossaryentryfield{CRE}{\glsnamefont{CRE}}{\textit {cis}-regulatory element}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{16\delimR 20}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{25}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{28\delimN 29}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{34}}}%
+		\setentrycounter[]{page}\glsnumberformat{15\delimR 19}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{22}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{24}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{27\delimN 28}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{33}}}%
 \glossaryentryfield{CRM}{\glsnamefont{CRM}}{\textit {cis}-regulatory module}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{16\delimN 17}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{23}}}%
+		\setentrycounter[]{page}\glsnumberformat{15\delimN 16}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{18}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{22}}}%
 \glossaryentryfield{CTM}{\glsnamefont{CTM}}{Chetumal}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{27\delimN 28}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{33}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{37\delimR 41}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{43\delimR 46}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{26\delimN 27}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{32}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{36\delimR 40}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{42\delimR 45}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossaryentryfield{DENV}{\glsnamefont{DENV}}{dengue virus}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{26\delimR 28}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{30}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{32\delimR 36}}}%
+		\setentrycounter[]{page}\glsnumberformat{25\delimR 27}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{29}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{31\delimR 35}}}%
 \glossaryentryfield{DENV2}{\glsnamefont{DENV2}}{dengue virus serotype 2}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{37\delimN 38}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{46}}}%
+		\setentrycounter[]{page}\glsnumberformat{36\delimN 37}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{45}}}%
 \glossaryentryfield{DENVI}{\glsnamefont{DENVI}}{dengue virus infected}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{28\delimR 33}}}%
+		\setentrycounter[]{page}\glsnumberformat{27\delimR 32}}}%
 \glossaryentryfield{dpi}{\glsnamefont{dpi}}{days post infection}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{26\delimR 34}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{25\delimR 29}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{31\delimR 33}}}\glsgroupskip
 \glsgroupheading{E}\relax \glsresetentrylist %
+\glossaryentryfield{EcR}{\glsnamefont{EcR}}{ecdysone receptor}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{95\delimN 96}}}%
 \glossaryentryfield{EIP}{\glsnamefont{EIP}}{extrinsic incubation period}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{26\delimN 27}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{25\delimN 26}}}%
+\glossaryentryfield{ER}{\glsnamefont{ER}}{endoplasmic reticulum}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{95}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glossaryentryfield{FDR}{\glsnamefont{FDR}}{false discovery rate}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{55}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{68}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{72}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{77}}}%
+		\setentrycounter[]{page}\glsnumberformat{54}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{67}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{71}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{76}}}%
 \glossaryentryfield{FPKM}{\glsnamefont{FPKM}}{fragments per kilobase of transcript per million mapped reads}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{58}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{80\delimN 81}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{85}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{90}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{92}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{133}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{57}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{79\delimN 80}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{84}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{89}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{91}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{121}}}\glsgroupskip
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossaryentryfield{gFunc}{\glsnamefont{gFunc}}{graph-based functional genomics framework}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{55}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{59}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{62}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{68\delimN 69}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{78}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{95}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{54}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{58}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{61}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{67\delimN 68}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{77}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{94}}}\glsgroupskip
 \glsgroupheading{H}\relax \glsresetentrylist %
 \glossaryentryfield{HMM}{\glsnamefont{HMM}}{hidden Markov model}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{70}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{115}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{69}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{103}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glossaryentryfield{InR}{\glsnamefont{InR}}{insulin receptor}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{96}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{94}}}\glsgroupskip
 \glsgroupheading{J}\relax \glsresetentrylist %
 \glossaryentryfield{JH}{\glsnamefont{JH}}{juvenile hormone}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{71}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{80}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{70}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{79}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{95}}}\glsgroupskip
 \glsgroupheading{L}\relax \glsresetentrylist %
 \glossaryentryfield{LVP}{\glsnamefont{LVP}}{Liverpool}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{32\delimR 34}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{37\delimN 38}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{40\delimN 41}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{43\delimN 44}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{31\delimR 33}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{36\delimN 37}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{39\delimN 40}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{42\delimN 43}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossaryentryfield{mAP}{\glsnamefont{mAP}}{mRNA accumulation profile}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{55\delimN 56}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{58\delimN 59}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{69\delimR 71}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{78}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{81\delimN 82}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{86}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{90\delimR 93}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{95}}}%
+		\setentrycounter[]{page}\glsnumberformat{54\delimN 55}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{57\delimN 58}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{68\delimR 70}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{77}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{80\delimN 81}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{85}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{89\delimR 92}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{94}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{97}}}%
 \glossaryentryfield{MDOS}{\glsnamefont{MDOS}}{Motif Discovery using Orthologous Sequences}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{16}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{18}}}%
+		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{17}}}%
 \glossaryentryfield{MOODS}{\glsnamefont{MOODS}}{MOtif Occurrence Detection Suite}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{57}}}%
+		\setentrycounter[]{page}\glsnumberformat{56}}}%
 \glossaryentryfield{Mya}{\glsnamefont{Mya}}{million years ago}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{17\delimN 18}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{16\delimN 17}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glossaryentryfield{NBF}{\glsnamefont{NBF}}{non-bloodfed}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{56}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{71}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{79\delimR 81}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{85}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{90}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{92}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{55}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{70}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{78\delimR 80}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{84}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{89}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{91}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossaryentryfield{PBM}{\glsnamefont{PBM}}{post bloodmeal}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{16\delimN 17}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{21}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{38}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{40}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{56}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{71}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{78\delimR 80}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{90}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{92}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{96}}}%
-\glossaryentryfield{PI3K}{\glsnamefont{PI3K}}{phosphatidylinositol 3-kinase}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{96}}}%
-\glossaryentryfield{PTCI}{\glsnamefont{PTCI}}{Phylogenetic Transcriptional Correlation Index}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{15\delimN 16}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{20}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{37}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{39}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{55}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{57\delimR 59}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{68}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{72}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{77}}}%
+		\setentrycounter[]{page}\glsnumberformat{70}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{77\delimR 79}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{89}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{91}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{95}}}%
+\glossaryentryfield{PI3K}{\glsnamefont{PI3K}}{phosphatidylinositol 3-kinase}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{94}}}%
+\glossaryentryfield{PTCI}{\glsnamefont{PTCI}}{Phylogenetic Transcriptional Correlation Index}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{54}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{56\delimR 58}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{67}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{71}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{76}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{96}}}%
 \glossaryentryfield{PyPI}{\glsnamefont{PyPI}}{Python Package Index}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{62}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{61}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossaryentryfield{Rex-D}{\glsnamefont{Rex-D}}{Rexville D Puerto Rico}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{37\delimR 41}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{43\delimR 46}}}%
+		\setentrycounter[]{page}\glsnumberformat{36\delimR 40}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{42\delimR 45}}}%
 \glossaryentryfield{RIDL}{\glsnamefont{RIDL}}{release of insects carrying a dominant lethal phenotype}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}}}%
 \glossaryentryfield{RNA-Seq}{\glsnamefont{RNA-Seq}}{RNA sequencing}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{53}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{63}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{65\delimN 66}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{113}}}%
+		\setentrycounter[]{page}\glsnumberformat{52}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{62}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{64\delimN 65}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{97}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{101}}}%
 \glossaryentryfield{RNAi}{\glsnamefont{RNAi}}{RNA interference}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{22}}}%
+		\setentrycounter[]{page}\glsnumberformat{21}}}%
 \glossaryentryfield{ROS}{\glsnamefont{ROS}}{reactive oxygen species}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{44}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{43}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{96}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossaryentryfield{SCOPE}{\glsnamefont{SCOPE}}{Suite for Computational identification Of Promoter Elements}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{23}}}%
+		\setentrycounter[]{page}\glsnumberformat{22}}}%
 \glossaryentryfield{SGE}{\glsnamefont{SGE}}{\gls {SunGridEngine}}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{65}}}%
+		\setentrycounter[]{page}\glsnumberformat{64}}}%
 \glossaryentryfield{SIT}{\glsnamefont{SIT}}{sterile insect technique}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
 \glsgroupheading{T}\relax \glsresetentrylist %
 \glossaryentryfield{TF}{\glsnamefont{TF}}{transcription factor}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{58}}}%
+		\setentrycounter[]{page}\glsnumberformat{57}}}%
 \glossaryentryfield{TFBS}{\glsnamefont{TFBS}}{transcription factor binding site}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{18}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{53}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{55}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{57\delimR 60}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{69}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{72\delimR 76}}}%
+		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{52}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{54}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{56\delimR 59}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{68}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{71\delimR 75}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{97}}}%
 \glossaryentryfield{TOR}{\glsnamefont{TOR}}{target of rapamycin}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{95}}}%
+		\setentrycounter[]{page}\glsnumberformat{94\delimR 96}}}%
 \glossaryentryfield{TS}{\glsnamefont{TS}}{Total Score}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{77}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{80\delimN 81}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{89}}}%
+		\setentrycounter[]{page}\glsnumberformat{76}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{79\delimN 80}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{88}}}%
 \glossaryentryfield{TSS}{\glsnamefont{TSS}}{transcriptional start sites}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{25}}}%
+		\setentrycounter[]{page}\glsnumberformat{24}}}%
 \end{theglossary}\glossarypostamble
