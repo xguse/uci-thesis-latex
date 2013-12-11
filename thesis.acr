@@ -39,7 +39,7 @@
 \glossaryentryfield{CRM}{\glsnamefont{CRM}}{\textit {cis}-regulatory module}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{15\delimN 16}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{18}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{19}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{22}}}%
 \glossaryentryfield{CTM}{\glsnamefont{CTM}}{Chetumal}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{26\delimN 27}\delimN 
@@ -118,7 +118,7 @@
 		\setentrycounter[]{page}\glsnumberformat{97}}}%
 \glossaryentryfield{MDOS}{\glsnamefont{MDOS}}{Motif Discovery using Orthologous Sequences}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{17}}}%
+		\setentrycounter[]{page}\glsnumberformat{17\delimN 18}}}%
 \glossaryentryfield{MOODS}{\glsnamefont{MOODS}}{MOtif Occurrence Detection Suite}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{56}}}%
 \glossaryentryfield{Mya}{\glsnamefont{Mya}}{million years ago}{\relax }{\glossaryentrynumbers{\relax 
@@ -184,7 +184,7 @@
 \glossaryentryfield{TF}{\glsnamefont{TF}}{transcription factor}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{57}}}%
 \glossaryentryfield{TFBS}{\glsnamefont{TFBS}}{transcription factor binding site}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{18}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{52}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{54}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{56\delimR 59}\delimN 

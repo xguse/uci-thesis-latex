@@ -2,9 +2,9 @@
 
 
 Our previous attempts to infer \glspl{CRE} bioinformatically have been relatively successful.
-Comparative genomics by way of the \gls{MDOS} program allowed us to infer a set of k-mers that should represent \glspl{CRE} conserved among three species of mosquitoes (\Aa, \Ag, \Cq).
+Comparative genomics with the \gls{MDOS} program allowed us to infer a set of k-mers that should represent \glspl{CRE} conserved among three species of mosquitoes (\Aa, \Ag, \Cq) Sieglaff2009}.
 This method used no expression information in the process of predicting the \glspl{CRE}.
-However, we were able to show that a sub-set of the inferred \glspl{CRE} were enriched significantly in abundance profiles derived from a previous Affymetrix-based bloodfeeding experiment in \Ag\ \cite{Marinotti2005,Marinotti2006,Sieglaff2009}.
+However, we were able to show that a sub-set of the inferred \glspl{CRE} were enriched significantly in abundance profiles derived from a previous Affymetrix-based bloodfeeding experiment in \Ag\ \cite{Marinotti2005,Marinotti2006}.
 Comparing transcriptional abundance profiles between sugar-fed and bloodfed (5h \gls{PBM}) \Aa\ mosquitoes allowed us to predict multiple putative \glspl{CRE} when we focused on transcripts that were detected at high levels in bloodfed mosquitoes but undetectable in sugar-fed females \cite{Bonizzoni2011}.
 Possible \glspl{CRM} were observed by visual inspection as well, but efforts to confirm biological meaningfulness have yet to be completed.
 Putative \glspl{CRM} again were observed by visual inspection in an experiment comparing mRNA abundance profiles between \Aa\ fed with blood infected with dengue virus and those fed with non-infected blood.
@@ -101,9 +101,9 @@ Our analyses of the expression profiles of sugar-fed (S) and bloodfed (B) mosqui
 Forty transcripts were found only in bloodfed mosquitoes, with the highest read-counts reaching ~1000/transcript, after normalizing for different library sizes (data not shown). Functional parent attribution for these transcripts is consistent with a role in digestion and in the progression of the gonotrophic cycle. Specifically, two transcripts, Aa5G1 (AAE013712-RA) and AaSPVI (AAE010196-RA), correspond to the midgut serine proteases shown previously to be elicited by a bloodmeal in the midgut of \Aa\  females \cite{Brackney2010}. Seven other transcripts encode enzymes (i.e. decarboxylase, cathepsin b and trypsins), and two are implicated in trafficking. Transcripts AAE014815-RA and AAE005950-RB correspond to the vacuolar protein sorting 13B from yeast and the chloride channel protein 2, respectively. Ten transcripts are orthologous to the G12 gene of \Ag\ and share the Insect Allergen Repeat motif. This motif is hypothesized to be a novel, insect-specific detoxifying domain implicated in the co-evolution of herbivorous insects and their plant hosts and also has been linked to nitrile-specific detoxification \cite{Fischer2008}. Transcripts AAEL006126-RB and AAEL008921-RC are predicted orthologues of the \Cxq\ vitellogenin-A1 gene and the \Dmel\ \textit{spaghetti squash} (\textit{sqh}) gene, respectively. The \textit{sqh} gene product encodes the regulatory light-chain of non-muscle myosin II, which is required for cytoplasmic transport in nurse cells during oogenesis and also has been implicated in germline \gls{RNAi} processes \cite{Pane2007}.
 
 \subsection{\textit{Cis}-regulatory element discovery}
-Tightly regulated and bloodmeal-induced expression profiles are of particular interest for designing transgenic mosquito-based control strategies to reduce transmission of dengue fever. \textit{Cis}-regulatory sequences derived from bloodmeal-induced / up-regulated mosquito genes allow potentiating swift induction and effective levels of transcription of an associated effector gene, while likely inflicting the least fitness cost \cite{Marelli2006,Amenya2010}. We interpret the different levels of mRNA accumulation seen in this study to reflect changes in transcriptional activity of the corresponding genes, although it is possible that some levels may vary as a function of changing transcript stability or rates of turnover. With this in mind, we used \gls{SCOPE} \cite{Carlson2007} to predict putative \glspl{CRE} that may provide the basis for rational identification and selection of new candidate promoter regions and for modification of the transcriptional profiles of current transgene constructs. We examined the 2000 base pairs (bp) flanking the 5'-boundaries of the 40 transcripts that were undetected in libraries from sugar-fed mosquitoes but detected at significant levels in the RNA-seq libraries from bloodfed mosquitoes and identified a redundant list of 22 motifs that are enriched significantly in these sequences (Figure \ref{fig:bonizzoni2011-cres}). A possible \gls{CRM} constructed with the discovered \glspl{CRE} is represented by the motif consensus sequences, \texttt{cnatcnkcwgtt}, \texttt{gyactyvar}, and \texttt{tgakamga}, and is associated with \Aa\  orthologs of the G12 gene of \Ag\ (AGAP006187) (Figure \ref{fig:bonizzoni2011-cres}). \Aa\ has 17 G12 genes, many more relative to other insects, which have 4.5 on average (according to OrthoDB; group EOG95TCTG) \cite{Kriventseva2008}. The transcripts of nine of the G12 orthologs are present in this co-regulated gene set (representing ~25\% of the 40).
+Tightly regulated and bloodmeal-induced expression profiles are of particular interest for designing transgenic mosquito-based control strategies to reduce transmission of dengue fever. \textit{Cis}-regulatory sequences derived from bloodmeal-induced / up-regulated mosquito genes allow potentiating swift induction and effective levels of transcription of an associated effector gene, while likely inflicting the least fitness cost \cite{Marelli2006,Amenya2010}. We interpret the different levels of mRNA accumulation seen in this study to reflect changes in transcriptional activity of the corresponding genes, although it is possible that some levels may vary as a function of changing transcript stability or rates of turnover. With this in mind, we used \gls{SCOPE} \cite{Carlson2007} to predict putative \glspl{CRE} that may provide the basis for rational identification and selection of new candidate promoter regions and for modification of the transcriptional profiles of current transgene constructs. We examined the 2000 base pairs (bp) flanking the 5'-boundaries of the 40 transcripts that were undetected in libraries from sugar-fed mosquitoes but detected at significant levels in the RNA-seq libraries from bloodfed mosquitoes and identified a redundant list of 22 motifs that are enriched significantly in these sequences (Figure \ref{fig:bonizzoni2011-cres}). A possible \gls{CRM} constructed with the discovered \glspl{CRE} is represented by the motif consensus sequences, \texttt{cnatcnkcwgtt}, \texttt{gyactyvar}, and \texttt{tgakamga}, and is associated with \Aa\  orthologs of the G12 gene of \Ag\ (AGAP006187) (Figure \ref{fig:bonizzoni2011-cres}). \Aea\ has 17 G12 genes, many more relative to other insects, which have 4.5 on average (OrthoDB; group EOG95TCTG) \cite{Kriventseva2008}. The transcripts of nine of the G12 orthologs are present in this co-regulated gene set (representing ~25\% of the 40).
 
-Another putative \gls{CRM} contains the consensus sequence \texttt{tgakamga}, \texttt{cnatcnkcwgtt}, \texttt{asttrccc} and \texttt{aarcttbd} (Figure \ref{fig:bonizzoni2011-cres}). This \gls{CRM} groups with the cathepsin b genes, AAEL015312-RA and AAEL007585-RA. Verification of these \glspl{CRM} will require empirical testing, however, the top 10 matches for \texttt{tgakamga}, which is present in both putative \glspl{CRM}, align well to members of the mosquito-conserved GATA motifs correlated to transcriptional responses to blood feeding in \Ag\ \cite{Sieglaff2009}.
+Another putative \gls{CRM} contains the consensus sequences \texttt{tgakamga}, \texttt{cnatcnkcwgtt}, \texttt{asttrccc} and \texttt{aarcttbd} (Figure \ref{fig:bonizzoni2011-cres}). This \gls{CRM} groups with the cathepsin b genes, AAEL015312-RA and AAEL007585-RA. Verification of these \glspl{CRM} will require empirical testing, however, the top 10 matches for \texttt{tgakamga}, which is present in both putative \glspl{CRM}, align well to members of the mosquito-conserved GATA motifs correlated to transcriptional responses to blood feeding in \Ag\ \cite{Sieglaff2009}.
 
 
 
@@ -165,13 +165,13 @@ These observations come from multiple studies of specific mosquito tissues and t
 We investigated genome-wide changes in transcript accumulation in mosquito midguts, carcasses and salivary glands at 1, 4 and 14 \gls{dpi} during the course of \gls{DENV}2 infection.
 This analysis was conducted by RNA-seq with the Chetumal (CTM) strain of \Aa\ and \gls{DENV}2-Jam1409.
 \gls{CTM} was colonized recently (2005) from mosquitoes from the Yucatan Peninsula and is well-characterized for its response to non-infectious bloodmeals and for the kinetics of \gls{DENV}2-Jam1409 infection \cite{Salazar2007,Bernhardt2012,bonizzoni2012strain}.
-A total of 397 genes had transcripts that showed statistically-significant differential accumulation following \gls{DENV} infection, comprising both those found previously and those that are novel to this study, emphasizing the complex interaction between \Aa\ and \gls{DENV}s \cite{Xi2008,Sim2010,Tchankouo-Nguetcheu2010,Luplertlop2011,Behura2011,Sim2012,Colpitts2011}.
+Our results contain genes described previously and others that are novel to this study, emphasizing the complex interaction between \Aa\ and \gls{DENV}s \cite{Xi2008,Sim2010,Tchankouo-Nguetcheu2010,Luplertlop2011,Behura2011,Sim2012,Colpitts2011}.
 
 
 
 
 \subsection{Results}
-\subsubsection{RNA Sequencing and Mapping Summary}
+\paragraph*{RNA Sequencing and Mapping Summary:}
 
 Illumina RNA-seq technology was applied to study the accumulation levels of poly(A) RNAs at 1, 4 and 14 \gls{dpi} in the carcasses and corresponding midguts of \gls{CTM} females fed either a non-infectious (B) or \gls{DENV}2-infected (\gls{DENVI}) bloodmeal.
 Accumulation levels also were assessed in the salivary glands at 14 \gls{dpi}.
@@ -181,12 +181,12 @@ Sequenced reads were mapped by TopHat \cite{Trapnell2009} to the \Aa\ transcript
 The accumulation levels of specific poly-adenylated RNAs were compared between B and \gls{DENVI} samples at each time point/conditions using DESeq \cite{Anders2010} and Cufflinks \cite{Trapnell2010} (not shown).
 Genes whose products were identified as significantly differentially accumulated by DESeq are contained mostly within the larger number designated similarly by Cufflinks (not shown). A total of 397 unique genes have poly-adenylated RNAs identified by both DESseq and Cufflinks as accumulated differentially and significantly between B and \gls{DENVI} mosquitoes
 
-\subsubsection{Discovery of cis-regulatory Elements}
+\paragraph*{Discovery of \textit{cis}-regulatory Elements:}
 
 Genes with similar expression profiles may share common regulatory mechanisms, including the occurrence of similar \glspl{CRE} \cite{Sieglaff2009}.
 Evidence of this shared regulation may be evident in the control DNA sequences of mosquito genes that are expressed exclusively or highly-induced following dengue virus infection.
 Some of these genes also may have transcripts that accumulate to high or higher levels following an uninfected bloodmeal (B samples).
-The preferred expression profile for an antiviral effector gene would be one that is induced highly after blood feeding and is either further elevated or not affected by virus infection.
+The preferred expression profile for an antiviral effector gene would be one that is induced highly after blood feeding and is either elevated further or not affected by virus infection.
 
 A total of 2012 genes showed read-coverage in salivary glands of \gls{DENVI} mosquitoes but not in the salivary glands of B mosquitoes.
 While fifteen of these genes were associated with lipid metabolism, the majority were related to transcription and translation and/or chromatin structure and dynamics (not shown).
@@ -194,7 +194,7 @@ Forty-one of these had FPKM$_{DENVI}$ ≥ 15, and only one, AAEL005034, showed t
 As many as 762 and 1324 genes had transcripts that were detected in infected but not in the corresponding uninfected carcasses and midguts samples, respectively.
 The vast majority of these had FPKM$_{DENVI}$ < 4.
 The exceptions were AAEL011066, AAEL010034 and AAEL002899, all encoding hypothetical proteins.
-At 1\gls{dpi}, AAEL011066 had read coverage only in carcass of \gls{DENVI} (FPKM$_{DENVI}$ = 14.97); AAEL010034 and AAEL002899 in midguts of \gls{DENVI} (FPKM$_{DENVI}$ = 8.11 and 6.56, respectively) (not shown).
+At 1 \gls{dpi}, AAEL011066 had read coverage only in carcass of \gls{DENVI} (FPKM$_{DENVI}$ = 14.97); AAEL010034 and AAEL002899 in midguts of \gls{DENVI} (FPKM$_{DENVI}$ = 8.11 and 6.56, respectively) (not shown).
 The putative promoter regions of 41 genes with FPKM$_{DENVI}$ ≥ 15 in salivary glands were analyzed using MEME \cite{Bailey2006} (Figure \ref{fig:bon2012complex-S2}).
 
 We refined the search for common, co-occurring \glspl{CRE} by considering the promoters of genes whose products accumulated highly (FPKM$_{DENVI}$ ≥ 100) in \gls{DENVI} mosquitoes and were at the same or lower levels (FPKM$_{B}$ ≤ 100) in B mosquitoes (not shown).
@@ -253,15 +253,14 @@ The RNA-seq technology used in this study interrogates the whole \Aa\ transcript
 In general, more depleted rather than enriched transcript accumulation was observed.
 Importantly, hundreds of genes had exclusive read-coverage only in \gls{DENVI} mosquitoes, but their accumulation levels were generally low (FPKM$_{DENVI}$ < 4 in carcass and midgut samples and < 15 in salivary gland samples).
 
-The “\gls{DENV} down-regulation” trend is consistent to that observed with the Rockefeller (ROCK) strain infected by \gls{DENV}2 New Guinea in transcriptional responses examined in whole-body (1–2, 7 and 14 \gls{dpi}) or midgut samples (10 \gls{dpi}) and in salivary glands of the \gls{LVP} strain infected with \gls{DENV}2 Thailand 16681 \cite{Xi2008,Luplertlop2011,Sim2012,Colpitts2011}.
-These results support the hypothesis that dengue infection has a negative impact on fitness.
+The “\gls{DENV} down-regulation” trend is consistent to that observed with the Rockefeller (ROCK) strain infected by \gls{DENV}2 New Guinea in transcriptional responses examined in whole-body (1–2, 7 and 14 \gls{dpi}); midgut samples (10 \gls{dpi}); and in salivary glands of the \gls{LVP} strain infected with \gls{DENV}2 Thailand 16681 \cite{Xi2008,Luplertlop2011,Sim2012,Colpitts2011}.
 However, a larger number of genes had products that increased instead of decreased in abundance in carcass samples 10 \gls{dpi} and in salivary glands at 14 \gls{dpi} in ROCK mosquitoes infected with \gls{DENV}2-New Guinea \cite{Xi2008,Sim2012}.
 This trend also was evident in \Aa\ Aag2 cultured cells infected by \gls{DENV}2 New Guinea and in both susceptible (Moyo-S) and resistant (Moyo-R) strains infected with \gls{DENV}2 Jam1409 \cite{Sim2010,Behura2011}.
 These results emphasize the complex relationship among \Aa\ and dengue viruses.
 
 
 
-\subsubsection{\textit{Cis}-regulatory Elements}
+\paragraph*{\textit{Cis}-regulatory Elements:}
 
 The preferred promoter for an anti-dengue effector gene would be one that is induced following a bloodmeal and is not affected by viral infection.
 Furthermore, we hypothesize that genes with this preferred expression profile may share common regulatory mechanisms based on common \glspl{CRE}.
@@ -280,8 +279,8 @@ These results and the findings that several motifs are putative binding sites fo
 \subsection{Conclusions}
 
 Dengue fever is the most important arboviral disease world-wide, with \Aea\ being the major vector.
-Interactions between the mosquito host and dengue viruses (\gls{DENV}) are complex and vector competence varies among geographically-distinct \Aa\ populations.
-Additionally, dengue is caused by four antigenically-distinct viral serotypes (\gls{DENV}1–4), each with multiple genotypes.
+Interactions between the mosquito host and dengue viruses (\gls{DENV}) are complex and vector competence varies among geographically distinct \Aa\ populations.
+Additionally, dengue is caused by four antigenically distinct viral serotypes (\gls{DENV}1–4), each with multiple genotypes.
 Each virus genotype interacts differently with vertebrate and invertebrate hosts.
 Analyses of alterations in mosquito transcriptional profiles during \gls{DENV} infection are expected to provide the basis for identifying networks of genes involved in responses to viruses and contribute to the molecular-genetic understanding of vector competence.
 In addition, this knowledge is anticipated to support the development of novel disease-control strategies.
@@ -297,7 +296,7 @@ This knowledge is expected to contribute to development of novel vector control 
 The interactions between the mosquito host and the virus are complex at both the individual and population levels.
 Many mosquito tissues are affected by the virus during the course of the infection and \Aa\ strains can show unique responses of the transcriptome in response to a bloodmeal and susceptibility to \gls{DENV} infection \cite{Black2002,bonizzoni2012strain}.
 Additionally, the variation in \gls{DENV} serotypes and genotypes contributes to genetically-distinct differences in vector competence \cite{Anderson2006,Weaver2009}.
-While we identified modulations in transcript abundance following \gls{DENV} infection that represent genes encoding similar functional categories, a limited number of specific genes were concordant across the mosquito strains and \gls{DENV}2 genotypes following comparison of our data with previous studies \cite{Xi2008,Luplertlop2011,Behura2011,Sim2012,Colpitts2011}.
+% While we identified modulations in transcript abundance following \gls{DENV} infection that represent genes encoding similar functional categories, a limited number of specific genes were concordant across the mosquito strains and \gls{DENV}2 genotypes following comparison of our data with previous studies \cite{Xi2008,Luplertlop2011,Behura2011,Sim2012,Colpitts2011}.
 Furthermore, the direction of changes in transcript abundance in samples from infected and uninfected mosquitoes was not always conserved among the various studies, an observation that we consider independent of the methodology used to assess differential transcript accumulation.
 These results support the need for a comprehensive analysis of dengue infection focusing on recently-colonized laboratory strains or wild-caught mosquitoes to capture most of the genetic variability at the host level and different \gls{DENV} serotypes/genotypes \cite{Armstrong2001}.
 This analysis also should account for possible variation in the progression of the viral infection and timing of host gene expression.
@@ -334,7 +333,7 @@ Our data show significant differences in transcript accumulation among strains, 
 
 
 \subsection{Results}
-\subsubsection{RNA-seq mapping summary}
+\paragraph*{RNA-seq mapping summary:}
 
 Transcriptional profiles of \gls{LVP}, \gls{CTM}, and \gls{Rex-D} strains before and after a bloodmeal were compared.
 RNA-seq libraries were generated with the use of RNA extracted from females collected 3 to 5 days after eclosion and kept either on a sugar diet (S) or harvested 5 h \gls{PBM} (B) (not shown).
@@ -346,7 +345,7 @@ This bias is expected to affect all samples equally; therefore, if the absolute 
 
 
 
-\subsubsection{Constitutively accumulated transcripts}
+\paragraph*{Constitutively accumulated transcripts:}
 
 A total of 4188 transcripts exhibit no or small variation (≤ 2-fold) among S samples of the three strains and between B and S samples within each strain and correspond most likely to genes that encode products necessary for vital and/or basal metabolic functions (not shown).
 Function−parent attributions for this group of transcripts revealed a predominance of those encoding proteins with binding activity over transcripts with molecular function and catalytic activity (not shown).
@@ -388,21 +387,21 @@ The number of strain-specific transcripts varying highly (< 10-fold) in abundanc
 Overall, the largest proportion of transcripts showing strain-specific increased accumulation after bloodmeal are linked to binding and catalytic functions and associated with transcription, translation, and posttranslational modification, whereas the largest proportion of strain-specific decreased transcripts are linked to transcription, translation, posttranscriptional modification, and RNA processing in \gls{LVP} and \gls{CTM} and to transport and metabolism of lipids, carbohydrates, and amino acids in \gls{Rex-D} (not shown).
 
 
-\subsubsection{Protein network analysis of bloodmeal-induced changes in transcript accumulation}
+\paragraph*{Protein network analysis of bloodmeal-induced changes in transcript accumulation:}
 
-By using a Markov Cluster algorithm, \cite{Guo2010} developed a protein interaction network in which 3500 \Aa\ proteins are organized into 494 functional modules.
+By using a Markov Cluster algorithm, \citet{Guo2010} developed a protein interaction network in which 3500 \Aa\ proteins are organized into 494 functional modules.
 A total of 2465 of these proteins are encoded by transcripts exhibiting significant differential accumulation between B and S mosquitoes in at least one of the three strains analyzed (not shown).
 Modules enriched in Gene Ontology terms for cytoplasm organization and biogenesis, ribosome biogenesis and assembly, transcription, DNA metabolic processes, response to endogenous stimuli, and cell cycle were enriched significantly with proteins encoded by transcripts increased in accumulation in all three strains after a bloodmeal (not shown).
 A module enriched in Gene Ontology terms for cytoskeleton organization and biogenesis, reproduction, and cell differentiation was enriched significantly with proteins corresponding to transcripts consistently decreased in accumulation following a bloodmeal.
 Results from the protein network analyses are consistent with those from functional attribution of the differentially accumulated transcripts.
 
-\subsubsection{Metabolic pathways involving transcripts differentially accumulated post-bloodmeal}
+\paragraph*{Metabolic pathways involving transcripts differentially accumulated post-bloodmeal:}
 \input{/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/aa-diff-paralogs.tex}
 
 Metabolic pathways correlated with transcripts increased in accumulation after a bloodmeal in all three strains were visualized in LinkinPath \cite{Ingsriswang2011} alongside pathways associated with transcripts accumulated in a strain-specific manner and transcripts decreased in accumulation after a bloodmeal (not shown).
 As seen with the function−parent attribution analyses, the transcripts increased and decreased in accumulation are associated with proteins involved in similar pathways.
 However, differential expression of paralogous genes among the strains was observed that could account for the intensity and/or the rate of pathway activation/deactivation after a bloodmeal.
-For example, biosynthesis of fatty acids associates predominantly with transcripts decreased in accumulation in all three strains after a bloodmeal, but the elongation of fatty acids in mitochondria was exclusively associated with transcripts increased in accumulation (Figure \ref{fig:aa-diff-paralogs}).
+For example, biosynthesis of fatty acids associates predominantly with transcripts decreased in accumulation in all three strains after a bloodmeal, but the elongation of fatty acids in mitochondria was associated exclusively with transcripts increased in accumulation (Figure \ref{fig:aa-diff-paralogs}).
 Proteins corresponding to transcripts accumulated differentially in a strain-specific manner were identified in both cases, with the same protein function encoded by paralogous transcripts in the different strains.
 Examples include FabI (enoyl-[acyl carrier protein] reductase) of the fatty acid biosynthesis pathway linked to transcripts AAEL003961-RA and AAEL002493-RA, which significantly increased in all three strains (fold-changes: 1.4-2.4); AAEL009634-RC and AAEL014840-RA, both of which increased 2-fold in \gls{CTM}; AAEL000705-RA, AAEL000689-RA and AAEL004273-RA, which decreased in \gls{CTM} (fold-changes: 2.5-4.4); AAEL009685-RB, which decreased 5.4-fold in \gls{Rex-D}; and AAEL017302-RA, AAEL007669-RA, AAEL008227-RA, AAEL009625-RA, AAEL013491-RA, AAEL017320-RA, AAEL000690-RA, AAEL002228-RA, AAEL003148-RA, AAEL003183-RA, AAEL010075-RA, AAEL012400-RA, and AAEL008016-RA, which decreased in all three strains, with fold-changes in the range of 0.6-11.3.
 All of these transcripts are annotated currently as short-chain and steroid dehydrogenases, oxidoreductases, or fatty acid synthases \cite{Ribeiro-AegyXcel} and match to short-chain dehydrogenases in the PFAM database \cite{Finn2008}, with the exception of AAEL002228-RA, whose best match is ketoacyl synthase.

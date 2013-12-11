@@ -216,7 +216,7 @@ FUNCTION {bbl.and}
 { "and"}
 
 FUNCTION {bbl.etal}
-{ "et~al." }
+{ "\emph{et al.}" }
 
 FUNCTION {bbl.editors}
 { "editors" }
@@ -458,7 +458,7 @@ FUNCTION {format.names}
               if$
               t "others" =
                 {
-                  " " * bbl.etal *
+                  " " * bbl.etal emphasize *
                 }
                 { " " * t * }
               if$

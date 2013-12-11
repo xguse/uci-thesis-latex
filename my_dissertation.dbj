@@ -1,0 +1,258 @@
+%% Driver file to produce my_dissertation.bst from merlin.mbs
+%% Generated with makebst, version 4.1 (2003/09/08)
+%% Produced on 2013/12/10 at 14:43
+%% 
+\input docstrip
+
+\preamble
+----------------------------------------
+*** like PlosBio-ish ***
+
+\endpreamble
+
+\postamble
+End of customized bst file
+\endpostamble
+
+\keepsilent
+
+\askforoverwritefalse
+\def\MBopts{\from{merlin.mbs}{%
+%EXTERNAL FILES:
+%Name of language file: \cfile=.
+%No included files.
+%INTERNAL LANGUAGE SUPPORT (if no external language file)
+    %: (def) English
+% babel,%: Babel
+%--------------------
+%STYLE OF CITATIONS:
+    %: (def) Numerical
+% ay,%: Author-year
+% alph,%: Alpha style, Jon90 or JWB90
+% alph,alf-1,%: Alpha style, Jon90
+% alph,alf-f,%: Alpha style, Jones90
+% cite,%: Cite key
+%--------------------
+%HTML OUTPUT (if non author-year citations)
+    %: (def) Normal LaTeX
+% html,%: Hypertext
+% html,htlist,%: Hypertext list
+% html,htdes,%: Hypertext with keys
+%--------------------
+%AUTHOR--YEAR SUPPORT SYSTEM (if author-year citations)
+% nat,%: Natbib
+%   %: (def) Older Natbib
+% alk,%: Apalike
+% har,%: Harvard
+% ast,%: Astronomy
+% cay,%: Chicago
+% nmd,%: Named
+% cn,%: Author-date
+%--------------------
+%HARVARD EXTENSIONS INCLUDED (if Harvard support selected)
+% harnm,%: With Harvard extensions
+%   %: (def) Older Harvard
+%--------------------
+%LANGUAGE FIELD
+    %: (def) No language field
+% lang,%: Add language field
+%--------------------
+%ANNOTATIONS:
+    %: (def) No annotations
+% annote,%: Annotations
+%--------------------
+%PRESENTATIONS:
+%   %: (def) Do not add presentation type
+  pres,%: Add presentation, speaker not highlighted
+% pres,pres-bf,%: Presentation, speaker bold face
+% pres,pres-it,%: Presentaion, speaker italic
+% pres,pres-sc,%: Presentaion, speaker in small caps
+%--------------------
+%ORDERING OF REFERENCES (if non-author/year and non-alph)
+%   %: (def) Alphabetical
+  seq-no,%: Citation order
+% seq-yr,%: Year ordered
+% seq-yrr,%: Reverse year ordered
+%--------------------
+%ORDERING OF REFERENCES (if author-year citations)
+%   %: (def) Alphabetical
+% seq-lab,%: By label
+% seq-labc,%: By label and cite order
+% seq-key,%: By label and cite key
+% seq-yr,%: Year ordered
+% seq-yrr,%: Reverse year ordered
+% seq-no,%: Citation order
+%--------------------
+%ORDER ON VON PART (if not citation order)
+    %: (def) Sort on von part
+% vonx,%: Sort without von part
+%--------------------
+%IGNORE FIRST NAMES (if author-year citations)
+%   %: (def) Respect first names
+% xintls,%: Sort on surname only
+%--------------------
+%AUTHOR NAMES:
+% ed-au,%: Full, surname last
+% nm-revf,%: Full, surname first
+% nm-init,ed-au,%: Initials + surname
+% nm-rev,%: Surname + initials
+% nm-rv,%: Surname + dotless initials
+% nm-rvvc,%: Surname + comma + spaceless initials
+% nm-rvx,%: Surname + pure initials
+  nm-rvcx,%: Surname + comma + pure initials
+% nm-rvv,%: Surname + spaceless initials
+% nm-rev1,%: Only first name reversed, initials
+% nm-revv1,%: First name reversed, with full names
+%--------------------
+%EDITOR NAMES IN COLLECTIONS (if author names reversed)
+%   %: (def) Editor names NOT reversed
+  ed-rev,%: Editor names reversed
+%--------------------
+%POSITION OF JUNIOR (if author names reversed)
+  jnrlst,%: Junior comes last
+%   %: (def) Junior between
+%--------------------
+%JUNIOR PART IN THE CITATION (if author-year citations)
+%   %: (def) No `junior' part in the citations
+% jnrlab,%: `Junior' in citations
+%--------------------
+%PUNCTUATION BETWEEN AUTHOR NAMES:
+    %: (def) Author names separated by commas
+% aunm-semi,%: Names separated by semi-colon
+% aunm-sl,%: Names separated by slash
+%--------------------
+%ADJACENT REFERENCES WITH REPEATED NAMES:
+    %: (def) Author/editor names always present
+% nmdash,%: Repeated author/editor names replaced by dash
+% nmdash,nmd-2,%: Repeated author/editor names replaced by 2 dashes
+% nmdash,nmd-3,%: Repeated author/editor names replaced by 3 dashes
+%--------------------
+%NUMBER OF AUTHORS IN BIBLIOGRAPHY:
+%   %: (def) All authors
+  nmlm,%: Limited authors
+%--------------------
+    x10,x0,%: Maximum of 10 authors
+    m3,%: Minimum of 3 authors
+%AUTHORS IN CITATIONS:
+%   %: (def) One author et al
+  mcite,%: Some other truncation scheme
+%--------------------
+%MAX AUTHORS BEFORE ET AL: (if regular cite not selected)
+% mct-1,%: One et al
+% mct-2,%: One, Two et al
+% mct-3,%: One, Two, Three et al
+% mct-4,%: One, Two, Three, Four et al
+  mct-5,%: One, Two, Three, Four, Five et al
+% mct-6,%: One, Two, Three, Four, Five, Six et al
+%--------------------
+%MAX AUTHORS WITHOUT ET AL: (if regular cite not selected)
+  mct-x2,%: Two authors without truncating
+% mct-x3,%: Three authors
+% mct-x4,%: Four authors
+% mct-x5,%: Five authors
+% mct-x6,%: Six authors
+%--------------------
+%TYPEFACE FOR AUTHORS IN LIST OF REFERENCES:
+    %: (def) Normal font for author names
+% nmft,nmft-sc,%: Small caps authors
+% nmft,nmft-it,%: Italic authors
+% nmft,nmft-bf,%: Bold authors
+% nmft,nmft-def,%: User defined author font
+%--------------------
+%FONT FOR FIRST NAMES (if non-default font for authors)
+%   %: (def) First names same font as surnames
+% fnm-rm,%: First names in normal font
+% fnm-def,%: First names in user defined font
+%--------------------
+%EDITOR NAMES IN INCOLLECTION ETC:
+%   %: (def) Editors incollection normal font
+% nmfted,%: Editors incollection like authors
+%--------------------
+%FONT FOR `AND' IN LIST:
+%   %: (def) `And' in author font
+% nmand-rm,%: `And' in normal font
+%--------------------
+%FONT OF CITATION LABELS IN TEXT (if author-year citations)
+%   %: (def) Cited authors plain
+% lab,lab-it,%: Cited authors italic
+% lab,lab-sc,%: Cited authors small caps
+% lab,lab-bf,%: Cited authors bold
+% lab,lab-def,%: User defined citation font
+%--------------------
+%FONT FOR `AND' IN CITATIONS (if non-default font for citation lables)
+%   %: (def) Cited `and' in author font
+% and-rm,%: Cited `and' in normal font
+%--------------------
+%FONT OF EXTRA LABEL (The extra letter on the year)
+%   %: (def) Extra label plain
+% xlab-it,%: Extra label italic
+%--------------------
+%LABEL WHEN AUTHORS MISSING (if author-year citations)
+% keyxyr,%: Year blank when KEY replaces missing author
+%   %: (def) Year included when KEY replaces missing author
+%--------------------
+%MISSING DATE (if author-year citations)
+%   %: (def) Missing date set to ????
+% blkyear,%: Missing date left blank
+%--------------------
+%DATE POSITION:
+%   %: (def) Date at end
+  dt-beg,%: Date after authors
+% dt-jnl,%: Date part of journal spec.
+% dt-end,%: Date at very end
+%--------------------
+%DATE FORMAT (if non author-year citations)
+%   %: (def) Plain month and year
+  yr-par,%: Date in parentheses
+% yr-brk,%: Date in brackets
+% yr-col,%: Date preceded by colon
+% yr-per,%: Date preceded by period
+% yr-com,%: Date preceded by comma
+% yr-blk,%: Date preceded by space
+%--------------------
+%SUPPRESS MONTH:
+%   %: (def) Date is month and year
+  xmth,%: Date is year only
+%--------------------
+%REVERSED DATE (if including month)
+%   %: (def) Date as month year
+% dtrev,%: Date as year month
+%--------------------
+%DATE FORMAT (if author-year citations)
+%   %: (def) Year plain
+% yr-par,%: Year in parentheses
+% yr-brk,%: Year in brackets
+% yr-col,%: Year preceded by colon
+% yr-per,%: Year preceded by period
+% yr-com,%: Date preceded by comma
+% yr-blk,%: Year preceded by space
+%--------------------
+%INCLUDE MONTHS:
+%   %: (def) Date is year only
+% aymth,%: Include month in date
+%--------------------
+%REVERSED DATE (if including month)
+%   %: (def) Date as month year
+% dtrev,%: Date as year month
+%--------------------
+%DATE PUNCTUATION (if date not at end)
+    %: (def) Date with standard block punctuation
+% yrp-col,%: Colon after date
+% yrp-semi,%: Semi-colon after date
+% yrp-per,%: Period after date
+% yrp-x,%: No punct. after date
+%--------------------
+%BLANK AFTER DATE:
+    %: (def) Space after date
+% yrpp-xsp,%: No space after date
+%--------------------
+%DATE FONT:
+    %: (def) Date in normal font
+% dtbf,%: Date in bold face
+%--------------------
+%TRUNCATE YEAR (if author-year citations)
+% note-yr,%: Year text full
+%   %: (def) Year truncated
+%--------------------
+%TITLE OF ARTICLE:
+%   %: (def) Title plain
