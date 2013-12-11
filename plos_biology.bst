@@ -195,7 +195,11 @@ FUNCTION {field.or.null}
   if$
 }
 FUNCTION {emphasize}
-{ skip$ }
+{ duplicate$ empty$
+    { pop$ "" }
+    { "{\em " swap$ * "}" * }
+  if$
+}
 FUNCTION {tie.or.space.prefix}
 { duplicate$ text.length$ #3 <
     { "~" }
@@ -216,7 +220,7 @@ FUNCTION {bbl.and}
 { "and"}
 
 FUNCTION {bbl.etal}
-{ "\emph{et al.}" }
+{ "et~al." }
 
 FUNCTION {bbl.editors}
 { "editors" }
@@ -559,7 +563,7 @@ FUNCTION {format.full.names}
               if$
               t "others" =
                 {
-                  " " * bbl.etal *
+                  " " * bbl.etal emphasize *
                 }
                 {
                   numnames #2 >
@@ -1272,13 +1276,13 @@ FUNCTION {format.lab.names}
   s num.names$ duplicate$
   #2 >
     { pop$
-      " " * bbl.etal *
+      " " * bbl.etal emphasize *
     }
     { #2 <
         'skip$
         { s #2 "{ff }{vv }{ll}{ jj}" format.name$ "others" =
             {
-              " " * bbl.etal *
+              " " * bbl.etal emphasize *
             }
             { bbl.and space.word * s #2 "{vv~}{ll}" format.name$
               * }
