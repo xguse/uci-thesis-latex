@@ -203,9 +203,9 @@ Once a set of transcription factors are bound to the promoter they recruit addit
 A typical strategy to obtain regulatory sequences suited to drive a transgene following the expression characteristics used as an example above (expressed directly following a bloodmeal, in the midgut) would be to identify genes in the mosquito that already have a similar expression pattern to the ideal.
 The promoter from that gene would then be used to direct expression of the transgene from the final integration construct.
 
-This is a common approach to engineer the expression patterns of real transgenes in mosquitoes.
-In \citet{Moreira2000}, the promoter sequences of a gene encoding a carboxypeptidase enzyme (normally expressed in the midgut after a meal) from \Aa\ and \Ag\ were inserted in front of a reporter gene.
-This resulted in abundant expression of \gls{luciferase} mRNA and protein in the midguts of transgenic mosquitoes in four of six AeCP lines.
+This is a very common process used to engineer the expression patterns of real transgenes in mosquitoes.
+In \cite{Moreira2000}, the promoter sequences of a gene called carboxypeptidase (normally expressed in the midgut after a meal) from \Aa\ and \Ag\ were inserted in front of a reporter gene.
+The result was luciferase mRNA and protein abundantly expressed in the midguts of transgenic mosquitoes in four of six AeCP lines and in the.
 Expression of the reporter gene was gut-specific and peaked about 24h \gls{PBM}.
 
 
