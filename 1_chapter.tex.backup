@@ -22,15 +22,15 @@
 \section{Dengue fever and malaria are mosquito borne diseases}
 
 There are many mosquito-borne diseases that afflict the world's population.
-Dengue fever and malaria are two important such diseases resulting in major health and productivity deficits in many developing nations worldwide \CITEME.
+Dengue fever and malaria are two important such diseases resulting in major health and productivity deficits in many developing nations worldwide \cite{Gubler2012,Sachs2002}.
 The causative agents of these two diseases are a suite of four species of RNA viruses (Dengue Virus 1-4) and a group of five species of protist from the genus \textit{Plasmodium} (\Plf, \Pv, \Po, \Pm, and \Pk).
-However, in any \textbf{single} geographic location each disease is transmitted primarily by a single species of mosquito \CITEME (Table \ref{tab:species-disease-region}). 
+However, in any single geographic location each disease is transmitted primarily by a single species of mosquito (Table \ref{tab:species-disease-region}). 
 
 \input{tables/species-disease-region}
 
 The fact that both of these diseases are caused by multiple pathogen species complicates efforts to prevent human disease: particularly when addressed from the perspective of providing therapeutic or prophylactic care directly to human patients.
-
-\alert{TONY: MORE HERE ABOUT WHY THIS COMPLICATES THINGS?}
+Dengue vaccine development is complicated by the fact that patients with an established immunity to one serotype are more likely to develop a more sever form of the disease if they become infected with a second serotype because of a phenomenon known as antibody-dependent enhancement \cite{Flipse2013}.
+While different species of the malaria parasite present slightly different versions of the disease and require specific treatment considerations \cite{Prevention}.  
 
 \section{Hematophagy (bloodfeeding) is an essential part of mosquito-borne disease}
 
@@ -62,11 +62,8 @@ For this, the pathogen must be injected into the bloodstream of the next human a
 
 \section{Public health: \emph{multiple targets}}
 
-Because the mode of transmission essentially\footnote{While some mosquito
-  to non-human vertebrate transmission may occur, it is not thought to
-  be sufficient to maintain the pathogen if the mosquito:human loop is
-  broken (\CITEME).}
-links mosquito to humans or humans to mosquitoes, the cycle will collapse and a local area would eventually be cleared of the pathogen if either of these links are broken, provided that the intervention is maintained.
+Because the mode of transmission essentially links mosquito to humans or humans to mosquitoes, the cycle will collapse and a local area would eventually be cleared of the pathogen if either of these links are broken, provided that the intervention is maintained.
+People do not infect other people.
 This model suggests two primary targets for public health interventions aiming to reduce the \gls{incidence}
 (followed by \gls{prevalence}) of infection in a population:
 
@@ -77,7 +74,7 @@ This model suggests two primary targets for public health interventions aiming t
 
 However, many interventions can not be clearly divided into addressing purely the human or vector side of the cycle.
 For example, efforts to reduce the number of bites that humans receive from mosquitoes affects both the probabilities of the vector \emph{and} the human becoming infected.
-This is one reason that vector control is almost always part of prevention strategies \CITEME.
+This is one reason that vector control is frequently part of prevention strategies.
 For the purposes of this document, I will define human-based interventions to be those that are directly administered to a human body: things like prophylactic- or therapeutic-drugs and vaccines.
 In this respect, the long-term goals of public health are more focused on prevention than the treatment of acute cases.
 Of course, sick people need to be treated. Additionally, identifying and curing people who are infected also prevents mosquitoes from acquiring the pathogen.
@@ -88,7 +85,7 @@ However, prevention is preferred because it is more cost-effective.
 
 Because of the definition of human-based interventions above, there are relatively few effective options in this category for malaria and dengue fever.
 Normally, this section would include vaccines and swift, effective patient identification and treatment to clear the infection.
-However, at this time these types of interventions simply do not exist on the market or in a cost-effective form applicable to the isolated and impoverished areas that are most affected \CITEME.
+However, at this time these types of interventions are still in development phases or do not yet exist in a cost-effective form applicable to the isolated and impoverished areas that are most affected \cite{Graves2006,DelAngel2013,Amin2005}.
 
 \subsection[Addressing the vector side of the cycle (conventionally)]{Non-transgenic options for addressing the vector side of the cycle}
 
@@ -99,9 +96,9 @@ One fairly recently developed approach that has shown great promise is \gls{SIT}
 
 
 
-\paragraph*{Sterile insect technique}
+\paragraph*{Sterile insect technique:}
 \gls{SIT} exploits an aspect of the reproductive behavior of some insects. 
-In many insects, the first mating event provides the only genetic material that the female will use to fertilize her eggs for the rest of her life \CITEME.
+In \Aa, the first mating event provides the only genetic material that the female will use to fertilize her eggs for the rest of her life \cite{Craig1967}.
 Subsequent mating events, if they occur, contribute little to no genetic material to the females progeny, \textbf{even if the first event involves a sterile male}.
 This means that release of inundative numbers of sterilized males into a native population will effectively sterilize significant proportions of wild females.
 This has dramatic effects on the local population.
@@ -132,7 +129,7 @@ The goal is not to reduce or eliminate contact between humans and vectors but to
 
 The capacity to make transgenic vectors is essential to the design of transgenic methods for vector control.
 For mosquitoes, this is more labor intensive than for other fly species like \Dmel.
-However, it has been accomplished, and protocols to reliably introduce transgenes into many mosquito species now exist \CITEME.
+However, it has been accomplished, and protocols to reliably introduce transgenes into many mosquito species now exist \cite{Adelman2007}.
 Unfortunately, the relative difficulty is high.
 It takes 2-3 months to establish a stable line.
 Thus many experimental approaches that are straightforward or even routine in \Dm\ or other species remain impractical for mosquitoes.
@@ -172,7 +169,7 @@ Trials of \gls{RIDL} strains are currently underway in Brazil and the Cayman Isl
 
 \paragraph*{Vector population modification:}
 
-Vector \gls{population-modification} is a novel strategy for vector control that exists primarily within the context of genetically altered vectors (\CITEME wolbacia).
+Vector \gls{population-modification} is a novel strategy for vector control that exists primarily within the context of genetically altered vectors.
 It promises to be the most long-lasting vector-focused intervention.
 Unlike all vector \gls{population-reduction} tactics, there is a predicted point in a conversion intervention (the anti-transmission trait works and is present in local populations at near 100\%) when the human management of the intervention can be ceased, yet it continues to function.
 For \gls{population-reduction} to approach this result, the vector species must not simply be eliminated from the local area, but approach elimination on a continental scale, or more realistically achieve global eradication.
@@ -195,7 +192,7 @@ The region of DNA directly upstream of the coding sequence of a gene is a major 
 It influences when the gene will be turned on (e.g., directly following the ingestion of a bloodmeal), in which tissue type (e.g., the midgut), and in which sex (e.g., females).
 Promoters influence the transcription of genes through the binding of special proteins called transcription factors that recognize specific DNA sequences called \glspl{CRE}.
 \glspl{CRE} are sometimes organized into modules that represent groups of binding sites for a specific combination of transcription factors.
-These modules are \glspl{CRM} \CITEME (Figure \ref{fig:cre-crm-intro-a}).
+These modules are \glspl{CRM} (Figure \ref{fig:cre-crm-intro-a}) \cite{Davidson2010}.
 Once a set of transcription factors are bound to the promoter they recruit additional proteins necessary for the gene to be expressed or silenced depending on the context of the cellular environment (Figure \ref{fig:cre-crm-intro-b}).
 
 \input{figures/cre-crm-intro}
@@ -203,31 +200,31 @@ Once a set of transcription factors are bound to the promoter they recruit addit
 A typical strategy to obtain regulatory sequences suited to drive a transgene following the expression characteristics used as an example above (expressed directly following a bloodmeal, in the midgut) would be to identify genes in the mosquito that already have a similar expression pattern to the ideal.
 The promoter from that gene would then be used to direct expression of the transgene from the final integration construct.
 
-This is a very common process used to engineer the expression patterns of real transgenes in mosquitoes.
-In \cite{Moreira2000}, the promoter sequences of a gene called carboxypeptidase (normally expressed in the midgut after a meal) from \Aa\ and \Ag\ were inserted in front of a reporter gene.
-The result was luciferase mRNA and protein abundantly expressed in the midguts of transgenic mosquitoes in four of six AeCP lines and in the.
+This is a common approach to engineer the expression patterns of real transgenes in mosquitoes.
+In \citet{Moreira2000}, the promoter sequences of a gene encoding a carboxypeptidase enzyme (normally expressed in the midgut after a meal) from \Aa\ and \Ag\ were inserted in front of a reporter gene.
+This resulted in abundant expression of \gls{luciferase} mRNA and protein in the midguts of transgenic mosquitoes in four of six AeCP lines.
 Expression of the reporter gene was gut-specific and peaked about 24h \gls{PBM}.
 
 
-\subsection{Achieving swift, dramatic, and clinically meaningful effects on the native vector population}
+\subsection{Spreading anti-pathogen traits to near-fixation on a public health timescale}
 
 In many ways, this is the most difficult part of the system.
 In order for the transgene to have its self-sustaining properties as well as achieve effective anti-transmission results, it must spread through the native mosquito population to the point that the percent of individuals possessing the gene approaches 100\%.
 
-Making the optimistic assumption that the transgene carries a negligible fitness cost
+Making an assumption that the transgene carries a negligible fitness cost
 \footnote{By fitness cost/advantage here, I mean that the transgene
     causes the mosquitoes that inherit it to be either less or more
     successful at producing offspring, respectively.},
-or even a slight fitness advantage, achieving near 100\% conversion could take decades.
-Funding terms for efforts like this in poor nations can be closer to 5 years or less.
-To enable the \gls{population-modification} strategies to work, genetic ``tricks'' must be exploited that cause the gene to spread through a mosquito population \textbf{much} faster than could happen naturally.
+or even a slight fitness advantage, achieving near 100\% conversion would take far too long.
+Funding for efforts like this in poor nations likely would not last long enough to achieve success.
+To enable the \gls{population-modification} strategies to work, genetic ``tricks'' must be exploited that cause the gene to spread through a mosquito population much faster than would happen naturally.
 Efforts to discover or design these \gls{gene-drive} systems are an on going and active area in this field.
 
-An example of such a method is the Medea system successfully engineered in \Dm\ (\CITEME).
+An example of such a method is the Medea system successfully engineered in \Dm\ \cite{Ward2011}.
 
 \textbf{In Brief:}
 \begin{enumerate}
- \item The construct consists of a \textbf{death gene} under control of a maternal effect promoter and a \textbf{rescue gene} under control of an early embryonic promoter.
+ \item The construct consists of a \text{death gene} encoding a toxin under control of a maternal effect promoter and a \textbf{rescue gene} encoding an antidote under control of an early embryonic promoter.
  \item The \textbf{death gene} is produced by the mother and deposited into 100\% of her developing embryos: \textit{even those that did not inherit the transgene due to mating with a wild type male.}
  \item However, since the \textbf{rescue gene} is produced by only those embryos that inherited the transgene construct, only those embryos will survive.
  \item The female has on average half as many progeny survive as usual if she mated with a wild type male, but 100\% of those that survive inherit the transgene.

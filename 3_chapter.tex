@@ -106,7 +106,7 @@ Figure \ref{fig:ptci-space} provides detailed illustrations of the effects of we
 The \gls{PTCI} fundamentally is a pairwise index.
 The $N$-way 1:1 ortholog-sets in aggregate are scored by calculating the arithmetic mean of the respective pairwise 1:1 ortholog-sets (Figure \ref{fig:nway-ortholog-graph-ptci}).
 Figure \ref{fig:nway-ortholog-graph-model} illustrates how a hypothetical 3-way 1:1 ortholog-set is related by 1:1 orthology between three species.
-This is the fundamental graph-relationship representation that is modeled in the \gls{gFunc} code\footnote{See Section \ref{sec:custom-software}.}.
+% This is the fundamental graph-relationship representation that is modeled in the \gls{gFunc} code\footnote{See Section \ref{sec:custom-software}.}.
 
 
 
@@ -119,7 +119,7 @@ Two core bodies of software were developed for this project as well as numerous 
 \gls{blacktie} is a python package that automates data flow between and record keeping for analysis runs of the components of the third-party analysis pipeline dubbed the \gls{TuxProt} \cite{Trapnell2012}.
 The purpose of the second software project, the \gls{gFunc}, is to provide a framework with which to integrate many, disparate data types to facilitate the synthesis of functional genomics analyses that make use of as many types of data as may be useful.
 
-\gls{blacktie}'s code and documentation have been made available to the public.
+\gls{blacktie}'s code and documentation have been made available to the public\footnote{Source Code: \url{https://github.com/xguse/blacktie}; Documentation \url{https://blacktie.readthedocs.org/en/latest/}; Issue Reports \url{https://github.com/xguse/blacktie/issues}}.
 It is hosted as a \gls{Git} project with the complete history of code commits included and available for easy open source improvement and collaboration.
 It is also available as an easily installable package from the \gls{PyPI} for general users.
 It has been downloaded and installed over 2000 times as of this time with its latest version (v0.2.1.2) being downloaded at least 327 times (according to \gls{PyPI}).
@@ -202,7 +202,6 @@ The GraphHandler stores the graph and provides conveniences for accessing its co
 \section{gFunc-based analysis}
 Once the preliminary data preparation is accomplished (Section \label{sec:prelim-data}), the data is loaded into a \gls{gFunc} graph through a script (\texttt{gfunc\_build\_n\_way\_one2one.py} \cite{Dunn2013dissSupl}) that coordinates the initiation of relevant parsers and provides them to a GraphBuilder object that maps the data onto the 3-way 1:1 ortholog-relationships.
 \glspl{FDR} are empirically estimated by calculating all 3-way-\gls{PTCI} values first using the real 3-way 1:1 ortholog relationships, then repeating the analysis many times with randomized (null) 3-way 1:1 orthology relationships.
-\alert{(for what follows: should i refer to the figure from the next chapter here?  Its kinda like having results in the methods section?)}
 The \gls{FDR} is then defined, for a given 3-way-\gls{PTCI} threshold, as the median value of the null 3-way \glspl{PTCI} divided by the actual 3-way \gls{PTCI} (\texttt{PTCI\_testing\_rsrd\_1.0\_1.1\_new\_data\_Jaspar\_nr\_insect\_20130918\_orthodb7.ipynb} \cite{Dunn2013dissSupl}).
 This information is used to define an acceptable 3-way-\gls{PTCI} threshold that balances selectivity with sensitivity.
 Given a 3-way-\gls{PTCI} threshold, a filter script (\texttt{Getting\_and\_using\_filtered\_gfunc\_genes\_ecr\_team\_OR\_jaspar\_insect\_20120918\_orthodb7.ipynb} \cite{Dunn2013dissSupl}) is applied to extract the 3-way 1:1 ortholog sets that are greater than or equal to the threshold.

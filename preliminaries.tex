@@ -9,7 +9,7 @@
 \degreefield{Biological Sciences}
 
 % Your name as it appears on official UCI records.
-\authorname{William Augustine Dunn}
+\authorname{William Augustine Dunn III}
 
 % Use the full name of each committee member.
 \committeechair{Anthony A. James}
@@ -19,7 +19,7 @@
   Donald F. Senear
 }
 
-\degreeyear{2013}
+\degreeyear{2014}
 
 \copyrightdeclaration
 {
@@ -40,44 +40,60 @@
 % The dedication page is optional.
 \dedications
 {
-\todo[inline]{write dedications}
-  (Optional dedication page)
-  
-  To ...
+
+For my unbelievably smart, funny, beautiful, and immeasurably supportive wife, Sarah.
+The last year would not have been remotely possible without the mental and material support that she so generously provides in spades. 
+
+For my parents.
+Thank you for encouraging and \textit{indulging} the interests and behaviors of a young boy flirting with the natural world and how things are put together.
+Thank you for providing grandparent-quality childcare to Liam for so long while I worked on this document.
+Neither would I have been able to achieve this without you both.
+
+For my son Liam, you are an inspiration of raw, unbridled energy and joy.
+A true force to behold!
 }
 
 \acknowledgments
 {
+% 
 
-\todo[inline]{write acknowledgments}
-  I would like to thank...
-  
-  (You must acknowledge grants and other funding assistance. 
-  
-  You may also acknowledge the contributions of professors and
-  friends.
-  
-  You also need to acknowledge any publishers of your previous
-  work who have given you permission to incorporate that work
-  into your dissertation. See Section 3.2 of the UCI Thesis and
-  Dissertation Manual.)
+I would like to thank those entities whose funding made this work possible.
+% NLM/NIH
+% PSWRCE
+
+In addition, the inclusion of our previous articles discussed in this document was made possible by the generous policies of --PUBLISHERS--.
+
+Professor Xiaohui Xie and his students provided much appreciated advice and tutorship in the computational realm.
+Professor Donald Senear provided insightful commentary as well as his valuable time during committee meetings and private consultation.
+Finally, I must thank Professor Anthony James for his invaluable advice and mentorship as well as his moral support.
+
+%   
+%   (You must acknowledge grants and other funding assistance. 
+%   
+%   You may also acknowledge the contributions of professors and
+%   friends.
+%   
+%   You also need to acknowledge any publishers of your previous
+%   work who have given you permission to incorporate that work
+%   into your dissertation. See Section 3.2 of the UCI Thesis and
+%   Dissertation Manual.)
 }
 
 
-% Some custom commands for your list of publications and software.
-\newcommand{\mypubentry}[3]{
-  \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}p{4.5in}r}
-    \textbf{#1} & \textbf{#2} \\ 
-    \multicolumn{2}{@{\extracolsep{\fill}}p{.95\textwidth}}{#3}\vspace{6pt} \\
-  \end{tabular*}
-}
-\newcommand{\mysoftentry}[3]{
-  \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}lr}
-    \textbf{#1} & \url{#2} \\
-    \multicolumn{2}{@{\extracolsep{\fill}}p{.95\textwidth}}
-    {\emph{#3}}\vspace{-6pt} \\
-  \end{tabular*}
-}
+% % Some custom commands for your list of publications and software.
+% \newcommand{\mypubentry}[3]{
+%   \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}p{4.5in}r}
+%     \textbf{#1} & \textbf{#2} \\ 
+%     \multicolumn{2}{@{\extracolsep{\fill}}p{.95\textwidth}}{#3}\vspace{6pt} \\
+%   \end{tabular*}
+% }
+% \newcommand{\mysoftentry}[3]{
+%   \begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}lr}
+%     \textbf{#1} & \url{#2} \\
+%     \multicolumn{2}{@{\extracolsep{\fill}}p{.95\textwidth}}
+%     {\emph{#3}}\vspace{-6pt} \\
+%   \end{tabular*}
+% }
 
 % Include, at minimum, a listing of your degrees and educational
 % achievements with dates and the school where the degrees were
@@ -143,8 +159,15 @@
 % supposedly somewhat of a soft constraint.
 \thesisabstract
 {
-\todo[inline]{write abstract}
-  The abstract of your contribution goes here.
+With the goal of executing a multi-dimentional comparative study of the transcriptomics of blood-feeding in midguts of \Aea, \Ang, and \Cxq, I have designed multiple software solutions to integrate and analyze \gls{RNA-Seq} data (midgut-specific time-course: 0, 4, 6, 8, 10h \gls{PBM}); orthology relationships; predicted \gls{20E} responsive transcription factor binding site locations, and promoter sequence conservation.
+Using these tools, I compile gene sets that are simultaneously correlated by way of functionality (e.g. putatively \gls{20E}-regulated), evolutionary history, and maintenance of mRNA abundance-patterns across species-divergence times as large as 150 million years.  
+
+Frequently, \gls{functional-genomics} approaches contain problems or subproblems that require generating biologically meaningful gene-sets.
+Optimizing signal-to-noise ratios in data is a major challenge to generating useful gene-sets.
+The rise of the Omics Era presents the challenge of integrating data from multiple large-scale input streams in an informative way.
+Network Graphs offer a natural framework for storing and analyzing highly dimensional relationships and have provided insight when applied to areas such as gene interaction relationships as well as human relationships.
+
+This project leverages 3-way 1:1 orthology relationships to successfully target \glspl{mAP} associated with the \gls{20E} regulatory program in the midguts of the three divergent mosquito species for functional annotation and review.
 }
 
 

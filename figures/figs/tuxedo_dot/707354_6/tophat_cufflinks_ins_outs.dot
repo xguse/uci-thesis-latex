@@ -9,7 +9,7 @@ digraph g {
 
 
 
-	node [shape=box,style=filled,fontname="DroidSans.ttf",fontsize=20, penwidth=3.0];
+	node [shape=box,style=filled,fontname="DroidSans-Bold.ttf",fontsize=55, penwidth=3.0];
 	
 // 	Program Flow Line
 	Tophat     [label="Tophat\n(Read Alignment)", color="#FDDD4E"];
@@ -42,13 +42,13 @@ digraph g {
 	
 	
 	
-	c10f_reads [label="condition_1_rep_0.fastqs", color="#5A9CC1"];
+	c10f_reads [label="condition_1_rep_0.fastqs", color="#5A9CC1", fontcolor="white"];
 // 	//c10r_reads [label="condition_1_rep_0.rev.fastqs", color="#5A9CC1"];
 	
-	c11f_reads [label="condition_1_rep_1.fastqs", color="#5A9CC1"];
+	c11f_reads [label="condition_1_rep_1.fastqs", color="#5A9CC1", fontcolor="white"];
 // 	//c11r_reads [label="condition_1_rep_1.rev.fastqs", color="#5A9CC1"];
 	
-	c12f_reads [label="condition_1_rep_2.fastqs", color="#5A9CC1"];
+	c12f_reads [label="condition_1_rep_2.fastqs", color="#5A9CC1", fontcolor="white"];
 // 	//c12r_reads [label="condition_1_rep_2.rev.fastqs", color="#5A9CC1"];
 
 // 	Tophat Outputs
@@ -56,18 +56,18 @@ digraph g {
 	th_out_0_1 [label="accepted_hits.bam", color="#0B2D54", fontcolor="white"];
 	th_out_0_2 [label="accepted_hits.bam", color="#0B2D54", fontcolor="white"];
 	
-	th_out_1_0 [label="accepted_hits.bam", color="#5A9CC1"];
-	th_out_1_1 [label="accepted_hits.bam", color="#5A9CC1"];
-	th_out_1_2 [label="accepted_hits.bam", color="#5A9CC1"];
+	th_out_1_0 [label="accepted_hits.bam", color="#5A9CC1", fontcolor="white"];
+	th_out_1_1 [label="accepted_hits.bam", color="#5A9CC1", fontcolor="white"];
+	th_out_1_2 [label="accepted_hits.bam", color="#5A9CC1", fontcolor="white"];
 
 // 	Cufflinks Outputs
 	cl_out_0_0 [label="transcripts.gtf", color="#0B2D54", fontcolor="white"];
 	cl_out_0_1 [label="transcripts.gtf", color="#0B2D54", fontcolor="white"];
 	cl_out_0_2 [label="transcripts.gtf", color="#0B2D54", fontcolor="white"];
 	
-	cl_out_1_0 [label="transcripts.gtf", color="#5A9CC1"];
-	cl_out_1_1 [label="transcripts.gtf", color="#5A9CC1"];
-	cl_out_1_2 [label="transcripts.gtf", color="#5A9CC1"];
+	cl_out_1_0 [label="transcripts.gtf", color="#5A9CC1", fontcolor="white"];
+	cl_out_1_1 [label="transcripts.gtf", color="#5A9CC1", fontcolor="white"];
+	cl_out_1_2 [label="transcripts.gtf", color="#5A9CC1", fontcolor="white"];
 
 	
 	{ node [color="#C0C0C0"];

@@ -1,0 +1,20 @@
+
+
+\begin{figure}[h]
+
+\begin{subfigure}[b]{.5\linewidth}
+\centering 
+\includegraphics[width=0.9\linewidth]{figures/figs/CREvCRM.pdf}
+\caption{}\label{fig:cre-crm-intro-a}
+\end{subfigure}%
+\hfil
+\begin{subfigure}[b]{.5\linewidth}
+\centering
+\includegraphics[width=0.9\linewidth]{figures/figs/elementsOfTxReg.pdf}
+\caption{}\label{fig:cre-crm-intro-b}
+\end{subfigure}
+
+\caption[Elements of transcriptional regulation]{\sf \textbf{Elements of transcriptional regulation} \\
+(A) The relationship between \glspl{CRE} (colored rectangles) and \glspl{CRM}: the colored rectangles represent position specific scoring matrix information (top) that defines an individual \gls{CRE}.
+(B) One model of transcriptional regulation}\label{fig:cre-crm-intro}
+\end{figure}

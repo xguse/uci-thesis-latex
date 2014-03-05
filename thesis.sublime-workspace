@@ -4,50 +4,6 @@
 		"selected_items":
 		[
 			[
-				"pand",
-				"pandas_out"
-			],
-			[
-				"save",
-				"save_dir"
-			],
-			[
-				"A",
-				"ALL_STEME"
-			],
-			[
-				"Al",
-				"ALL_SELF"
-			],
-			[
-				"ALL",
-				"ALL_13"
-			],
-			[
-				"All",
-				"ALL_19"
-			],
-			[
-				"Ag_",
-				"Ag_orthos"
-			],
-			[
-				"mem",
-				"members"
-			],
-			[
-				"bas",
-				"base_dir"
-			],
-			[
-				"to",
-				"tomtom_out"
-			],
-			[
-				"TOM",
-				"tomtom_out"
-			],
-			[
 				"data",
 				"data_list"
 			],
@@ -60,107 +16,53 @@
 	"buffers":
 	[
 		{
-			"file": "/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.ecr_team_orthodb7.yaml",
+			"file": "/home/gus/Dropbox/repos/git/document_prep/wad_YCEI_proposal_latex/wad_proposal.tex",
 			"settings":
 			{
-				"buffer_size": 2156,
+				"buffer_size": 10258,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/ecr_OR_insect_meanPTCI_thresh_1_gene_names.AGAP.txt",
+			"file": "/home/gus/Dropbox/repos/git/CV/useBefore_bibUtex.sh",
 			"settings":
 			{
-				"buffer_size": 3410,
+				"buffer_size": 36,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/ecr_U_insect_ptci_0_95_Exploring_Profiles_clsALL_orthodb7.py",
+			"contents": "@article{goecks2010galaxy,\n  title={Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences                              },\n  author={Goecks, Jeremy and Nekrutenko, Anton and Taylor, James and The Galaxy Team},\n  journal={Genome Biol},\n  volume={11},\n  number={8},\n  pages={R86},\n  year={2010}\n}\n\n@article{blankenberg2010galaxy,\n  title={Galaxy: A Web-Based Genome Analysis Tool for Experimentalists},\n  author={Blankenberg, Daniel and Kuster, Gregory Von and Coraor, Nathaniel and Ananda, Guruprasad and Lazarus, Ross and Mangan, Mary and Nekrutenko, Anton and Taylor, James},\n  journal={Current protocols in molecular biology},\n  pages={19--10},\n  year={2010},\n  publisher={John Wiley and Sons, Inc.}\n}\n\n@article{giardine2005galaxy,\n  title={Galaxy: a platform for interactive large-scale genome analysis},\n  author={Giardine, Belinda and Riemer, Cathy and Hardison, Ross C and Burhans, Richard and Elnitski, Laura and Shah, Prachi and Zhang, Yi and Blankenberg, Daniel and Albert, Istvan and Taylor, James and Miller, Webb C and Kent, W James and Nekrutenko, Anton},\n  journal={Genome research},\n  volume={15},\n  number={10},\n  pages={1451--1455},\n  year={2005},\n  publisher={Cold Spring Harbor Lab}\n}",
+			"file": "/home/gus/DELETE_ME/import_bib.bib",
+			"file_size": 1252,
+			"file_write_time": 1393583002000000,
 			"settings":
 			{
-				"buffer_size": 10108,
+				"buffer_size": 1282,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "uci-manual/scrape_manual.py",
+			"file": "/home/gus/.wine/drive_c/Program Files (x86)/CCP/EVE/common.ini.bak",
 			"settings":
 			{
-				"buffer_size": 649,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/etc/openvpn/easy-rsa/vars",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/etc/openvpn/easy-rsa/2.0/vars",
-			"settings":
-			{
-				"buffer_size": 1872,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Raikhel, Alexander S.\nMiura, Ken\nSegraves, William A.",
-			"settings":
-			{
-				"buffer_size": 53,
-				"line_ending": "Unix",
-				"name": "Raikhel, Alexander S."
+				"buffer_size": 8,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 369.0,
+		"height": 392.0,
 		"selected_items":
 		[
-			[
-				"packag",
-				"Package Control: Install Package"
-			],
-			[
-				"packa",
-				"Package Control: Install Package"
-			],
-			[
-				"pack",
-				"Package Control: Discover Packages"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
-				"PACKA",
-				"Package Control: List Packages"
-			],
-			[
-				"PACK",
-				"Package Control: List Packages"
-			]
 		],
-		"width": 449.0
+		"width": 467.0
 	},
 	"console":
 	{
-		"height": 153.0
+		"height": 0.0
 	},
 	"distraction_free":
 	{
@@ -173,138 +75,64 @@
 	},
 	"file_history":
 	[
-		"/home/gus/Dropbox/common/AdvDocument/20101011_sentVsn/AdvProp_final.pages/Contents/PkgInfo",
-		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/my_writings_about_it/request_letters_of_rec.txt",
-		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/my_writings_about_it/present_specific_aims_email_first.txt",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/ecr_OR_insect_meanPTCI_thresh_1_gene_names.CPIJ.txt",
-		"/home/gus/Dropbox/common/motif_databases/Jaspar_2012_05_20/Archive/Custom/EcR_team.txt",
-		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/wad_donnelley_proposal.md",
-		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/wad_donnelley_proposal_latex/edit_drafts/wad_proposal.txt",
-		"/home/gus/Dropbox/repos/git/document_prep/DonnelleyProposal/wad_donnelley_proposal_latex/edit_drafts/wad_proposalGC.txt",
-		"/home/gus/.kde/tmp-vlad/kileq21602.tmp",
-		"/home/gus/.kde/tmp-vlad/kileY21602.tmp",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/not_one2one_example.dot",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/approach_chart/approach.dot",
-		"/home/gus/Downloads/manjaro-xfce-0.8.7.1-x86_64/manjaro-0.8.7.1-md5sum.txt",
-		"/home/gus/Downloads/manjaro-xfce-0.8.7.1-x86_64/manjaro-xfce-0.8.7.1-x86_64-pkgs.txt",
-		"/home/gus/Dropbox/repos/git/blacktie/src/blacktie/scripts/blacktie_pipeline.py",
-		"/home/gus/src/codemirror-3.19/README.md",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/test_digrap.dot",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/not_one2one_example.gv",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/one2one_example.gv",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example/one2one_example.dot",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/one2one_example.dot",
-		"/home/gus/DELETE_ME/table1.txt",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/2_chapter.tex",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012strain_xrpt.tex",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012complex_xrpt.tex",
-		"/home/gus/.config/sublime-text-2/Packages/User/LaTeX.sublime-settings",
+		"/home/gus/Dropbox/common/jhw/new_run/blacktie_stuff/blacktie_config_jhw.yaml",
+		"/home/gus/Dropbox/common/ipy_notebooks/custom.css",
+		"/home/gus/Dropbox/common/ipy_notebooks/reveal_options.tpl",
+		"/home/gus/Dropbox/Documents/Yale_notes/postdoc_skype.txt",
+		"/home/gus/Dropbox/common/ipy_notebooks/night_fixes.css",
+		"/home/gus/Dropbox/common/ipy_notebooks/reveal.js/index.html",
+		"/home/gus/Dropbox/common/ipy_notebooks/Defense.slides.html",
+		"/home/gus/Dropbox/repos/git/document_prep/wad_YCEI_proposal_latex/wad_proposal.tex",
+		"/home/gus/Dropbox/repos/git/document_prep/wad_YCEI_proposal_latex/wad_proposal.rtf",
+		"/home/gus/Dropbox/common/ipy_notebooks/Defense.ipynb",
 		"/home/gus/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012complex.txt",
-		"/home/gus/src/latex_pkgs/cite_styles/nature/README",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/plos_biology.bst",
+		"/home/gus/.config/sublime-text-2/Packages/Reveal.js/revealjs-image.sublime-snippet",
+		"/home/gus/DELETE_ME/Sarah will you be my girlfriend?",
+		"/home/gus/Dropbox/repos/openshift/dissertation/php/markdown.md",
+		"/home/gus/Dropbox/repos/openshift/dissertation/php/guide.html",
+		"/home/gus/Dropbox/repos/openshift/dissertation/php/index.html",
+		"/home/gus/.config/sublime-text-2/Packages/Reveal.js/revealjs-section.sublime-snippet",
+		"/home/gus/.zshrc",
+		"/home/gus/Dropbox/repos/openshift/dissertation/php/index.md",
+		"/home/gus/bin/nvidia2nouv.sh",
+		"/home/gus/src/nvidia/NVIDIA-Linux-x86-331.38.run",
+		"/home/gus/src/lastpass/lplinux/install_lastpass.sh",
+		"/home/gus/Dropbox/repos/git/sphinxjp.themes.revealjs/docs/index.rst",
+		"/home/gus/Dropbox/repos/git/document_prep/Presentations/dissertation/Makefile",
+		"/home/gus/Dropbox/repos/git/movingthelamppost/master.rst",
+		"/home/gus/Dropbox/repos/git/document_prep/Presentations/dissertation/conf.py",
+		"/home/gus/src/vim_plugins/vim-online-thesaurus/README.md",
+		"/home/gus/Dropbox/repos/git/document_prep/Presentations/dissertation/source/conf.py",
+		"/home/gus/Dropbox/repos/git/document_prep/Presentations/dissertation/source/index.rst",
+		"/home/gus/DELETE_ME/sphinxjp.themes.revealjs-0.1.0/src/sphinxjp/themes/revealjs/directives.py",
+		"/home/gus/Dropbox/repos/git/document_prep/Presentations/dissertation/dissertation.html",
+		"/usr/lib/node_modules/reveal-md/node_modules/reveal.js/plugin/markdown/markdown.js",
+		"/mnt/usbboot/isolinux/extlinux.cfg",
+		"/mnt/usbboot/boot/syslinux/syslinux.cfg",
+		"/run/media/gus/MJRO_087/isolinux/boot.cat",
+		"/home/gus/.kde4/share/apps/katepart/katepartui.rc",
+		"/home/gus/.kde4/share/config/kilerc",
+		"/home/gus/DELETE_ME/extract_region.py",
+		"/home/gus/Dropbox/common/CVs/FancyCV/cv.bib",
+		"/home/gus/Dropbox/MendeleyBibTeX/CV.edited.bib",
 		"/home/gus/Dropbox/repos/git/uci-thesis-latex/1_chapter1_reviewDevRation.tex",
-		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/Transcription_factors/TranscripFactor_1.list",
-		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/blast_SUHW_CLONES_vs_TrinityAs00.out",
-		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/blast_SUHW_CLONES_vs_TrinityAs04.out",
-		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/SuHW_trinity_hits.fas",
-		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/Blast_Results/blast_TrinityAs04.sh",
-		"/home/gus/Dropbox/common/projects/trinity_As/trinity_As_04_0/trinity_As_04_0.sh",
-		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_CLONES-FASTA/SUHW_CLONES_all.fas",
-		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW CLONES-FASTA/SUHW11_M13F.fas",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012comparative.txt",
-		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/Transcription_factors/orthodb7_AaAgAsCq_present.txt",
-		"/home/gus/.config/sublime-text-2/Packages/Theme - Default/Widget.sublime-settings",
-		"/home/gus/Dropbox/helping_folks/carballar/suhwandtffiles/SUHW_Rebecas_clones/SUHW11_M13F.Seq",
-		"/home/gus/.config/sublime-text-2/Packages/Theme - Default/Widgets.stTheme",
-		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_A1.txt",
-		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_B1.txt",
-		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/C1_A1.txt",
-		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/B1_A1.txt",
-		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/gene_sets/D1_B1.txt",
-		"/home/gus/.bashrc",
-		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/run_argot_hmmer.sh",
-		"/home/gus/DELETE_ME/argot_demo/aedesdefenceresponcedata/run_argot_blastp.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/run_argot_blastp.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/run_argot_hmmer.sh",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012complex.txt",
+		"/home/gus/Dropbox/repos/git/uci-thesis-latex/my_papers_texts/bonizzoni2012strain_xrpt.tex",
+		"/home/gus/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 		"/home/gus/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/fly_factor_survey.transfac",
-		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/fly_factor_survey.meme",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/meme2transfac.py",
-		"/home/gus/DELETE_ME/test.meme",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/flyreg.mcast/mcast.txt",
-		"/home/gus/.local/share/fogapps/2e2e2d35a15a6146a9bbbc246a9ea4cd/fogger-2e2e2d35a15a6146a9bbbc246a9ea4cd.desktop",
-		"/home/gus/DELETE_ME/not_yet/Clustering_FPKM_data.py",
-		"/home/gus/src/motiflab/launch.jnlp",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/XoLg.23clusters.orthodb7.py",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/run_mcast.sh",
-		"/home/gus/Dropbox/InBox/Dissertation_workflowy_20130920.opml",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_tomtom.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_tomtom.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_tomtom.sh",
-		"/home/gus/DELETE_ME/download.txt",
-		"/home/gus/.local/share/fogapps/2e2e2d35a15a6146a9bbbc246a9ea4cd/app.json",
-		"/home/gus/.local/share/fogapps/9319f49b4e873b280fc0bd14bd840ea7/fogger-9319f49b4e873b280fc0bd14bd840ea7.desktop",
-		"/home/gus/.local/share/fogapps/9319f49b4e873b280fc0bd14bd840ea7/app.json",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/jaspar_insect.mcast/mcast.txt",
-		"/home/gus/Dropbox/common/motif_databases/Jaspar_2012_05_20/Archive/Custom/EcR_team.meme",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_steme_w19.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_steme_w13.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls16/run_steme_w9.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_steme_w19.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_steme_w13.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls22/run_steme_w9.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_steme_w19.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_steme_w13.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/clusters/cls4/run_steme_w9.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/run_tomtom_template.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/run_steme_w9_template.sh",
-		"/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.ecr_team.yaml",
-		"/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.Jaspar_insect_nr_orthodb7.yaml",
-		"/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.ecr_team_orthodb7.yaml",
-		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/combo.meme",
-		"/home/gus/Dropbox/common/motif_databases/ad_hoc/alt_suH_Adryan2007.pfm",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/all/ecr_OR_insect_meanPTCI_thresh_1_gene_names.txt",
-		"/home/gus/Dropbox/common/projects/orthodb/orthodb.txt",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w9.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_tomtom.sh",
-		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/README",
-		"/home/gus/Dropbox/common/motif_databases/ad_hoc/alt_suH_Adryan2007.pwm",
-		"/home/gus/Dropbox/common/motif_databases/Jaspar_2012_05_20/Archive/all_data/FlatFileDir/CN0001.1.pfm",
-		"/home/gus/Dropbox/common/projects/orthodb/AaAgCq_1to1_orthos.tsv",
-		"/home/gus/Dropbox/common/projects/orthodb/orthodb7_mosqs_20130918.txt",
-		"/home/gus/Dropbox/common/projects/orthodb/view-source cegg.unige.ch orthodb7 orthodb.txt",
-		"/home/gus/Dropbox/common/ipy_notebooks/ecr_U_insect_ptci_1_0_Exploring_Profiles_cls19.ipynb",
-		"/home/gus/Dropbox/common/ipy_notebooks/ecr_U_insect_ptci_1_0_Exploring_Profiles_cls7.ipynb",
-		"/home/gus/Dropbox/common/ipy_notebooks/ecr_U_insect_ptci_1_0_Exploring_Profiles_cls6.ipynb",
-		"/home/gus/Dropbox/common/projects/orthodb/OrthoDB7_Insecta_tabtext",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/all/run_argot_hmmer.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_tomtom.sh",
-		"/home/gus/DELETE_ME/Clustering_FPKM_data.py",
-		"/home/gus/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/home/gus/src/Sylamer.jnlp",
-		"/home/gus/Dropbox/repos/git/uci-thesis-latex/figures/figs/ecr_and_insects_ptci_20130903/ecr_and_insects_ptci1_gene_profiles_from_cummerbund/25_clusters.pgf",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w19.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w13.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls19/run_steme_w9.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/steme_9_EM10000/meme.txt",
-		"/home/gus/Dropbox/common/motif_databases/meme_update_2013-04-08/motif_databases/JASPAR_CORE_2009.meme",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w19.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_steme_w13.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_mcast.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w19.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w13.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_steme_w9.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls7/run_tomtom.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/cls6/run_combo.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_tomtom.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w19.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w13.sh",
-		"/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130903/ptci_1_0/clusters/run_steme_w9.sh"
+		"/home/gus/Dropbox/repos/git/movingthelamppost/2013/07/12/installing_pyqt____because_it_s_too_good_for_pip_or_easy_install_.rst",
+		"/home/gus/scratch/sort_example.py",
+		"/home/gus/Dropbox/repos/git/movingthelamppost/2013/06/29/speak__for_the_cup_of_hemlock_is_not_yet_on_your_lips.rst",
+		"/home/gus/Dropbox/repos/git/blacktie/docs/project.rst",
+		"/home/gus/Dropbox/repos/git/movingthelamppost/conf.py",
+		"/home/gus/src/aur/exonerate/PKGBUILD",
+		"/home/gus/.conkyrc",
+		"/home/gus/Dropbox/repos/git/movingthelamppost/2013/06/14/arthropod_genomics_symposium_2013____notre_dame.rst",
+		"/home/gus/Dropbox/repos/git/blacktie/README.rst"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -318,269 +146,80 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1",
+			"Aa",
+			"<body",
+			"\\cite{",
+			"frag",
+			"# export GPY=$HOME/src/repos/gitRepos/gusPyProj/gusPyCode\n# export RSEQ=$HOME/src/repos/gitRepos/rSeqPipeline/rSeq\n# export SCIPHER=$HOME/src/repos/gitRepos/scipherPyProj/scipherSrc/\n# export MTLP=$HOME/Dropbox/repos/git/movingthelamppost\n#\n#\n# export IPYNB=$HOME/Dropbox/common/ipy_notebooks\n#",
+			"ima",
+			"\\subsection{",
+			"\\section{",
+			"  +\\& ",
 			"\\n",
-			" +\\& ",
-			"\\n",
-			" +\\& ",
-			"\\n",
-			" +\\& ",
-			"\\n",
-			" +\\& ",
-			"\\n",
-			" +\\& ",
-			"\\n",
-			" +\\& ",
-			"\\n",
-			" +\\& ",
-			", ",
-			"cls22",
-			"cluster_name = 'downAfter4'\ncluster_id = 6",
-			">",
-			"\\.  ",
-			"\\. ",
-			". ",
-			"\\. ",
-			"\\n",
-			"\\. ",
-			"    ",
-			" -- ",
-			"_",
-			"\\n",
-			"ROCK",
-			"cre}",
-			"Figure S5",
-			"WNV",
-			"e value",
-			"Figure S4",
-			"cre}",
-			"Figure S3",
-			"FPKMB",
-			"Figure S2",
-			"FPKM\\gls{DENVI}",
-			"Table S4",
-			"\\gls{CRE}s",
-			"CRE",
-			"Table 2",
-			"\\gls{DENV}I",
-			"Table S1",
-			"Table 1",
-			"EIP",
-			"dpi",
-			"}\\cite",
-			"[5]",
-			"[1]",
-			"\\Aea ",
-			"Aedes aegypti",
-			"\\Aa ",
-			"Ae. aegypti",
-			"DENV",
-			"Figure S8",
-			"Table S14",
-			"Table S13",
-			"Figure S7",
-			"Figure 2",
-			"Figure S6",
-			"Table S10",
-			"Table S8",
-			"Figure S3",
-			"Table 3",
-			"Figure 1",
-			"Table S2",
-			"(Table 1)",
-			"hPBM",
-			"Bennet2002",
-			"blood-",
-			"blood-fed",
-			"blood-",
-			" DENV2",
-			" Rex-D",
-			" LVP",
-			" CTM",
-			" LVP",
-			" CTM",
-			"format.url output",
-			"url",
-			"Sequences producing significant alignments",
-			"\\n",
+			"-\n",
+			"  ",
+			"  +\\& ",
+			"                     \\\\\\\\",
+			"                      \\\\",
+			"  +\\& ",
+			"\\[.+\\] ",
 			" ",
+			"cre",
 			"\\n",
-			"[77]",
-			"[76]",
-			"[75]",
-			"[74]",
-			"[73]",
-			"[72]",
-			"[71]",
-			"[70]",
-			"[69]",
-			"[68]",
-			"[67]",
-			"[66]",
-			"[65]",
-			"[64]",
-			"[63]",
-			"\\cite{19214215}",
-			"[62]",
-			"[61]",
-			"[60]",
-			"[59]",
-			"[58]",
-			"[57]",
-			"[56]",
-			"[55]",
-			"[54]",
-			"[53]",
-			"[52]",
-			"[51]",
-			"[50]",
-			"[49]",
-			"[48]",
-			"[47]",
-			"[46]",
-			"[45]",
-			"[44]",
-			"[43]",
-			"[42]",
-			"[40]",
-			"[37]",
-			"[36]",
-			"[35]",
-			"[31]"
+			"Guo et al. 2010",
+			"Molina-Cruz et al. 2008",
+			"Noriega and Wells 1999",
+			"Gorrochotegui-Escalante et al. 2005",
+			"Molina-Cruz et al. 2005",
+			"Gomez-Machorro et al. 2004",
+			"Mosso et al. 2008",
+			"Macdonald 1963",
+			"Miller and Mitchell 1991",
+			"Salazar et al. 2007",
+			"Black et al. 2002",
+			"\\(.+?\\)",
+			"\\n",
+			"Bang",
+			"”",
+			"“",
+			"’",
+			"‘",
+			"offset 240",
+			"5"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
-			", ",
-			" (",
-			", ",
-			" (",
-			" (\n ",
-			", ",
-			" (",
-			", ",
-			" (",
-			", ",
-			" (",
-			", ",
-			" (",
-			", ",
-			" ",
-			" (",
-			"\\n",
-			"\\t",
-			"clsALL",
-			".\\n\n\n\\n",
-			"\n\n\\n",
-			" ",
-			"\n\\n",
-			"",
-			"\\n",
-			"_homolog",
-			"','",
-			"Figure \\ref{fig:bon2012complex-S5}",
-			"e-value",
-			"Figure \\ref{fig:bon2012complex-S4}",
-			"Figure \\ref{fig:bon2012complex-S3}",
-			"Figure \\ref{fig:bon2012complex:S3}",
-			"FPKM$_{B}$",
-			"Figure \\ref{fig:bon2012complex:S2}",
-			"FPKM$_{DENVI}$",
-			"not shown",
-			"\\glspl{CRE}",
-			"\\gls{CRE}",
-			"not shown",
-			"\\gls{DENVI}",
-			"not shown",
-			"\\gls{EIP}",
-			"\\gls{dpi}",
-			"}, \\cite",
-			"\\cite{James2007}",
-			"\\cite{WHO2009}",
-			"\\Aea\\ ",
-			"\\Aea",
-			"\\Aa\\ ",
-			"\\Aa\\",
 			"\\Aa",
-			"\\gls{DENV}",
-			"not shown",
-			"(not shown)",
-			"h \\gls{PBM}",
-			"Bennett2002",
-			" \\gls{DENV2}",
-			" \\gls{Rex-D}",
-			" \\gls{LVP}",
-			" \\gls{CTM}",
-			"\\gls{LVP}",
-			"\\gls{CTM}",
+			"\\citep{",
+			"### ",
+			"## ",
+			" (",
+			" ",
 			"",
+			" (",
+			"",
+			"\\(",
+			"\n",
 			" ",
-			"\\\\ ",
-			" ",
-			"\\cite{Weaver2009}",
-			"\\cite{Kanlaya2009}",
-			"\\cite{Creaven1999}",
-			"\\cite{Chase2011}",
-			"\\cite{Wei}",
-			"\\cite{Kent2004}",
-			"\\cite{Souza-Neto2009}",
-			"\\cite{Kuno2010}",
-			"\\cite{Armstrong2001}",
-			"\\cite{Wahlund1928}",
-			"\\cite{Brackney2008}",
-			"\\cite{Brackney2010}",
-			"\\cite{Gorman2001}",
-			"\\cite{Kobe1994}",
-			"\\cite{Xie2011}",
-			"\\cite{Sanchez-Vargas2009}",
-			"\\cite{Girard2007}",
-			"\\cite{Wang2012}",
-			"\\cite{Cho1999}",
-			"\\cite{Matsumoto2008}",
-			"\\cite{Conus2010}",
-			"\\cite{Trpis1986}",
-			"\\cite{Muir1998}",
-			"\\cite{Liu2009}",
-			"\\cite{Flajollet2009}",
-			"\\cite{Guo2010a}",
-			"\\cite{Abrams2005}",
-			"\\cite{Miller2009}",
-			"\\cite{Shore1995}",
-			"\\cite{Boggaram2009}",
-			"\\cite{Hansen2007}",
-			"\\cite{Sandstrom1997}",
-			"\\cite{Rajeswari2002}",
-			"\\cite{Agawa2007}",
-			"\\cite{Matys2006}",
-			"\\cite{Lindholm2010}",
-			"\\cite{Sieglaff2009}",
-			"\\cite{Bailey2006}",
-			"\\cite{Trapnell2010}",
-			"\\cite{Anders2010}",
-			"\\cite{Trapnell2009}",
-			"\\cite{bonizzoni2012strain}",
-			"\\cite{Bernhardt2012}",
-			"\\cite{Colpitts2011}",
-			"\\cite{Sim2012}",
-			"\\cite{Behura2011}",
-			"\\cite{Luplertlop2011}",
-			"\\cite{Tchankouo-Nguetcheu2010}",
-			"\\cite{Sim2010}",
-			"\\cite{19214215}",
-			"\\cite{Cox2011}",
-			"\\cite{Gubler1976}",
-			"\\cite{Xi2008}",
-			"\\cite{Samsa2009}",
-			"\\cite{Mercado-Curiel2008}",
-			"\\cite{Rey2003}",
-			"\\cite{Heinz2003}",
-			"\\cite{Bennett2002}",
-			"\\cite{Lambrechts2011}",
+			"\\cite{Guo2010}",
+			"\\cite{Noriega1999}",
+			"\\cite{Gorrochotegui-Escalante2005}",
+			"\\cite{Molina-Cruz2005}",
+			"\\cite{Gomez-Machorro2004}",
+			"\\cite{Mosso2008}",
+			"\\cite{MACDONALD1963}",
+			"\\cite{Miller1991}",
 			"\\cite{Salazar2007}",
-			"\\cite{Anderson2006}",
-			"\\cite{Black2002}"
+			"\\cite{Black2002}",
+			" ",
+			"\"",
+			"'",
+			"offset 24"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -591,15 +230,15 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/gus/Dropbox/common/gfunc/Aa_Ag_Cq_sort_pci.new_data.ecr_team_orthodb7.yaml",
+					"file": "/home/gus/Dropbox/repos/git/document_prep/wad_YCEI_proposal_latex/wad_proposal.tex",
 					"settings":
 					{
-						"buffer_size": 2156,
+						"buffer_size": 10258,
 						"regions":
 						{
 						},
@@ -612,7 +251,60 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"spell_check": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1656.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/gus/Dropbox/repos/git/CV/useBefore_bibUtex.sh",
+					"settings":
+					{
+						"buffer_size": 36,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/gus/DELETE_ME/import_bib.bib",
+					"settings":
+					{
+						"buffer_size": 1282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -623,91 +315,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/ecr_OR_insect_meanPTCI_thresh_1_gene_names.AGAP.txt",
-					"settings":
-					{
-						"buffer_size": 3410,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/gus/Dropbox/common/projects/Aa_Ag_Cq_As/gfunc_stuff/prelim_gene_analysis/ecr_OR_insect_20130918_orthodb7/ptci_0_95/ecr_U_insect_ptci_0_95_Exploring_Profiles_clsALL_orthodb7.py",
-					"settings":
-					{
-						"buffer_size": 10108,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9002,
-								9002
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6624.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 3,
-					"file": "uci-manual/scrape_manual.py",
+					"file": "/home/gus/.wine/drive_c/Program Files (x86)/CCP/EVE/common.ini.bak",
 					"settings":
 					{
-						"buffer_size": 649,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								649,
-								649
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"settings":
-					{
-						"buffer_size": 0,
+						"buffer_size": 8,
 						"regions":
 						{
 						},
@@ -720,85 +332,6 @@
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/etc/openvpn/easy-rsa/vars",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/etc/openvpn/easy-rsa/2.0/vars",
-					"settings":
-					{
-						"buffer_size": 1872,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1802,
-								1802
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 864.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"settings":
-					{
-						"buffer_size": 53,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Raikhel, Alexander S.",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -816,7 +349,7 @@
 	},
 	"input":
 	{
-		"height": 35.0
+		"height": 0.0
 	},
 	"layout":
 	{
