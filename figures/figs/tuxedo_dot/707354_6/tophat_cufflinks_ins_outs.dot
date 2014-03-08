@@ -7,10 +7,12 @@ digraph g {
 
 	
 
+	// set global node and edge attribs
 
+	node [shape=box,style=filled,fontname="DroidSans-Bold.ttf",fontsize=60, penwidth=3.0];
 
-	node [shape=box,style=filled,fontname="DroidSans-Bold.ttf",fontsize=55, penwidth=3.0];
-	
+	 edge [penwidth=4,arrowsize=3];
+
 // 	Program Flow Line
 	Tophat     [label="Tophat\n(Read Alignment)", color="#FDDD4E"];
 	Cufflinks  [label="Cufflinks\n(Condition-specific Transcript Annotation)", color="#FDDD4E"];
